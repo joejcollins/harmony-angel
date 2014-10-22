@@ -1,0 +1,107 @@
+<Book><Menu Title="The Very First Menu"><ShoppingLists><Shopping Title="Vegetables"><Item Type="baking potatoes" Quantity="1200" Unit="g" Meal="Meat stew and dumplings" /><Item Type="cabbage" Quantity="750" Unit="g" Meal="Chicken with cabbage and peanuts" /><Item Type="carrots" Quantity="400" Unit="g" Meal="Meat stew and dumplings" /><Item Type="celery" Quantity="400" Unit="g" Meal="Meat stew and dumplings" /><Item Type="onions" Quantity="320" Unit="g" Meal="Meat stew and dumplings" /><Item Type="onions" Quantity="700" Unit="g" Meal="Onion and tomato lasagna" /><Item Type="red chillis" Quantity="2" Unit="" Meal="Chicken with cabbage and peanuts" /></Shopping><Shopping Title="Groceries"><Item Type="baked beans" Quantity="400" Unit="g" Meal="Beans and fried eggs in pitta" /><Item Type="canned tomatoes" Quantity="400" Unit="g" Meal="Onion and tomato lasagna" /><Item Type="lasagna" Quantity="200" Unit="g" Meal="Onion and tomato lasagna" /><Item Type="noodles" Quantity="400" Unit="g" Meal="Chicken with cabbage and peanuts" /><Item Type="peanuts" Quantity="3" Unit="tbsp" Meal="Chicken with cabbage and peanuts" /><Item Type="pitta bread" Quantity="4" Unit="" Meal="Beans and fried eggs in pitta" /><Item Type="suet" Quantity="75" Unit="g" Meal="Meat stew and dumplings" /><Item Type="tomato puree" Quantity="75" Unit="g" Meal="Meat stew and dumplings" /><Item Type="white rice" Quantity="400" Unit="g" Meal="Egg and vegetable curry" /></Shopping><Shopping Title="Meat"><Item Type="chicken" Quantity="300" Unit="g" Meal="Chicken with cabbage and peanuts" /><Item Type="meat" Quantity="400" Unit="g" Meal="Meat stew and dumplings" /></Shopping><Shopping Title="Dairy"><Item Type="cheese" Quantity="150" Unit="g" Meal="Onion and tomato lasagna" /><Item Type="eggs" Quantity="2" Unit="" Meal="Beans and fried eggs in pitta" /><Item Type="eggs" Quantity="4" Unit="" Meal="Egg and vegetable curry" /><Item Type="milk" Quantity="100" Unit="ml" Meal="Onion and tomato lasagna" /><Item Type="soured cream" Quantity="300" Unit="ml" Meal="Onion and tomato lasagna" /></Shopping><Shopping Title="Check"><Item Type="black bean sauce" Quantity="1" Unit="tbsp" Meal="Chicken with cabbage and peanuts" /><Item Type="chilli powder" Quantity="0.5" Unit="tsp" Meal="Meat stew and dumplings" /><Item Type="mixed herbs" Quantity="0.5" Unit="tsp" Meal="Meat stew and dumplings" /><Item Type="oil" Quantity="2" Unit="tbsp" Meal="Meat stew and dumplings" /><Item Type="oil" Quantity="2" Unit="tbsp" Meal="Onion and tomato lasagna" /><Item Type="oil" Quantity="2" Unit="tbsp" Meal="Chicken with cabbage and peanuts" /><Item Type="oil" Quantity="2" Unit="tbsp" Meal="Beans and fried eggs in pitta" /><Item Type="self raising flour" Quantity="75" Unit="g" Meal="Meat stew and dumplings" /><Item Type="stock cube" Quantity="1" Unit="" Meal="Meat stew and dumplings" /></Shopping><Shopping Title="Extra Vegetables"><Item Type="baking potatoes" Quantity="1200" Unit="g" Meal="Meat stew and dumplings" /><Item Type="cabbage" Quantity="750" Unit="g" Meal="Chicken with cabbage and peanuts" /><Item Type="carrots" Quantity="400" Unit="g" Meal="Meat stew and dumplings" /><Item Type="celery" Quantity="400" Unit="g" Meal="Meat stew and dumplings" /><Item Type="onions" Quantity="320" Unit="g" Meal="Meat stew and dumplings" /><Item Type="onions" Quantity="700" Unit="g" Meal="Onion and tomato lasagna" /><Item Type="red chillis" Quantity="2" Unit="" Meal="Chicken with cabbage and peanuts" /></Shopping></ShoppingLists><Recipe Meals="2" Title="Meat stew and dumplings"><Ingredients><Item Type="baking potatoes" Quantity="1200" Unit="g" Process="washed" /><Item Type="onions" Quantity="320" Unit="g" Process="chopped" /><Item Type="meat" Quantity="400" Unit="g" Process="sliced" /><Item Type="carrots" Quantity="400" Unit="g" Process="chopped" /><Item Type="celery" Quantity="400" Unit="g" Process="chopped" /><Item Type="oil" Quantity="2" Unit="tbsp" Process="" /><Item Type="tomato puree" Quantity="75" Unit="g" Process="" /><Item Type="chilli powder" Quantity="0.5" Unit="tsp" Process="" /><Item Type="stock cube" Quantity="1" Unit="" Process="crumbled" /><Item Type="self raising flour" Quantity="75" Unit="g" Process="" /><Item Type="suet" Quantity="75" Unit="g" Process="" /><Item Type="mixed herbs" Quantity="0.5" Unit="tsp" Process="" /></Ingredients><Stage>
+      Bake <Vegetable Process="washed" Quantity="1200" Type="baking potatoes" Calories="1200baking potatoesg" Fat="1.5" Unit="g" /> 
+      medium for 40 minutes.
+    </Stage><Stage>
+				In a large wok fry
+				<Vegetable Process="chopped" Quantity="320" Type="onions" Calories="320onionsg" Fat="1.5" Unit="g" />,
+				<Meat Process="sliced" Quantity="400" Type="meat" Calories="400meatg" Fat="1.5" Unit="g" />,
+				<Vegetable Process="chopped" Quantity="400" Type="carrots" Calories="400carrotsg" Fat="1.5" Unit="g" />
+				and
+				<Vegetable Process="chopped" Quantity="400" Type="celery" Calories="400celeryg" Fat="1.5" Unit="g" />
+				in
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" />
+				until meat done.
+			</Stage><Stage>
+				Stir in
+				<Grocery Quantity="75" Type="tomato puree" Calories="75tomato pureeg" Fat="1.5" Unit="g" />,
+				<Check Quantity="0.5" Type="chilli powder" Calories="0.5chilli powdertsp" Fat="1.5" Unit="tsp" />,
+				<Check Process="crumbled" Quantity="1" Calories="1stock cube" Fat="1.5" Type="stock cube" />,
+				<Water Quantity="500" Type="cold water" Calories="500cold waterml" Fat="1.5" Unit="ml" />
+				and simmer for 50 minutes.
+			</Stage><Stage>
+				In a mixing bowl mix
+				<Check Quantity="75" Type="self raising flour" Calories="75self raising flourg" Fat="1.5" Unit="g" />,
+				<Grocery Quantity="75" Type="suet" Calories="75suetg" Fat="1.5" Unit="g" />,
+				<Check Quantity="0.5" Type="mixed herbs" Calories="0.5mixed herbstsp" Fat="1.5" Unit="tsp" />
+				and
+				<Water Quantity="100" Type="cold water" Calories="100cold waterml" Fat="1.5" Unit="ml" />
+				and knead into 8 balls.
+				Put balls in stew, cover and
+				simmer for 15 minutes.
+			</Stage></Recipe><Recipe Meals="2" Title="Onion and tomato lasagna"><Ingredients><Item Type="onions" Quantity="700" Unit="g" Process="chopped" /><Item Type="oil" Quantity="2" Unit="tbsp" Process="" /><Item Type="canned tomatoes" Quantity="400" Unit="g" Process="chopped" /><Item Type="lasagna" Quantity="200" Unit="g" Process="" /><Item Type="cheese" Quantity="150" Unit="g" Process="grated" /><Item Type="soured cream" Quantity="300" Unit="ml" Process="" /><Item Type="milk" Quantity="100" Unit="ml" Process="" /></Ingredients><Stage>
+				In a large wok fry
+				<Vegetable Process="chopped" Quantity="700" Type="onions" Calories="700onionsg" Fat="1.5" Unit="g" />
+				in
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" />
+				until soft.
+			</Stage><Stage>
+				Stir in <Grocery Process="chopped" Quantity="400" Type="canned tomatoes" Calories="400canned tomatoesg" Fat="1.5" Unit="g" />
+				and warm through.
+			</Stage><Stage>
+				In a casserole dish layer
+				<Grocery Quantity="200" Type="lasagna" Calories="200lasagnag" Fat="1.5" Unit="g" />,
+				the tomato mix and
+				<Dairy Process="grated" Quantity="150" Type="cheese" Calories="150cheeseg" Fat="1.5" Unit="g" />
+				3 times.
+			</Stage><Stage>
+				In a mixing bowl mix
+				<Dairy Quantity="300" Type="soured cream" Calories="300soured creamml" Fat="1.5" Unit="ml" />
+				with
+				<Dairy Quantity="100" Type="milk" Calories="100milkml" Fat="1.5" Unit="ml" />
+				and pour on top of the lasagna.
+			</Stage><Stage>
+				Bake <Temperature Level="medium" /> 50 minutes.
+			</Stage></Recipe><Recipe Meals="2" Title="Chicken with cabbage and peanuts"><Ingredients><Item Type="noodles" Quantity="400" Unit="g" Process="" /><Item Type="peanuts" Quantity="3" Unit="tbsp" Process="" /><Item Type="oil" Quantity="2" Unit="tbsp" Process="" /><Item Type="red chillis" Quantity="2" Unit="" Process="chopped" /><Item Type="chicken" Quantity="300" Unit="g" Process="sliced" /><Item Type="cabbage" Quantity="750" Unit="g" Process="sliced" /><Item Type="black bean sauce" Quantity="1" Unit="tbsp" Process="" /></Ingredients><Stage>
+      In a <Utensil Name="pan" />
+      put
+      <Grocery Quantity="400" Unit="g" Calories="400noodlesg" Fat="1.5" Type="noodles" />,
+      pour on
+      <Water Quantity="800" Unit="ml" Calories="800boiling waterml" Fat="1.5" Type="boiling water" />
+      cover and stand for 10 minutes, then drain.
+    </Stage><Stage>
+				In a large wok	fry
+				<Grocery Quantity="3" Type="peanuts" Calories="3peanutstbsp" Fat="1.5" Unit="tbsp" />
+				in
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" />
+				then remove.
+			</Stage><Stage>
+				Fry <Vegetable Process="chopped" Quantity="2" Calories="2red chillis" Fat="1.5" Type="red chillis" />
+				and
+				<Meat Process="sliced" Quantity="300" Type="chicken" Calories="300chickeng" Fat="1.5" Unit="g" />
+				in the oil until meat is done.
+			</Stage><Stage>
+				Stir in
+				<Vegetable Process="sliced" Quantity="750" Type="cabbage" Calories="750cabbageg" Fat="1.5" Unit="g" />
+				and heat through.
+			</Stage><Stage>
+				Stir in 
+				<Check Quantity="1" Type="black bean sauce" Calories="1black bean saucetbsp" Fat="1.5" Unit="tbsp" />
+				and fry for 2 minutes.
+			</Stage><Stage>
+				Sprinkle with the peanuts.
+			</Stage></Recipe><Recipe Meals="1" Title="Beans and fried eggs in pitta"><Ingredients><Item Type="baked beans" Quantity="400" Unit="g" Process="" /><Item Type="eggs" Quantity="2" Unit="" Process="" /><Item Type="oil" Quantity="2" Unit="tbsp" Process="" /><Item Type="pitta bread" Quantity="4" Unit="" Process="" /></Ingredients><Stage>
+				In a sauce pan warm
+				<Grocery Quantity="400" Type="baked beans" Calories="400baked beansg" Fat="1.5" Unit="g" />.
+			</Stage><Stage>
+				In a large wok fry
+				<Dairy Quantity="2" Calories="2eggs" Fat="1.5" Type="eggs" />
+				in 
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" /></Stage><Stage>
+				Grill
+				<Grocery Quantity="4" Calories="4pitta bread" Fat="1.5" Type="pitta bread" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Ingredients><Item Type="eggs" Quantity="4" Unit="" Process="" /><Item Type="white rice" Quantity="400" Unit="g" Process="" /></Ingredients><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage><Stage>
+      In a 
+      <Utensil Name="pan" /> 
+      boil 
+      <Grocery Quantity="400" Unit="g" Calories="400white riceg" Fat="1.5" Type="white rice" />
+      in 
+      <Water Quantity="800" Unit="ml" Calories="800boiling waterml" Fat="1.5" Type="boiling water" />
+      then turn off, cover and stand for 30 minutes.
+    </Stage></Recipe></Menu><Menu Title="B"><ShoppingLists><Shopping Title="Vegetables" /><Shopping Title="Groceries" /><Shopping Title="Meat" /><Shopping Title="Dairy"><Item Type="eggs" Quantity="4" Unit="" Meal="Egg and vegetable curry" /><Item Type="eggs" Quantity="4" Unit="" Meal="Egg and vegetable curry" /><Item Type="eggs" Quantity="4" Unit="" Meal="Egg and vegetable curry" /></Shopping><Shopping Title="Check" /><Shopping Title="Extra Vegetables" /></ShoppingLists><Recipe Meals="2" Title="Egg and vegetable curry"><Ingredients><Item Type="eggs" Quantity="4" Unit="" Process="" /></Ingredients><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Ingredients><Item Type="eggs" Quantity="4" Unit="" Process="" /></Ingredients><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Ingredients><Item Type="eggs" Quantity="4" Unit="" Process="" /></Ingredients><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage></Recipe></Menu></Book>

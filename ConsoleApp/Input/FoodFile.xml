@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Book xmlns="http://www.bagbatch.co.uk/CookBook/CookML.xsd">
+	<Menu Title="The Very First Menu">
+		<Recipe Meals="2" Title="Meat stew and dumplings">
+			<Index>Stew<Sub>Meat and dumplings</Sub></Index>
+			<Index>Dumplings</Index>
+			<Stage>
+				<Staple Name="potatoes" />
+			</Stage>
+			<Stage>
+				In a <Utensil Name="wok" /> fry
+				<Vegetable Process="chopped" Quantity="320" Type="onions" Unit="g" />,
+				<Meat Process="sliced" Quantity="400" Type="meat" Unit="g" />,
+				<Vegetable Process="chopped" Quantity="400" Type="carrots" Unit="g" />
+				and
+				<Vegetable Process="chopped" Quantity="400" Type="celery" Unit="g" />
+				in
+				<Check Quantity="2" Type="oil" Unit="tbsp" />
+				until meat done.
+			</Stage>
+			<Stage>
+				Stir in
+				<Grocery Quantity="75" Type="tomato puree" Unit="g"/>,
+				<Check Quantity="0.5" Type="chilli powder" Unit="tsp" />,
+				<Check Process="crumbled" Quantity="1" Type="stock cube" />,
+				<Water Quantity="500" Type="cold water" Unit="ml" />
+				and simmer for 50 minutes.
+			</Stage>
+			<Stage>
+				In a <Utensil Name="bowl" /> mix
+				<Check Quantity="75" Type="self raising flour" Unit="g" />,
+				<Grocery Quantity="75" Type="suet" Unit="g" />,
+				<Check Quantity="0.5" Type="mixed herbs" Unit="tsp" />
+				and
+				<Water Quantity="100" Type="cold water" Unit="ml" />
+				and knead into 8 balls.
+				Put balls in stew, cover and
+				simmer for 15 minutes.
+			</Stage>
+		</Recipe>
+		<Recipe Meals="2" Title="Onion and tomato lasagna">
+			<Index>Lasagna<Sub>Onion and tomato</Sub></Index>
+			<Stage>
+				In a <Utensil Name="wok" /> fry
+				<Vegetable Process="chopped" Quantity="700" Type="onions" Unit="g" />
+				in
+				<Check Quantity="2" Type="oil" Unit="tbsp" />
+				until soft.
+			</Stage>
+			<Stage>
+				Stir in <Grocery Process="chopped" Quantity="400" Type="canned tomatoes" Unit="g" />
+				and warm through.
+			</Stage>
+			<Stage>
+				In a <Utensil Name="casserole" /> layer
+				<Grocery Quantity="200" Type="lasagna" Unit="g" />,
+				the tomato mix and
+				<Dairy Process="grated" Quantity="150" Type="cheese" Unit="g" />
+				3 times.
+			</Stage>
+			<Stage>
+				In a <Utensil Name="bowl"/> mix
+				<Dairy Quantity="300" Type="soured cream" Unit="ml" />
+				with
+				<Dairy Quantity="100" Type="milk" Unit="ml" />
+				and pour on top of the lasagna.
+			</Stage>
+			<Stage>
+				Bake <Temperature Level="medium" /> 50 minutes.
+			</Stage>
+		</Recipe>
+		<Recipe Meals="2" Title="Chicken with cabbage and peanuts">
+			<Stage>
+				<Staple Name="noodles" />
+			</Stage>
+			<Stage>
+				In a <Utensil Name="wok" />	fry
+				<Grocery Quantity="3" Type="peanuts" Unit="tbsp" />
+				in
+				<Check Quantity="2" Type="oil" Unit="tbsp" />
+				then remove.
+			</Stage>
+			<Stage>
+				Fry <Vegetable Process="chopped" Quantity="2" Type="red chillis" />
+				and
+				<Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
+				in the oil until meat is done.
+			</Stage>
+			<Stage>
+				Stir in
+				<Vegetable Process="sliced" Quantity="750" Type="cabbage" Unit="g" />
+				and heat through.
+			</Stage>
+			<Stage>
+				Stir in 
+				<Check Quantity="1" Type="black bean sauce" Unit="tbsp" />
+				and fry for 2 minutes.
+			</Stage>
+			<Stage>
+				Sprinkle with the peanuts.
+			</Stage>
+		</Recipe>
+		<Recipe Meals="1" Title="Beans and fried eggs in pitta">
+			<Stage>
+				In a <Utensil Name="pan" /> warm
+				<Grocery Quantity="400" Type="baked beans" Unit="g" />.
+			</Stage>
+			<Stage>
+				In a <Utensil Name="wok" /> fry
+				<Dairy Quantity="2" Type="eggs" />
+				in 
+				<Check Quantity="2" Type="oil" Unit="tbsp" />
+			</Stage>
+			<Stage>
+				Grill
+				<Grocery Quantity="4" Type="pitta bread" />
+			</Stage>
+		</Recipe>
+		<Recipe Meals="2" Title="Egg and vegetable curry">
+      
+			<Stage>
+				In <Utensil Name="pan" /> boil
+				<Dairy Quantity="4" Type="eggs" />
+				
+			</Stage>
+      <Stage>
+        <Staple Name="rice"/>
+      </Stage>
+		</Recipe>
+		<!--
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipe{Egg and vegetable curry}%
+{%
+	\index{Curry!Egg and vegetable}
+	\st	In a \pan hard boil
+		\da{4}{}{eggs}{},
+		peel them and chop them in half.
+	\st	\rice.
+	\st	In a \wok fry
+		\ve{350}{g}{onions}{chopped}
+		in 
+		\ch{2}{tbsp}{oil}{}
+		until soft.
+	\st	Stir in
+		\ch{1}{tbsp}{curry powder}{}
+		and
+		\ch{2}{tsp}{mustard seed}{}
+		and fry until mustard seeds start to pop.
+	\st	Stir in
+		\ch{2}{tbsp}{flour}{} until it is all absorbed.
+	\st	Stir in
+		\gr{150}{g}{tomato puree}{},
+		\ch{50}{g}{creamed coconut}{crumbled}
+		and
+		\wa{400}{ml}{water}{}
+		and warm through.
+	\st	Stir in
+		\ve{400}{g}{mange tout}{halved}
+		and
+		the eggs
+		and simmer for 10 minutes.
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipe{Lentil shepherds pie}%
+{%
+	\index{Shepherds Pie!Lentil}
+	\st	In a \pan boil
+		\ve{1000}{g}{potatoes}{} then mash.
+	\st	In a \wok fry
+		\ve{700}{g}{onions}{chopped},
+		\ve{5}{cloves}{garlic}{crushed},
+		\ve{400}{g}{celery}{chopped} 
+		and 
+		\ve{200}{g}{carrots}{sliced} 
+		in
+		\ch{2}{tbsp}{oil}{}
+		until soft.
+	\st	Stir in
+		\gr{250}{g}{green lentils}{},
+		\ch{1}{}{stock cube}{crumbled},
+		\gr{75}{g}{tomato puree}{},
+		\wa{650}{ml}{water}{},
+		\ch{1}{tsp}{marjoram}{},
+		\ch{1}{tsp}{ground cumin}{}
+		and 
+		\ch{2}{tsp}{ground coriander}{},
+		bring to boil,
+		then simmer for 30 minutes.
+	\st	Take off heat and stir in
+		\ch{3}{tsp}{miso}{}.
+		Put in a \cass, cover with the potatoes
+		and sprinkle with
+		\ch{50}{g}{sunflower seed}{}
+		then bake \med for 30 minutes.
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipe{Chickpea risotto}%
+{%
+	\index{Risotto!Chickpea}
+	\st	In a \wok fry
+		\ve{400}{g}{onions}{chopped}
+		and
+		\ve{4}{cloves}{garlic}{crushed}
+		in
+		\ch{2}{tbsp}{oil}{}
+		until soft.
+	\st	Stir in
+		\ve{250}{g}{spinach}{hacked}
+		and cook until wilted.
+	\st	Stir in
+		\gr{400}{g}{canned chick peas}{drained},
+		\gr{75}{g}{raisins}{},
+		\ch{1}{}{stock cube}{crumbled},
+		\ve{1000}{g}{sweet potatoes}{sliced},
+		\gr{2*400}{g}{canned tomatoes}{chopped}
+		and
+		\ve{1}{}{red chilli}{chopped},
+		and warm through.
+	\st	Stir in
+		\gr{400}{g}{rice}{}
+		and
+		\wa{750}{ml}{water}{},
+		simmer until rice is done.
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\quick{Tortellini and parmesan cheese}%
+{%
+	\st	\halfpasta{tortellini}
+	\st	Sprinkle with
+		\ch{20}{g}{grated parmesan}{}.
+}%
+\end{menu}
+-->
+	</Menu>
+	<Menu Title="B">
+		<Recipe Meals="2" Title="Egg and vegetable curry">
+			<Stage>
+				In <Utensil Name="pan" /> boil
+				<Dairy Quantity="4" Type="eggs" />
+				
+			</Stage>
+		</Recipe>
+		<Recipe Meals="2" Title="Egg and vegetable curry">
+			<Stage>
+				In <Utensil Name="pan" /> boil
+				<Dairy Quantity="4" Type="eggs" />
+				
+			</Stage>
+		</Recipe>
+		<Recipe Meals="2" Title="Egg and vegetable curry">
+			<Stage>
+				In <Utensil Name="pan" /> boil
+				<Dairy Quantity="4" Type="eggs" />
+				
+			</Stage>
+		</Recipe>
+	</Menu>
+</Book>

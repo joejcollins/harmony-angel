@@ -1,0 +1,107 @@
+<Book><Menu Title="The Very First Menu"><Recipe Meals="2" Title="Meat stew and dumplings"><Index>Stew<Sub>Meat and dumplings</Sub></Index><Index>Dumplings</Index><Stage>
+      Bake <Vegetable Process="washed" Quantity="1200" Type="baking potatoes" Calories="1200baking potatoesg" Fat="1.5" Unit="g" /> 
+      medium for 40 minutes.
+    </Stage><Stage>
+				In a large wok fry
+				<Vegetable Process="chopped" Quantity="320" Type="onions" Calories="320onionsg" Fat="1.5" Unit="g" />,
+				<Meat Process="sliced" Quantity="400" Type="meat" Calories="400meatg" Fat="1.5" Unit="g" />,
+				<Vegetable Process="chopped" Quantity="400" Type="carrots" Calories="400carrotsg" Fat="1.5" Unit="g" />
+				and
+				<Vegetable Process="chopped" Quantity="400" Type="celery" Calories="400celeryg" Fat="1.5" Unit="g" />
+				in
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" />
+				until meat done.
+			</Stage><Stage>
+				Stir in
+				<Grocery Quantity="75" Type="tomato puree" Calories="75tomato pureeg" Fat="1.5" Unit="g" />,
+				<Check Quantity="0.5" Type="chilli powder" Calories="0.5chilli powdertsp" Fat="1.5" Unit="tsp" />,
+				<Check Process="crumbled" Quantity="1" Calories="1stock cube" Fat="1.5" Type="stock cube" />,
+				<Water Quantity="500" Type="cold water" Calories="500cold waterml" Fat="1.5" Unit="ml" />
+				and simmer for 50 minutes.
+			</Stage><Stage>
+				In a mixing bowl mix
+				<Check Quantity="75" Type="self raising flour" Calories="75self raising flourg" Fat="1.5" Unit="g" />,
+				<Grocery Quantity="75" Type="suet" Calories="75suetg" Fat="1.5" Unit="g" />,
+				<Check Quantity="0.5" Type="mixed herbs" Calories="0.5mixed herbstsp" Fat="1.5" Unit="tsp" />
+				and
+				<Water Quantity="100" Type="cold water" Calories="100cold waterml" Fat="1.5" Unit="ml" />
+				and knead into 8 balls.
+				Put balls in stew, cover and
+				simmer for 15 minutes.
+			</Stage></Recipe><Recipe Meals="2" Title="Onion and tomato lasagna"><Index>Lasagna<Sub>Onion and tomato</Sub></Index><Stage>
+				In a large wok fry
+				<Vegetable Process="chopped" Quantity="700" Type="onions" Calories="700onionsg" Fat="1.5" Unit="g" />
+				in
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" />
+				until soft.
+			</Stage><Stage>
+				Stir in <Grocery Process="chopped" Quantity="400" Type="canned tomatoes" Calories="400canned tomatoesg" Fat="1.5" Unit="g" />
+				and warm through.
+			</Stage><Stage>
+				In a casserole dish layer
+				<Grocery Quantity="200" Type="lasagna" Calories="200lasagnag" Fat="1.5" Unit="g" />,
+				the tomato mix and
+				<Dairy Process="grated" Quantity="150" Type="cheese" Calories="150cheeseg" Fat="1.5" Unit="g" />
+				3 times.
+			</Stage><Stage>
+				In a mixing bowl mix
+				<Dairy Quantity="300" Type="soured cream" Calories="300soured creamml" Fat="1.5" Unit="ml" />
+				with
+				<Dairy Quantity="100" Type="milk" Calories="100milkml" Fat="1.5" Unit="ml" />
+				and pour on top of the lasagna.
+			</Stage><Stage>
+				Bake <Temperature Level="medium" /> 50 minutes.
+			</Stage></Recipe><Recipe Meals="2" Title="Chicken with cabbage and peanuts"><Stage>
+      In a <Utensil Name="pan" />
+      put
+      <Grocery Quantity="400" Unit="g" Calories="400noodlesg" Fat="1.5" Type="noodles" />,
+      pour on
+      <Water Quantity="800" Unit="ml" Calories="800boiling waterml" Fat="1.5" Type="boiling water" />
+      cover and stand for 10 minutes, then drain.
+    </Stage><Stage>
+				In a large wok	fry
+				<Grocery Quantity="3" Type="peanuts" Calories="3peanutstbsp" Fat="1.5" Unit="tbsp" />
+				in
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" />
+				then remove.
+			</Stage><Stage>
+				Fry <Vegetable Process="chopped" Quantity="2" Calories="2red chillis" Fat="1.5" Type="red chillis" />
+				and
+				<Meat Process="sliced" Quantity="300" Type="chicken" Calories="300chickeng" Fat="1.5" Unit="g" />
+				in the oil until meat is done.
+			</Stage><Stage>
+				Stir in
+				<Vegetable Process="sliced" Quantity="750" Type="cabbage" Calories="750cabbageg" Fat="1.5" Unit="g" />
+				and heat through.
+			</Stage><Stage>
+				Stir in 
+				<Check Quantity="1" Type="black bean sauce" Calories="1black bean saucetbsp" Fat="1.5" Unit="tbsp" />
+				and fry for 2 minutes.
+			</Stage><Stage>
+				Sprinkle with the peanuts.
+			</Stage></Recipe><Recipe Meals="1" Title="Beans and fried eggs in pitta"><Stage>
+				In a sauce pan warm
+				<Grocery Quantity="400" Type="baked beans" Calories="400baked beansg" Fat="1.5" Unit="g" />.
+			</Stage><Stage>
+				In a large wok fry
+				<Dairy Quantity="2" Calories="2eggs" Fat="1.5" Type="eggs" />
+				in 
+				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" /></Stage><Stage>
+				Grill
+				<Grocery Quantity="4" Calories="4pitta bread" Fat="1.5" Type="pitta bread" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage><Stage>
+      In a 
+      <Utensil Name="pan" /> 
+      boil 
+      <Grocery Quantity="400" Unit="g" Calories="400white riceg" Fat="1.5" Type="white rice" />
+      in 
+      <Water Quantity="800" Unit="ml" Calories="800boiling waterml" Fat="1.5" Type="boiling water" />
+      then turn off, cover and stand for 30 minutes.
+    </Stage></Recipe></Menu><Menu Title="B"><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
+				In sauce pan boil
+				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage></Recipe></Menu></Book>
