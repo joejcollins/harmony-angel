@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Book xmlns="http://www.bagbatch.co.uk/CookBook/CookML.xsd">
+<Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd">
 	<Menu Title="The Very First Menu">
 		<Recipe Meals="2" Title="Meat stew and dumplings">
 			<Index>Stew<Sub>Meat and dumplings</Sub></Index>
