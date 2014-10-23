@@ -64,12 +64,12 @@
 %%
 \newenvironment{shoppinglist}[1]%
 {%
-  \begin{minipage}[t]{.49\textwidth}%
+  \begin{minipage}[t]{.48\textwidth}%
     \subsubsection*{#1}
    % \raggedright%
 }%
 {%
-  \end{minipage}%
+  \end{minipage}\hfil%
 }%
 
 %%
@@ -77,7 +77,7 @@
 %%
 \newcommand{\othershoppinglist}[1]%
 {%
-        \begin{minipage}[t][\height][s]{.49\textwidth}%
+        \begin{minipage}[t][\height][s]{.48\textwidth}%
         \subsubsection*{#1}%
         \smallskip%
         \hrulefill \par \bigskip % 1
@@ -90,7 +90,7 @@
         \hrulefill \par \bigskip % 8
         \hrulefill \par \bigskip % 9
         \hrulefill %               10
-        \end{minipage}%
+        \end{minipage}\hfil%
 }%
 
 %% 
