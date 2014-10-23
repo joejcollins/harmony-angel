@@ -13,41 +13,9 @@
 		Format for the book, and introduction
 	-->
 	<xsl:template match="Book">
-    \documentclass{cookbook}
-    \begin{document}
-    \thispagestyle{empty}
-    \begin{center}
-    \Huge THE FOOD FILE
-    \end{center}
-    \vfill
-    \begin{center}
-    Joe J Collins
-    \end{center}
-    \clearpage
-    \strut % So the \vfill has something to push against
-    \vfill
-    \begin{quotation}
-    \begin{rmfamily}
-    Copyright \copyright\ 1997 Joe J Collins.
-    All rights reserved.
-    No part of this publication may be reproduced,
-    stored in a retrieval system,
-    or transmitted,
-    in any form or by any means,
-    electronic,
-    mechanical,
-    photocopying,
-    recording,
-    or otherwise,
-    without the prior written permission
-    of the publisher;
-    Joe J Collins.
-    \end{rmfamily}
-    \end{quotation}
-    \clearpage
-    \tableofcontents{Contents\\Food File}
+    % Content Begins
     <xsl:apply-templates select="Menu" />
-		\end{document}
+    % Content Ends
 	</xsl:template>
 
 	<!--

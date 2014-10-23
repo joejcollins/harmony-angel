@@ -83,6 +83,8 @@
     <None Include="Input\IngredientsDataSet.xss">
       <DependentUpon>IngredientsDataSet.xsd</DependentUpon>
     </None>
+    <None Include="Output\Content.tex" />
+    <None Include="Output\FoodFile.tex" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
