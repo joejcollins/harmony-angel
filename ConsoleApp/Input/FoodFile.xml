@@ -117,7 +117,7 @@
 			</Stage>
 		</Recipe>
 		<Recipe Meals="2" Title="Egg and vegetable curry">
-      
+      <Index>Curry</Index>
 			<Stage>
 				In <Utensil Name="pan" /> boil
 				<Dairy Quantity="4" Type="eggs" />
