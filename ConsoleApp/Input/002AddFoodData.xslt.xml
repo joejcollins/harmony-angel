@@ -88,7 +88,7 @@
 				in 
 				<Check Quantity="2" Type="oil" Calories="2oiltbsp" Fat="1.5" Unit="tbsp" /></Stage><Stage>
 				Grill
-				<Grocery Quantity="4" Calories="4pitta bread" Fat="1.5" Type="pitta bread" /></Stage></Recipe><Recipe Title="Egg and vegetable curry" Meals="2" MealCounter="9"><Stage>
+				<Grocery Quantity="4" Calories="4pitta bread" Fat="1.5" Type="pitta bread" /></Stage></Recipe><Recipe Title="Egg and vegetable curry" Meals="2" MealCounter="9"><Index>Curry</Index><Stage>
 				In sauce pan boil
 				<Dairy Quantity="4" Calories="4eggs" Fat="1.5" Type="eggs" /></Stage><Stage>
       In a 
