@@ -182,7 +182,7 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-# LaTeX files
+# LaTeX files, index files and intermediate files
 *.aux
 *.toc
 *.tex
@@ -191,4 +191,7 @@ FakesAssemblies/
 *.mtc0
 *.pdf
 *.synctex.gz
-
+*.idx
+*.ilg
+*.ind
+*.xslt.xml
