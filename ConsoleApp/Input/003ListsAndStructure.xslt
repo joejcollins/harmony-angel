@@ -94,6 +94,7 @@
       <xsl:attribute name="Title">
         <xsl:value-of select="@Title" />
       </xsl:attribute>
+      <xsl:apply-templates select="Index" />
       <xsl:element name="Ingredients">
         <xsl:for-each select="Stage/Vegetable|Stage/Grocery|Stage/Dairy|Stage/Meat|Stage/Check">
           <xsl:element name="Item">
@@ -115,11 +116,20 @@
       <xsl:apply-templates select="Stage" />
     </xsl:element>
   </xsl:template>
+  
   <!-- 
 		  Stage - the contents of the stage can be copied without 
 		  any transformations.
 	  -->
   <xsl:template match="Stage">
+    <xsl:copy-of select="." />
+  </xsl:template>
+
+  <!-- 
+		  Index - the contents of the index tag can be copied without 
+		  any transformations.
+	  -->
+  <xsl:template match="Index">
     <xsl:copy-of select="." />
   </xsl:template>
 

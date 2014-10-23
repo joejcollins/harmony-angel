@@ -44,12 +44,12 @@
         <xsl:value-of select="@Type" /><xsl:text> </xsl:text>\\ 
       </xsl:for-each>%
       \end{shoppinglist}%
-      <xsl:if test="(position() mod 2) != 1">\par </xsl:if>%
-      <xsl:if test="position() = 4">\clearpage </xsl:if>%
+      <xsl:if test="(position() mod 2) != 1">\par\vfil </xsl:if>%
+      <xsl:if test="position() = 4">\vfil\clearpage </xsl:if>%
     </xsl:for-each>%
     \othershoppinglist{Other Shopping}%
     \othershoppinglist{Extra Other Shopping}%
-    \clearpage
+    \vfil\clearpage
   </xsl:template>
   
   <!--
@@ -58,14 +58,22 @@
 	-->
 	<xsl:template match="Recipe">
     \begin{recipe}{<xsl:value-of select="@Meals" />}{<xsl:value-of select="@Title" />}%
+    <xsl:apply-templates select="Index" />
     <xsl:apply-templates select="Ingredients" />
     \begin{instructions}
     <xsl:apply-templates select="Stage" />
     \end{instructions}
     \end{recipe}%
   </xsl:template>
-	
-	<!--
+
+  <!--
+		Format for the index markers
+	-->
+  <xsl:template match="Index">
+		\index{<xsl:value-of select="normalize-space(text())" /><xsl:if test="./Sub != ''">!<xsl:value-of select="./Sub" /></xsl:if>}
+	</xsl:template>
+
+  <!--
 		Format for the ingredients list in the ingredients environment
 	-->
 	<xsl:template match="Ingredients">

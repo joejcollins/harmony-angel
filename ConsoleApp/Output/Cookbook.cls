@@ -52,6 +52,8 @@
 {
   \cleardoublepage
   \addtocounter{section}{1}%
+  \addcontentsline{toc}{section}{Menu \thesection\ }%
+  \markboth{Menu \thesection}{Menu \thesection}%
   \section*{Menu \thesection\hfill #1}%
 }
 {
