@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:ingredient="urn:Ingredient">
+                xmlns:ingredient="urn:Ingredient"
+                xmlns:increment="urn:Increment">
   <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
-  <!-- 
-    Copy everything that has no other pattern defined 
-  -->
-  <xsl:template match="@*|node()">
+
+  <!--
+		  Format for the book
+	  -->
+  <xsl:template match="*">
     <xsl:copy>
-      <xsl:apply-templates select="@*|node()" />
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates />
+    </xsl:copy>
+  </xsl:template>
+  
+  <!--
+		  Reset the counter
+	  -->
+  <xsl:template match="Menu">
+    <xsl:element name="Menu">
+      <xsl:attribute name="Title">
+        <xsl:value-of select="@Title" />
+      </xsl:attribute>
+      <xsl:variable name="reset" select="increment:Reset(0)" />
+      <xsl:apply-templates select="Recipe" />
+    </xsl:element>
+  </xsl:template>
+  
+  <!-- 
+		  Replace the Meals value with and incrementing value, then apply 
+      any other templates.
+	  -->
+  <xsl:template match="Recipe">
+    <xsl:copy>
+      <xsl:attribute name="Title">
+        <xsl:value-of select="@Title" />
+      </xsl:attribute>
+      <xsl:attribute name="MealCounter">
+        <xsl:value-of select="increment:Counter(@Meals)" />
+      </xsl:attribute>
+      <xsl:apply-templates />
     </xsl:copy>
   </xsl:template>
 
@@ -29,5 +61,6 @@
       </xsl:for-each>
     </xsl:element>
   </xsl:template>
-
+  
+ 
 </xsl:stylesheet>

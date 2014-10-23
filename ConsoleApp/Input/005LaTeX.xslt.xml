@@ -80,7 +80,7 @@
     \othershoppinglist{Extra Other Shopping}%
     \clearpage
   
-    \begin{recipe}{2}{Meat stew and dumplings}%
+    \begin{recipe}{}{Meat stew and dumplings}%
     
 		\begin{ingredients}
 		1200 g baking potatoes (washed) \\
@@ -133,7 +133,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{2}{Onion and tomato lasagna}%
+    \begin{recipe}{}{Onion and tomato lasagna}%
     
 		\begin{ingredients}
 		700 g onions (chopped) \\
@@ -174,7 +174,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{2}{Chicken with cabbage and peanuts}%
+    \begin{recipe}{}{Chicken with cabbage and peanuts}%
     
 		\begin{ingredients}
 		400 g noodles  \\
@@ -220,7 +220,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{1}{Beans and fried eggs in pitta}%
+    \begin{recipe}{}{Beans and fried eggs in pitta}%
     
 		\begin{ingredients}
 		400 g baked beans  \\
@@ -244,7 +244,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{2}{Egg and vegetable curry}%
+    \begin{recipe}{}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\
@@ -325,7 +325,7 @@
     \othershoppinglist{Extra Other Shopping}%
     \clearpage
   
-    \begin{recipe}{2}{Egg and vegetable curry}%
+    \begin{recipe}{}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\
@@ -339,7 +339,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{2}{Egg and vegetable curry}%
+    \begin{recipe}{}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\
@@ -353,7 +353,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{2}{Egg and vegetable curry}%
+    \begin{recipe}{}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\

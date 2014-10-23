@@ -14,6 +14,11 @@ namespace ConsoleApp
         {
         }
 
+        public void Reset(int input)
+        {
+            _counter = input;
+        }
+
         public int Counter(int input)
         {
             _counter += input;

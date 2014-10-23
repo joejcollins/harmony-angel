@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:increment="urn:Increment">
+                xmlns:increment="urn:Increment"><!-- using an external class for incrementing -->
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
 
@@ -121,9 +121,6 @@
     <xsl:element name="Recipe">
       <xsl:attribute name="Meals">
         <xsl:value-of select="@Meals" />
-      </xsl:attribute>
-      <xsl:attribute name="MealCounter">
-        <xsl:value-of select="increment:Counter(@Meals)" />
       </xsl:attribute>
       <xsl:attribute name="Title">
         <xsl:value-of select="@Title" />
