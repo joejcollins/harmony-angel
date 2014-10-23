@@ -121,12 +121,19 @@
 			<Stage>
 				In <Utensil Name="pan" /> boil
 				<Dairy Quantity="4" Type="eggs" />
-				
 			</Stage>
       <Stage>
         <Staple Name="rice"/>
       </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Process="chopped" Quantity="350" Type="onions" Unit="g" />
+        in
+        <Check Quantity="2" Type="oil" Unit="tbsp" />
+        until soft.
+      </Stage>
 		</Recipe>
+
 		<!--
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

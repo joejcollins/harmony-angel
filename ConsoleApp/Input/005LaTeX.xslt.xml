@@ -7,12 +7,6 @@
     \subsection*{Shopping Lists}
     %
       \begin{shoppinglist}{Vegetables}
-      750 g cabbage \\ 
-      400 g carrots \\ 
-      400 g celery \\ 
-      320 g onions \\ 
-      700 g onions \\ 
-      2  red chillis \\ 
       %
       \end{shoppinglist}%
       %
@@ -22,10 +16,12 @@
       400 g baked beans \\ 
       400 g canned tomatoes \\ 
       200 g lasagna \\ 
+      400 g noodles \\ 
       3 tbsp peanuts \\ 
       4  pitta bread \\ 
       75 g suet \\ 
       75 g tomato puree \\ 
+      400 g white rice \\ 
       %
       \end{shoppinglist}%
       \par %
@@ -58,6 +54,7 @@
       2 tbsp oil \\ 
       2 tbsp oil \\ 
       2 tbsp oil \\ 
+      2 tbsp oil \\ 
       75 g self raising flour \\ 
       1  stock cube \\ 
       %
@@ -66,11 +63,13 @@
       %
     %
       \begin{shoppinglist}{Extra Vegetables}
+      1200 g baking potatoes \\ 
       750 g cabbage \\ 
       400 g carrots \\ 
       400 g celery \\ 
       320 g onions \\ 
       700 g onions \\ 
+      350 g onions \\ 
       2  red chillis \\ 
       %
       \end{shoppinglist}%
@@ -84,7 +83,8 @@
     \begin{recipe}{2}{Meat stew and dumplings}%
     
 		\begin{ingredients}
-		320 g onions (chopped) \\
+		1200 g baking potatoes (washed) \\
+	320 g onions (chopped) \\
 	400 g meat (sliced) \\
 	400 g carrots (chopped) \\
 	400 g celery (chopped) \\
@@ -99,8 +99,11 @@
 		\end{ingredients}
 	
     \begin{instructions}
-    \item \item 
-				In a  fry
+    \item 
+      Bake 1200 g washed baking potatoes 
+      medium for 40 minutes.
+    \item 
+				In a large wok fry
 				320 g chopped onions,
 				400 g sliced meat,
 				400 g chopped carrots
@@ -117,7 +120,7 @@
 				500 ml  cold water
 				and simmer for 50 minutes.
 			\item 
-				In a  mix
+				In a mixing bowl mix
 				75 g  self raising flour,
 				75 g  suet,
 				0.5 tsp  mixed herbs
@@ -145,7 +148,7 @@
 	
     \begin{instructions}
     \item 
-				In a  fry
+				In a large wok fry
 				700 g chopped onions
 				in
 				2 tbsp  oil
@@ -154,13 +157,13 @@
 				Stir in 400 g chopped canned tomatoes
 				and warm through.
 			\item 
-				In a  layer
+				In a casserole dish layer
 				200 g  lasagna,
 				the tomato mix and
 				150 g grated cheese
 				3 times.
 			\item 
-				In a  mix
+				In a mixing bowl mix
 				300 ml  soured cream
 				with
 				100 ml  milk
@@ -174,7 +177,8 @@
     \begin{recipe}{2}{Chicken with cabbage and peanuts}%
     
 		\begin{ingredients}
-		3 tbsp peanuts  \\
+		400 g noodles  \\
+	3 tbsp peanuts  \\
 	2 tbsp oil  \\
 	2  red chillis (chopped) \\
 	300 g chicken (sliced) \\
@@ -184,8 +188,15 @@
 		\end{ingredients}
 	
     \begin{instructions}
-    \item \item 
-				In a 	fry
+    \item 
+      In a 
+      put
+      400 g  noodles,
+      pour on
+      800 ml  boiling water
+      cover and stand for 10 minutes, then drain.
+    \item 
+				In a large wok	fry
 				3 tbsp  peanuts
 				in
 				2 tbsp  oil
@@ -221,10 +232,10 @@
 	
     \begin{instructions}
     \item 
-				In a  warm
+				In a sauce pan warm
 				400 g  baked beans.
 			\item 
-				In a  fry
+				In a large wok fry
 				2   eggs
 				in 
 				2 tbsp  oil\item 
@@ -237,13 +248,30 @@
     
 		\begin{ingredients}
 		4  eggs  \\
+	400 g white rice  \\
+	350 g onions (chopped) \\
+	2 tbsp oil  \\
 	
 		\end{ingredients}
 	
     \begin{instructions}
     \item 
-				In  boil
+				In sauce pan boil
 				4   eggs\item 
+      In a 
+       
+      boil 
+      400 g  white rice
+      in 
+      800 ml  boiling water
+      then turn off, cover and stand for 30 minutes.
+    \item 
+        In a large wok fry
+        350 g chopped onions
+        in
+        2 tbsp  oil
+        until soft.
+      
     \end{instructions}
     \end{recipe}%
   
@@ -306,7 +334,7 @@
 	
     \begin{instructions}
     \item 
-				In  boil
+				In sauce pan boil
 				4   eggs
     \end{instructions}
     \end{recipe}%
@@ -320,7 +348,7 @@
 	
     \begin{instructions}
     \item 
-				In  boil
+				In sauce pan boil
 				4   eggs
     \end{instructions}
     \end{recipe}%
@@ -334,7 +362,7 @@
 	
     \begin{instructions}
     \item 
-				In  boil
+				In sauce pan boil
 				4   eggs
     \end{instructions}
     \end{recipe}%

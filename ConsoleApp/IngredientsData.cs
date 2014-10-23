@@ -1,12 +1,3 @@
-/*************************************************************************
- * Project: CookML
- * Copyright: Joe Collins (c) 2009
- * Purpose: Utilities for accessing the database of ingredients.
- * $Author: cookml $
- * $Date: 2011-01-12 19:05:57 +0000 (Wed, 12 Jan 2011) $
- * $Workfile: $
- * $Revision: 10 $
- ************************************************************************/
 using System;
 using System.Data;
 using System.Data.OleDb;

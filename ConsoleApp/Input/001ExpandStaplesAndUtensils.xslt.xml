@@ -1,5 +1,8 @@
-<Book><Menu Title="The Very First Menu"><Recipe Meals="2" Title="Meat stew and dumplings"><Index>Stew<Sub>Meat and dumplings</Sub></Index><Index>Dumplings</Index><Stage><Staple Name="potatoes" /></Stage><Stage>
-				In a <Utensil Name="wok" /> fry
+<Book><Menu Title="The Very First Menu"><Recipe Meals="2" Title="Meat stew and dumplings"><Index>Stew<Sub>Meat and dumplings</Sub></Index><Index>Dumplings</Index><Stage>
+      Bake <Vegetable Process="washed" Quantity="1200" Type="baking potatoes" Unit="g" /> 
+      medium for 40 minutes.
+    </Stage><Stage>
+				In a large wok fry
 				<Vegetable Process="chopped" Quantity="320" Type="onions" Unit="g" />,
 				<Meat Process="sliced" Quantity="400" Type="meat" Unit="g" />,
 				<Vegetable Process="chopped" Quantity="400" Type="carrots" Unit="g" />
@@ -16,7 +19,7 @@
 				<Water Quantity="500" Type="cold water" Unit="ml" />
 				and simmer for 50 minutes.
 			</Stage><Stage>
-				In a <Utensil Name="bowl" /> mix
+				In a mixing bowl mix
 				<Check Quantity="75" Type="self raising flour" Unit="g" />,
 				<Grocery Quantity="75" Type="suet" Unit="g" />,
 				<Check Quantity="0.5" Type="mixed herbs" Unit="tsp" />
@@ -26,7 +29,7 @@
 				Put balls in stew, cover and
 				simmer for 15 minutes.
 			</Stage></Recipe><Recipe Meals="2" Title="Onion and tomato lasagna"><Index>Lasagna<Sub>Onion and tomato</Sub></Index><Stage>
-				In a <Utensil Name="wok" /> fry
+				In a large wok fry
 				<Vegetable Process="chopped" Quantity="700" Type="onions" Unit="g" />
 				in
 				<Check Quantity="2" Type="oil" Unit="tbsp" />
@@ -35,21 +38,28 @@
 				Stir in <Grocery Process="chopped" Quantity="400" Type="canned tomatoes" Unit="g" />
 				and warm through.
 			</Stage><Stage>
-				In a <Utensil Name="casserole" /> layer
+				In a casserole dish layer
 				<Grocery Quantity="200" Type="lasagna" Unit="g" />,
 				the tomato mix and
 				<Dairy Process="grated" Quantity="150" Type="cheese" Unit="g" />
 				3 times.
 			</Stage><Stage>
-				In a <Utensil Name="bowl" /> mix
+				In a mixing bowl mix
 				<Dairy Quantity="300" Type="soured cream" Unit="ml" />
 				with
 				<Dairy Quantity="100" Type="milk" Unit="ml" />
 				and pour on top of the lasagna.
 			</Stage><Stage>
 				Bake <Temperature Level="medium" /> 50 minutes.
-			</Stage></Recipe><Recipe Meals="2" Title="Chicken with cabbage and peanuts"><Stage><Staple Name="noodles" /></Stage><Stage>
-				In a <Utensil Name="wok" />	fry
+			</Stage></Recipe><Recipe Meals="2" Title="Chicken with cabbage and peanuts"><Stage>
+      In a <Utensil Name="pan" />
+      put
+      <Grocery Quantity="400" Unit="g" Type="noodles" />,
+      pour on
+      <Water Quantity="800" Unit="ml" Type="boiling water" />
+      cover and stand for 10 minutes, then drain.
+    </Stage><Stage>
+				In a large wok	fry
 				<Grocery Quantity="3" Type="peanuts" Unit="tbsp" />
 				in
 				<Check Quantity="2" Type="oil" Unit="tbsp" />
@@ -70,20 +80,34 @@
 			</Stage><Stage>
 				Sprinkle with the peanuts.
 			</Stage></Recipe><Recipe Meals="1" Title="Beans and fried eggs in pitta"><Stage>
-				In a <Utensil Name="pan" /> warm
+				In a sauce pan warm
 				<Grocery Quantity="400" Type="baked beans" Unit="g" />.
 			</Stage><Stage>
-				In a <Utensil Name="wok" /> fry
+				In a large wok fry
 				<Dairy Quantity="2" Type="eggs" />
 				in 
 				<Check Quantity="2" Type="oil" Unit="tbsp" /></Stage><Stage>
 				Grill
 				<Grocery Quantity="4" Type="pitta bread" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
-				In <Utensil Name="pan" /> boil
-				<Dairy Quantity="4" Type="eggs" /></Stage><Stage><Staple Name="rice" /></Stage></Recipe></Menu><Menu Title="B"><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
-				In <Utensil Name="pan" /> boil
+				In sauce pan boil
+				<Dairy Quantity="4" Type="eggs" /></Stage><Stage>
+      In a 
+      <Utensil Name="pan" /> 
+      boil 
+      <Grocery Quantity="400" Unit="g" Type="white rice" />
+      in 
+      <Water Quantity="800" Unit="ml" Type="boiling water" />
+      then turn off, cover and stand for 30 minutes.
+    </Stage><Stage>
+        In a large wok fry
+        <Vegetable Process="chopped" Quantity="350" Type="onions" Unit="g" />
+        in
+        <Check Quantity="2" Type="oil" Unit="tbsp" />
+        until soft.
+      </Stage></Recipe></Menu><Menu Title="B"><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
+				In sauce pan boil
 				<Dairy Quantity="4" Type="eggs" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
-				In <Utensil Name="pan" /> boil
+				In sauce pan boil
 				<Dairy Quantity="4" Type="eggs" /></Stage></Recipe><Recipe Meals="2" Title="Egg and vegetable curry"><Stage>
-				In <Utensil Name="pan" /> boil
+				In sauce pan boil
 				<Dairy Quantity="4" Type="eggs" /></Stage></Recipe></Menu></Book>

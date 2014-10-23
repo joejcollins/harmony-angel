@@ -1,13 +1,3 @@
-/*************************************************************************
- * Project: CookML
- * Copyright: Joe Collins (c) 2003
- * Purpose: Provide a means of keeping the  CookML schema in 
- *  synchronization with the database of ingredients.
- * $Author: cookml $
- * $Date: 2009-10-02 06:17:52 +0100 (Fri, 02 Oct 2009) $
- * $Workfile: $
- * $Revision: 2 $
- ************************************************************************/
 using System;
 using System.Collections;
 using System.Data;

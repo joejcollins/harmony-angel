@@ -84,12 +84,7 @@
         \hrulefill \par \bigskip % 2
         \hrulefill \par \bigskip % 3
         \hrulefill \par \bigskip % 4
-        \hrulefill \par \bigskip % 5 
-        \hrulefill \par \bigskip % 6 
-        \hrulefill \par \bigskip % 7 
-        \hrulefill \par \bigskip % 8
-        \hrulefill \par \bigskip % 9
-        \hrulefill %               10
+        \hrulefill % 5
         \end{minipage}\hfil%
 }%
 

@@ -1,13 +1,4 @@
-﻿/*************************************************************************
- * Project: CookML
- * Copyright: Joe Collins (c) 2003
- * Purpose: 
- * $Author: cookml $
- * $Date: 2011-07-20 13:01:57 +0100 (Wed, 20 Jul 2011) $
- * $Workfile: $
- * $Revision: 12 $
- ************************************************************************/
-using System;
+﻿using System;
 using System.IO;
 
 namespace CookML
