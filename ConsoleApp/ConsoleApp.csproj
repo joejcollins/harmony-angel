@@ -101,6 +101,7 @@
     <Content Include="Input\Ingredients.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Input\XXXMergeLists.xslt" />
     <Content Include="Output\Cookbook.cls" />
   </ItemGroup>
   <ItemGroup />

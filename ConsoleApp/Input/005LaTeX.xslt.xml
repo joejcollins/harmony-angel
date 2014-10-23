@@ -1,29 +1,90 @@
 
+    % !TeX root = FoodFile.tex
     % Content Begins
     
 		\begin{menu}{The Very First Menu}
     
-    \subsection*{Shopping List}
-    
-      \shoppinglist{Vegetables}
-    
-      \shoppinglist{Groceries}
-    
-      \shoppinglist{Meat}
-    
-      \shoppinglist{Dairy}
-    
-      \shoppinglist{Check}
-    
-      \shoppinglist{Extra Vegetables}
-    
+    \subsection*{Shopping Lists}
+    %
+      \begin{shoppinglist}{Vegetables}
+      750 g cabbage \\ 
+      400 g carrots \\ 
+      400 g celery \\ 
+      320 g onions \\ 
+      700 g onions \\ 
+      2  red chillis \\ 
+      %
+      \end{shoppinglist}%
+      %
+      %
+    %
+      \begin{shoppinglist}{Groceries}
+      400 g baked beans \\ 
+      400 g canned tomatoes \\ 
+      200 g lasagna \\ 
+      3 tbsp peanuts \\ 
+      4  pitta bread \\ 
+      75 g suet \\ 
+      75 g tomato puree \\ 
+      %
+      \end{shoppinglist}%
+      \par %
+      %
+    %
+      \begin{shoppinglist}{Meat}
+      300 g chicken \\ 
+      400 g meat \\ 
+      %
+      \end{shoppinglist}%
+      %
+      %
+    %
+      \begin{shoppinglist}{Dairy}
+      150 g cheese \\ 
+      2  eggs \\ 
+      4  eggs \\ 
+      100 ml milk \\ 
+      300 ml soured cream \\ 
+      %
+      \end{shoppinglist}%
+      \par %
+      \clearpage %
+    %
+      \begin{shoppinglist}{Check}
+      1 tbsp black bean sauce \\ 
+      0.5 tsp chilli powder \\ 
+      0.5 tsp mixed herbs \\ 
+      2 tbsp oil \\ 
+      2 tbsp oil \\ 
+      2 tbsp oil \\ 
+      2 tbsp oil \\ 
+      75 g self raising flour \\ 
+      1  stock cube \\ 
+      %
+      \end{shoppinglist}%
+      %
+      %
+    %
+      \begin{shoppinglist}{Extra Vegetables}
+      750 g cabbage \\ 
+      400 g carrots \\ 
+      400 g celery \\ 
+      320 g onions \\ 
+      700 g onions \\ 
+      2  red chillis \\ 
+      %
+      \end{shoppinglist}%
+      \par %
+      %
+    %
+    \othershoppinglist{Other Shopping}%
+    \othershoppinglist{Extra Other Shopping}%
     \clearpage
   
     \begin{recipe}{2}{Meat stew and dumplings}%
     
 		\begin{ingredients}
-		1200 g baking potatoes (washed) \\
-	320 g onions (chopped) \\
+		320 g onions (chopped) \\
 	400 g meat (sliced) \\
 	400 g carrots (chopped) \\
 	400 g celery (chopped) \\
@@ -38,11 +99,8 @@
 		\end{ingredients}
 	
     \begin{instructions}
-    \item 
-      Bake 1200 g washed baking potatoes 
-      medium for 40 minutes.
-    \item 
-				In a large wok fry
+    \item \item 
+				In a  fry
 				320 g chopped onions,
 				400 g sliced meat,
 				400 g chopped carrots
@@ -59,7 +117,7 @@
 				500 ml  cold water
 				and simmer for 50 minutes.
 			\item 
-				In a mixing bowl mix
+				In a  mix
 				75 g  self raising flour,
 				75 g  suet,
 				0.5 tsp  mixed herbs
@@ -87,7 +145,7 @@
 	
     \begin{instructions}
     \item 
-				In a large wok fry
+				In a  fry
 				700 g chopped onions
 				in
 				2 tbsp  oil
@@ -96,13 +154,13 @@
 				Stir in 400 g chopped canned tomatoes
 				and warm through.
 			\item 
-				In a casserole dish layer
+				In a  layer
 				200 g  lasagna,
 				the tomato mix and
 				150 g grated cheese
 				3 times.
 			\item 
-				In a mixing bowl mix
+				In a  mix
 				300 ml  soured cream
 				with
 				100 ml  milk
@@ -116,8 +174,7 @@
     \begin{recipe}{2}{Chicken with cabbage and peanuts}%
     
 		\begin{ingredients}
-		400 g noodles  \\
-	3 tbsp peanuts  \\
+		3 tbsp peanuts  \\
 	2 tbsp oil  \\
 	2  red chillis (chopped) \\
 	300 g chicken (sliced) \\
@@ -127,15 +184,8 @@
 		\end{ingredients}
 	
     \begin{instructions}
-    \item 
-      In a 
-      put
-      400 g  noodles,
-      pour on
-      800 ml  boiling water
-      cover and stand for 10 minutes, then drain.
-    \item 
-				In a large wok	fry
+    \item \item 
+				In a 	fry
 				3 tbsp  peanuts
 				in
 				2 tbsp  oil
@@ -171,10 +221,10 @@
 	
     \begin{instructions}
     \item 
-				In a sauce pan warm
+				In a  warm
 				400 g  baked beans.
 			\item 
-				In a large wok fry
+				In a  fry
 				2   eggs
 				in 
 				2 tbsp  oil\item 
@@ -187,22 +237,13 @@
     
 		\begin{ingredients}
 		4  eggs  \\
-	400 g white rice  \\
 	
 		\end{ingredients}
 	
     \begin{instructions}
     \item 
-				In sauce pan boil
+				In  boil
 				4   eggs\item 
-      In a 
-       
-      boil 
-      400 g  white rice
-      in 
-      800 ml  boiling water
-      then turn off, cover and stand for 30 minutes.
-    
     \end{instructions}
     \end{recipe}%
   
@@ -211,20 +252,49 @@
 	
 		\begin{menu}{B}
     
-    \subsection*{Shopping List}
-    
-      \shoppinglist{Vegetables}
-    
-      \shoppinglist{Groceries}
-    
-      \shoppinglist{Meat}
-    
-      \shoppinglist{Dairy}
-    
-      \shoppinglist{Check}
-    
-      \shoppinglist{Extra Vegetables}
-    
+    \subsection*{Shopping Lists}
+    %
+      \begin{shoppinglist}{Vegetables}
+      %
+      \end{shoppinglist}%
+      %
+      %
+    %
+      \begin{shoppinglist}{Groceries}
+      %
+      \end{shoppinglist}%
+      \par %
+      %
+    %
+      \begin{shoppinglist}{Meat}
+      %
+      \end{shoppinglist}%
+      %
+      %
+    %
+      \begin{shoppinglist}{Dairy}
+      4  eggs \\ 
+      4  eggs \\ 
+      4  eggs \\ 
+      %
+      \end{shoppinglist}%
+      \par %
+      \clearpage %
+    %
+      \begin{shoppinglist}{Check}
+      %
+      \end{shoppinglist}%
+      %
+      %
+    %
+      \begin{shoppinglist}{Extra Vegetables}
+      %
+      \end{shoppinglist}%
+      \par %
+      %
+    %
+    \othershoppinglist{Other Shopping}%
+    \othershoppinglist{Extra Other Shopping}%
     \clearpage
   
     \begin{recipe}{2}{Egg and vegetable curry}%
@@ -236,7 +306,7 @@
 	
     \begin{instructions}
     \item 
-				In sauce pan boil
+				In  boil
 				4   eggs
     \end{instructions}
     \end{recipe}%
@@ -250,7 +320,7 @@
 	
     \begin{instructions}
     \item 
-				In sauce pan boil
+				In  boil
 				4   eggs
     \end{instructions}
     \end{recipe}%
@@ -264,7 +334,7 @@
 	
     \begin{instructions}
     \item 
-				In sauce pan boil
+				In  boil
 				4   eggs
     \end{instructions}
     \end{recipe}%

@@ -14,7 +14,7 @@ using System.Xml.XPath;
 using System.Xml.Xsl;
 using System.Diagnostics;
 
-namespace CookMLConsole
+namespace ConsoleApp
 {
 	/// <summary>
 	/// Transformer.

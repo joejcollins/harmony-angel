@@ -60,14 +60,37 @@
 }
 
 %% 
-% 
+% Shopping List Command
 %%
-\newcommand{\shoppinglist}[1]%
+\newenvironment{shoppinglist}[1]%
 {%
-  \begin{minipage}[t]{\textwidth}%
+  \begin{minipage}[t]{.49\textwidth}%
     \subsubsection*{#1}
-    \raggedright%
+   % \raggedright%
+}%
+{%
   \end{minipage}%
+}%
+
+%%
+% Lines for writing other items on the shopping list
+%%
+\newcommand{\othershoppinglist}[1]%
+{%
+        \begin{minipage}[t][\height][s]{.49\textwidth}%
+        \subsubsection*{#1}%
+        \smallskip%
+        \hrulefill \par \bigskip % 1
+        \hrulefill \par \bigskip % 2
+        \hrulefill \par \bigskip % 3
+        \hrulefill \par \bigskip % 4
+        \hrulefill \par \bigskip % 5 
+        \hrulefill \par \bigskip % 6 
+        \hrulefill \par \bigskip % 7 
+        \hrulefill \par \bigskip % 8
+        \hrulefill \par \bigskip % 9
+        \hrulefill %               10
+        \end{minipage}%
 }%
 
 %% 

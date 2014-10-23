@@ -15,7 +15,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Xml;
 
-namespace CookMLConsole
+namespace ConsoleApp
 {
 	/// <summary>
 	/// Summary description for Schema.
@@ -43,7 +43,7 @@ namespace CookMLConsole
 			m_NSManager.AddNamespace(strPrefix, m_strNameSpace);
 			//Initialize the ingredient types
 			hashIngredientTypes = new Hashtable();
-			CookMLConsole.IngredientsData Ingredients = new CookMLConsole.IngredientsData();
+			IngredientsData Ingredients = new IngredientsData();
 			foreach (DataRow IngredientTypesRow in Ingredients.IngredientTypes().Tables["IngredientTypes"].Rows)
 			{
 				hashIngredientTypes.Add(IngredientTypesRow["ID"], IngredientTypesRow["IngredientType"]);
@@ -99,7 +99,7 @@ namespace CookMLConsole
 			baseAttribute.Value = "xsd:string";
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
-			CookMLConsole.IngredientsData Ingredients = new CookMLConsole.IngredientsData();
+			IngredientsData Ingredients = new IngredientsData();
 			foreach (DataRow IngredientRow in Ingredients.Ingredients(strIngredientType).Tables[strIngredientType].Rows)
 			{
 				XmlElement enumeration = 

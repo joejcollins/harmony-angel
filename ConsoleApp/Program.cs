@@ -17,10 +17,10 @@ namespace CookML
         static void Main(string[] args)
         {
             // Update the schema so it includes all the ingredient types
-            CookMLConsole.Schema schema = new CookMLConsole.Schema();
+            ConsoleApp.Schema schema = new ConsoleApp.Schema();
             schema.UpdateSchema();
             // Transform the CookML 
-            CookMLConsole.Transformer transformer = new CookMLConsole.Transformer();
+            ConsoleApp.Transformer transformer = new ConsoleApp.Transformer();
             string lastFile = transformer.CreateBook(@"../../Input/FoodFile.xml");
             // Rename last file to LaTeX
             File.Copy(lastFile, @"../../Output/Content.tex", true);

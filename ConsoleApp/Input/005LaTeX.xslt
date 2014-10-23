@@ -13,6 +13,7 @@
 		Format for the book, and introduction
 	-->
 	<xsl:template match="Book">
+    % !TeX root = FoodFile.tex
     % Content Begins
     <xsl:apply-templates select="Menu" />
     % Content Ends
@@ -30,15 +31,27 @@
 
   <!--
 		Format shopping list.
+    Be aware that LaTeX is sensitive to white space, specifically there must be no
+    new paragraphs between the minipages, for them to end up side by side.
 	-->
   <xsl:template match="ShoppingLists">
-    \subsection*{Shopping List}
-    <xsl:for-each select="./Shopping">
-      \shoppinglist{<xsl:value-of select="@Title"/>}
-    </xsl:for-each>
+    \subsection*{Shopping Lists}
+    <xsl:for-each select="./Shopping">%
+      \begin{shoppinglist}{<xsl:value-of select="@Title" />}
+      <xsl:for-each select="./Item">
+        <xsl:value-of select="@Quantity" /><xsl:text> </xsl:text>
+        <xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
+        <xsl:value-of select="@Type" /><xsl:text> </xsl:text>\\ 
+      </xsl:for-each>%
+      \end{shoppinglist}%
+      <xsl:if test="(position() mod 2) != 1">\par </xsl:if>%
+      <xsl:if test="position() = 4">\clearpage </xsl:if>%
+    </xsl:for-each>%
+    \othershoppinglist{Other Shopping}%
+    \othershoppinglist{Extra Other Shopping}%
     \clearpage
   </xsl:template>
-
+  
   <!--
 		Format for the recipe using the recipe environment, if it is an odd
 		number in the menu then clear the page before you begin.

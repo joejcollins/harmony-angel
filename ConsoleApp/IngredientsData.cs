@@ -12,7 +12,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.Data.SqlClient;
 
-namespace CookMLConsole
+namespace ConsoleApp
 {
 	/// <summary>
 	/// IngredientsDatabase.
