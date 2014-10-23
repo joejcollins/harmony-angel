@@ -1,7 +1,7 @@
 <Book xmlns:increment="urn:Increment">
   <Menu Title="The Very First Menu">
     <ShoppingLists>
-      <Shopping>
+      <Shopping Title="Vegetables">
         <Item Type="baking potatoes" Quantity="1200" Unit="g" />
         <Item Type="cabbage" Quantity="750" Unit="g" />
         <Item Type="carrots" Quantity="400" Unit="g" />
@@ -10,7 +10,7 @@
         <Item Type="onions" Quantity="700" Unit="g" />
         <Item Type="red chillis" Quantity="2" Unit="" />
       </Shopping>
-      <Shopping>
+      <Shopping Title="Groceries">
         <Item Type="baked beans" Quantity="400" Unit="g" />
         <Item Type="canned tomatoes" Quantity="400" Unit="g" />
         <Item Type="lasagna" Quantity="200" Unit="g" />
@@ -21,18 +21,18 @@
         <Item Type="tomato puree" Quantity="75" Unit="g" />
         <Item Type="white rice" Quantity="400" Unit="g" />
       </Shopping>
-      <Shopping>
+      <Shopping Title="Meat">
         <Item Type="chicken" Quantity="300" Unit="g" />
         <Item Type="meat" Quantity="400" Unit="g" />
       </Shopping>
-      <Shopping>
+      <Shopping Title="Dairy">
         <Item Type="cheese" Quantity="150" Unit="g" />
         <Item Type="eggs" Quantity="2" Unit="" />
         <Item Type="eggs" Quantity="4" Unit="" />
         <Item Type="milk" Quantity="100" Unit="ml" />
         <Item Type="soured cream" Quantity="300" Unit="ml" />
       </Shopping>
-      <Shopping>
+      <Shopping Title="Check">
         <Item Type="black bean sauce" Quantity="1" Unit="tbsp" />
         <Item Type="chilli powder" Quantity="0.5" Unit="tsp" />
         <Item Type="mixed herbs" Quantity="0.5" Unit="tsp" />
@@ -44,7 +44,7 @@
         <Item Type="self raising flour" Quantity="75" Unit="g" />
         <Item Type="stock cube" Quantity="1" Unit="" />
       </Shopping>
-      <Shopping>
+      <Shopping Title="Extra Vegetables">
         <Item Type="onions" Quantity="350" Unit="g" />
       </Shopping>
     </ShoppingLists>
@@ -235,16 +235,16 @@
   </Menu>
   <Menu Title="B">
     <ShoppingLists>
-      <Shopping />
-      <Shopping />
-      <Shopping />
-      <Shopping>
+      <Shopping Title="Vegetables" />
+      <Shopping Title="Groceries" />
+      <Shopping Title="Meat" />
+      <Shopping Title="Dairy">
         <Item Type="eggs" Quantity="4" Unit="" />
         <Item Type="eggs" Quantity="4" Unit="" />
         <Item Type="eggs" Quantity="4" Unit="" />
       </Shopping>
-      <Shopping />
-      <Shopping />
+      <Shopping Title="Check" />
+      <Shopping Title="Extra Vegetables" />
     </ShoppingLists>
     <Recipe Meals="2" Title="Egg and vegetable curry">
       <Ingredients>

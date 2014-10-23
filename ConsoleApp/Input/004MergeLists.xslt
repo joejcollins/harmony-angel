@@ -16,10 +16,12 @@
 		  Winnow the vegetable shopping lists
 	  -->
   <xsl:template match="Shopping">
-    <xsl:copy>
+    <xsl:element name="Shopping">
+      <xsl:attribute name="Title">
+        <xsl:value-of select="@Title" />
+      </xsl:attribute>
       <!-- First Week Vegetables -->
       <xsl:if test="@Title = 'Vegetables'">
-        
         <xsl:for-each select="Item">
           <xsl:if test="@MealCounter &lt; 8">
             <xsl:apply-templates select="."  />
@@ -28,7 +30,6 @@
       </xsl:if>
       <!-- Second Week Vegetables -->
       <xsl:if test="@Title = 'Extra Vegetables'">
-        
         <xsl:for-each select="Item">
           <xsl:if test="@MealCounter &gt; 7">
             <xsl:apply-templates select="."  />
@@ -41,7 +42,7 @@
           <xsl:apply-templates select="."  />
         </xsl:for-each>
       </xsl:if>
-    </xsl:copy>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="Item">

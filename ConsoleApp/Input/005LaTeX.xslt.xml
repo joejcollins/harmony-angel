@@ -6,7 +6,7 @@
     
     \subsection*{Shopping Lists}
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Vegetables}
       1200 g baking potatoes \\ 
       750 g cabbage \\ 
       400 g carrots \\ 
@@ -19,7 +19,7 @@
       %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Groceries}
       400 g baked beans \\ 
       400 g canned tomatoes \\ 
       200 g lasagna \\ 
@@ -34,7 +34,7 @@
       \par %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Meat}
       300 g chicken \\ 
       400 g meat \\ 
       %
@@ -42,7 +42,7 @@
       %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Dairy}
       150 g cheese \\ 
       2  eggs \\ 
       4  eggs \\ 
@@ -53,7 +53,7 @@
       \par %
       \clearpage %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Check}
       1 tbsp black bean sauce \\ 
       0.5 tsp chilli powder \\ 
       0.5 tsp mixed herbs \\ 
@@ -69,7 +69,7 @@
       %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Extra Vegetables}
       350 g onions \\ 
       %
       \end{shoppinglist}%
@@ -282,25 +282,25 @@
     
     \subsection*{Shopping Lists}
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Vegetables}
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Groceries}
       %
       \end{shoppinglist}%
       \par %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Meat}
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Dairy}
       4  eggs \\ 
       4  eggs \\ 
       4  eggs \\ 
@@ -309,13 +309,13 @@
       \par %
       \clearpage %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Check}
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{}
+      \begin{shoppinglist}{Extra Vegetables}
       %
       \end{shoppinglist}%
       \par %
