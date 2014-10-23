@@ -36,6 +36,9 @@
       <xsl:attribute name="Title">
         <xsl:value-of select="@Title" />
       </xsl:attribute>
+      <xsl:attribute name="Meals">
+        <xsl:value-of select="@Meals" />
+      </xsl:attribute>
       <xsl:attribute name="MealCounter">
         <xsl:value-of select="increment:Counter(@Meals)" />
       </xsl:attribute>

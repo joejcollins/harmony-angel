@@ -20,7 +20,7 @@ namespace ConsoleApp
         string[] xsltFiles = { "001ExpandStaplesAndUtensils.xslt", 
                                  "002AddFoodData.xslt", 
                                  "003ListsAndStructure.xslt", 
-                                 //"004MergeLists.xslt",
+                                 "004MergeLists.xslt",
                                  "005LaTeX.xslt"
                              };
 

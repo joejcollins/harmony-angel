@@ -6,13 +6,20 @@
     
     \subsection*{Shopping Lists}
     %
-      \begin{shoppinglist}{Vegetables}
+      \begin{shoppinglist}{}
+      1200 g baking potatoes \\ 
+      750 g cabbage \\ 
+      400 g carrots \\ 
+      400 g celery \\ 
+      320 g onions \\ 
+      700 g onions \\ 
+      2  red chillis \\ 
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{Groceries}
+      \begin{shoppinglist}{}
       400 g baked beans \\ 
       400 g canned tomatoes \\ 
       200 g lasagna \\ 
@@ -27,7 +34,7 @@
       \par %
       %
     %
-      \begin{shoppinglist}{Meat}
+      \begin{shoppinglist}{}
       300 g chicken \\ 
       400 g meat \\ 
       %
@@ -35,7 +42,7 @@
       %
       %
     %
-      \begin{shoppinglist}{Dairy}
+      \begin{shoppinglist}{}
       150 g cheese \\ 
       2  eggs \\ 
       4  eggs \\ 
@@ -46,7 +53,7 @@
       \par %
       \clearpage %
     %
-      \begin{shoppinglist}{Check}
+      \begin{shoppinglist}{}
       1 tbsp black bean sauce \\ 
       0.5 tsp chilli powder \\ 
       0.5 tsp mixed herbs \\ 
@@ -62,15 +69,8 @@
       %
       %
     %
-      \begin{shoppinglist}{Extra Vegetables}
-      1200 g baking potatoes \\ 
-      750 g cabbage \\ 
-      400 g carrots \\ 
-      400 g celery \\ 
-      320 g onions \\ 
-      700 g onions \\ 
+      \begin{shoppinglist}{}
       350 g onions \\ 
-      2  red chillis \\ 
       %
       \end{shoppinglist}%
       \par %
@@ -80,18 +80,18 @@
     \othershoppinglist{Extra Other Shopping}%
     \clearpage
   
-    \begin{recipe}{}{Meat stew and dumplings}%
+    \begin{recipe}{2}{Meat stew and dumplings}%
     
 		\begin{ingredients}
-		1200 g baking potatoes (washed) \\
-	320 g onions (chopped) \\
-	400 g meat (sliced) \\
-	400 g carrots (chopped) \\
-	400 g celery (chopped) \\
+		1200 g baking potatoes  \\
+	320 g onions  \\
+	400 g meat  \\
+	400 g carrots  \\
+	400 g celery  \\
 	2 tbsp oil  \\
 	75 g tomato puree  \\
 	0.5 tsp chilli powder  \\
-	1  stock cube (crumbled) \\
+	1  stock cube  \\
 	75 g self raising flour  \\
 	75 g suet  \\
 	0.5 tsp mixed herbs  \\
@@ -133,14 +133,14 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{}{Onion and tomato lasagna}%
+    \begin{recipe}{2}{Onion and tomato lasagna}%
     
 		\begin{ingredients}
-		700 g onions (chopped) \\
+		700 g onions  \\
 	2 tbsp oil  \\
-	400 g canned tomatoes (chopped) \\
+	400 g canned tomatoes  \\
 	200 g lasagna  \\
-	150 g cheese (grated) \\
+	150 g cheese  \\
 	300 ml soured cream  \\
 	100 ml milk  \\
 	
@@ -174,15 +174,15 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{}{Chicken with cabbage and peanuts}%
+    \begin{recipe}{2}{Chicken with cabbage and peanuts}%
     
 		\begin{ingredients}
 		400 g noodles  \\
 	3 tbsp peanuts  \\
 	2 tbsp oil  \\
-	2  red chillis (chopped) \\
-	300 g chicken (sliced) \\
-	750 g cabbage (sliced) \\
+	2  red chillis  \\
+	300 g chicken  \\
+	750 g cabbage  \\
 	1 tbsp black bean sauce  \\
 	
 		\end{ingredients}
@@ -220,7 +220,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{}{Beans and fried eggs in pitta}%
+    \begin{recipe}{1}{Beans and fried eggs in pitta}%
     
 		\begin{ingredients}
 		400 g baked beans  \\
@@ -244,12 +244,12 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{}{Egg and vegetable curry}%
+    \begin{recipe}{2}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\
 	400 g white rice  \\
-	350 g onions (chopped) \\
+	350 g onions  \\
 	2 tbsp oil  \\
 	
 		\end{ingredients}
@@ -282,25 +282,25 @@
     
     \subsection*{Shopping Lists}
     %
-      \begin{shoppinglist}{Vegetables}
+      \begin{shoppinglist}{}
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{Groceries}
+      \begin{shoppinglist}{}
       %
       \end{shoppinglist}%
       \par %
       %
     %
-      \begin{shoppinglist}{Meat}
+      \begin{shoppinglist}{}
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{Dairy}
+      \begin{shoppinglist}{}
       4  eggs \\ 
       4  eggs \\ 
       4  eggs \\ 
@@ -309,13 +309,13 @@
       \par %
       \clearpage %
     %
-      \begin{shoppinglist}{Check}
+      \begin{shoppinglist}{}
       %
       \end{shoppinglist}%
       %
       %
     %
-      \begin{shoppinglist}{Extra Vegetables}
+      \begin{shoppinglist}{}
       %
       \end{shoppinglist}%
       \par %
@@ -325,7 +325,7 @@
     \othershoppinglist{Extra Other Shopping}%
     \clearpage
   
-    \begin{recipe}{}{Egg and vegetable curry}%
+    \begin{recipe}{2}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\
@@ -339,7 +339,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{}{Egg and vegetable curry}%
+    \begin{recipe}{2}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\
@@ -353,7 +353,7 @@
     \end{instructions}
     \end{recipe}%
   
-    \begin{recipe}{}{Egg and vegetable curry}%
+    \begin{recipe}{2}{Egg and vegetable curry}%
     
 		\begin{ingredients}
 		4  eggs  \\

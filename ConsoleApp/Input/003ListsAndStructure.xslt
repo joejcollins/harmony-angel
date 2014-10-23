@@ -24,7 +24,6 @@
         <Shopping Title="Vegetables">
           <xsl:call-template name="ShoppingList" >
             <xsl:with-param name="List" select="'Vegetable'"/>
-            <xsl:with-param name="Week" select="'One'"/>
           </xsl:call-template>
         </Shopping>
         <Shopping Title="Groceries">
@@ -50,22 +49,18 @@
         <Shopping Title="Extra Vegetables">
           <xsl:call-template name="ShoppingList" >
             <xsl:with-param name="List" select="'Vegetable'"/>
-            <xsl:with-param name="Week" select="'Two'"/>
           </xsl:call-template>
         </Shopping>
       </ShoppingLists>
       <xsl:apply-templates select="Recipe" />
     </xsl:element>
   </xsl:template>
+  
   <!--
       Shopping List
     -->
   <xsl:template name="ShoppingList">
     <xsl:param name="List" />
-    <xsl:param name="Week" />
-    <xsl:param name="Meals" select="0"/>
-    <xsl:choose>
-      <xsl:when test="$List != 'Vegetable'">
         <xsl:for-each select="Recipe/Stage/*[name() = $List]">
           <xsl:sort select="@Type" />
           <xsl:element name="Item">
@@ -78,40 +73,14 @@
             <xsl:attribute name="Unit">
               <xsl:value-of select="@Unit" />
             </xsl:attribute>
+            <xsl:attribute name="Meal">
+              <xsl:value-of select="../../@Title" />
+            </xsl:attribute>
+            <xsl:attribute name="MealCounter">
+              <xsl:value-of select="../../@MealCounter" />
+            </xsl:attribute>
           </xsl:element>
         </xsl:for-each>
-      </xsl:when>
-      <xsl:otherwise>
-        <!-- Vegetables -->
-        
-        <xsl:choose>
-          <!-- Second Week -->
-          <xsl:when test="$Week = 'Two'">
-            <xsl:for-each select="Recipe/Stage/*[name() = $List]">
-              <xsl:sort select="@Type" />
-              <xsl:element name="Item">
-                <xsl:attribute name="Type">
-                  <xsl:value-of select="@Type" />
-                </xsl:attribute>
-                <xsl:attribute name="Quantity">
-                  <xsl:value-of select="@Quantity" />
-                </xsl:attribute>
-                <xsl:attribute name="Unit">
-                  <xsl:value-of select="@Unit" />
-                </xsl:attribute>
-                <xsl:attribute name="MealCounter">
-                  <xsl:value-of select="../../@Meals" />
-                </xsl:attribute>
-                
-              </xsl:element>
-            </xsl:for-each>
-          </xsl:when>
-        <xsl:otherwise>
-          <!-- first Week -->
-        </xsl:otherwise>
-      </xsl:choose>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
   <!-- 
