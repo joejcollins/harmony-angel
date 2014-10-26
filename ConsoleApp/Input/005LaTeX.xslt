@@ -20,15 +20,25 @@
 	</xsl:template>
 
 	<!--
-		Format for the menu
+		Format for the menu        
 	-->
 	<xsl:template match="Menu">
 		\begin{menu}{<xsl:value-of select="@Title" />}
+
     <xsl:apply-templates />
     \clearpage
     \end{menu}
 	</xsl:template>
 
+  <!--
+    Recipe List
+  -->
+  <xsl:template match="RecipeList">
+    <xsl:for-each select="./Title">
+      <xsl:value-of select="." />\\
+    </xsl:for-each>
+  </xsl:template>
+  
   <!--
 		Format shopping list.
     Be aware that LaTeX is sensitive to white space, specifically there must be no

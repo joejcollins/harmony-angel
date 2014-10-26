@@ -132,42 +132,34 @@
         <Check Quantity="2" Type="oil" Unit="tbsp" />
         until soft.
       </Stage>
+      <Stage>
+        Stir in <Check Quantity="1" Type="chilli powder" Unit="tbsp" />
+        and
+        <Check Quantity="2" Type="mustard seed" Unit="tsp" />
+        and fry until mustard seeds start to pop.
+      </Stage>
+    <Stage>
+      Stir in
+      <Check Quantity="2" Unit="tbsp" Type="flour" />
+		  until it is all absorbed.
+    </Stage>
+    <Stage>
+      Stir in
+      <Grocery Quantity="150" Unit="g" Type="tomato puree"/>,
+      <Grocery Quantity="50" Unit="g" Type="creamed coconut" Process="crumbled"/>
+      and
+      <Check Quantity="400" Unit="ml" />
+      and warm through.
+    </Stage>
+    <Stage>
+      Stir in 
+      <Vegetable Quantity="400" Unit="g" Type="mange tout" Process="halved"/>
+      and the eggs
+		  and simmer for 10 minutes.
+    </Stage>
 		</Recipe>
 
 		<!--
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Egg and vegetable curry}%
-{%
-	\index{Curry!Egg and vegetable}
-	\st	In a \pan hard boil
-		\da{4}{}{eggs}{},
-		peel them and chop them in half.
-	\st	\rice.
-	\st	In a \wok fry
-		\ve{350}{g}{onions}{chopped}
-		in 
-		\ch{2}{tbsp}{oil}{}
-		until soft.
-	\st	Stir in
-		\ch{1}{tbsp}{curry powder}{}
-		and
-		\ch{2}{tsp}{mustard seed}{}
-		and fry until mustard seeds start to pop.
-	\st	Stir in
-		\ch{2}{tbsp}{flour}{} until it is all absorbed.
-	\st	Stir in
-		\gr{150}{g}{tomato puree}{},
-		\ch{50}{g}{creamed coconut}{crumbled}
-		and
-		\wa{400}{ml}{water}{}
-		and warm through.
-	\st	Stir in
-		\ve{400}{g}{mange tout}{halved}
-		and
-		the eggs
-		and simmer for 10 minutes.
-}%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \recipe{Lentil shepherds pie}%

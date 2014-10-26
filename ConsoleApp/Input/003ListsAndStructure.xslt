@@ -20,6 +20,13 @@
       <xsl:attribute name="Title">
         <xsl:value-of select="@Title" />
       </xsl:attribute>
+      <RecipeList>
+        <xsl:for-each select="Recipe">
+          <Title>
+            <xsl:value-of select="@Title" />
+          </Title>
+        </xsl:for-each>
+      </RecipeList>
       <ShoppingLists>
         <Shopping Title="Vegetables">
           <xsl:call-template name="ShoppingList" >
