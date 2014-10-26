@@ -134,6 +134,7 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="chopped" />
+      <xsd:enumeration value="crushed" />
       <xsd:enumeration value="crumbled" />
       <xsd:enumeration value="grated" />
       <xsd:enumeration value="halved" />
@@ -172,6 +173,8 @@
       <xsd:documentation>Correct units of measurement</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="cloves" />
+      <xsd:enumeration value="cube" />
       <xsd:enumeration value="ml" />
       <xsd:enumeration value="g" />
       <xsd:enumeration value="tbsp" />
@@ -205,6 +208,9 @@
       <xsd:enumeration value="black bean sauce" />
       <xsd:enumeration value="mustard seed" />
       <xsd:enumeration value="flour" />
+      <xsd:enumeration value="marjoram" />
+      <xsd:enumeration value="ground cumin" />
+      <xsd:enumeration value="ground coriander" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">
@@ -236,6 +242,7 @@
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="pasta shapes" />
+      <xsd:enumeration value="green lentils" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">
@@ -261,6 +268,7 @@
       <xsd:enumeration value="boiling potatoes" />
       <xsd:enumeration value="baking potatoes" />
       <xsd:enumeration value="mange tout" />
+      <xsd:enumeration value="garlic" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Water">
