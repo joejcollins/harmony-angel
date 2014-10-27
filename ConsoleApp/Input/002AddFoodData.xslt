@@ -13,6 +13,16 @@
       <xsl:apply-templates />
     </xsl:copy>
   </xsl:template>
+
+  <!--
+		Expand the utensils, do this second so they can get added to the expanded staples
+	-->
+  <xsl:template match="Utensil">
+    <xsl:if test="@Name='bowl'">mixing bowl</xsl:if>
+    <xsl:if test="@Name='casserole'">casserole dish</xsl:if>
+    <xsl:if test="@Name='pan'">sauce pan</xsl:if>
+    <xsl:if test="@Name='wok'">large wok</xsl:if>
+  </xsl:template>
   
   <!--
 		  Reset the counter
@@ -65,5 +75,4 @@
     </xsl:element>
   </xsl:template>
   
- 
 </xsl:stylesheet>

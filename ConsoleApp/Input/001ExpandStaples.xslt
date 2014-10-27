@@ -12,7 +12,7 @@
   <xsl:template match="*">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
-      <xsl:apply-templates />
+      <xsl:apply-templates select="staples" />
     </xsl:copy>
   </xsl:template>
   <!--
@@ -63,16 +63,10 @@
     <xsl:if test="@Name='tagliatelli'">
       In a 
     </xsl:if>
+    <xsl:if test="@Name='tortellini'">
+      In a
+    </xsl:if>
   </xsl:template>
-  <!--
-		Expand the utensils, do this second so they can get added to the expanded staples
-	-->
-	<xsl:template name="utensils" match="cml:Utensil">
-		<xsl:if test="@Name='bowl'">mixing bowl</xsl:if>
-		<xsl:if test="@Name='casserole'">casserole dish</xsl:if>
-		<xsl:if test="@Name='pan'">sauce pan</xsl:if>
-		<xsl:if test="@Name='wok'">large wok</xsl:if>
-	</xsl:template>
   <!--
 		Remove all the namespaces (to make it easier to read).  The namespace is really
     only there in the first place to get the editor to respond to the xsd.  After this

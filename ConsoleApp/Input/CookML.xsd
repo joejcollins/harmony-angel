@@ -156,6 +156,7 @@
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="potatoes" />
       <xsd:enumeration value="tagliatelli" />
+      <xsd:enumeration value="tortellini" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Temperature">

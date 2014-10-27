@@ -30,7 +30,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="bowl" /> mix
-        <Check Quantity="75" Type="self raising flour" Unit="g" />,
+        <Grocery Quantity="75" Unit="g" Type="self raising flour" />,
         <Grocery Quantity="75" Type="suet" Unit="g" />,
         <Check Quantity="0.5" Type="mixed herbs" Unit="tsp" />
         and
@@ -232,7 +232,7 @@
     </Recipe>
     <Recipe Title="Tortellini and parmesan cheese" Meals="1">
       <Stage>
-        <Staple Name="tortellini" Half="True"/>
+        <Staple Name="tortellini" />
       </Stage>
       <Stage>
         Sprinkle with

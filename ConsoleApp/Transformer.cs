@@ -17,7 +17,7 @@ namespace ConsoleApp
         /// <summary>
         /// 
         /// </summary>
-        string[] xsltFiles = { "001ExpandStaplesAndUtensils.xslt", 
+        string[] xsltFiles = { "001ExpandStaples.xslt", 
                                  "002AddFoodData.xslt", 
                                  "003ListsAndStructure.xslt", 
                                  "004MergeLists.xslt",

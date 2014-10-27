@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CookML.ico" />
-    <Content Include="Input\001ExpandStaplesAndUtensils.xslt" />
+    <Content Include="Input\001ExpandStaples.xslt" />
     <Content Include="Input\002AddFoodData.xslt" />
     <Content Include="Input\003ListsAndStructure.xslt" />
     <Content Include="Input\004MergeLists.xslt" />
