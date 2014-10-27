@@ -74,6 +74,7 @@
     <None Include="Input\CookML.xsx">
       <DependentUpon>CookML.xsd</DependentUpon>
     </None>
+    <None Include="Input\Ingredients.xlsx" />
     <None Include="Input\IngredientsDataSet.xsc">
       <DependentUpon>IngredientsDataSet.xsd</DependentUpon>
     </None>
@@ -100,10 +101,6 @@
     <Content Include="Input\004MergeLists.xslt" />
     <Content Include="Input\005LaTeX.xslt" />
     <Content Include="Input\FoodFile.xml" />
-    <Content Include="Input\Ingredients.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Input\XXXMergeLists.xslt" />
     <Content Include="Output\Cookbook.cls" />
   </ItemGroup>
   <ItemGroup />

@@ -136,6 +136,7 @@
       <xsd:enumeration value="chopped" />
       <xsd:enumeration value="crushed" />
       <xsd:enumeration value="crumbled" />
+      <xsd:enumeration value="drained" />
       <xsd:enumeration value="grated" />
       <xsd:enumeration value="halved" />
       <xsd:enumeration value="sliced" />
@@ -200,17 +201,16 @@
       <xsd:documentation>Check types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="oil" />
-      <xsd:enumeration value="chilli powder" />
-      <xsd:enumeration value="stock cube" />
-      <xsd:enumeration value="self raising flour" />
-      <xsd:enumeration value="mixed herbs" />
       <xsd:enumeration value="black bean sauce" />
-      <xsd:enumeration value="mustard seed" />
+      <xsd:enumeration value="chilli powder" />
       <xsd:enumeration value="flour" />
-      <xsd:enumeration value="marjoram" />
-      <xsd:enumeration value="ground cumin" />
       <xsd:enumeration value="ground coriander" />
+      <xsd:enumeration value="ground cumin" />
+      <xsd:enumeration value="marjoram" />
+      <xsd:enumeration value="mixed herbs" />
+      <xsd:enumeration value="mustard seed" />
+      <xsd:enumeration value="oil" />
+      <xsd:enumeration value="stock cube" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">
@@ -218,9 +218,9 @@
       <xsd:documentation>Dairy types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="milk" />
       <xsd:enumeration value="cheese" />
       <xsd:enumeration value="eggs" />
+      <xsd:enumeration value="milk" />
       <xsd:enumeration value="soured cream" />
     </xsd:restriction>
   </xsd:simpleType>
@@ -229,20 +229,24 @@
       <xsd:documentation>Grocery types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="tomato puree" />
-      <xsd:enumeration value="suet" />
-      <xsd:enumeration value="canned tomatoes" />
-      <xsd:enumeration value="lasagna" />
-      <xsd:enumeration value="peanuts" />
       <xsd:enumeration value="baked beans" />
-      <xsd:enumeration value="pitta bread" />
-      <xsd:enumeration value="noodles" />
-      <xsd:enumeration value="creamed coconut" />
-      <xsd:enumeration value="white rice" />
+      <xsd:enumeration value="canned chick peas" />
+      <xsd:enumeration value="canned tomatoes" />
       <xsd:enumeration value="cous cous" />
-      <xsd:enumeration value="spaghetti" />
-      <xsd:enumeration value="pasta shapes" />
+      <xsd:enumeration value="creamed coconut" />
       <xsd:enumeration value="green lentils" />
+      <xsd:enumeration value="lasagna" />
+      <xsd:enumeration value="noodles" />
+      <xsd:enumeration value="pasta shapes" />
+      <xsd:enumeration value="peanuts" />
+      <xsd:enumeration value="pitta bread" />
+      <xsd:enumeration value="raisins" />
+      <xsd:enumeration value="self raising flour" />
+      <xsd:enumeration value="spaghetti" />
+      <xsd:enumeration value="suet" />
+      <xsd:enumeration value="tomato puree" />
+      <xsd:enumeration value="white rice" />
+      <xsd:enumeration value="grated parmesan" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">
@@ -250,8 +254,8 @@
       <xsd:documentation>Meat types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="meat" />
       <xsd:enumeration value="chicken" />
+      <xsd:enumeration value="meat" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Vegetable">
@@ -259,16 +263,17 @@
       <xsd:documentation>Vegetable types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="carrots" />
-      <xsd:enumeration value="onions" />
-      <xsd:enumeration value="celery" />
-      <xsd:enumeration value="red chillis" />
-      <xsd:enumeration value="green chillis" />
-      <xsd:enumeration value="cabbage" />
-      <xsd:enumeration value="boiling potatoes" />
       <xsd:enumeration value="baking potatoes" />
-      <xsd:enumeration value="mange tout" />
+      <xsd:enumeration value="boiling potatoes" />
+      <xsd:enumeration value="cabbage" />
+      <xsd:enumeration value="carrots" />
+      <xsd:enumeration value="celery" />
       <xsd:enumeration value="garlic" />
+      <xsd:enumeration value="green chillis" />
+      <xsd:enumeration value="mange tout" />
+      <xsd:enumeration value="onions" />
+      <xsd:enumeration value="red chillis" />
+      <xsd:enumeration value="sweet potatoes" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Water">
@@ -276,8 +281,8 @@
       <xsd:documentation>Water types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="cold water" />
       <xsd:enumeration value="boiling water" />
+      <xsd:enumeration value="cold water" />
     </xsd:restriction>
   </xsd:simpleType>
 </xsd:schema>

@@ -216,40 +216,32 @@
       </Stage>
       <Stage>
         Stir in
+        <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
+        <Grocery Quantity="75" Unit="g" Type="raisins" />,
+        <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
+        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
+        and
+        <Vegetable Quantity="1" Type="red chillis" Process="chopped"/>
+        and warm through.
+      </Stage>
+      <Stage>
+        Stir in 
+        <Grocery Quantity="400" Unit="g" Type="white rice"/>
+        and simmer until done.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Tortellini and parmesan cheese" Meals="1">
+      <Stage>
+        <Staple Name="tortellini" Half="True"/>
+      </Stage>
+      <Stage>
+        Sprinkle with
+        <Grocery Quantity="20" Unit="g" Type="grated parmesan"/>.
       </Stage>
     </Recipe>
     <!--
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Chickpea risotto}%
-{%
-	\index{Risotto!Chickpea}
-	\st	In a \wok fry
-		\ve{400}{g}{onions}{chopped}
-		and
-		\ve{4}{cloves}{garlic}{crushed}
-		in
-		\ch{2}{tbsp}{oil}{}
-		until soft.
-	\st	Stir in
-		\ve{250}{g}{spinach}{hacked}
-		and cook until wilted.
-	\st	Stir in
-		\gr{400}{g}{canned chick peas}{drained},
-		\gr{75}{g}{raisins}{},
-		\ch{1}{}{stock cube}{crumbled},
-		\ve{1000}{g}{sweet potatoes}{sliced},
-		\gr{2*400}{g}{canned tomatoes}{chopped}
-		and
-		\ve{1}{}{red chilli}{chopped},
-		and warm through.
-	\st	Stir in
-		\gr{400}{g}{rice}{}
-		and
-		\wa{750}{ml}{water}{},
-		simmer until rice is done.
-}%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \quick{Tortellini and parmesan cheese}%

@@ -18,13 +18,15 @@ namespace ConsoleApp
 
 		/// <summary>
 		/// Default constructor for IngredientsDatabase.
+		/// HDR = Column names in header
+		/// IMEX = Avoid a crash
 		/// </summary>
 		public IngredientsData()
 		{
-  			mstrConnection = "Provider=Microsoft.Jet.OLEDB.4.0;";
+            mstrConnection = "Provider=Microsoft.ACE.OLEDB.12.0;";
 			mstrConnection += "Data Source=";
-			//mstrConnection += System.IO.Directory.GetCurrentDirectory().ToString().TrimEnd('b', 'i', 'n');
-			mstrConnection += "..\\..\\Input\\Ingredients.mdb;";
+			mstrConnection += "..\\..\\Input\\Ingredients.xlsx;";
+            mstrConnection += "Extended Properties = \"Excel 12.0 Xml;HDR=YES;IMEX=1\"";
 			m_Connection.ConnectionString = mstrConnection;
 		}
 
@@ -35,21 +37,9 @@ namespace ConsoleApp
 		/// <returns>List of ingredients</returns>
 		public DataSet Ingredients(string strIngredientType)
 		{
-			selectCmd = "SELECT IngredientName FROM tblIngredientTypes INNER JOIN tblIngredients ON tblIngredientTypes.ID = tblIngredients.IngredientType WHERE (((tblIngredientTypes.IngredientType)='" + strIngredientType + "'));";
+			selectCmd = "SELECT IngredientName FROM [tblIngredients$A1:H200] WHERE IngredientType='" + strIngredientType + "'";
 			m_Adaptor = new OleDbDataAdapter(selectCmd, m_Connection);
 			m_Adaptor.Fill(m_DataSet, strIngredientType);
-			return m_DataSet;	
-		}
-
-		/// <summary>
-		/// Return a list of ingredient types to restrict the available types using the schema.
-		/// </summary>
-		/// <returns>List of ingredient types</returns>
-		public DataSet IngredientTypes()
-		{
-			selectCmd = "SELECT * FROM tblIngredientTypes;";
-			m_Adaptor = new OleDbDataAdapter(selectCmd, m_Connection);
-			m_Adaptor.Fill(m_DataSet, "IngredientTypes");
 			return m_DataSet;	
 		}
 	}

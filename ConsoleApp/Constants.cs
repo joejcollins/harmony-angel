@@ -15,8 +15,4 @@ namespace ConsoleApp
         Vegetable = 5,
         Water = 6
     };
-
-    class Constants
-    {
-    }
 }
