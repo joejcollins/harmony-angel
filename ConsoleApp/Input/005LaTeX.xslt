@@ -24,7 +24,6 @@
 	-->
 	<xsl:template match="Menu">
 		\begin{menu}{<xsl:value-of select="@Title" />}
-
     <xsl:apply-templates />
     \clearpage
     \end{menu}
@@ -34,9 +33,11 @@
     Recipe List
   -->
   <xsl:template match="RecipeList">
+    \begin{recipelist}
     <xsl:for-each select="./Title">
       <xsl:value-of select="." />\\
     </xsl:for-each>
+    \end{recipelist}
   </xsl:template>
   
   <!--

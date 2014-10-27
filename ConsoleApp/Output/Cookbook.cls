@@ -62,16 +62,27 @@
 }
 
 %% 
+% Mini TOC for Menu
+%%
+\newenvironment{recipelist}%
+{
+  \begin{multicols}{2}\scriptsize
+}
+{
+  \end{multicols}
+}
+
+%% 
 % Shopping List Command
 %%
 \newenvironment{shoppinglist}[1]%
 {%
-  \begin{minipage}[t]{.48\textwidth}%
+  \begin{minipage}[t]{.5\textwidth}%
     \subsubsection*{#1}
    % \raggedright%
 }%
 {%
-  \end{minipage}\hfil%
+  \end{minipage}%
 }%
 
 %%

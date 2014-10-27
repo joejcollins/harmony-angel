@@ -56,7 +56,7 @@
       </Stage></Recipe><Recipe Meals="2" Title="Chicken with cabbage and peanuts"><Ingredients><Item Type="noodles" Quantity="400" Unit="g" Process="" /><Item Type="peanuts" Quantity="3" Unit="tbsp" Process="" /><Item Type="oil" Quantity="2" Unit="tbsp" Process="" /><Item Type="red chillis" Quantity="2" Unit="" Process="chopped" /><Item Type="chicken" Quantity="300" Unit="g" Process="sliced" /><Item Type="cabbage" Quantity="750" Unit="g" Process="sliced" /><Item Type="black bean sauce" Quantity="1" Unit="tbsp" Process="" /></Ingredients><Stage>
       In a sauce pan
       put
-      <Grocery Quantity="400" Unit="g" Calories="400noodlesg" Fat="1.5" Type="noodles" />,
+      <Grocery Quantity="400" Unit="g" Calories="400noodlesg" Fat="1.5" Type="noodles" />
       pour on
       <Water Quantity="800" Unit="ml" Calories="800boiling waterml" Fat="1.5" Type="boiling water" />
       cover and stand for 10 minutes, then drain.
@@ -98,7 +98,7 @@
       boil
       <Grocery Quantity="400" Unit="g" Calories="400white riceg" Fat="1.5" Type="white rice" />
       in
-      <Water Quantity="800" Unit="ml" Calories="800boiling waterml" Fat="1.5" Type="boiling water" />
+      <Water Quantity="800" Unit="ml" Calories="800cold waterml" Fat="1.5" Type="cold water" />
       then turn off, cover and stand for 30 minutes.
     </Stage><Stage>
         In a large wok fry
@@ -185,10 +185,10 @@
       </Stage></Recipe><Recipe Meals="1" Title="Tortellini and parmesan cheese"><Ingredients><Item Type="tortellini" Quantity="200" Unit="g" Process="" /><Item Type="grated parmesan" Quantity="20" Unit="g" Process="" /></Ingredients><Stage>
       In a
       sauce pan
-      boil
-      <Grocery Quantity="200" Unit="g" Calories="200tortellinig" Fat="1.5" Type="tortellini" />
-      in
+      put
       <Water Quantity="400" Unit="ml" Calories="400boiling waterml" Fat="1.5" Type="boiling water" />
+      and
+      <Grocery Quantity="200" Unit="g" Calories="200tortellinig" Fat="1.5" Type="tortellini" />
       boil for 5 minutes then drain.
     </Stage><Stage>
         Sprinkle with
