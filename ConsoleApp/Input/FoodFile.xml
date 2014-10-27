@@ -185,7 +185,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="250" Unit="g" Type="green lentils" />,
-        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
+        <Check Quantity="1" Type="stock cube" Process="crumbled" />,
         <Grocery Quantity="75" Unit="g" Type="tomato puree" />,
         <Water Quantity="650" Unit="ml" Type="boiling water" />,
         <Check Quantity="1" Unit="tsp" Type="marjoram" />,
@@ -204,7 +204,20 @@
         then bake <Temperature Level="medium"/> for 30 minutes.
       </Stage>
     </Recipe>
-
+    <Recipe Title="Chickpea risotto" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="oil"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+      </Stage>
+    </Recipe>
     <!--
 
 

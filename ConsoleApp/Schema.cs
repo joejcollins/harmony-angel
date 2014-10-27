@@ -31,13 +31,6 @@ namespace ConsoleApp
 			m_CookMLSchema.Load(m_strSchemaPath);
 			m_NSManager = new XmlNamespaceManager(m_CookMLSchema.NameTable);
 			m_NSManager.AddNamespace(strPrefix, m_strNameSpace);
-			//Initialize the ingredient types
-			hashIngredientTypes = new Hashtable();
-			IngredientsData Ingredients = new IngredientsData();
-			foreach (DataRow IngredientTypesRow in Ingredients.IngredientTypes().Tables["IngredientTypes"].Rows)
-			{
-				hashIngredientTypes.Add(IngredientTypesRow["ID"], IngredientTypesRow["IngredientType"]);
-			}
 		}
 
 		/// <summary>
@@ -47,11 +40,12 @@ namespace ConsoleApp
 		public void UpdateSchema()
 		{
 			Debug.WriteLine("Schema namespace: " + m_strNameSpace);
-			IDictionaryEnumerator IngredientTypesEnumerator = this.hashIngredientTypes.GetEnumerator();
-			while (IngredientTypesEnumerator.MoveNext())
+		    //IDictionaryEnumerator IngredientTypesEnumerator = IngredientTypes;
+
+            foreach (IngredientType ingredientType in Enum.GetValues(typeof(IngredientType)))
 			{
-				Debug.WriteLine("Ingredient type: " + IngredientTypesEnumerator.Value.ToString());
-				Ingredients(IngredientTypesEnumerator.Value.ToString());
+				Debug.WriteLine("Ingredient type: " + ingredientType);
+				Ingredients(ingredientType.ToString());
 			}
 			m_CookMLSchema.Save(m_strSchemaPath);
 		}
@@ -61,17 +55,17 @@ namespace ConsoleApp
 		/// </summary>
 		private void Ingredients(string strIngredientType)
 		{
-			XmlNode IngredientTypesNode = 
+			XmlNode ingredientTypesNode = 
 				m_CookMLSchema.SelectSingleNode("//xsd:simpleType[@name='" + strIngredientType + "']", 
 				m_NSManager);
 
 			//Clear out the node completely
-			IngredientTypesNode.RemoveAll();
+			ingredientTypesNode.RemoveAll();
 
 			//Recreate the attribute but with a blank name space because attributes are unqualified.
 			XmlNode name = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "name", "");
 			name.Value = strIngredientType;
-			IngredientTypesNode.Attributes.SetNamedItem(name);
+			ingredientTypesNode.Attributes.SetNamedItem(name);
 	
 			//Recreate the documentation node
 			XmlElement annotation = 
@@ -80,7 +74,7 @@ namespace ConsoleApp
 				m_CookMLSchema.CreateElement(strPrefix, "documentation", m_strNameSpace);
 			documentation.InnerText = strIngredientType + " types in the database";
 			annotation.AppendChild(documentation);
-			IngredientTypesNode.AppendChild(annotation);
+			ingredientTypesNode.AppendChild(annotation);
 
 			//Recreate the restriction list
 			XmlElement restriction = 
@@ -100,7 +94,7 @@ namespace ConsoleApp
 				enumeration.Attributes.SetNamedItem(valueAttribute);
 				restriction.AppendChild(enumeration);
 			}
-			IngredientTypesNode.AppendChild(restriction);
+			ingredientTypesNode.AppendChild(restriction);
 		}
 	}
 }
