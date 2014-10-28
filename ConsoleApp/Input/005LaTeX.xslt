@@ -35,9 +35,18 @@
   <xsl:template match="RecipeList">
     \begin{recipelist}
     <xsl:for-each select="./Title">
-      <xsl:value-of select="." />\\
+      <xsl:if test="(position() > 0 and position() &lt; 5)">
+        <xsl:value-of select="." />\\<xsl:if test="position() = 4">%</xsl:if>
+      </xsl:if>
     </xsl:for-each>
-    \end{recipelist}
+    \end{recipelist}%
+    \begin{recipelist}
+    <xsl:for-each select="./Title">
+      <xsl:if test="position() > 4">
+        <xsl:value-of select="." />\\<xsl:if test="position() = 8">%</xsl:if>
+      </xsl:if>
+    </xsl:for-each>
+    \end{recipelist}\par%
   </xsl:template>
   
   <!--

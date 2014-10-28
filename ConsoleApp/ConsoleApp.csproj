@@ -101,7 +101,7 @@
     <Content Include="Input\004MergeLists.xslt" />
     <Content Include="Input\005LaTeX.xslt" />
     <Content Include="Input\FoodFile.xml" />
-    <Content Include="Output\Cookbook.cls" />
+    <Content Include="Output\FoodFile.cls" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

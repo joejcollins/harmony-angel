@@ -2,8 +2,8 @@
 % Class Identification
 %%
 \NeedsTeXFormat{LaTeX2e}[1995/06/01]
-\ProvidesClass{cookbook}
-              [1996/08/01 v1.0 F'F'Cookbook]
+\ProvidesClass{foodfile}
+              [1997/08/01 v1.0 FoodFile]
 
 %% 
 % No options.  This class is based on the book.cls
@@ -65,12 +65,14 @@
 % Mini TOC for Menu
 %%
 \newenvironment{recipelist}%
-{
-  \begin{multicols}{2}\scriptsize
-}
-{
-  \end{multicols}
-}
+{%
+  \begin{scriptsize}%
+  \begin{minipage}[t]{.5\textwidth}%
+}%
+{%
+  \end{minipage}%
+  \end{scriptsize}%
+}%
 
 %% 
 % Shopping List Command
@@ -78,8 +80,7 @@
 \newenvironment{shoppinglist}[1]%
 {%
   \begin{minipage}[t]{.5\textwidth}%
-    \subsubsection*{#1}
-   % \raggedright%
+  \subsubsection*{#1}
 }%
 {%
   \end{minipage}%
