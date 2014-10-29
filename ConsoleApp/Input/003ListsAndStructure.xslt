@@ -22,9 +22,12 @@
       </xsl:attribute>
       <RecipeList>
         <xsl:for-each select="Recipe">
-          <Title>
+          <xsl:element name="Title">
+            <xsl:attribute name="Meals">
+              <xsl:value-of select="@Meals" />
+            </xsl:attribute>
             <xsl:value-of select="@Title" />
-          </Title>
+          </xsl:element>
         </xsl:for-each>
       </RecipeList>
       <ShoppingLists>
