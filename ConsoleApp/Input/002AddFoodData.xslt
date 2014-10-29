@@ -23,7 +23,7 @@
     <xsl:if test="@Name='pan'">sauce pan</xsl:if>
     <xsl:if test="@Name='wok'">large wok</xsl:if>
   </xsl:template>
-  
+
   <!--
 		  Reset the counter
 	  -->
@@ -36,7 +36,7 @@
       <xsl:apply-templates select="Recipe" />
     </xsl:element>
   </xsl:template>
-  
+
   <!-- 
 		  Replace the Meals value with and incrementing value, then apply 
       any other templates.
@@ -49,8 +49,19 @@
       <xsl:attribute name="Meals">
         <xsl:value-of select="@Meals" />
       </xsl:attribute>
-      <xsl:attribute name="MealCounter">
-        <xsl:value-of select="increment:Counter(@Meals)" />
+      <xsl:variable name="MealsCounter" select="increment:Counter(@Meals)" />
+      <xsl:attribute name="MealsCounter">
+        <xsl:value-of select="$MealsCounter" />
+      </xsl:attribute>
+      <xsl:attribute name="MealsLabel">
+        <xsl:choose>
+          <xsl:when test="@Meals = 2">
+            <xsl:value-of select="$MealsCounter - 1" />-<xsl:value-of select="$MealsCounter" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$MealsCounter" />
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:attribute>
       <xsl:apply-templates />
     </xsl:copy>
@@ -74,5 +85,5 @@
       </xsl:for-each>
     </xsl:element>
   </xsl:template>
-  
+
 </xsl:stylesheet>

@@ -36,14 +36,14 @@
     \begin{recipelist}
     <xsl:for-each select="./Title">
       <xsl:if test="(position() > 0 and position() &lt; 5)">
-        <xsl:value-of select="." />\\<xsl:if test="position() = 4">%</xsl:if>
+        {\scriptsize[<xsl:value-of select="@MealsLabel" />]} <xsl:value-of select="." />\\<xsl:if test="position() = 4">%</xsl:if>
       </xsl:if>
     </xsl:for-each>
     \end{recipelist}%
     \begin{recipelist}
     <xsl:for-each select="./Title">
       <xsl:if test="position() > 4">
-        <xsl:value-of select="." />\\<xsl:if test="position() = 8">%</xsl:if>
+        {\scriptsize[<xsl:value-of select="@MealsLabel" />]} <xsl:value-of select="." />\\<xsl:if test="position() = 8">%</xsl:if>
       </xsl:if>
     </xsl:for-each>
     \end{recipelist}\par%
@@ -61,7 +61,8 @@
       <xsl:for-each select="./Item">
         <xsl:value-of select="@Quantity" /><xsl:text> </xsl:text>
         <xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
-        <xsl:value-of select="@Type" /><xsl:text> </xsl:text>\\ 
+        <xsl:value-of select="@Type" /><xsl:text> </xsl:text>
+        {\scriptsize[<xsl:value-of select="@MealsLabel" />]}\\
       </xsl:for-each>%
       \end{shoppinglist}%
       <xsl:if test="(position() mod 2) != 1">\par\vfil </xsl:if>%

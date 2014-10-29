@@ -30,11 +30,11 @@
       </Stage>
       <Stage>
         In a <Utensil Name="bowl" /> mix
-        <Grocery Quantity="75" Unit="g" Type="self raising flour" />,
+        <Grocery Quantity="100" Unit="g" Type="self raising flour" />,
         <Grocery Quantity="75" Type="suet" Unit="g" />,
         <Check Quantity="0.5" Type="mixed herbs" Unit="tsp" />
         and
-        <Water Quantity="100" Type="cold water" Unit="ml" />
+        <Water Quantity="80" Type="cold water" Unit="ml" />
         and knead into 8 balls.
         Put balls in stew, cover and
         simmer for 15 minutes.

@@ -23,7 +23,7 @@
       <!-- First Week Vegetables -->
       <xsl:if test="@Title = 'Vegetables'">
         <xsl:for-each select="Item">
-          <xsl:if test="@MealCounter &lt; 8">
+          <xsl:if test="@MealsCounter &lt; 8">
             <xsl:apply-templates select="."  />
           </xsl:if>
         </xsl:for-each>
@@ -31,7 +31,7 @@
       <!-- Second Week Vegetables -->
       <xsl:if test="@Title = 'Extra Vegetables'">
         <xsl:for-each select="Item">
-          <xsl:if test="@MealCounter &gt; 7">
+          <xsl:if test="@MealsCounter &gt; 7">
             <xsl:apply-templates select="."  />
           </xsl:if>
         </xsl:for-each>
@@ -58,6 +58,9 @@
       </xsl:attribute>
       <xsl:attribute name="Process">
         <xsl:value-of select="@Process" />
+      </xsl:attribute>
+      <xsl:attribute name="MealsLabel">
+        <xsl:value-of select="@MealsLabel" />
       </xsl:attribute>
     </xsl:element>
   </xsl:template>
