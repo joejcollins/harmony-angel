@@ -56,6 +56,9 @@
       <xsl:attribute name="Unit">
         <xsl:value-of select="@Unit" />
       </xsl:attribute>
+      <xsl:attribute name="Process">
+        <xsl:value-of select="@Process" />
+      </xsl:attribute>
     </xsl:element>
   </xsl:template>
 

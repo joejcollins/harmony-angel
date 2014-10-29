@@ -284,6 +284,7 @@
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="boiling water" />
       <xsd:enumeration value="cold water" />
+      <xsd:enumeration value="water" />
     </xsd:restriction>
   </xsd:simpleType>
 </xsd:schema>

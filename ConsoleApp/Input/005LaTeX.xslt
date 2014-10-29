@@ -78,8 +78,8 @@
 	-->
 	<xsl:template match="Recipe">
     \begin{recipe}{<xsl:value-of select="@Meals" />}{<xsl:value-of select="@Title" />}%
-    <xsl:apply-templates select="Index" />
     <xsl:apply-templates select="Ingredients" />
+    <xsl:apply-templates select="Index" />
     \begin{instructions}
     <xsl:apply-templates select="Stage" />
     \end{instructions}
@@ -105,7 +105,7 @@
 		<xsl:value-of select="@Quantity" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Type" /><xsl:text> </xsl:text>
-		<xsl:if test="string(@Process)">(<xsl:value-of select="@Process" />)</xsl:if> \\
+		<xsl:if test="@Process != ''">(<xsl:value-of select="@Process" />)</xsl:if> \\
 	</xsl:template>
   
   <!--
@@ -113,7 +113,7 @@
 	-->
 	<xsl:template match="Stage">\item <xsl:apply-templates /></xsl:template>
 	<xsl:template match="Vegetable|Grocery|Meat|Dairy|Check|Water">
-		<xsl:value-of select="@Quantity" /><xsl:text> </xsl:text>
+		<xsl:value-of select="@Quantity" /><xsl:text>~</xsl:text>
 		<xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Process" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Type" />

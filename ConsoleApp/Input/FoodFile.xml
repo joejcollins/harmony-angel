@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd">
-  <Menu Title="The Very First Menu">
-    <Recipe Meals="2" Title="Meat stew and dumplings">
+  <Menu Title="First Menu">
+    <Recipe Title="Meat stew and dumplings" Meals="2" >
       <Index>
         Stew<Sub>Meat and dumplings</Sub>
       </Index>
@@ -40,7 +40,7 @@
         simmer for 15 minutes.
       </Stage>
     </Recipe>
-    <Recipe Meals="2" Title="Onion and tomato lasagna">
+    <Recipe Title="Onion and tomato lasagna"  Meals="2">
       <Index>
         Lasagna<Sub>Onion and tomato</Sub>
       </Index>
@@ -73,7 +73,7 @@
         Bake <Temperature Level="medium" /> 50 minutes.
       </Stage>
     </Recipe>
-    <Recipe Meals="2" Title="Chicken with cabbage and peanuts">
+    <Recipe Title="Chicken with cabbage and peanuts" Meals="2">
       <Stage>
         <Staple Name="noodles" />
       </Stage>
@@ -104,7 +104,7 @@
         Sprinkle with the peanuts.
       </Stage>
     </Recipe>
-    <Recipe Meals="1" Title="Beans and fried eggs in pitta">
+    <Recipe Title="Beans and fried eggs in pitta" Meals="1">
       <Stage>
         In a <Utensil Name="pan" /> warm
         <Grocery Quantity="400" Type="baked beans" Unit="g" />.
@@ -120,7 +120,7 @@
         <Grocery Quantity="4" Type="pitta bread" />
       </Stage>
     </Recipe>
-    <Recipe Meals="2" Title="Egg and vegetable curry">
+    <Recipe Title="Egg and vegetable curry" Meals="2">
       <Index>Curry</Index>
       <Stage>
         In <Utensil Name="pan" /> boil
@@ -152,7 +152,7 @@
         <Grocery Quantity="150" Unit="g" Type="tomato puree"/>,
         <Grocery Quantity="50" Unit="g" Type="creamed coconut" Process="crumbled"/>
         and
-        <Check Quantity="400" Unit="ml" />
+        <Water Quantity="400" Unit="ml" Type="water" />
         and warm through.
       </Stage>
       <Stage>
@@ -193,7 +193,7 @@
         and
         <Check Quantity="2" Unit="tsp" Type="ground coriander" />
         bring to boil,
-        then simmer for 30 minutes."
+        then simmer for 30 minutes.
       </Stage>
       <Stage>
         Take off heat and stir in
@@ -239,19 +239,9 @@
         <Grocery Quantity="20" Unit="g" Type="grated parmesan"/>.
       </Stage>
     </Recipe>
-    <!--
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Tortellini and parmesan cheese}%
-{%
-	\st	\halfpasta{tortellini}
-	\st	Sprinkle with
-		\ch{20}{g}{grated parmesan}{}.
-}%
-\end{menu}
--->
-    
   </Menu>
-  <Menu Title="B">
+  
+  <Menu Title="Approved">
     <Recipe Meals="2" Title="Egg and vegetable curry">
       <Stage>
         In <Utensil Name="pan" /> boil
