@@ -39,7 +39,7 @@
   \markboth{\contentsname}{}%
   \par\nobreak%
   \markboth{\contentsname}{\contentsname}%
-  \setcounter{tocdepth}{1}%
+  \setcounter{tocdepth}{2}%
   \@starttoc{toc}%
   \setcounter{tocdepth}{2}%
 }
@@ -111,6 +111,7 @@
 \newcounter{secondday}% a holder for the second day of a pair
 \newenvironment{recipe}[2]%
 {
+  \addcontentsline{toc}{subsection}{#2}%
   \addtocounter{recipe}{1}
   \ifnum#1=2
     \addtocounter{day}{1}
@@ -120,7 +121,7 @@
     \subsection*{\raisebox{0.5ex}{\smaller Meals \thefirstday\ and \thesecondday} #2}%
   \else
     \addtocounter{day}{1}
-    \section*{\raisebox{0.5ex}{\smaller Meal \theday} #2}%
+    \subsection*{\raisebox{0.5ex}{\smaller Meal \theday} #2}%
   \fi
 }
 {
