@@ -275,6 +275,7 @@
       <xsd:enumeration value="onions" />
       <xsd:enumeration value="red chillis" />
       <xsd:enumeration value="sweet potatoes" />
+      <xsd:enumeration value="tomatoes" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Water">

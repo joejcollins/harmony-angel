@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd">
+<Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd"> 
   <Menu Title="Test Menu">
     <Recipe Title="Meat stew and dumplings" Meals="2" >
       <Index>
@@ -118,6 +118,9 @@
       <Stage>
         Grill
         <Grocery Quantity="4" Type="pitta bread" />
+      </Stage>
+      <Stage>
+        Serve with <Vegetable Quantity="100" Unit="g" Type="tomatoes" Process="sliced"/>.
       </Stage>
     </Recipe>
     <Recipe Title="Egg and vegetable curry" Meals="2">
