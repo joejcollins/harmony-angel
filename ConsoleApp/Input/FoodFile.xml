@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd">
-  <Menu Title="First Menu">
+  <Menu Title="Test Menu">
     <Recipe Title="Meat stew and dumplings" Meals="2" >
       <Index>
         Stew<Sub>Meat and dumplings</Sub>

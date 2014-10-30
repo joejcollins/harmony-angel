@@ -119,5 +119,16 @@
 		<xsl:value-of select="@Process" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Type" />
 	</xsl:template>
+  <xsl:template match="Temperature">
+    <xsl:if test="@Level='low'">
+      (160 $^{\circ}$C, Gas 3, 325 $^{\circ}$F)
+    </xsl:if>
+    <xsl:if test="@Level='medium'">
+      (200 $^{\circ}$C, Gas 5, 380 $^{\circ}$F)
+    </xsl:if>
+    <xsl:if test="@Level='high'">
+      (240 $^{\circ}$C, Gas 9, 475 $^{\circ}$F)
+    </xsl:if>
+  </xsl:template>
 
 </xsl:stylesheet>
