@@ -79,7 +79,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" />	fry
-        <Grocery Quantity="3" Type="peanuts" Unit="tbsp" />
+        <Grocery Quantity="70" Type="peanuts" Unit="g" />
         in
         <Check Quantity="2" Type="oil" Unit="tbsp" />
         then remove.
@@ -120,7 +120,7 @@
         <Grocery Quantity="4" Type="pitta bread" />
       </Stage>
       <Stage>
-        Serve with <Vegetable Quantity="100" Unit="g" Type="tomatoes" Process="sliced"/>.
+        Serve with <Vegetable Quantity="200" Unit="g" Type="tomatoes" Process="sliced"/>.
       </Stage>
     </Recipe>
     <Recipe Title="Egg and vegetable curry" Meals="2">
