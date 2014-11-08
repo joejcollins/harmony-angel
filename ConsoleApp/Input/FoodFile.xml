@@ -246,7 +246,6 @@
 
   <Menu Title="Approved">
     <Recipe Title="Aubergine and peppers" Meals="2">
-
       <Stage>
         <Staple Name="potatoes" />
       </Stage>
@@ -297,7 +296,6 @@
         Put in <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 1 hour.
       </Stage>
     </Recipe>
-
     <Recipe Title="Lentils and spicy sausage" Meals="2">
       <Stage>
         <Staple Name="rice" />
@@ -323,8 +321,7 @@
         and simmer for 25 minutes.
       </Stage>
     </Recipe>
-
-    <Recipe Title="Pizza and Salad" Meals="1">
+    <Recipe Title="Pizza and Swedish salad" Meals="1">
       <Index>
         Pizza
       </Index>
@@ -351,7 +348,7 @@
         <Check Quantity="1" Type="pepper" Unit="pinch"/>.
       </Stage>
     </Recipe>
-    <Recipe Title="Mushroom stew" Meals="2">
+    <Recipe Title="Mushroom Stew" Meals="2">
       <Index>
         Stew<Sub>Mushroom</Sub>
       </Index>
@@ -463,6 +460,5 @@
         and warm through.
       </Stage>
     </Recipe>
-
   </Menu>
 </Book>

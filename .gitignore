@@ -192,8 +192,10 @@ FakesAssemblies/
 *.pdf
 *.synctex.gz
 *.idx
+*.idxs
 *.ilg
 *.ind
+*.out
 *.xslt.xml
 Content.tex
 

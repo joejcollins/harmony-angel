@@ -55,11 +55,32 @@
   \addcontentsline{toc}{section}{Menu \thesection\ }%
   \markboth{Menu \thesection}{Menu \thesection}%
   \section*{Menu \thesection\hfill #1}%
+  \addtocontents{toc}{\protect\begin{TOCRecipeList}}%
 }
 {
+  \addtocontents{toc}{\protect\end{TOCRecipeList}}%
   \setcounter{recipe}{0} % After the menu is finished set the recipe counter to zero
   \setcounter{day}{0} % After the menu is finished set the day counter to zero
 }
+
+\newenvironment{TOCRecipeList}%
+{%
+        \begin{list}%
+        {%
+                % No Default label
+        }%
+        {%
+                \setlength{\rightmargin}{1.5cm}%
+                \setlength{\leftmargin}{1.5cm}%
+                \setlength{\parsep}{-0.25em}%
+                \smaller%
+                \item%
+        }%
+}%
+{%
+        \item%
+        \end{list}%
+}%
 
 %% 
 % Mini TOC for Menu
@@ -111,7 +132,7 @@
 \newcounter{secondday}% a holder for the second day of a pair
 \newenvironment{recipe}[2]%
 {
-  \addcontentsline{toc}{subsection}{#2}%
+  \addtocontents{toc}{#2,}%
   \addtocounter{recipe}{1}
   \ifnum#1=2
     \addtocounter{day}{1}
