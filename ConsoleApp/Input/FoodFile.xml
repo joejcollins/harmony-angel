@@ -272,9 +272,8 @@
         and bring to the boil.
       </Stage>
       <Stage>
-        Put in a <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 40
+        Put in a <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 40 minutes.
       </Stage>
-      minutes.
     </Recipe>
     <Recipe Title="Potatoes Russian style" Meals="2">
       <Index>
@@ -316,7 +315,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="250" Unit="g" Type="red lentils" />,
-        \gr{2*400}{g}{canned tomatoes}{},
+        <Grocery Quantity="2*400" Unit="g" Type="canned tomatoes" />,
         <Meat Quantity="250" Unit="g" Type="chorizo sausage" Process="sliced"/>,
         <Check Quantity="1" Unit="tsp" Type="chilli powder" />
         and
@@ -325,25 +324,33 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Baked bean pizza" Meals="1">
+    <Recipe Title="Pizza and Salad" Meals="1">
       <Index>
-        Pizza<Sub>Baked bean</Sub>
+        Pizza
       </Index>
       <Stage>
-        Spread
-        <Grocery Quantity="400" Unit="g" Type="baked beans" />
-        on
-        \gr{2*9}{inch}{pizza bases}{}
-        cover with
-        <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
-        and spinkle on
-        <Check Quantity="1" Unit="tsp" Type="mixed herbs" />.
+        Bake <Grocery Quantity="2*9" Unit="inch" Type="pizza" />
+        <Temperature Level="high" /> 15 minutes.
       </Stage>
       <Stage>
-        Bake <Temperature Level="high" /> 20 minutes.
+        In a <Utensil Name="bowl"/> mix
+        <Vegetable Quantity="250" Type="cabbage" Unit="g" Process="sliced" />,
+        <Vegetable Quantity="50" Type="carrots" Unit="g" Process="sliced" />
+        and
+        <Vegetable Quantity="50" Type="onions" Unit="g" Process="sliced"/>.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Type="sugar" Unit="tbsp" />,
+        <Check Quantity="2" Type="wine vinegar" Unit="tbsp" />,
+        <Check Quantity="2" Type="oil" Unit="tbsp" />,
+        <Check Quantity="1" Type="basil" Unit="pinch"/>,
+        <Check Quantity="1" Type="oregano" Unit="pinch"/>,
+        <Check Quantity="1" Type="salt" Unit="pinch"/>
+        and
+        <Check Quantity="1" Type="pepper" Unit="pinch"/>.
       </Stage>
     </Recipe>
-
     <Recipe Title="Mushroom stew" Meals="2">
       <Index>
         Stew<Sub>Mushroom</Sub>
@@ -372,13 +379,14 @@
         <Water Quantity="450" Type="cold water" Unit="ml" />
         and simmer for 25 minutes.
       </Stage>
-      <Stage>	\pasta{tagliatelli}.</Stage>
+      <Stage>
+        <Staple Name="tagliatelli"/>
+      </Stage>
     </Recipe>
     <Recipe Title="Beans Caribbean style" Meals="2">
       <Index>
         Style<Sub>Carribbean beans</Sub>
       </Index>
-
       <Stage>
         In a <Utensil Name="wok" /> heat up
         <Grocery Quantity="400" Unit="g" Type="canned kidney beans" />
@@ -411,7 +419,9 @@
       <Index>
         Style<Sub>Indian tomatoes</Sub>
       </Index>
-      <Stage>	\rice.</Stage>
+      <Stage>
+        <Staple Name="rice"/>
+      </Stage>
       <Stage>
         In a <Utensil Name="wok" /> heat
         <Check Quantity="4" Unit="tbsp" Type="oil" />,
@@ -436,9 +446,10 @@
         simmer for 10 minutes.
       </Stage>
     </Recipe>
-
     <Recipe Title="Bacon and mushroom pasta" Meals="1">
-      <Stage>	\halfpasta{tagliatelli}.</Stage>
+      <Stage>
+        <Staple Name="tagliatelli"/>
+      </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry <Meat Quantity="150" Unit="g" Type="bacon" Process="chopped"/>
         and

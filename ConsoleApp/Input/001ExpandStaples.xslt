@@ -19,7 +19,7 @@
 		Expand the staples, first because they use the utensils
 	-->
   <xsl:template name="staples" match="cml:Staple">
-    <xsl:if test="@Name='cous cous'">
+    <xsl:if test="@Name='couscous'">
       In a
       <Utensil Name="pan" /> pour <Water Quantity="800" Unit="ml" Type="boiling water" />
       on <Grocery Quantity="400" Unit="g" Type="cous cous" />, cover and
@@ -91,7 +91,28 @@
       medium for 40 minutes.
     </xsl:if>
     <xsl:if test="@Name='tagliatelli'">
+      <xsl:variable name="Meals" select="../../@Meals" />
       In a
+      <Utensil Name="pan" />
+      put
+      <xsl:element name="Water">
+        <xsl:variable name="Quantity" select="800" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">ml</xsl:attribute>
+        <xsl:attribute name="Type">boiling water</xsl:attribute>
+      </xsl:element>
+      add
+      <xsl:element name="Grocery">
+        <xsl:variable name="Quantity" select="400" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">g</xsl:attribute>
+        <xsl:attribute name="Type">tagliatelli</xsl:attribute>
+      </xsl:element>
+      boil for 12 minutes then drain.
     </xsl:if>
     <xsl:if test="@Name='tortellini'">
       <xsl:variable name="Meals" select="../../@Meals" />
