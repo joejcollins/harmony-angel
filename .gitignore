@@ -195,6 +195,7 @@ FakesAssemblies/
 *.ilg
 *.ind
 *.xslt.xml
+Content.tex
 
 # Eclipse files
 .metadata/
