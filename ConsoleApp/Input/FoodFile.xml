@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd"> 
+<Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd">
   <Menu Title="Test Menu">
     <Recipe Title="Meat stew and dumplings" Meals="2" >
       <Index>
@@ -85,7 +85,7 @@
         then remove.
       </Stage>
       <Stage>
-        Fry <Vegetable Process="chopped" Quantity="2" Type="red chillis" />
+        Fry <Vegetable Process="chopped" Quantity="2" Type="red chilli" />
         and
         <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
         in the oil until meat is done.
@@ -202,7 +202,7 @@
         Take off heat and stir in
         <Check Quantity="3" Unit="tsp" Type="miso" />
         Put in a <Utensil Name="casserole"/>
-        and sprinkle with 
+        and sprinkle with
         <Grocery Quantity="50" Unit="g" Type="sunflower seeds"/>
         then bake <Temperature Level="medium"/> for 30 minutes.
       </Stage>
@@ -224,11 +224,11 @@
         <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
         <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
         and
-        <Vegetable Quantity="1" Type="red chillis" Process="chopped"/>
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
         and warm through.
       </Stage>
       <Stage>
-        Stir in 
+        Stir in
         <Grocery Quantity="400" Unit="g" Type="white rice"/>
         and simmer until done.
       </Stage>
@@ -243,29 +243,215 @@
       </Stage>
     </Recipe>
   </Menu>
-  
+
   <Menu Title="Approved">
-    <Recipe Meals="2" Title="Egg and vegetable curry">
-      <Stage>
-        In <Utensil Name="pan" /> boil
-        <Dairy Quantity="4" Type="eggs" />
+    <Recipe Title="Aubergine and peppers" Meals="2">
 
+      <Stage>
+        <Staple Name="potatoes" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Type="aubergine" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>,
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
+        <Water Quantity="100" Type="cold water" Unit="ml" />
+        and
+        <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
+        and bring to the boil.
+      </Stage>
+      <Stage>
+        Put in a <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 40
+      </Stage>
+      minutes.
+    </Recipe>
+    <Recipe Title="Potatoes Russian style" Meals="2">
+      <Index>
+        Style<Sub>Russian potatoes</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="3000" Unit="g" Type="boiling potatoes" Process="cubed"/>
+        until not quite done
+        then drain.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="1" Unit="large carton" Type="cottage cheese" />,
+        <Dairy Quantity="300" Unit="ml" Type="sour cream" />,
+        <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>.
+      </Stage>
+      <Stage>
+        Put in <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 1 hour.
       </Stage>
     </Recipe>
-    <Recipe Meals="2" Title="Egg and vegetable curry">
-      <Stage>
-        In <Utensil Name="pan" /> boil
-        <Dairy Quantity="4" Type="eggs" />
 
-      </Stage>
-    </Recipe>
-    <Recipe Meals="2" Title="Egg and vegetable curry">
+    <Recipe Title="Lentils and spicy sausage" Meals="2">
       <Stage>
-        In <Utensil Name="pan" /> boil
-        <Dairy Quantity="4" Type="eggs" />
+        <Staple Name="rice" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Meat Quantity="100" Unit="g" Type="bacon" Process="chopped"/>
+        in
+        <Check Quantity="3" Unit="tbsp" Type="oil" />
+        until bacon done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="250" Unit="g" Type="red lentils" />,
+        \gr{2*400}{g}{canned tomatoes}{},
+        <Meat Quantity="250" Unit="g" Type="chorizo sausage" Process="sliced"/>,
+        <Check Quantity="1" Unit="tsp" Type="chilli powder" />
+        and
+        <Water Quantity="400" Type="cold water" Unit="ml" />
+        and simmer for 25 minutes.
       </Stage>
     </Recipe>
-    
-    
+
+    <Recipe Title="Baked bean pizza" Meals="1">
+      <Index>
+        Pizza<Sub>Baked bean</Sub>
+      </Index>
+      <Stage>
+        Spread
+        <Grocery Quantity="400" Unit="g" Type="baked beans" />
+        on
+        \gr{2*9}{inch}{pizza bases}{}
+        cover with
+        <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
+        and spinkle on
+        <Check Quantity="1" Unit="tsp" Type="mixed herbs" />.
+      </Stage>
+      <Stage>
+        Bake <Temperature Level="high" /> 20 minutes.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Mushroom stew" Meals="2">
+      <Index>
+        Stew<Sub>Mushroom</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="375" Unit="g" Type="onions" Process="chopped"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="600" Unit="g" Type="mushrooms" />
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        and cook until mushrooms start to wilt.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="150" Unit="g" Type="pearl barley" />,
+        <Check Quantity="4" Unit="tbsp" Type="soy sauce" />,
+        <Check Quantity="5" Unit="tbsp" Type="sherry" />,
+        <Check Quantity="1" Type="stock cube" Process="crumbled"/>
+        and
+        <Water Quantity="450" Type="cold water" Unit="ml" />
+        and simmer for 25 minutes.
+      </Stage>
+      <Stage>	\pasta{tagliatelli}.</Stage>
+    </Recipe>
+    <Recipe Title="Beans Caribbean style" Meals="2">
+      <Index>
+        Style<Sub>Carribbean beans</Sub>
+      </Index>
+
+      <Stage>
+        In a <Utensil Name="wok" /> heat up
+        <Grocery Quantity="400" Unit="g" Type="canned kidney beans" />
+        and
+        <Grocery Quantity="400" Unit="g" Type="canned chick peas" />
+        in their liquid.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>
+        and
+        <Vegetable Quantity="3" Unit="cloves" Type="garlic" Process="crushed"/>,
+        cover and simmer for 50 minutes.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />
+        and
+        <Check Quantity="2" Unit="tbsp" Type="oil" />,
+        cover and simmer for 30 minutes.
+        (Keep the beans covered with liquid,
+        by adding more water if necessary.)
+      </Stage>
+      <Stage>
+        <Staple Name="couscous" />
+      </Stage>
+    </Recipe>
+    <Recipe Title="Tomatoes Indian style" Meals="2">
+      <Index>
+        Style<Sub>Indian tomatoes</Sub>
+      </Index>
+      <Stage>	\rice.</Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> heat
+        <Check Quantity="4" Unit="tbsp" Type="oil" />,
+        <Check Quantity="0.5" Unit="tsp" Type="asafoetida" />,
+        and
+        <Check Quantity="2" Unit="tsp" Type="cumin seeds" />
+        until
+        the cumin sizzles.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
+        and
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
+        and
+        fry until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1000" Unit="g" Type="tomatoes" Process="chopped"/>
+        and
+        simmer for 10 minutes.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Bacon and mushroom pasta" Meals="1">
+      <Stage>	\halfpasta{tagliatelli}.</Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry <Meat Quantity="150" Unit="g" Type="bacon" Process="chopped"/>
+        and
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>
+        in
+        <Check Quantity="1" Unit="tbsp" Type="oil" /> for 5 minutes.
+      </Stage>
+      <Stage>
+        Stir in the pasta (cooked and drained)
+        and <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
+        and warm through.
+      </Stage>
+    </Recipe>
+
   </Menu>
 </Book>

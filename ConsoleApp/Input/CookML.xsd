@@ -136,6 +136,7 @@
       <xsd:enumeration value="chopped" />
       <xsd:enumeration value="crushed" />
       <xsd:enumeration value="crumbled" />
+      <xsd:enumeration value="cubed" />
       <xsd:enumeration value="drained" />
       <xsd:enumeration value="grated" />
       <xsd:enumeration value="halved" />
@@ -212,6 +213,11 @@
       <xsd:enumeration value="mustard seed" />
       <xsd:enumeration value="oil" />
       <xsd:enumeration value="stock cube" />
+      <xsd:enumeration value="soy sauce" />
+      <xsd:enumeration value="sherry" />
+      <xsd:enumeration value="cumin seeds" />
+      <xsd:enumeration value="miso" />
+      <xsd:enumeration value="asafoetida" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">
@@ -223,6 +229,8 @@
       <xsd:enumeration value="eggs" />
       <xsd:enumeration value="milk" />
       <xsd:enumeration value="soured cream" />
+      <xsd:enumeration value="cottage cheese" />
+      <xsd:enumeration value="sour cream" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Grocery">
@@ -248,6 +256,10 @@
       <xsd:enumeration value="tomato puree" />
       <xsd:enumeration value="white rice" />
       <xsd:enumeration value="grated parmesan" />
+      <xsd:enumeration value="sunflower seeds" />
+      <xsd:enumeration value="red lentils" />
+      <xsd:enumeration value="pearl barley" />
+      <xsd:enumeration value="canned kidney beans" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">
@@ -257,6 +269,8 @@
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="chicken" />
       <xsd:enumeration value="meat" />
+      <xsd:enumeration value="bacon" />
+      <xsd:enumeration value="chorizo sausage" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Vegetable">
@@ -270,12 +284,17 @@
       <xsd:enumeration value="carrots" />
       <xsd:enumeration value="celery" />
       <xsd:enumeration value="garlic" />
-      <xsd:enumeration value="green chillis" />
+      <xsd:enumeration value="green chilli" />
       <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="onions" />
-      <xsd:enumeration value="red chillis" />
+      <xsd:enumeration value="red chilli" />
       <xsd:enumeration value="sweet potatoes" />
       <xsd:enumeration value="tomatoes" />
+      <xsd:enumeration value="red pepper" />
+      <xsd:enumeration value="green pepper" />
+      <xsd:enumeration value="aubergine" />
+      <xsd:enumeration value="courgette" />
+      <xsd:enumeration value="mushrooms" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Water">
