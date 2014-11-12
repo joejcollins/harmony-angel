@@ -153,7 +153,8 @@
       <xsd:enumeration value="couscous" />
       <xsd:enumeration value="noodles" />
       <xsd:enumeration value="pasta shapes" />
-      <xsd:enumeration value="rice" />
+      <xsd:enumeration value="rice brown" />
+      <xsd:enumeration value="rice white" />
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="potatoes" />
       <xsd:enumeration value="tagliatelli" />
@@ -207,9 +208,11 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="asafoetida" />
+      <xsd:enumeration value="basil" />
       <xsd:enumeration value="black bean sauce" />
       <xsd:enumeration value="chilli powder" />
       <xsd:enumeration value="cumin seeds" />
+      <xsd:enumeration value="dried thyme" />
       <xsd:enumeration value="flour" />
       <xsd:enumeration value="ground coriander" />
       <xsd:enumeration value="ground cumin" />
@@ -218,15 +221,15 @@
       <xsd:enumeration value="mixed herbs" />
       <xsd:enumeration value="mustard seed" />
       <xsd:enumeration value="oil" />
+      <xsd:enumeration value="oregano" />
+      <xsd:enumeration value="pepper" />
+      <xsd:enumeration value="salt" />
       <xsd:enumeration value="sherry" />
       <xsd:enumeration value="soy sauce" />
       <xsd:enumeration value="stock cube" />
-      <xsd:enumeration value="wine vinegar" />
-      <xsd:enumeration value="salt" />
-      <xsd:enumeration value="pepper" />
-      <xsd:enumeration value="basil" />
-      <xsd:enumeration value="oregano" />
       <xsd:enumeration value="sugar" />
+      <xsd:enumeration value="wine vinegar" />
+      <xsd:enumeration value="turmeric" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">
@@ -240,6 +243,7 @@
       <xsd:enumeration value="milk" />
       <xsd:enumeration value="sour cream" />
       <xsd:enumeration value="soured cream" />
+      <xsd:enumeration value="plain yoghurt" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Grocery">
@@ -249,6 +253,7 @@
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="baked beans" />
       <xsd:enumeration value="canned chick peas" />
+      <xsd:enumeration value="canned coconut milk" />
       <xsd:enumeration value="canned kidney beans" />
       <xsd:enumeration value="canned tomatoes" />
       <xsd:enumeration value="cous cous" />
@@ -261,6 +266,7 @@
       <xsd:enumeration value="peanuts" />
       <xsd:enumeration value="pearl barley" />
       <xsd:enumeration value="pitta bread" />
+      <xsd:enumeration value="pizza" />
       <xsd:enumeration value="raisins" />
       <xsd:enumeration value="red lentils" />
       <xsd:enumeration value="self raising flour" />
@@ -269,7 +275,7 @@
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="tomato puree" />
       <xsd:enumeration value="white rice" />
-      <xsd:enumeration value="pizza" />
+      <xsd:enumeration value="naan bread" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">
@@ -305,6 +311,7 @@
       <xsd:enumeration value="red pepper" />
       <xsd:enumeration value="sweet potatoes" />
       <xsd:enumeration value="tomatoes" />
+      <xsd:enumeration value="green beans" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Water">

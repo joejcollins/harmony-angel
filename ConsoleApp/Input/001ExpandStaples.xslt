@@ -19,12 +19,14 @@
 		Expand the staples, first because they use the utensils
 	-->
   <xsl:template name="staples" match="cml:Staple">
+    <!-- Couscous -->
     <xsl:if test="@Name='couscous'">
       In a
       <Utensil Name="pan" /> pour <Water Quantity="800" Unit="ml" Type="boiling water" />
       on <Grocery Quantity="400" Unit="g" Type="cous cous" />, cover and
       stand for 10 minutes.
     </xsl:if>
+    <!-- Noodles -->
     <xsl:if test="@Name='noodles'">
       <xsl:variable name="Meals" select="../../@Meals" />
       In a <Utensil Name="pan" />
@@ -55,11 +57,12 @@
       boil for 12
       minutes then drain.
     </xsl:if>
-    <xsl:if test="@Name='rice'">
+    <!-- Rice -->
+    <xsl:if test="@Name='rice white'">
       <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />
-      boil
+      put
       <xsl:element name="Grocery">
         <xsl:variable name="Quantity" select="400" />
         <xsl:attribute name="Quantity">
@@ -68,7 +71,7 @@
         <xsl:attribute name="Unit">g</xsl:attribute>
         <xsl:attribute name="Type">white rice</xsl:attribute>
       </xsl:element>
-      in
+      and
       <xsl:element name="Water">
         <xsl:variable name="Quantity" select="800" />
         <xsl:attribute name="Quantity">
@@ -77,8 +80,35 @@
         <xsl:attribute name="Unit">ml</xsl:attribute>
         <xsl:attribute name="Type">cold water</xsl:attribute>
       </xsl:element>
-      then turn off, cover and stand for 30 minutes.
+      bring to the boil then turn off, cover and stand for 25 minutes.
     </xsl:if>
+    <xsl:if test="@Name='rice brown'">
+      <xsl:variable name="Meals" select="../../@Meals" />
+      In a
+      <Utensil Name="pan" />
+      put
+      <xsl:element name="Grocery">
+        <xsl:variable name="Quantity" select="400" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">g</xsl:attribute>
+        <xsl:attribute name="Type">brown rice</xsl:attribute>
+      </xsl:element>
+      and
+      <xsl:element name="Water">
+        <xsl:variable name="Quantity" select="800" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">ml</xsl:attribute>
+        <xsl:attribute name="Type">cold water</xsl:attribute>
+      </xsl:element>
+      bring to the boil then simmer for 15 minutes,
+      then cover and stand for 10 minutes.
+    </xsl:if>
+    
+    <!-- Spaghetti -->
     <xsl:if test="@Name='spaghetti'">
       In a <Utensil Name="pan" /> heat
       <Water Quantity="2000" Unit="ml" Type="cold water" /> then add
