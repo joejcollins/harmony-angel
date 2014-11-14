@@ -211,7 +211,8 @@
     <Recipe Title="Chickpea risotto" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />
+        <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />,
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
         and
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
         in
@@ -220,18 +221,21 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
-        <Grocery Quantity="75" Unit="g" Type="raisins" />,
         <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
+        <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
+        <Grocery Quantity="200" Unit="ml" Type="sherry"/>,
+        <Grocery Quantity="75" Unit="g" Type="raisins" />,
+        <Check Quantity="1" Type="stock cube" Process="crumbled" />,
+        <Grocery Quantity="400" Unit="g" Type="white rice"/>
         and
-        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
-        and warm through.
+        <Water Quantity="400" Unit="ml" Type="water" />
+        and bring to a boil.
       </Stage>
       <Stage>
-        Stir in
-        <Grocery Quantity="400" Unit="g" Type="white rice"/>
-        and simmer until done.
+        Put in a
+        <Utensil Name="casserole"/>,
+        cover and bake <Temperature Level="low"/> 20 minutes.
       </Stage>
     </Recipe>
     <Recipe Title="Tortellini and parmesan cheese" Meals="1">

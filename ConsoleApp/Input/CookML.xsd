@@ -276,6 +276,7 @@
       <xsd:enumeration value="tomato puree" />
       <xsd:enumeration value="white rice" />
       <xsd:enumeration value="naan bread" />
+      <xsd:enumeration value="sherry" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">
