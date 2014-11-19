@@ -189,6 +189,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="250" Unit="g" Type="green lentils" />,
+        <Check Quantity="3" Unit="tsp" Type="miso" />,
         <Check Quantity="1" Type="stock cube" Process="crumbled" />,
         <Grocery Quantity="75" Unit="g" Type="tomato puree" />,
         <Water Quantity="650" Unit="ml" Type="boiling water" />,
@@ -196,16 +197,16 @@
         <Check Quantity="1" Unit="tsp" Type="ground cumin" />
         and
         <Check Quantity="2" Unit="tsp" Type="ground coriander" />
-        bring to boil,
-        then simmer for 30 minutes.
+        then bring to boil,
+        then simmer for 20 minutes.
       </Stage>
       <Stage>
-        Take off heat and stir in
-        <Check Quantity="3" Unit="tsp" Type="miso" />
-        Put in a <Utensil Name="casserole"/>
+        Take off heat,
+        put in a <Utensil Name="casserole"/>,
+        cover with the mashed potatoes
         and sprinkle with
-        <Grocery Quantity="50" Unit="g" Type="sunflower seeds"/>
-        then bake <Temperature Level="medium"/> for 30 minutes.
+        <Grocery Quantity="50" Unit="g" Type="sunflower seeds"/>.
+        then bake <Temperature Level="medium"/> for 20 minutes.
       </Stage>
     </Recipe>
     <Recipe Title="Chickpea risotto" Meals="2">
@@ -214,7 +215,7 @@
         <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />,
         <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
         and
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
         in
         <Check Quantity="2" Unit="tbsp" Type="oil"/>
         until soft.
@@ -224,12 +225,12 @@
         <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
         <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
         <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
-        <Grocery Quantity="200" Unit="ml" Type="sherry"/>,
+        <Grocery Quantity="300" Unit="ml" Type="sherry"/>,
         <Grocery Quantity="75" Unit="g" Type="raisins" />,
         <Check Quantity="1" Type="stock cube" Process="crumbled" />,
         <Grocery Quantity="400" Unit="g" Type="white rice"/>
         and
-        <Water Quantity="400" Unit="ml" Type="water" />
+        <Water Quantity="500" Unit="ml" Type="water" />
         and bring to a boil.
       </Stage>
       <Stage>
@@ -237,6 +238,10 @@
         <Utensil Name="casserole"/>,
         cover and bake <Temperature Level="low"/> 20 minutes.
       </Stage>
+    <Stage>
+      Server with 
+      <Dairy Quantity="150" Unit="g" Type="parmesan" Process="grated"/>.
+    </Stage>
     </Recipe>
     <Recipe Title="Tortellini and parmesan cheese" Meals="1">
       <Stage>

@@ -244,6 +244,7 @@
       <xsd:enumeration value="sour cream" />
       <xsd:enumeration value="soured cream" />
       <xsd:enumeration value="plain yoghurt" />
+      <xsd:enumeration value="parmesan" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Grocery">
