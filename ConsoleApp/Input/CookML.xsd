@@ -230,6 +230,7 @@
       <xsd:enumeration value="sugar" />
       <xsd:enumeration value="wine vinegar" />
       <xsd:enumeration value="turmeric" />
+      <xsd:enumeration value="curry powder" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">

@@ -124,14 +124,14 @@
         Serve with <Vegetable Quantity="200" Unit="g" Type="tomatoes" Process="sliced"/>.
       </Stage>
     </Recipe>
-    <Recipe Title="Egg and vegetable curry" Meals="2">
+    <Recipe Title="Egg curry" Meals="2">
       <Index>Curry</Index>
       <Stage>
         In <Utensil Name="pan" /> boil
         <Dairy Quantity="4" Type="eggs" />
       </Stage>
       <Stage>
-        <Staple Name="rice"/>
+        <Staple Name="rice white"/>
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -149,12 +149,14 @@
       <Stage>
         Stir in
         <Check Quantity="2" Unit="tbsp" Type="flour" />
+        and
+        <Check Quantity="1" Unit="tbsp" Type="curry powder" />
         until it is all absorbed.
       </Stage>
       <Stage>
         Stir in
         <Grocery Quantity="150" Unit="g" Type="tomato puree"/>,
-        <Grocery Quantity="50" Unit="g" Type="creamed coconut" Process="crumbled"/>
+        <Grocery Quantity="100" Unit="g" Type="creamed coconut" Process="crumbled"/>
         and
         <Water Quantity="400" Unit="ml" Type="water" />
         and warm through.
