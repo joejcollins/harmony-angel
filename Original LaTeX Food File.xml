@@ -109,378 +109,9 @@ as much as they can be heaped.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \season{Winter}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{menu}{Beginning of Winter}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Meat stew and dumplings" Meals="2">
-{%
-	\index{Stew!Meat and dumplings}%
-	\index{Dumplings}%
-	<Stage>	\spud.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
-		<Meat Quantity="400" Unit="g" Type="meat" Process="sliced"/>,
-		<Vegetable Quantity="400" Unit="g" Type="carrots" Process="chopped"/>
-		and
-		<Vegetable Quantity="400" Unit="g" Type="celery" Process="chopped"/>
-		in
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until meat done.
-	<Stage>	Stir in
-		<Grocery Quantity="75" Unit="g" Type="tomato puree" Process=""/>,
-		<Check Quantity="0.5" Unit="tsp" Type="chilli powder" Process=""/>,
-		<Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>,
-		<Water Quantity="500" Unit="ml" Type="water" Process=""/>
-		and
-		simmer for 50 minutes.
-	<Stage>	In a <Utensil Name="bowl" /> mix
-		<Check Quantity="75" Unit="g" Type="self raising flour" Process=""/>,
-		<Check Quantity="75" Unit="g" Type="suet" Process=""/>,
-		<Check Quantity="0.5" Unit="tsp" Type="mixed herbs" Process=""/>
-		and
-		<Water Quantity="100" Unit="ml" Type="water" Process=""/>
-		and knead into 8 balls.
-		Put balls in stew, cover and
-		simmer for 15 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Onion and tomato lasagna" Meals="2">
-{%
-	\index{Lasagna!Onion and tomato}%
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="700" Unit="g" Type="onions" Process="chopped"/>
-		in
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
-		and warm through.
-	<Stage>	In a <Utensil Name="casserole" /> layer
-		<Grocery Quantity="200" Unit="g" Type="lasagna" Process=""/>,
-		tomato mix and
-		<Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/> 3 times.
-	<Stage>	In a bowl mix
-		<Dairy Quantity="300" Unit="ml" Type="soured cream" Process=""/>
-		with
-		<Dairy Quantity="100" Unit="ml" Type="milk" Process=""/> and pour on top of the lasagna.
-	<Stage>	Bake \med for 50 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chicken with cabbage and peanuts" Meals="2">
-{%
-	<Stage>	\noodles.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Grocery Quantity="3" Unit="tbsp" Type="peanuts" Process=""/>
-		in 
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/> then remove.
-	<Stage>	Fry 
-		<Vegetable Quantity="2" Unit="" Type="red chillis" Process=""/>
-		in the oil for 2 minutes.
-	<Stage>	Stir in
-		<Meat Quantity="300" Unit="g" Type="chicken" Process="sliced"/>
-		and
-		<Vegetable Quantity="750" Unit="g" Type="cabbage" Process="sliced"/>,
-		fry until meat is done.
-	<Stage>	Stir in 
-		<Check Quantity="1" Unit="tbsp" Type="black bean sauce" Process=""/>
-		and fry for 2 minutes.
-	<Stage>	Sprinkle with the peanuts.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Beans and fried eggs in pitta" Meals="1">
-{%
-	<Stage>	In a <Utensil Name="pan" /> warm
-		<Grocery Quantity="400" Unit="g" Type="baked beans" Process=""/>.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Dairy Quantity="2" Unit="" Type="eggs" Process=""/>
-		in
-		<Check Quantity="1" Unit="tbsp" Type="oil" Process=""/>.
-	<Stage>	Grill
-		<Grocery Quantity="4" Unit="" Type="pitta bread" Process=""/>.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Egg and vegetable curry" Meals="2">
-{%
-	\index{Curry!Egg and vegetable}
-	<Stage>	In a <Utensil Name="pan" /> hard boil
-		<Dairy Quantity="4" Unit="" Type="eggs" Process=""/>,
-		peel them and chop them in half.
-	<Stage>	\rice.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
-		in 
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Check Quantity="1" Unit="tbsp" Type="curry powder" Process=""/>
-		and
-		<Check Quantity="2" Unit="tsp" Type="mustard seed" Process=""/>
-		and fry until mustard seeds start to pop.
-	<Stage>	Stir in
-		<Check Quantity="2" Unit="tbsp" Type="flour" Process=""/> until it is all absorbed.
-	<Stage>	Stir in
-		<Grocery Quantity="150" Unit="g" Type="tomato puree" Process=""/>,
-		<Check Quantity="50" Unit="g" Type="creamed coconut" Process="crumbled"/>
-		and
-		<Water Quantity="400" Unit="ml" Type="water" Process=""/>
-		and warm through.
-	<Stage>	Stir in
-		<Vegetable Quantity="400" Unit="g" Type="mange tout" Process="halved"/>
-		and
-		the eggs
-		and simmer for 10 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Lentil shepherds pie" Meals="2">
-{%
-	\index{Shepherds Pie!Lentil}
-	<Stage>	In a <Utensil Name="pan" /> boil
-		<Vegetable Quantity="1000" Unit="g" Type="potatoes" Process=""/> then mash.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="700" Unit="g" Type="onions" Process="chopped"/>,
-		<Vegetable Quantity="5" Unit="cloves" Type="garlic" Process="crushed"/>,
-		<Vegetable Quantity="400" Unit="g" Type="celery" Process="chopped"/> 
-		and 
-		<Vegetable Quantity="200" Unit="g" Type="carrots" Process="sliced"/> 
-		in
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Grocery Quantity="250" Unit="g" Type="green lentils" Process=""/>,
-		<Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>,
-		<Grocery Quantity="75" Unit="g" Type="tomato puree" Process=""/>,
-		<Water Quantity="650" Unit="ml" Type="water" Process=""/>,
-		<Check Quantity="1" Unit="tsp" Type="marjoram" Process=""/>,
-		<Check Quantity="1" Unit="tsp" Type="ground cumin" Process=""/>
-		and 
-		<Check Quantity="2" Unit="tsp" Type="ground coriander" Process=""/>,
-		bring to boil,
-		then simmer for 30 minutes.
-	<Stage>	Take off heat and stir in
-		<Check Quantity="3" Unit="tsp" Type="miso" Process=""/>.
-		Put in a <Utensil Name="casserole" />, cover with the potatoes
-		and sprinkle with
-		<Check Quantity="50" Unit="g" Type="sunflower seed" Process=""/>
-		then bake \med for 30 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chickpea risotto" Meals="2">
-{%
-	\index{Risotto!Chickpea}
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>
-		and
-		<Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-		in
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Vegetable Quantity="250" Unit="g" Type="spinach" Process="hacked"/>
-		and cook until wilted.
-	<Stage>	Stir in
-		<Grocery Quantity="400" Unit="g" Type="canned chick peas" Process="drained"/>,
-		<Grocery Quantity="75" Unit="g" Type="raisins" Process=""/>,
-		<Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>,
-		<Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced"/>,
-		\gr{2*400}{g}{canned tomatoes}{chopped}
-		and
-		<Vegetable Quantity="1" Unit="" Type="red chilli" Process="chopped"/>,
-		and warm through.
-	<Stage>	Stir in
-		<Grocery Quantity="400" Unit="g" Type="rice" Process=""/>
-		and
-		<Water Quantity="750" Unit="ml" Type="water" Process=""/>,
-		simmer until rice is done.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tortellini and parmesan cheese" Meals="1">
-{%
-	<Stage>	\halfpasta{tortellini}
-	<Stage>	Sprinkle with
-		<Check Quantity="20" Unit="g" Type="grated parmesan" Process=""/>.
-}%
-\end{menu}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{menu}{}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Aubergine and peppers" Meals="2">
-{%
-	<Stage>	\spud.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
-		and
-		<Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-		in
-		<Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Vegetable Quantity="150" Unit="g" Type="red peppers" Process="sliced"/>,
-		<Vegetable Quantity="150" Unit="g" Type="green peppers" Process="sliced"/>,
-		<Vegetable Quantity="400" Unit="g" Type="aubergine" Process="sliced"/>,
-		<Vegetable Quantity="400" Unit="g" Type="courgettes" Process="sliced"/>,
-		<Grocery Quantity="150" Unit="g" Type="tomato puree" Process=""/>,
-		<Water Quantity="100" Unit="ml" Type="water" Process=""/>
-		and
-		<Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
-		and bring to the boil.
-	<Stage>	Put in a <Utensil Name="casserole" /> and bake \med for 40 
-minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Potatoes Russian style" Meals="2">
-{%
-	\index{Style!Russian potatoes}
-	<Stage>	In a <Utensil Name="pan" /> boil
-		<Vegetable Quantity="3000" Unit="g" Type="potatoes" Process="cubed"/>
-		until not quite done
-		then drain.
-	<Stage>	Stir in
-		<Dairy Quantity="1" Unit="large carton" Type="cottage cheese" Process=""/>,
-		<Dairy Quantity="300" Unit="ml" Type="sour cream" Process=""/>,
-		<Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>
-		and
-		<Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>.
-	<Stage>	Put in <Utensil Name="casserole" /> and bake \med for 1 hour.
- }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Lentils and spicy sausage" Meals="2">
-{%
-	<Stage>	\rice.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
-		<Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-		and
-		<Meat Quantity="100" Unit="g" Type="bacon" Process="chopped"/>
-		in
-		<Check Quantity="3" Unit="tbsp" Type="oil" Process=""/>
-		until bacon done.
-	<Stage>	Stir in
-		<Grocery Quantity="250" Unit="g" Type="lentils" Process=""/>,
-		\gr{2*400}{g}{canned tomatoes}{},
-		<Meat Quantity="250" Unit="g" Type="spicy sausage" Process="sliced"/>,
-		<Check Quantity="1" Unit="tsp" Type="chilli powder" Process=""/>
-		and
-		<Water Quantity="400" Unit="ml" Type="water" Process=""/>
-		and simmer for 25 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Baked bean pizza" Meals="1">
-{%
-	\index{Pizza!Baked bean}%
-	<Stage>	Spread
-		<Grocery Quantity="400" Unit="g" Type="canned baked beans" Process=""/>
-		on
-		\gr{2*9}{inch}{pizza bases}{}
-		cover with
-		<Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
-		and spinkle on
-		<Check Quantity="1" Unit="tsp" Type="mixed herbs" Process=""/>.
-	<Stage>	Bake \hi 20 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Mushroom stew" Meals="2">
-{%
-	\index{Stew!Mushroom}
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="375" Unit="g" Type="onions" Process="chopped"/>
-		in
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until soft. 
-	<Stage>	Stir in
-		<Vegetable Quantity="600" Unit="g" Type="mushrooms" Process=""/>
-		and
-		<Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-		and cook until mushrooms start to wilt.
-	<Stage>	Stir in
-		<Grocery Quantity="150" Unit="g" Type="pearl barley" Process=""/>,
-		<Check Quantity="4" Unit="tbsp" Type="soy sauce" Process=""/>,
-		<Check Quantity="5" Unit="tbsp" Type="sherry" Process=""/>,
-		<Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>
-		and
-		<Water Quantity="450" Unit="ml" Type="water" Process=""/>
-		and simmer for 25 minutes.
-	<Stage>	\pasta{tagliatelli}.
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Beans Caribbean style" Meals="2">
-{%
-	\index{Style!Carribbean beans}
-	<Stage>	In a <Utensil Name="wok" /> heat up
-		<Grocery Quantity="400" Unit="g" Type="canned kidney beans" Process=""/>
-		and
-		<Grocery Quantity="400" Unit="g" Type="canned chick peas" Process=""/>
-		in their liquid.
-	<Stage>	Stir in
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
-		<Vegetable Quantity="150" Unit="g" Type="green peppers" Process="chopped"/>
-		and
-		<Vegetable Quantity="3" Unit="cloves" Type="garlic" Process="crushed"/>,
-		cover and simmer for 50 minutes.
-	<Stage>	Stir in
-		<Grocery Quantity="150" Unit="g" Type="tomato puree" Process=""/>
-		and
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>,
-		cover and simmer for 30 minutes.
-		(Keep the beans covered with liquid,
-		by adding more water if necessary.) 
-	<Stage>	\couscous.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tomatoes Indian style" Meals="2">
-{%
-	\index{Style!Indian tomatoes}
-	<Stage>	\rice.
-	<Stage>	In a <Utensil Name="wok" /> heat
-		<Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>,
-		<Check Quantity="0.5" Unit="tsp" Type="asafetida" Process=""/>,
-		and
-		<Check Quantity="2" Unit="tsp" Type="cumin seeds" Process=""/>
-		until
-		the cumin sizzles.
-	<Stage>	Stir in
-		<Vegetable Quantity="1" Unit="" Type="red chilli" Process="chopped"/>
-		and
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
-		and
-		fry until soft.
-	<Stage>	Stir in
-		<Vegetable Quantity="1" Unit="kg" Type="tomatoes" Process="chopped"/>
-		and
-		simmer for 10 minutes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Bacon and mushroom pasta}
-{%
-	<Stage>	\halfpasta{tagliatelli}.
-	<Stage>	In a <Utensil Name="wok" /> fry <Meat Quantity="150" Unit="g" Type="bacon" Process="chopped"/>
-		and
-		<Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>
-		in
-		<Check Quantity="1" Unit="tbsp" Type="oil" Process=""/> for 5 minutes.
-	<Stage>	Stir in the pasta (cooked and drained)
-		and <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
-		and warm through.
-}%
-
-\end{menu}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Aubergine and chickpeas" Meals="2">
+<Recipe Title="Aubergine and chickpeas" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="700" Unit="g" Type="onions" Process="chopped"/> in
@@ -499,14 +130,15 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Meat goulash" Meals="2">
+<Recipe Title="Meat goulash" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
 		<Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
 		and
 		<Meat Quantity="400" Unit="g" Type="meat" Process="sliced"/>
-		in
+		in
+
 		<Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
 		until meat sealed.
 	<Stage>	Stir in
@@ -524,7 +156,7 @@ minutes.
 }%
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tagliatelli and mushroom sauce" Meals="2">
+<Recipe Title="Tagliatelli and mushroom sauce" Meals="2">%
 {%
 	<Stage>	\pasta{tagliatelli}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -550,7 +182,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Garlic beans" Meals="1">
+<Recipe Title="Garlic beans" Meals="1">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="3" Unit="cloves" Type="garlic" Process="crushed"/>
@@ -565,7 +197,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Sweet and Sour Celery}
+<Recipe Title="Sweet and Sour Celery" Meals="2">
 {
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -589,7 +221,7 @@ minutes.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Sausage and potatoes German style}
+<Recipe Title="Sausage and potatoes German style" Meals="2">
 {%
 	\index{Style!German sausage and potatoes}%
 	<Stage>	In a <Utensil Name="pan" /> boil
@@ -606,7 +238,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Tomato spaghetti}
+<Recipe Title="Tomato spaghetti" Meals="2">
 {%
 	\index{Spaghetti!Tomato}%
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -626,7 +258,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Peas and bacon}
+<Recipe Title="Peas and bacon" Meals="1">
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
@@ -643,7 +275,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Winter Solstice}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Vegetable mousaka}
+<Recipe Title="Vegetable mousaka" Meals="2">
 {%
 	<Stage>	In a <Utensil Name="pan" /> boil
 		<Vegetable Quantity="500" Unit="g" Type="potatoes" Process="sliced"/>
@@ -678,7 +310,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Chickpea and spinach curry}
+<Recipe Title="Chickpea and spinach curry" Meals="2">
 {%
 	\index{Curry!Chickpea and spinach}
 	<Stage>	\rice.
@@ -703,7 +335,7 @@ minutes.
 }%
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Courgettes and bacon" Meals="2">
+<Recipe Title="Courgettes and bacon" Meals="2">%
 {%
 	<Stage>	\spud,
 		then slice.
@@ -727,7 +359,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tagliatelli and olive oil" Meals="1">
+<Recipe Title="Tagliatelli and olive oil" Meals="1">%
 {%
 	<Stage>	\halfpasta{tagliatelli},
 		save 150 ml of the water.
@@ -749,7 +381,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chicken curry" Meals="2"> Short cut Rhodes
+<Recipe Title="Chicken curry" Meals="2">% Short cut Rhodes
 {%
 	\index{Curry!Chicken}
 	<Stage>	\rice.
@@ -770,7 +402,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Lentil and vegetable curry}
+<Recipe Title="Lentil and vegetable curry" Meals="2">
 {%
 	\index{Curry!Lentil and vegetable}
 	<Stage>	In a <Utensil Name="pan" /> in
@@ -804,7 +436,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Sweet corn pizza}
+<Recipe Title="Sweet corn pizza" Meals="2">
 {%
 	\index{Pizza!Sweet corn}
 	<Stage>	On
@@ -823,7 +455,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Fish fingers and baked beans}
+<Recipe Title="Fish fingers and baked beans" Meals="1">
 {%
 	<Stage>	In a <Utensil Name="pan" /> heat up
 		<Grocery Quantity="400" Unit="g" Type="canned baked beans" Process=""/>.
@@ -832,183 +464,11 @@ minutes.
 }%
 \end{menu}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{menu}{}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Lentil dhansak}
-{%
-	\index{Curry!Lentil dhansak}
-	<Stage>	\rice.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="200" Unit="g" Type="onion" Process="finely chopped"/>,
-		<Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-		and
-		<Vegetable Quantity="100" Unit="g" Type="carrots" Process="sliced"/>
-		until soft.
-	<Stage>	Stir in
-		<Check Quantity="1" Unit="tbsp" Type="curry powder" Process=""/>, 
-		<Check Quantity="1" Unit="tsp" Type="cumin seeds" Process=""/>,
-		<Check Quantity="1" Unit="tsp" Type="mustard seeds" Process=""/>
-		and
-		<Check Quantity="5" Unit="cm" Type="cinnamon stick" Process=""/>
-		and fry for 2 minutes.
-	<Stage>	Stir in
-		<Vegetable Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
-		<Grocery Quantity="2" Unit="tbsp" Type="cashew nuts" Process=""/>,
-		<Check Quantity="120" Unit="ml" Type="creamed coconut" Process=""/>,
-		<Grocery Quantity="225" Unit="g" Type="red lentils" Process=""/>
-		and 
-		<Vegetable Quantity="150" Unit="g" Type="red peppers" Process="chopped"/>
-		and simmer for 20 minutes.
-	<Stage>	Add juice of
-		<Vegetable Quantity="1" Unit="" Type="lemon" Process=""/>
-		and warm.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Spaghetti and pasta sauce}
-{%
-	\index{Spaghetti!Pasta sauce}%
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="400" Unit="g" Type="onions" Process=""/>,
-		<Meat Quantity="400" Unit="g" Type="minced meat" Process=""/>,
-		<Vegetable Quantity="3" Unit="cloves" Type="garlic" Process="crushed"/>
-		and
-		<Vegetable Quantity="100" Unit="g" Type="mushrooms" Process="sliced"/>.
-	<Stage>	Stir in
-		<Grocery Quantity="450" Unit="g" Type="pasta sauce" Process=""/>,
-		and warm through.
-	<Stage>	\pasta{spaghetti}.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Potatoes American style}
-{%
-	\index{Style!American potatoes}%
-	<Stage>	In a <Utensil Name="pan" /> boil
-		<Vegetable Quantity="1500" Unit="g" Type="potatoes" Process="sliced"/>
-		and
-		<Vegetable Quantity="5" Unit="" Type="spring onions" Process="chopped"/>
-		in water with 
-		<Check Quantity="2" Unit="tsp" Type="ground turmeric" Process=""/>
-		until potatoes done,
-		then drain.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
-		and
-		<Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-		in
-		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Check Quantity="2" Unit="tsp" Type="mixed herbs" Process=""/>,
-		<Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
-		and simmer 5 minutes.
-	<Stage>	Stir in
-		<Dairy Quantity="150" Unit="g" Type="tasty cheese" Process="grated"/>
-		and
-		<Dairy Quantity="85" Unit="ml" Type="cream" Process=""/>,
-		warm through,
-		then pour over the potatoes.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Egg and chips}
-{%
-	<Stage>	Heat up
-		<Grocery Quantity="800" Unit="g" Type="oven ready chips" Process=""/>.
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Dairy Quantity="4" Unit="" Type="eggs" Process=""/>
-		in
-		<Check Quantity="1" Unit="tbsp" Type="oil" Process=""/>.
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chicken pilaf" Meals="2">
-{%
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Meat Quantity="600" Unit="g" Type="chicken" Process=""/>,
-		<Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
-		and 
-		<Vegetable Quantity="5" Unit="cloves" Type="garlic" Process="crushed"/>
-		in
-		<Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
-		until chicken done.
-	<Stage>	Stir in
-		<Check Quantity="1" Unit="tsp" Type="ground cumin" Process=""/>,
-		<Check Quantity="5" Unit="cm" Type="cinnamon stick" Process=""/>,
-		and
-		<Check Quantity="6" Unit="" Type="cloves" Process=""/>
-		and fry for 2 minutes.
-	<Stage>	Stir in
-		<Grocery Quantity="400" Unit="g" Type="rice" Process=""/>,
-		<Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>
-		and 
-		<Water Quantity="800" Unit="ml" Type="water" Process=""/>
-		and bake, covered \med 30 minutes.
-	<Stage>	Spinkle on
-		<Grocery Quantity="100" Unit="g" Type="flaked almonds" Process=""/>
-		before serving.
-}%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetable shepherds pie" Meals="2">
-{%
-	\index{Shepherds Pie!Vegetable}%
-	<Stage>	In a <Utensil Name="pan" /> boil
-		<Vegetable Quantity="1000" Unit="g" Type="potatoes" Process="cubed"/>,
-		then mash with
-		<Dairy Quantity="50" Unit="g" Type="butter" Process=""/>
-		and
-		<Dairy Quantity="4" Unit="tbsp" Type="milk" Process=""/>.
-	<Stage>	In a <Utensil Name="casserole" /> mix
-		<Vegetable Quantity="300" Unit="g" Type="carrots" Process="sliced"/>,
-		<Vegetable Quantity="300" Unit="g" Type="parsnips" Process="sliced"/>,
-		<Vegetable Quantity="300" Unit="g" Type="swedes" Process="sliced"/>,
-		<Grocery Quantity="400" Unit="g" Type="canned borlotti beans" Process="undrained"/>,
-		<Grocery Quantity="200" Unit="g" Type="mayonaise" Process=""/>
-		and
-		<Check Quantity="165" Unit="g" Type="horseraddish" Process=""/>.
-		Spread the mashed potatoes on top,
-		sprinkle with
-		<Check Quantity="50" Unit="g" Type="sunflower seeds" Process=""/>
-		and
-		bake \med 60 minutes.
-}%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Onion pizza" Meals="2">
-{%
-	\index{Pizza!Onion}
-	<Stage>	In a <Utensil Name="wok" /> slowly fry
-		<Vegetable Quantity="1000" Unit="g" Type="onions" Process="chopped"/>
-		and
-		<Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-		in
-		<Check Quantity="3" Unit="tbsp" Type="oil" Process=""/>
-		until brown.
-	<Stage>	Spread on
-		\gr{4*9}{inch}{pizza bases}{}
-		then sprinkle with
-		<Grocery Quantity="200" Unit="g" Type="pitted olives" Process=""/>,
-		<Grocery Quantity="100" Unit="g" Type="anchovy fillets" Process=""/>
-		and
-		<Check Quantity="1" Unit="tsp" Type="mixed herbs" Process=""/>.
-		Bake \hi 20 minutes. 
-}%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Pasta and pesto" Meals="1">
-{%
-	<Stage>	\halfpasta{pasta whirls}.
-	<Stage>	Stir in 
-		<Grocery Quantity="100" Unit="g" Type="pesto" Process=""/> and
-		<Grocery Quantity="150" Unit="g" Type="canned tuna fish" Process=""/>.
-}
-\end{menu}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Aubergine risotto" Meals="2">
+<Recipe Title="Aubergine risotto" Meals="2">%
 {%
 	\index{Risotto!Aubergine}
 	<Stage>   In a <Utensil Name="wok" /> fry
@@ -1030,7 +490,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Beans and bulgar wheat}
+<Recipe Title="Beans and bulgar wheat" Meals="2">
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
@@ -1057,7 +517,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Lamb hotpot" Meals="2">
+<Recipe Title="Lamb hotpot" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Meat Quantity="400" Unit="g" Type="lamb" Process="sliced"/>
@@ -1081,7 +541,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Cheese and tagliatelli" Meals="1">
+<Recipe Title="Cheese and tagliatelli" Meals="1">%
 {%
 	<Stage>	\halfpasta{tagliatelli}.
 	<Stage>	Stir in
@@ -1093,7 +553,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Tofu and mangetous stew}
+<Recipe Title="Tofu and mangetous stew" Meals="2">
 {%
 	\index{Stew!Tofu and mangetous}
 	<Stage>   \rice.
@@ -1119,7 +579,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Vegetable cous cous}
+<Recipe Title="Vegetable cous cous" Meals="2">
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
@@ -1147,7 +607,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Charred aubergine and potato curry}
+<Recipe Title="Charred aubergine and potato curry" Meals="2">
 {%
 	\index{Curry!charred aubergine and potato}
 	<Stage>	In a <Utensil Name="pan" /> boil
@@ -1182,7 +642,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Noodles and sardines}
+<Recipe Title="Noodles and sardines" Meals="1">
 {%
 	<Stage>	\halfnoodles.
 	<Stage>	Stir in
@@ -1195,7 +655,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{End of Winter}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spinach lasagna" Meals="2"> from Usenet
+<Recipe Title="Spinach lasagna" Meals="2">% from Usenet
 {%
 	\index{Lasagna!Spinach}%
 	<Stage>	In a <Utensil Name="wok" /> in
@@ -1227,7 +687,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tofu and tahini" Meals="2"> from Vegan Health Plan
+<Recipe Title="Tofu and tahini" Meals="2">% from Vegan Health Plan
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
@@ -1257,7 +717,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Chickpeas and tomatoes}
+<Recipe Title="Chickpeas and tomatoes" Meals="2">
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>
@@ -1283,7 +743,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Curry and couscous" Meals="1">
+<Recipe Title="Curry and couscous" Meals="1">%
 {%
 	<Stage>	In a <Utensil Name="pan" /> warm
 		<Grocery Quantity="400" Unit="g" Type="canned curry" Process=""/>.
@@ -1291,7 +751,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Pasta and bacon in white sauce" Meals="2"> from Alan and Paul
+<Recipe Title="Pasta and bacon in white sauce" Meals="2">% from Alan and Paul
 {%
 	<Stage>	\pasta{pasta shells}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1314,7 +774,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Seaweed Hash" Meals="2"> David Carr
+<Recipe Title="Seaweed Hash" Meals="2">% David Carr
 {%
 
 	\item	In a <Utensil Name="pan" /> boil
@@ -1338,7 +798,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spiced chicken" Meals="2">
+<Recipe Title="Spiced chicken" Meals="2">%
 {%
 	<Stage>	\orangerice.
 	<Stage>	In a <Utensil Name="casserole" /> mix
@@ -1374,7 +834,7 @@ minutes.
 }%
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Pasta and stir in sauce" Meals="1">
+<Recipe Title="Pasta and stir in sauce" Meals="1">%
 {%
 	<Stage>	\halfpasta{tagliatelli}.
 	<Stage>	Stir in
@@ -1389,7 +849,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Beginning of Spring}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Bean and potato stew" Meals="2"> Oxfam Provencal Bean Casserole
+<Recipe Title="Bean and potato stew" Meals="2">% Oxfam Provencal Bean Casserole
 {%
 	\index{Stew!Bean and potato}%
 	<Stage>	\spud.
@@ -1412,7 +872,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chicken and carrot stew" Meals="2">
+<Recipe Title="Chicken and carrot stew" Meals="2">%
 {%
 	\index{Stew!Chicken and carrot}
 	<Stage>	In a <Utensil Name="wok" /> mix
@@ -1439,7 +899,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Curry Ethiopian style}
+<Recipe Title="Curry Ethiopian style" Meals="2">
 {
 	\index{Style!Ethiopian curry}%
 	\index{Curry!Ethiopian}
@@ -1464,7 +924,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tagliatelli and bacon" Meals="1">
+<Recipe Title="Tagliatelli and bacon" Meals="1">%
 {%
 	<Stage>	\halfpasta{tagliatelli}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1481,7 +941,7 @@ minutes.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Tofu and pork}
+<Recipe Title="Tofu and pork" Meals="2">
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Meat Quantity="200" Unit="g" Type="minced pork" Process=""/>,
@@ -1508,7 +968,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetable and butter bean pie" Meals="2">
+<Recipe Title="Vegetable and butter bean pie" Meals="2">%
 {%
 	\index{Pie!Vegetable and butter bean}
 	<Stage>	\spud.
@@ -1538,7 +998,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Coconut chickpeas" Meals="2">
+<Recipe Title="Coconut chickpeas" Meals="2">%
 {%
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1558,7 +1018,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Oven ready pizza" Meals="1">
+<Recipe Title="Oven ready pizza" Meals="1">%
 {%
 	<Stage>	Bake
 		\gr{2*9}{inch}{ready made pizzas}{}
@@ -1570,7 +1030,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Meat and potatoes Mexican style" Meals="2"> Betty Crowshaw
+<Recipe Title="Meat and potatoes Mexican style" Meals="2">% Betty Crowshaw
 {%
 	\index{Style!Mexican meat and potatoes}%
 	<Stage>	In a <Utensil Name="wok" /> mix
@@ -1595,7 +1055,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Turnip and chickpea stew" Meals="2">
+<Recipe Title="Turnip and chickpea stew" Meals="2">%
 {%
 	\index{Stew!Turnip and chickpea}
 	<Stage>	In a <Utensil Name="pan" /> mix
@@ -1615,7 +1075,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Cashew curry" Meals="2">
+<Recipe Title="Cashew curry" Meals="2">%
 {%
 	\index{Curry!Cashew}
 	<Stage>	\rice.
@@ -1639,7 +1099,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Scrambled eggs" Meals="1">
+<Recipe Title="Scrambled eggs" Meals="1">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="150" Unit="g" Type="red peppers" Process="sliced"/>
@@ -1655,7 +1115,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Kedgeree" Meals="2">
+<Recipe Title="Kedgeree" Meals="2">%
 {%
 	<Stage>	\rice.
 	<Stage>	Stir in
@@ -1668,7 +1128,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chilli bean stew" Meals="2">
+<Recipe Title="Chilli bean stew" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>
@@ -1700,7 +1160,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetables and pasta" Meals="2"> Vegan health plan
+<Recipe Title="Vegetables and pasta" Meals="2">% Vegan health plan
 {%
 	<Stage>	\pasta{pasta twists}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1734,7 +1194,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\quick{Fish fingers and baked beans}
+<Recipe Title="Fish fingers and baked beans" Meals="1">
 {%
 	<Stage>	In a <Utensil Name="pan" /> heat up
 		<Grocery Quantity="400" Unit="g" Type="canned baked beans" Process=""/>.
@@ -1746,7 +1206,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Spring Equinox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Potato and cheese bake" Meals="2">
+<Recipe Title="Potato and cheese bake" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="pan" /> boil
 		<Vegetable Quantity="2000" Unit="g" Type="potatoes" Process="sliced"/>
@@ -1766,7 +1226,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Peanut butter and black eyed bean stew" Meals="2">
+<Recipe Title="Peanut butter and black eyed bean stew" Meals="2">%
 {%
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="wok" />,
@@ -1787,7 +1247,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetable crumble" Meals="2">
+<Recipe Title="Vegetable crumble" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
@@ -1816,7 +1276,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tagliatelli and mushrooms" Meals="1">
+<Recipe Title="Tagliatelli and mushrooms" Meals="1">%
 {%
 	<Stage>	\halfpasta{tagliatelli}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1836,7 +1296,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Groundnut stew" Meals="2">
+<Recipe Title="Groundnut stew" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="pan" /> stew
 		<Vegetable Quantity="1000" Unit="g" Type="potatoes" Process=""/>,
@@ -1856,7 +1316,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tuna and rice" Meals="2">
+<Recipe Title="Tuna and rice" Meals="2">%
 {%
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1871,7 +1331,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Green lentil lasagne}
+<Recipe Title="Green lentil lasagne" Meals="2">
 {%
 	<Stage>	\spud.
 	<Stage>	In a <Utensil Name="pan" /> cook 
@@ -1923,7 +1383,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetable pizza" Meals="2">
+<Recipe Title="Vegetable pizza" Meals="2">%
 {%
 	\index{Pizza!Vegetable}%
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -1945,7 +1405,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Gammon rice" Meals="2"> BBC Good Food
+<Recipe Title="Gammon rice" Meals="2">% BBC Good Food
 {%
 	<Stage>	In a <Utensil Name="pan" /> fry in
 		<Check Quantity="1" Unit="tbsp" Type="oil" Process=""/>,
@@ -1972,7 +1432,7 @@ minutes.
 }%
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tomato tofu" Meals="2"> From Karen Turvey
+<Recipe Title="Tomato tofu" Meals="2">% From Karen Turvey
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
@@ -1997,7 +1457,7 @@ minutes.
 }% 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tagliatelle and cheese" Meals="1"> David Carr
+<Recipe Title="Tagliatelle and cheese" Meals="1">% David Carr
 {%
 	<Stage>	\halfpasta{tagliatelli}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2015,7 +1475,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Potato and onion pie" Meals="2">
+<Recipe Title="Potato and onion pie" Meals="2">%
 {%
 	\index{Pie!Potato and onion}
 	<Stage>	In a <Utensil Name="casserole" /> mix
@@ -2031,7 +1491,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spaghetti bolognese" Meals="2"> Sue Pennington
+<Recipe Title="Spaghetti bolognese" Meals="2">% Sue Pennington
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Meat Quantity="200" Unit="g" Type="minced meat" Process=""/>
@@ -2054,7 +1514,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Pepper risotto" Meals="2">
+<Recipe Title="Pepper risotto" Meals="2">%
 {%
 	\index{Risotto!Pepper}
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2077,7 +1537,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Sweet corn and bacon" Meals="1">
+<Recipe Title="Sweet corn and bacon" Meals="1">%
 {%
 	<Stage>	In a <Utensil Name="pan" /> boil
 		<Dairy Quantity="2" Unit="" Type="eggs" Process=""/>
@@ -2101,7 +1561,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Cashew and pea curry}
+<Recipe Title="Cashew and pea curry" Meals="2">
 {%
 	\index{Curry!Cashew and pea}%
 	<Stage>	\rice.
@@ -2139,7 +1599,7 @@ minutes.
 }%
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Meat and bean stew}
+<Recipe Title="Meat and bean stew" Meals="2">
 {%
 	\index{Stew!Meat and bean}%
 	<Stage>	In a <Utensil Name="wok" /> in
@@ -2165,7 +1625,7 @@ minutes.
 }%
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetable cous cous" Meals="2"> David Carr
+<Recipe Title="Vegetable cous cous" Meals="2">% David Carr
 {%
 	<Stage>	In a <Utensil Name="wok" /> in
 		<Check Quantity="3" Unit="tbsp" Type="olive oil" Process=""/>
@@ -2207,7 +1667,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Cheesey beans in pitta" Meals="1">
+<Recipe Title="Cheesey beans in pitta" Meals="1">%
 {%
 	<Stage>	<Grocery Quantity="400" Unit="g" Type="baked beans" Process=""/>,
 		<Grocery Quantity="4" Unit="" Type="pitta bread" Process="warmed"/>
@@ -2216,7 +1676,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Carrot and parsnip curry" Meals="2">
+<Recipe Title="Carrot and parsnip curry" Meals="2">%
 {%
 	\index{Curry!Carrot and parsnip}%
 	<Stage>	\rice.
@@ -2250,7 +1710,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Courgette tagliatelli" Meals="2"> David Carr
+<Recipe Title="Courgette tagliatelli" Meals="2">% David Carr
 {%
 	<Stage>	In a <Utensil Name="wok" /> in
 		<Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
@@ -2272,7 +1732,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tarka dhal and chappatis" Meals="2"> David Carr
+<Recipe Title="Tarka dhal and chappatis" Meals="2">% David Carr
 {%
 	\index{Curry!Tarka dhal and chappatis}%
 	<Stage>	In a <Utensil Name="pan" /> cook
@@ -2309,7 +1769,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Muffin pizzas" Meals="1">
+<Recipe Title="Muffin pizzas" Meals="1">%
 {%
 	<Stage>	Grill
 		<Grocery Quantity="8" Unit="" Type="muffins" Process=""/>
@@ -2328,7 +1788,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{End of Spring}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Potato and bacon omelette" Meals="2">
+<Recipe Title="Potato and bacon omelette" Meals="2">%
 {%
 	<Stage>	In a <Utensil Name="pan" /> boil
 		<Vegetable Quantity="1200" Unit="g" Type="potato" Process="sliced"/> then drain.
@@ -2350,7 +1810,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chicken and cauliflower" Meals="2"> Judith Parry-Evans
+<Recipe Title="Chicken and cauliflower" Meals="2">% Judith Parry-Evans
 {%
 	\index{Curry!Chicken and cauliflower}
 	<Stage>	In a <Utensil Name="casserole" /> bake
@@ -2372,7 +1832,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Black eyed bean stew" Meals="2">
+<Recipe Title="Black eyed bean stew" Meals="2">%
 {%
 	\index{Stew!Black eyed bean}%
 	<Stage>	\noodles.
@@ -2394,7 +1854,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Cheese and tomato omelette" Meals="1">
+<Recipe Title="Cheese and tomato omelette" Meals="1">%
 {%
 	<Stage>	<Dairy Quantity="4" Unit="" Type="eggs" Process="beaten"/>,
 		<Vegetable Quantity="6" Unit="" Type="tomatoes" Process="chopped"/>
@@ -2403,7 +1863,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Banana Curry" Meals="2"> David Carr
+<Recipe Title="Banana Curry" Meals="2">% David Carr
 {%
 	\index{Curry!Banana}
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2425,7 +1885,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tofu and peppers" Meals="2"> David Carr
+<Recipe Title="Tofu and peppers" Meals="2">% David Carr
 {%
 	<Stage>	\couscous.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2443,7 +1903,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Vegetable chilli stew" Meals="2"> David Carr
+<Recipe Title="Vegetable chilli stew" Meals="2">% David Carr
 {%
 	\index{Stew!Vegetable chilli}
 	<Stage>	In a <Utensil Name="pan" /> boil
@@ -2477,7 +1937,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spaghetti and rocket" Meals="1"> David Carr
+<Recipe Title="Spaghetti and rocket" Meals="1">% David Carr
 {%
 	<Stage>	\halfpasta{spaghetti}
 	<Stage>	Stir in
@@ -2495,7 +1955,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Beginning of Summer}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Roasted vegetable pie" Meals="2"> Carnation can
+<Recipe Title="Roasted vegetable pie" Meals="2">% Carnation can
 {%
 	<Stage>	In a <Utensil Name="casserole" /> mix
 		<Vegetable Quantity="300" Unit="g" Type="onion" Process="chopped"/>,
@@ -2516,7 +1976,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Liver and sausage casserole" Meals="2"> Janes slimming book
+<Recipe Title="Liver and sausage casserole" Meals="2">% Janes slimming book
 {%
 	<Stage>	In a <Utensil Name="casserole" /> bake
 		<Meat Quantity="125" Unit="g" Type="sausages" Process="chopped"/>
@@ -2535,7 +1995,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Fish chowder" Meals="2"> Usenet
+<Recipe Title="Fish chowder" Meals="2">% Usenet
 {%
 	<Stage>	In a <Utensil Name="pan" /> in
 		<Water Quantity="400" Unit="ml" Type="water" Process=""/>
@@ -2564,7 +2024,7 @@ minutes.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spam and mustard pasta" Meals="1"> Judith Parry-Evans
+<Recipe Title="Spam and mustard pasta" Meals="1">% Judith Parry-Evans
 {%
 	<Stage>	\halfpasta{pasta shells}.
 	<Stage>	In a <Utensil Name="wok" /> in
@@ -2581,7 +2041,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Coconut dal" Meals="2">
+<Recipe Title="Coconut dal" Meals="2">%
 {%
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="pan" /> cook
@@ -2606,7 +2066,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\recipe{Parsnip and bacon}
+<Recipe Title="Parsnip and bacon" Meals="2">
 {%
 	<Stage>	Steam or microwave
 		<Vegetable Quantity="800" Unit="g" Type="parsnips" Process="sliced"/>
@@ -2622,7 +2082,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Ethiopian peanut stew" Meals="2">
+<Recipe Title="Ethiopian peanut stew" Meals="2">%
 {%
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="wok" />,
@@ -2643,7 +2103,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Scramble egg and peppers" Meals="1">
+<Recipe Title="Scramble egg and peppers" Meals="1">%
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>, 
@@ -2671,7 +2131,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Paprika pork" Meals="2"> Judith Parry-Evans
+<Recipe Title="Paprika pork" Meals="2">% Judith Parry-Evans
 {%
 	<Stage>	\rice.
 	<Stage>	In a <Utensil Name="wok" /> in
@@ -2698,7 +2158,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Potatoes Swedish style" Meals="2"> Usenet
+<Recipe Title="Potatoes Swedish style" Meals="2">% Usenet
 {%
 	\index{Style!Swedish potatoes}
 	<Stage>	In a <Utensil Name="casserole" /> layer
@@ -2715,7 +2175,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Cheese Cous Cous" Meals="2"> Jackie Knights
+<Recipe Title="Cheese Cous Cous" Meals="2">% Jackie Knights
 {%
 	<Stage>	In a <Utensil Name="casserole" /> bake
 		<Vegetable Quantity="400" Unit="g" Type="courgettes" Process="sliced"/>,
@@ -2748,7 +2208,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spaghetti Hoops" Meals="1">
+<Recipe Title="Spaghetti Hoops" Meals="1">%
 {%
 	<Stage>	In a <Utensil Name="pan" /> warm
 		<Grocery Quantity="400" Unit="g" Type="canned spaghetti hoops" Process=""/>
@@ -2758,7 +2218,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Fish Curry" Meals="2">
+<Recipe Title="Fish Curry" Meals="2">%
 {%
 	\index{Curry!Fish}
 	<Stage>	In a <Utensil Name="casserole" /> mix
@@ -2775,7 +2235,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Penang Rice Noodles" Meals="2"> Ken Hom
+<Recipe Title="Penang Rice Noodles" Meals="2">% Ken Hom
 {%
 	<Stage>	In a pan soak
 		<Grocery Quantity="400" Unit="g" Type="rice noodles" Process=""/>
@@ -2802,7 +2262,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Egg Curry" Meals="2"> From Metro News
+<Recipe Title="Egg Curry" Meals="2">% From Metro News
 {%
 	\index{Curry!Egg}
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2827,7 +2287,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Mackerel on bread" Meals="1">
+<Recipe Title="Mackerel on bread" Meals="1">%
 {%
 	<Stage>	Grill
 		<Meat Quantity="400" Unit="g" Type="smoked mackerel fillet" Process=""/>
@@ -2842,7 +2302,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Meat and Pasta Stew" Meals="2"> Nigella Lawson
+<Recipe Title="Meat and Pasta Stew" Meals="2">% Nigella Lawson
 {%
 	\index{Stew!Meat and Pasta}
 	<Stage>	In a <Utensil Name="pan" /> fry
@@ -2882,7 +2342,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Peas and Rice" Meals="2"> The Guardian Weekend
+<Recipe Title="Peas and Rice" Meals="2">% The Guardian Weekend
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
@@ -2902,7 +2362,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Anchovy Spaghetti" Meals="1"> Bill Collinge
+<Recipe Title="Anchovy Spaghetti" Meals="1">% Bill Collinge
 {%
 	<Stage>	\halfpasta{spaghetti}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2923,7 +2383,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Sausage Spaghetti" Meals="2"> The Godfather
+<Recipe Title="Sausage Spaghetti" Meals="2">% The Godfather
 {%
 	<Stage>	\pasta{spaghetti}.
 	<Stage>	In a <Utensil Name="wok" /> simmer
@@ -2939,7 +2399,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Lentil Hotpot" Meals="2"> Vegan Health Plan page 205
+<Recipe Title="Lentil Hotpot" Meals="2">% Vegan Health Plan page 205
 {%
 	<Stage>	In a <Utensil Name="wok" /> fry
 		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
@@ -2965,7 +2425,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Bean and Nut Roast" Meals="2"> Vegan Health Plan page 122
+<Recipe Title="Bean and Nut Roast" Meals="2">% Vegan Health Plan page 122
 {%
 	<Stage>	\spud.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -2994,7 +2454,7 @@ minutes.
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Chilli Spaghetti" Meals="1"> Birmingham Metro News
+<Recipe Title="Chilli Spaghetti" Meals="1">% Birmingham Metro News
 {%
 	<Stage>	\halfpasta{spaghetti}.
 	<Stage>	In a <Utensil Name="wok" /> fry
@@ -3017,7 +2477,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Summer Solstice}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3026,7 +2486,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3035,7 +2495,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3044,7 +2504,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{End of Summer}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3055,7 +2515,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Beginning of Autumn}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3064,7 +2524,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3072,8 +2532,9 @@ minutes.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{Autumn Equinox}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3082,7 +2543,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3091,7 +2552,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%
@@ -3100,7 +2561,7 @@ minutes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{End of Autumn}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Recipe" Meals="2">
+<Recipe Title="Recipe" Meals="2">%
 {%
 	<Stage> \rice.
 }%

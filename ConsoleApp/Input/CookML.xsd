@@ -140,7 +140,9 @@
       <xsd:enumeration value="drained" />
       <xsd:enumeration value="grated" />
       <xsd:enumeration value="halved" />
+      <xsd:enumeration value="quartered" />
       <xsd:enumeration value="sliced" />
+      <xsd:enumeration value="undrained" />
       <xsd:enumeration value="washed" />
     </xsd:restriction>
   </xsd:simpleType>
@@ -178,9 +180,9 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="cloves" />
+      <xsd:enumeration value="cm" />
       <xsd:enumeration value="cube" />
       <xsd:enumeration value="g" />
-      <xsd:enumeration value="inch" />
       <xsd:enumeration value="ml" />
       <xsd:enumeration value="pinch" />
       <xsd:enumeration value="tbsp" />
@@ -211,7 +213,9 @@
       <xsd:enumeration value="basil" />
       <xsd:enumeration value="black bean sauce" />
       <xsd:enumeration value="chilli powder" />
+      <xsd:enumeration value="creamed coconut" />
       <xsd:enumeration value="cumin seeds" />
+      <xsd:enumeration value="curry powder" />
       <xsd:enumeration value="dried thyme" />
       <xsd:enumeration value="flour" />
       <xsd:enumeration value="ground coriander" />
@@ -220,6 +224,7 @@
       <xsd:enumeration value="miso" />
       <xsd:enumeration value="mixed herbs" />
       <xsd:enumeration value="mustard seed" />
+      <xsd:enumeration value="mustard seeds" />
       <xsd:enumeration value="oil" />
       <xsd:enumeration value="oregano" />
       <xsd:enumeration value="pepper" />
@@ -228,9 +233,11 @@
       <xsd:enumeration value="soy sauce" />
       <xsd:enumeration value="stock cube" />
       <xsd:enumeration value="sugar" />
-      <xsd:enumeration value="wine vinegar" />
       <xsd:enumeration value="turmeric" />
-      <xsd:enumeration value="curry powder" />
+      <xsd:enumeration value="wine vinegar" />
+      <xsd:enumeration value="sunflower seeds" />
+      <xsd:enumeration value="cinnamon stick" />
+      <xsd:enumeration value="cloves" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">
@@ -238,14 +245,15 @@
       <xsd:documentation>Dairy types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="butter" />
       <xsd:enumeration value="cheese" />
       <xsd:enumeration value="cottage cheese" />
       <xsd:enumeration value="eggs" />
       <xsd:enumeration value="milk" />
+      <xsd:enumeration value="parmesan" />
+      <xsd:enumeration value="plain yoghurt" />
       <xsd:enumeration value="sour cream" />
       <xsd:enumeration value="soured cream" />
-      <xsd:enumeration value="plain yoghurt" />
-      <xsd:enumeration value="parmesan" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Grocery">
@@ -258,12 +266,18 @@
       <xsd:enumeration value="canned coconut milk" />
       <xsd:enumeration value="canned kidney beans" />
       <xsd:enumeration value="canned tomatoes" />
+      <xsd:enumeration value="capers" />
+      <xsd:enumeration value="cashew nuts" />
+      <xsd:enumeration value="cinnamon stick" />
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="creamed coconut" />
       <xsd:enumeration value="grated parmesan" />
       <xsd:enumeration value="green lentils" />
       <xsd:enumeration value="lasagna" />
+      <xsd:enumeration value="naan bread" />
       <xsd:enumeration value="noodles" />
+      <xsd:enumeration value="oven ready chips" />
+      <xsd:enumeration value="pasta sauce" />
       <xsd:enumeration value="pasta shapes" />
       <xsd:enumeration value="peanuts" />
       <xsd:enumeration value="pearl barley" />
@@ -272,13 +286,22 @@
       <xsd:enumeration value="raisins" />
       <xsd:enumeration value="red lentils" />
       <xsd:enumeration value="self raising flour" />
+      <xsd:enumeration value="sherry" />
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="suet" />
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="tomato puree" />
       <xsd:enumeration value="white rice" />
-      <xsd:enumeration value="naan bread" />
-      <xsd:enumeration value="sherry" />
+      <xsd:enumeration value="pitted olives" />
+      <xsd:enumeration value="anchovy fillets" />
+      <xsd:enumeration value="canned tuna fish" />
+      <xsd:enumeration value="pesto" />
+      <xsd:enumeration value="horseraddish sauce" />
+      <xsd:enumeration value="mayonaise" />
+      <xsd:enumeration value="canned borlotti beans" />
+      <xsd:enumeration value="flaked almonds" />
+      <xsd:enumeration value="cider" />
+      <xsd:enumeration value="pizza bases" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">
@@ -287,9 +310,12 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="bacon" />
+      <xsd:enumeration value="burgers" />
       <xsd:enumeration value="chicken" />
       <xsd:enumeration value="chorizo sausage" />
       <xsd:enumeration value="meat" />
+      <xsd:enumeration value="minced meat" />
+      <xsd:enumeration value="sausages" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Vegetable">
@@ -305,8 +331,10 @@
       <xsd:enumeration value="celery" />
       <xsd:enumeration value="courgette" />
       <xsd:enumeration value="garlic" />
+      <xsd:enumeration value="green beans" />
       <xsd:enumeration value="green chilli" />
       <xsd:enumeration value="green pepper" />
+      <xsd:enumeration value="lemon" />
       <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="mushrooms" />
       <xsd:enumeration value="onions" />
@@ -314,7 +342,9 @@
       <xsd:enumeration value="red pepper" />
       <xsd:enumeration value="sweet potatoes" />
       <xsd:enumeration value="tomatoes" />
-      <xsd:enumeration value="green beans" />
+      <xsd:enumeration value="parsnips" />
+      <xsd:enumeration value="swedes" />
+      <xsd:enumeration value="apple" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Water">
