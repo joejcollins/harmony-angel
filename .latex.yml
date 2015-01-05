@@ -1,4 +1,3 @@
-# Compiler and root for ShareLaTeX CI
-# https://www.sharelatex.com/github/repos
+# Compiler and root
 compiler: pdflatex
 root_file: ./ConsoleApp/Output/FoodFile.tex
