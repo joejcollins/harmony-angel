@@ -196,6 +196,7 @@ FakesAssemblies/
 *.ilg
 *.ind
 *.out
+*.w
 *.xslt.xml
 Content.tex
 
