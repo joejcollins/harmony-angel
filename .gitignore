@@ -205,3 +205,4 @@ Content.tex
 
 # Sublime project
 *.sublime-workspace
+*.sublime-project
