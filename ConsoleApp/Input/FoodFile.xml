@@ -291,21 +291,22 @@
         Style<Sub>Russian potatoes</Sub>
       </Index>
       <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="3000" Unit="g" Type="boiling potatoes" Process="cubed"/>
-        until not quite done
-        then drain.
+        In a <Utensil Name="casserole" /> bake
+        <Vegetable Quantity="1500" Unit="g" Type="boiling potatoes" Process="cubed"/>
+        until not quite done.
       </Stage>
       <Stage>
         Stir in
         <Dairy Quantity="1" Unit="large carton" Type="cottage cheese" />,
         <Dairy Quantity="300" Unit="ml" Type="sour cream" />,
-        <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>
+        <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>,
+        <Grocery Type="capers" />,
         and
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>.
+        and bake <Temperature Level="medium" /> for 30 minutes.
       </Stage>
       <Stage>
-        Put in <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 1 hour.
+        Grill <Meat Quantity="4" Type="burgers" /> and serve with the potatoes.
       </Stage>
     </Recipe>
     <Recipe Title="Lentils and spicy sausage" Meals="2">
@@ -325,7 +326,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="250" Unit="g" Type="red lentils" />,
-        <Grocery Quantity="2*400" Unit="g" Type="canned tomatoes" />,
+        <Grocery Quantity="800" Unit="g" Type="canned tomatoes" />,
         <Meat Quantity="250" Unit="g" Type="chorizo sausage" Process="sliced"/>,
         <Check Quantity="1" Unit="tsp" Type="chilli powder" />
         and

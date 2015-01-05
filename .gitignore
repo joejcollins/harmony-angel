@@ -202,3 +202,6 @@ Content.tex
 # Eclipse files
 .metadata/
 */.project
+
+# Sublime project
+*.sublime-workspace
