@@ -597,7 +597,7 @@
       <Stage>
         Stir in
         <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
-        <Check Quantity="5" Unit="cm" Type="cinnamon stick" />,
+        <Check Quantity="0.5" Unit="tsp" Type="ground cinnamon" />,
         and
         <Check Quantity="6" Type="cloves" />
         and fry for 2 minutes.
