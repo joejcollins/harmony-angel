@@ -824,7 +824,7 @@
         <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
         <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
         in
-        <Check Quantity="3" Unit="tbsp" Type="oil" Process=""/>
+        <Check Quantity="3" Unit="tbsp" Type="oil" />
         until soft.
       </Stage>
       <Stage>
@@ -835,7 +835,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned evapourated milk" />
+        <Grocery Quantity="400" Unit="g" Type="canned evaporated milk" />
         and 
         bake <Temperature Level="medium" /> 25 minutes.
       </Stage>
@@ -920,13 +920,54 @@
  <Menu Title="All New">
    <Recipe Title="Tuna Bake" Meals="2">
      <Stage>
-       
+       <Staple Name="rice brown" />
      </Stage>
-     
+     <Stage>
+       In a <Utensil Name="wok" /> fry
+       <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+       in
+       <Check Quantity="4" Unit="tbsp" Type="oil" />
+       until soft.
+     </Stage>
+     <Stage>
+       In a <Utensil Name="casserole"/> mix
+       the rice and onions.
+       Stir in
+       <Grocery Quantity="200" Unit="g" Type="condensed mushroom soup" />
+       and 
+       <Grocery Quantity="150" Unit="g" Type="canned tuna fish" />.
+       Sprinkle with
+       <Dairy Process="grated" Quantity="50" Type="cheese" Unit="g" />.
+       and
+       bake <Temperature Level="medium" /> 20 minutes.
+     </Stage>
    </Recipe>
     <Recipe Title="Sausage and Beans" Meals="2">
       <Stage>
-       
+        <Staple Name="potatoes" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="canned borlotti beans"  Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="canned flageolet beans"  Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
+     </Stage>
+     <Stage>
+        In a <Utensil Name="casserole"/> put
+        <Meat Quantity="500" Unit="g" Type="sausages"/>
+        cover with the mixture of beans
+        and
+        bake <Temperature Level="medium" /> 50 minutes.
      </Stage>
    </Recipe>
  </Menu>

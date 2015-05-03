@@ -269,9 +269,11 @@
       <xsd:enumeration value="baked beans" />
       <xsd:enumeration value="canned baked beans" />
       <xsd:enumeration value="canned borlotti beans" />
+      <xsd:enumeration value="canned condensed mushroom soup" />
       <xsd:enumeration value="canned chick peas" />
       <xsd:enumeration value="canned coconut milk" />
-      <xsd:enumeration value="canned evapourated milk" />
+      <xsd:enumeration value="canned evaporated milk" />
+      <xsd:enumeration value="canned flageolet beans" />
       <xsd:enumeration value="canned kidney beans" />
       <xsd:enumeration value="canned sweetcorn" />
       <xsd:enumeration value="canned tomatoes" />
