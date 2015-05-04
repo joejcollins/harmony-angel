@@ -53,7 +53,7 @@
         until soft.
       </Stage>
       <Stage>
-        Stir in <Grocery Process="chopped" Quantity="400" Type="canned tomatoes" Unit="g" />
+        Stir in <Grocery Process="chopped" Quantity="400" Type="can tomatoes" Unit="g" />
         and warm through.
       </Stage>
       <Stage>
@@ -226,8 +226,8 @@
       <Stage>
         Stir in
         <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
-        <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="300" Unit="ml" Type="sherry"/>,
         <Grocery Quantity="75" Unit="g" Type="raisins" />,
         <Check Quantity="1" Type="stock cube" Process="crumbled" />,
@@ -327,7 +327,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="250" Unit="g" Type="red lentils" />,
-        <Grocery Quantity="800" Unit="g" Type="canned tomatoes" />,
+        <Grocery Quantity="800" Unit="g" Type="can tomatoes" />,
         <Meat Quantity="250" Unit="g" Type="chorizo sausage" Process="sliced"/>,
         <Check Quantity="1" Unit="tsp" Type="chilli powder" />
         and
@@ -415,9 +415,9 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned kidney beans" />
+        <Grocery Quantity="400" Unit="g" Type="can kidney beans" />
         and
-        <Grocery Quantity="400" Unit="g" Type="canned chick peas" />
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" />
         in their liquid,
         cover and simmer for 5 minutes.
       </Stage>
@@ -426,7 +426,7 @@
         <Check Quantity="1" Unit="tsp" Type="dried thyme"/>,
         <Check Process="crumbled" Quantity="1" Type="stock cube" />
         and
-        <Grocery Quantity="400" Unit="g" Type="canned coconut milk" />
+        <Grocery Quantity="400" Unit="g" Type="can coconut milk" />
         Cover and simmer for 10 minutes.
       </Stage>
       <Stage>
@@ -515,7 +515,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="2" Unit="tbsp" Type="cashew nuts" />,
         <Check Quantity="120" Unit="ml" Type="creamed coconut" />,
         <Grocery Quantity="225" Unit="g" Type="red lentils" />
@@ -634,7 +634,7 @@
         <Vegetable Quantity="300" Unit="g" Type="carrots" Process="sliced"/>,
         <Vegetable Quantity="300" Unit="g" Type="parsnips" Process="sliced"/>,
         <Vegetable Quantity="300" Unit="g" Type="swedes" Process="sliced"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned borlotti beans" Process="undrained"/>,
+        <Grocery Quantity="400" Unit="g" Type="can borlotti beans" Process="undrained"/>,
         <Grocery Quantity="200" Unit="g" Type="mayonaise" />
         and
         <Grocery Quantity="160" Unit="g" Type="horseraddish sauce" />.
@@ -675,7 +675,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="100" Unit="g" Type="pesto" /> and
-        <Grocery Quantity="150" Unit="g" Type="canned tuna fish" />.
+        <Grocery Quantity="150" Unit="g" Type="can tuna fish" />.
       </Stage>
     </Recipe>
   </Menu>
@@ -748,7 +748,7 @@
         Stir in
         <Vegetable Quantity="500" Unit="g" Type="spinach" Process="hacked"/>,
         <Vegetable Quantity="500" Unit="g" Type="mushrooms" Process="sliced"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned chickpeas" Process="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="can chickpeas" Process="drained"/>,
         <Check Quantity="2" Unit="tbsp" Type="soya sauce" Process=""/>
         and
         <Check Quantity="2" Unit="tsp" Type="garam masala" Process=""/>
@@ -835,7 +835,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned evaporated milk" />
+        <Grocery Quantity="400" Unit="g" Type="can evaporated milk" />
         and 
         bake <Temperature Level="medium" /> 25 minutes.
       </Stage>
@@ -867,7 +867,7 @@
         <Vegetable Quantity="100" Unit="g" Type="carrots" Process="sliced"/>,
         <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="chopped"/>
         and
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
         and simmer for 5 minutes.
       </Stage>
       <Stage>
@@ -893,7 +893,7 @@
         spread
         <Grocery Quantity="300" Unit="g" Type="tomato puree" Process=""/>,
         <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="200" Unit="g" Type="canned sweetcorn" />,
+        <Grocery Quantity="200" Unit="g" Type="can sweetcorn" />,
         <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>,
         <Grocery Quantity="100" Unit="g" Type="anchovy fillets" />,
         <Grocery Quantity="200" Unit="g" Type="pineapple chunks" />,
@@ -908,7 +908,7 @@
     <Recipe Title="Fish fingers and baked beans" Meals="1">
       <Stage>
         In a <Utensil Name="pan" /> heat up
-        <Grocery Quantity="400" Unit="g" Type="canned baked beans" />.
+        <Grocery Quantity="400" Unit="g" Type="can baked beans" />.
       </Stage>
       <Stage>
         Grill
@@ -933,41 +933,45 @@
        In a <Utensil Name="casserole"/> mix
        the rice and onions.
        Stir in
-       <Grocery Quantity="200" Unit="g" Type="condensed mushroom soup" />
+       <Grocery Quantity="400" Unit="g" Type="can mushroom soup" />,
+       <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
        and 
-       <Grocery Quantity="150" Unit="g" Type="canned tuna fish" />.
+       <Grocery Quantity="150" Unit="g" Type="can tuna fish" Process="crumbled" />.
        Sprinkle with
        <Dairy Process="grated" Quantity="50" Type="cheese" Unit="g" />.
        and
        bake <Temperature Level="medium" /> 20 minutes.
      </Stage>
    </Recipe>
-    <Recipe Title="Sausage and Beans" Meals="2">
-      <Stage>
-        <Staple Name="potatoes" />
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned chick peas" Process ="drained"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned borlotti beans"  Process ="drained"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned flageolet beans"  Process ="drained"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
+   <Recipe Title="Sausage and Beans" Meals="2">
+     <Stage>
+       <Staple Name="potatoes" />
      </Stage>
      <Stage>
-        In a <Utensil Name="casserole"/> put
-        <Meat Quantity="500" Unit="g" Type="sausages"/>
-        cover with the mixture of beans
-        and
-        bake <Temperature Level="medium" /> 50 minutes.
+       In a <Utensil Name="casserole"/> put
+       <Meat Quantity="500" Unit="g" Type="sausages"/>
+       bake <Temperature Level="medium" /> 20 minutes.
+     </Stage>
+     <Stage>
+       In a <Utensil Name="wok" /> fry
+       <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+       and
+       <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+       in
+       <Check Quantity="4" Unit="tbsp" Type="oil" />
+       until soft.
+     </Stage>
+     <Stage>
+       Stir in
+       <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
+       <Grocery Quantity="400" Unit="g" Type="can borlotti beans"  Process ="drained"/>,
+       <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
+       and
+       <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>
+       and warm through.
+     </Stage>
+     <Stage>
+       Pour beans over the sausages and bake <Temperature Level="medium" /> 30 minutes.
      </Stage>
    </Recipe>
  </Menu>
