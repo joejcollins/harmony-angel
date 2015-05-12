@@ -934,6 +934,7 @@
        the rice and onions.
        Stir in
        <Grocery Quantity="400" Unit="g" Type="can mushroom soup" />,
+       <Grocery Quantity="200" Unit="g" Type="can sweetcorn" Process="drained"/>,
        <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
        and 
        <Grocery Quantity="150" Unit="g" Type="can tuna fish" Process="crumbled" />.
@@ -972,6 +973,38 @@
      </Stage>
      <Stage>
        Pour beans over the sausages and bake <Temperature Level="medium" /> 30 minutes.
+     </Stage>
+   </Recipe>
+   <Recipe Title="Chicken and Tomato Pasta" Meals="2">
+     <Stage>
+       In a <Utensil Name="wok"/>fry
+       <Vegetable Quantity="300" Unit="g" Type="onions" Process="sliced"/>
+       and
+       <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+       in
+       <Check Quantity="4" Unit="tbsp" Type="oil" />
+       until soft.
+     </Stage>
+     <Stage>
+       Stir in 
+       <Grocery Process="chopped" Quantity="400" Type="can tomatoes" Unit="g" />,
+       <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
+       and
+       <Grocery Quantity="500" Type="red wine" Unit="ml" />
+       and simmer gently for 30 minutes.
+     </Stage>
+     <Stage>
+       In a <Utensil Name="casserole"/> place
+       <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
+       and
+       <Check Quantity="4" Unit="tbsp" Type="oil" />
+       then bake <Temperature Level="medium" /> 30 minutes.
+     </Stage>
+     <Stage>
+       <Staple Name="tagliatelli"/>
+     </Stage>
+     <Stage>
+       Add meat to the tomatoes, then pour on the pasta.
      </Stage>
    </Recipe>
  </Menu>
