@@ -25,7 +25,7 @@
         Stir in
         <Grocery Quantity="75" Type="tomato puree" Unit="g"/>,
         <Check Quantity="0.5" Type="chilli powder" Unit="tsp" />,
-        <Check Process="crumbled" Quantity="1" Type="stock cube" />,
+        <Check Process="crumbled" Unit="cube" Quantity="1" Type="stock" />,
         <Water Quantity="500" Type="cold water" Unit="ml" />
         and simmer for 50 minutes.
       </Stage>
@@ -124,7 +124,7 @@
         Serve with <Vegetable Quantity="200" Unit="g" Type="tomatoes" Process="sliced"/>.
       </Stage>
     </Recipe>
-    
+
     <Recipe Title="Egg curry" Meals="2">
       <Index>Curry</Index>
       <Stage>
@@ -193,7 +193,7 @@
         Stir in
         <Grocery Quantity="250" Unit="g" Type="green lentils" />,
         <Check Quantity="3" Unit="tsp" Type="miso" />,
-        <Check Quantity="1" Type="stock cube" Process="crumbled" />,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         <Grocery Quantity="75" Unit="g" Type="tomato puree" />,
         <Water Quantity="650" Unit="ml" Type="boiling water" />,
         <Check Quantity="1" Unit="tsp" Type="marjoram" />,
@@ -228,9 +228,9 @@
         <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
         <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
         <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
-        <Grocery Quantity="300" Unit="ml" Type="sherry"/>,
+        <Check Quantity="300" Unit="ml" Type="sherry" />,
         <Grocery Quantity="75" Unit="g" Type="raisins" />,
-        <Check Quantity="1" Type="stock cube" Process="crumbled" />,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         <Grocery Quantity="400" Unit="g" Type="white rice"/>
         and
         <Water Quantity="500" Unit="ml" Type="water" />
@@ -362,7 +362,7 @@
         <Check Quantity="1" Type="pepper" Unit="pinch"/>.
       </Stage>
     </Recipe>
-    
+
     <Recipe Title="Mushroom Stew" Meals="2">
       <Index>
         Stew<Sub>Mushroom</Sub>
@@ -386,7 +386,7 @@
         <Grocery Quantity="150" Unit="g" Type="pearl barley" />,
         <Check Quantity="4" Unit="tbsp" Type="soy sauce" />,
         <Check Quantity="5" Unit="tbsp" Type="sherry" />,
-        <Check Quantity="1" Type="stock cube" Process="crumbled"/>
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         and
         <Water Quantity="450" Type="cold water" Unit="ml" />
         and simmer for 25 minutes.
@@ -424,7 +424,7 @@
       <Stage>
         Stir in
         <Check Quantity="1" Unit="tsp" Type="dried thyme"/>,
-        <Check Process="crumbled" Quantity="1" Type="stock cube" />
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         and
         <Grocery Quantity="400" Unit="g" Type="can coconut milk" />
         Cover and simmer for 10 minutes.
@@ -606,7 +606,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="400" Unit="g" Type="white rice" />,
-        <Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         and
         <Water Quantity="800" Unit="ml" Type="water" />
         and bake, covered <Temperature Level="medium" /> 30 minutes.
@@ -702,7 +702,7 @@
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>,
         <Vegetable Quantity="100" Unit="g" Type="mushrooms" Process="sliced"/>,
         <Vegetable Quantity="500" Unit="g" Type="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="150" Unit="g" Type="tomato puree" Process=""/>,
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
         <Water Quantity="3" Unit="tbsp" Type="water" />
         and
         <Check Quantity="1" Unit="tsp" Type="mixed herbs" />,
@@ -714,7 +714,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="bowl" /> beat together
-        <Dairy Quantity="2" Type="eggs" Process=""/>,
+        <Dairy Quantity="2" Type="eggs" />,
         <Dairy Quantity="150" Unit="ml" Type="plain yoghurt" />
         and
         <Dairy Quantity="200" Unit="ml" Type="milk"/>.
@@ -732,9 +732,9 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Check Quantity="2" Unit="tsp" Type="cumin seeds" Process=""/>
+        <Check Quantity="2" Unit="tsp" Type="cumin seeds" />
         in
-        <Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
         for 2 minutes.
       </Stage>
       <Stage>
@@ -748,10 +748,10 @@
         Stir in
         <Vegetable Quantity="500" Unit="g" Type="spinach" Process="hacked"/>,
         <Vegetable Quantity="500" Unit="g" Type="mushrooms" Process="sliced"/>,
-        <Grocery Quantity="400" Unit="g" Type="can chickpeas" Process="drained"/>,
-        <Check Quantity="2" Unit="tbsp" Type="soya sauce" Process=""/>
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>,
+        <Check Quantity="2" Unit="tbsp" Type="soy sauce" />
         and
-        <Check Quantity="2" Unit="tsp" Type="garam masala" Process=""/>
+        <Check Quantity="2" Unit="tsp" Type="garam masala" />
         and simmer until spinach wilts.
       </Stage>
     </Recipe>
@@ -811,7 +811,7 @@
         <Grocery Quantity="50" Unit="g" Type="grated parmesan"/>.
       </Stage>
     </Recipe>
-    
+
     <Recipe Title="Chicken curry" Meals="2">
       <Index>
         Curry<Sub>Chicken</Sub>
@@ -836,7 +836,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="400" Unit="g" Type="can evaporated milk" />
-        and 
+        and
         bake <Temperature Level="medium" /> 25 minutes.
       </Stage>
     </Recipe>
@@ -846,17 +846,17 @@
       </Index>
       <Stage>
         In a <Utensil Name="pan" /> in
-        <Water Quantity="450" Unit="ml" Type="water" Process=""/>
+        <Water Quantity="450" Unit="ml" Type="water"/>
         cook
-        <Grocery Quantity="225" Unit="g" Type="red lentils" Process=""/>
+        <Grocery Quantity="225" Unit="g" Type="red lentils" />
         until soft.
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Check Quantity="1" Unit="tsp" Type="cumin seeds" Process=""/>,
-        <Check Quantity="1" Unit="tsp" Type="mustard seeds" Process=""/>,
+        <Check Quantity="1" Unit="tsp" Type="cumin seeds" />,
+        <Check Quantity="1" Unit="tsp" Type="mustard seeds" />,
         and
-        <Check Quantity="1" Unit="tsp" Type="cinnamon" Process="ground"/>
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />
         in
         <Check Quantity="4" Unit="tbsp" Type="oil" />.
       </Stage>
@@ -891,7 +891,7 @@
         On
         <Grocery Quantity="2" Type="pizza bases" />
         spread
-        <Grocery Quantity="300" Unit="g" Type="tomato puree" Process=""/>,
+        <Grocery Quantity="300" Unit="g" Type="tomato puree" />,
         <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
         <Grocery Quantity="200" Unit="g" Type="can sweetcorn" />,
         <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>,
@@ -917,95 +917,232 @@
     </Recipe>
   </Menu>
 
- <Menu Title="All New">
-   <Recipe Title="Tuna Bake" Meals="2">
-     <Stage>
-       <Staple Name="rice brown" />
-     </Stage>
-     <Stage>
-       In a <Utensil Name="wok" /> fry
-       <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
-       in
-       <Check Quantity="4" Unit="tbsp" Type="oil" />
-       until soft.
-     </Stage>
-     <Stage>
-       In a <Utensil Name="casserole"/> mix
-       the rice and onions.
-       Stir in
-       <Grocery Quantity="400" Unit="g" Type="can mushroom soup" />,
-       <Grocery Quantity="200" Unit="g" Type="can sweetcorn" Process="drained"/>,
-       <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
-       and 
-       <Grocery Quantity="150" Unit="g" Type="can tuna fish" Process="crumbled" />.
-       Sprinkle with
-       <Dairy Process="grated" Quantity="50" Type="cheese" Unit="g" />.
-       and
-       bake <Temperature Level="medium" /> 20 minutes.
-     </Stage>
-   </Recipe>
-   <Recipe Title="Sausage and Beans" Meals="2">
-     <Stage>
-       <Staple Name="potatoes" />
-     </Stage>
-     <Stage>
-       In a <Utensil Name="casserole"/> put
-       <Meat Quantity="500" Unit="g" Type="sausages"/>
-       bake <Temperature Level="medium" /> 20 minutes.
-     </Stage>
-     <Stage>
-       In a <Utensil Name="wok" /> fry
-       <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
-       and
-       <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-       in
-       <Check Quantity="4" Unit="tbsp" Type="oil" />
-       until soft.
-     </Stage>
-     <Stage>
-       Stir in
-       <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
-       <Grocery Quantity="400" Unit="g" Type="can borlotti beans"  Process ="drained"/>,
-       <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
-       and
-       <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>
-       and warm through.
-     </Stage>
-     <Stage>
-       Pour beans over the sausages and bake <Temperature Level="medium" /> 30 minutes.
-     </Stage>
-   </Recipe>
-   <Recipe Title="Chicken and Tomato Pasta" Meals="2">
-     <Stage>
-       In a <Utensil Name="wok"/>fry
-       <Vegetable Quantity="300" Unit="g" Type="onions" Process="sliced"/>
-       and
-       <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-       in
-       <Check Quantity="4" Unit="tbsp" Type="oil" />
-       until soft.
-     </Stage>
-     <Stage>
-       Stir in 
-       <Grocery Process="chopped" Quantity="400" Type="can tomatoes" Unit="g" />,
-       <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
-       and
-       <Grocery Quantity="500" Type="red wine" Unit="ml" />
-       and simmer gently for 30 minutes.
-     </Stage>
-     <Stage>
-       In a <Utensil Name="casserole"/> place
-       <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
-       and
-       <Check Quantity="4" Unit="tbsp" Type="oil" />
-       then bake <Temperature Level="medium" /> 30 minutes.
-     </Stage>
-     <Stage>
-       <Staple Name="tagliatelli"/>
-     </Stage>
-     <Stage>
-       Add meat to the tomatoes, then pour on the pasta.
-     </Stage>
-   </Recipe>
- </Menu>
+  <Menu Title="All New">
+    <Recipe Title="Tuna Bake" Meals="2">
+      <Stage>
+        <Staple Name="rice brown" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole"/> mix
+        the rice and onions.
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="can mushroom soup" />,
+        <Grocery Quantity="200" Unit="g" Type="can sweetcorn" Process="drained"/>,
+        <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
+        and
+        <Grocery Quantity="150" Unit="g" Type="can tuna fish" Process="crumbled" />.
+        Sprinkle with
+        <Dairy Process="grated" Quantity="50" Type="cheese" Unit="g" />.
+        and
+        bake <Temperature Level="medium" /> 20 minutes.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Sausage and Beans" Meals="2">
+      <Stage>
+        <Staple Name="potatoes" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole"/> put
+        <Meat Quantity="500" Unit="g" Type="sausages"/>
+        bake <Temperature Level="medium" /> 20 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="can borlotti beans"  Process ="drained"/>,
+        <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
+        and
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>
+        and warm through.
+      </Stage>
+      <Stage>
+        Pour beans over the sausages and bake <Temperature Level="medium" /> 30 minutes.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Red Pepper Pasta" Meals="2">
+      <!-- http://allrecipes.co.uk/recipe/2004/farfalle-with-red-pepper-sauce.aspx?o_is=Hub_TopRecipe_5 -->
+
+      <Stage>
+        In a <Utensil Name="pan" /> simmer
+        <Vegetable Quantity="200" Unit="g" Type="red pepper" Process="chopped" />,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
+        <Check Quantity="1" Unit="tsp" Type="oregano" />
+        and
+        <Water Quantity="100" Unit="ml" />
+        for 20 minutes.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="140" Type="tomato puree" Unit="g"/>,
+        <Check Quantity="1" Type="wine vinegar" Unit="tbsp" />
+        and
+        <Check Quantity="1" Type="honey" Unit="tsp" />
+        then mash or blend.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
+        and warm through.
+      </Stage>
+      <Stage>
+        <Staple Name="pasta shapes" />
+      </Stage>
+    </Recipe>
+    <Recipe Title="Hangover Noodles" Meals="1">
+      <!-- http://www.jamieoliver.com/recipes/vegetables-recipes/hungover-noodles/#vOYV0KputHT3r8De.97 -->
+      <Stage>
+        In a <Utensil Name="pan" />
+        put
+        <Grocery Quantity="200" Unit="g" Type="noodles"/>,
+        <Vegetable Quantity="400" Unit="g" Type="broccoli" Process="flourettes"/>
+        <Vegetable Quantity="400" Unit="g" Type="chinese cabbage" Process="sliced"/>
+        <Vegetable Quantity="200" Unit="g" Type="mange tout" Process="halved"/>
+        pour on <Water Quantity="800" Unit="ml" Type="boiling water"/>,
+        cover and simmer for 5 minutes, then drain.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="bowl"/> mix
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>,
+        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="grated"/>,
+        <Check Quantity="2" Unit="tbsp" Type="soy sauce" />,
+        <Check Quantity="3" Unit="tbsp" Type="sesame oil" /> and
+        <Check Quantity="3" Unit="tbsp" Type="wine vinegar" />.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="frying"/> fry
+        <Dairy Quantity="2" Type="eggs" />
+        in
+        <Check Quantity="1" Unit="tbsp" Type="sesame oil" />.
+      </Stage>
+      <Stage>
+        Toss the noodles in the soy sauce dressing.
+        Serve with fried eggs on top.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Chicken and Tomato Pasta" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Vegetable Quantity="300" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Process="chopped" Quantity="400" Type="can tomatoes" Unit="g" />,
+        <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
+        and
+        <Grocery Quantity="500" Type="red wine" Unit="ml" />
+        and simmer gently for 30 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole"/> place
+        <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
+        and
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        then bake <Temperature Level="medium" /> 30 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="tagliatelli"/>
+      </Stage>
+      <Stage>
+        Add meat to the tomatoes, then pour on the pasta.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Tofu and mangetous stew" Meals="2">
+      <Index>
+        Stew<Sub>Tofu and mange tous</Sub>
+      </Index>
+      <Stage>
+        <Staple Name="rice brown"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Grocery Quantity="300" Unit="g" Type="tofu" Process="cubed"/>
+        in
+        <Check Quantity="7" Unit="tbsp" Type="oil"/>
+        until brown, then remove.
+      </Stage>
+      <Stage>
+        Fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/> until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="200" Unit="g" Type="mange tout" Process="halved"/>
+        and
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Type="cabbage" Process="sliced"/>,
+        <Check Quantity="3" Unit="tbsp" Type="sherry" />,
+        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="chopped"/>,
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Check Quantity="3" Unit="tbsp" Type="soy sauce" />
+        and cook until done.
+      </Stage>
+      <Stage>
+        Return the tofu.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Vegetable cous cous" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="225" Unit="g" Type="courgette" Process="sliced"/>,
+        <Vegetable Quantity="225" Unit="g" Type="green beans" Process="chopped"/>,
+        <Vegetable Quantity="225" Unit="g" Type="carrots" Process="chopped"/>,
+        <Vegetable Quantity="500" Unit="g" Type="cauliflower" />
+        and
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="tsp" Type="ground turmeric" Process=""/>,
+        <Check Quantity="1" Unit="tsp" Type="ground cinamon" Process=""/>,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>.
+        and
+        <Water Quantity="400" Unit="ml" Type="water" />,
+        and bring to the boil.
+      </Stage>
+      <Stage>
+        Make a space in the middle and pour in
+        <Grocery Quantity="400" Unit="g" Type="cous cous"/>
+        in the middle, cover,
+        and leave to stand for 10 minutes.
+      </Stage>
+    </Recipe>
+    <Recipe Title="Noodles and sardines" Meals="1">
+      <Stage>
+        <Staple Name="noodles"/>
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="120" Unit="g" Type="can sardines" Process="mashed"/>
+        and
+        <Check Quantity="1" Unit="tsp" Type="soy sauce" />.
+      </Stage>
+    </Recipe>
+  </Menu>
 </Book>

@@ -139,12 +139,15 @@
       <xsd:enumeration value="crumbled" />
       <xsd:enumeration value="cubed" />
       <xsd:enumeration value="drained" />
+      <xsd:enumeration value="flourettes" />
       <xsd:enumeration value="grated" />
       <xsd:enumeration value="ground" />
       <xsd:enumeration value="halved" />
+      <xsd:enumeration value="hacked" />
       <xsd:enumeration value="quartered" />
       <xsd:enumeration value="sliced" />
       <xsd:enumeration value="undrained" />
+      <xsd:enumeration value="mashed" />
       <xsd:enumeration value="washed" />
     </xsd:restriction>
   </xsd:simpleType>
@@ -184,6 +187,7 @@
       <xsd:enumeration value="cloves" />
       <xsd:enumeration value="cm" />
       <xsd:enumeration value="cube" />
+      <xsd:enumeration value="rashers" />
       <xsd:enumeration value="g" />
       <xsd:enumeration value="ml" />
       <xsd:enumeration value="pinch" />
@@ -201,6 +205,7 @@
       <xsd:enumeration value="casserole" />
       <xsd:enumeration value="cup" />
       <xsd:enumeration value="pan" />
+      <xsd:enumeration value="frying" />
       <xsd:enumeration value="wok" />
     </xsd:restriction>
   </xsd:simpleType>
@@ -223,8 +228,13 @@
       <xsd:enumeration value="curry powder" />
       <xsd:enumeration value="dried thyme" />
       <xsd:enumeration value="flour" />
+      <xsd:enumeration value="garam masala" />
+      <xsd:enumeration value="ground cinnamon" />
       <xsd:enumeration value="ground coriander" />
       <xsd:enumeration value="ground cumin" />
+      <xsd:enumeration value="ground turmeric" />
+      <xsd:enumeration value="ground cinamon" />
+      <xsd:enumeration value="honey" />
       <xsd:enumeration value="marjoram" />
       <xsd:enumeration value="miso" />
       <xsd:enumeration value="mixed herbs" />
@@ -235,9 +245,10 @@
       <xsd:enumeration value="oregano" />
       <xsd:enumeration value="pepper" />
       <xsd:enumeration value="salt" />
+      <xsd:enumeration value="sesame oil" />
       <xsd:enumeration value="sherry" />
       <xsd:enumeration value="soy sauce" />
-      <xsd:enumeration value="stock cube" />
+      <xsd:enumeration value="stock" />
       <xsd:enumeration value="sugar" />
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="turmeric" />
@@ -278,6 +289,7 @@
       <xsd:enumeration value="can sweetcorn" />
       <xsd:enumeration value="can tomatoes" />
       <xsd:enumeration value="can tuna fish" />
+      <xsd:enumeration value="can sardines" />
       <xsd:enumeration value="capers" />
       <xsd:enumeration value="cashew nuts" />
       <xsd:enumeration value="cider" />
@@ -289,7 +301,6 @@
       <xsd:enumeration value="frozen peas" />
       <xsd:enumeration value="grated parmesan" />
       <xsd:enumeration value="green lentils" />
-      <xsd:enumeration value="ground cinnamon" />
       <xsd:enumeration value="horseraddish sauce" />
       <xsd:enumeration value="lasagna" />
       <xsd:enumeration value="mayonaise" />
@@ -315,6 +326,7 @@
       <xsd:enumeration value="suet" />
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="tomato puree" />
+      <xsd:enumeration value="tofu" />
       <xsd:enumeration value="white rice" />
     </xsd:restriction>
   </xsd:simpleType>
@@ -341,11 +353,15 @@
       <xsd:enumeration value="aubergine" />
       <xsd:enumeration value="baking potatoes" />
       <xsd:enumeration value="boiling potatoes" />
+      <xsd:enumeration value="broccoli" />
       <xsd:enumeration value="cabbage" />
       <xsd:enumeration value="carrots" />
+      <xsd:enumeration value="cauliflower" />
       <xsd:enumeration value="celery" />
+      <xsd:enumeration value="chinese cabbage" />
       <xsd:enumeration value="courgette" />
       <xsd:enumeration value="garlic" />
+      <xsd:enumeration value="ginger" />
       <xsd:enumeration value="green beans" />
       <xsd:enumeration value="green chilli" />
       <xsd:enumeration value="green pepper" />
@@ -357,6 +373,7 @@
       <xsd:enumeration value="potatoes" />
       <xsd:enumeration value="red chilli" />
       <xsd:enumeration value="red pepper" />
+      <xsd:enumeration value="spinach" />
       <xsd:enumeration value="swedes" />
       <xsd:enumeration value="sweet potatoes" />
       <xsd:enumeration value="tomatoes" />

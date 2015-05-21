@@ -20,6 +20,7 @@
   <xsl:template match="Utensil">
     <xsl:if test="@Name='bowl'">mixing bowl</xsl:if>
     <xsl:if test="@Name='casserole'">casserole dish</xsl:if>
+    <xsl:if test="@Name='frying'">frying pan</xsl:if>
     <xsl:if test="@Name='pan'">sauce pan</xsl:if>
     <xsl:if test="@Name='wok'">large wok</xsl:if>
   </xsl:template>
