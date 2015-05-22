@@ -977,14 +977,13 @@
     </Recipe>
     <Recipe Title="Red Pepper Pasta" Meals="2">
       <!-- http://allrecipes.co.uk/recipe/2004/farfalle-with-red-pepper-sauce.aspx?o_is=Hub_TopRecipe_5 -->
-
       <Stage>
         In a <Utensil Name="pan" /> simmer
-        <Vegetable Quantity="200" Unit="g" Type="red pepper" Process="chopped" />,
+        <Vegetable Quantity="350" Unit="g" Type="red pepper" Process="chopped" />,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         <Check Quantity="1" Unit="tsp" Type="oregano" />
         and
-        <Water Quantity="100" Unit="ml" />
+        <Water Quantity="200" Unit="ml" />
         for 20 minutes.
       </Stage>
       <Stage>
@@ -997,7 +996,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
+        <Grocery Quantity="400" Unit="g" Type="frozen peas"/>
         and warm through.
       </Stage>
       <Stage>
