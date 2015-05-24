@@ -114,7 +114,10 @@
 	-->
 	<xsl:template match="Stage">\item <xsl:apply-templates /></xsl:template>
 	<xsl:template match="Vegetable|Grocery|Meat|Dairy|Check|Water">
-		<xsl:value-of select="@Quantity" /><xsl:text>~</xsl:text>
+		<xsl:value-of select="@Quantity" />
+    <xsl:if test="@Quantity">
+      <xsl:text>~</xsl:text>
+    </xsl:if>
 		<xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Process" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Type" />

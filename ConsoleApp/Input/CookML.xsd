@@ -144,10 +144,12 @@
       <xsd:enumeration value="ground" />
       <xsd:enumeration value="halved" />
       <xsd:enumeration value="hacked" />
+      <xsd:enumeration value="juiced" />
       <xsd:enumeration value="quartered" />
       <xsd:enumeration value="sliced" />
       <xsd:enumeration value="undrained" />
       <xsd:enumeration value="mashed" />
+      <xsd:enumeration value="toasted" />
       <xsd:enumeration value="washed" />
     </xsd:restriction>
   </xsd:simpleType>
@@ -233,7 +235,7 @@
       <xsd:enumeration value="ground coriander" />
       <xsd:enumeration value="ground cumin" />
       <xsd:enumeration value="ground turmeric" />
-      <xsd:enumeration value="ground cinamon" />
+      <xsd:enumeration value="ground ginger" />
       <xsd:enumeration value="honey" />
       <xsd:enumeration value="marjoram" />
       <xsd:enumeration value="miso" />
@@ -296,6 +298,7 @@
       <xsd:enumeration value="cinnamon" />
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="creamed coconut" />
+      <xsd:enumeration value="dried apricots" />
       <xsd:enumeration value="fish fingers" />
       <xsd:enumeration value="flaked almonds" />
       <xsd:enumeration value="frozen peas" />
@@ -360,6 +363,7 @@
       <xsd:enumeration value="celery" />
       <xsd:enumeration value="chinese cabbage" />
       <xsd:enumeration value="courgette" />
+      <xsd:enumeration value="fresh coriander" />
       <xsd:enumeration value="garlic" />
       <xsd:enumeration value="ginger" />
       <xsd:enumeration value="green beans" />

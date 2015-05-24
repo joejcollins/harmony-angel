@@ -1034,6 +1034,7 @@
         Serve with fried eggs on top.
       </Stage>
     </Recipe>
+
     <Recipe Title="Chicken and Tomato Pasta" Meals="2">
       <Stage>
         In a <Utensil Name="wok"/> fry
@@ -1118,7 +1119,7 @@
       <Stage>
         Stir in
         <Check Quantity="1" Unit="tsp" Type="ground turmeric" Process=""/>,
-        <Check Quantity="1" Unit="tsp" Type="ground cinamon" Process=""/>,
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" Process=""/>,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
         <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>.
         and
@@ -1141,6 +1142,48 @@
         <Grocery Quantity="120" Unit="g" Type="can sardines" Process="mashed"/>
         and
         <Check Quantity="1" Unit="tsp" Type="soy sauce" />.
+      </Stage>
+    </Recipe>
+  </Menu>
+
+  <Menu Title="May Bank Holiday">
+    <Recipe Title="Chicken Tagine" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Meat Quantity="400" Unit="g" Type="chicken" Process="chopped"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
+        until done, then remove.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Vegetable Quantity="300" Unit="g" Type="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
+        until golden.
+      </Stage>
+      <Stage>
+        Stir the chicken,
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />,
+        <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
+        <Check Quantity="1" Unit="tsp" Type="ground ginger" />,
+        <Grocery Quantity="150" Unit="g" Type="dried apricots" Process="quartered"/>,
+        <Vegetable Quantity="1" Type="lemon" Process="juiced"/>,
+        <Check Quantity="2" Unit="tbsp" Type="honey" />,
+        <Check Process="crumbled" Unit="cube" Quantity="1" Type="stock" />
+        and
+        <Water Quantity="359" Type="boiling water" Unit="ml" />
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        Serve with
+        <Grocery Quantity="100" Unit="g" Type="flaked almonds" Process="toasted"/>
+        and
+        <Vegetable Type="fresh coriander" Process="chopped"/>.
       </Stage>
     </Recipe>
   </Menu>
