@@ -361,6 +361,7 @@
       <xsd:enumeration value="carrots" />
       <xsd:enumeration value="cauliflower" />
       <xsd:enumeration value="celery" />
+      <xsd:enumeration value="chillis" />
       <xsd:enumeration value="chinese cabbage" />
       <xsd:enumeration value="courgette" />
       <xsd:enumeration value="fresh coriander" />

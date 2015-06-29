@@ -925,6 +925,8 @@
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="1" Type="chillis" Process="chopped" />
         in
         <Check Quantity="4" Unit="tbsp" Type="oil" />
         until soft.
