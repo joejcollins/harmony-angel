@@ -53,7 +53,7 @@
     <xsl:if test="@Name='pasta shapes'">
       In a <Utensil Name="pan" /> heat
       <Water Quantity="2000" Unit="ml" Type="cold water" /> then add
-      <Grocery Quantity="450" Unit="g" Type="pasta shapes"/>
+      <Grocery Quantity="400" Unit="g" Type="pasta shapes"/>
       boil for 12
       minutes then drain.
     </xsl:if>

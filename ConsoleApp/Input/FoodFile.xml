@@ -981,19 +981,20 @@
       <!-- http://allrecipes.co.uk/recipe/2004/farfalle-with-red-pepper-sauce.aspx?o_is=Hub_TopRecipe_5 -->
       <Stage>
         In a <Utensil Name="pan" /> simmer
-        <Vegetable Quantity="350" Unit="g" Type="red pepper" Process="chopped" />,
-        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
-        <Check Quantity="1" Unit="tsp" Type="oregano" />
+        <Vegetable Quantity="4" Type="red pepper" Process="chopped" />,
+        <Check Quantity="2" Unit="cube" Type="stock" Process="crumbled" />,
+        <Check Quantity="2" Unit="tsp" Type="oregano" />
         and
-        <Water Quantity="200" Unit="ml" />
+        <Grocery Quantity="1" Type="can tomatoes"/>
+        <Water Quantity="400" Unit="ml" />
         for 20 minutes.
       </Stage>
       <Stage>
         Stir in
         <Grocery Quantity="140" Type="tomato puree" Unit="g"/>,
-        <Check Quantity="1" Type="wine vinegar" Unit="tbsp" />
+        <Check Quantity="2" Type="wine vinegar" Unit="tbsp" />
         and
-        <Check Quantity="1" Type="honey" Unit="tsp" />
+        <Check Quantity="2" Type="honey" Unit="tsp" />
         then mash or blend.
       </Stage>
       <Stage>
