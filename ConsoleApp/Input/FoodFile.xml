@@ -257,7 +257,7 @@
     </Recipe>
   </Menu>
 
-  <Menu Title="Approved">
+  <Menu Title="Approved by Mags">
     <Recipe Title="Aubergine and peppers" Meals="2">
       <Stage>
         <Staple Name="potatoes" />
@@ -266,7 +266,7 @@
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
         and
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
         in
         <Check Quantity="4" Unit="tbsp" Type="oil" />
         until soft.
@@ -275,8 +275,13 @@
         Stir in
         <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
         <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="sliced"/>,
-        <Vegetable Quantity="400" Unit="g" Type="aubergine" Process="sliced"/>,
-        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Type="aubergine" Process="sliced"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
         <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
         <Water Quantity="100" Type="cold water" Unit="ml" />
         and
@@ -292,22 +297,28 @@
         Style<Sub>Russian potatoes</Sub>
       </Index>
       <Stage>
-        In a <Utensil Name="casserole" /> bake
-        <Vegetable Quantity="1500" Unit="g" Type="boiling potatoes" Process="cubed"/>
-        until not quite done.
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="2000" Unit="g" Type="boiling potatoes" Process="cubed"/>
+        until not quite done
+        then drain.
       </Stage>
       <Stage>
         Stir in
         <Dairy Quantity="600" Unit="g" Type="cottage cheese" />,
         <Dairy Quantity="300" Unit="ml" Type="sour cream" />,
         <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>,
-        <Grocery Quantity="60" Unit="g" Type="capers" />,
+        <Grocery Quantity="50" Unit="g" Type="capers" />,
         and
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>.
         and bake <Temperature Level="medium" /> for 30 minutes.
       </Stage>
       <Stage>
         Grill <Meat Quantity="4" Type="burgers" /> and serve with the potatoes.
+      </Stage>
+      <Stage>
+        Sprinkle with 
+        <Vegetable Quantity="50" Unit="g" Type="spring onion" Process="chopped"/>
+        to serve.
       </Stage>
     </Recipe>
     <Recipe Title="Lentils and spicy sausage" Meals="2">

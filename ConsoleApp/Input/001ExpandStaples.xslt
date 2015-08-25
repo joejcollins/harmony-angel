@@ -118,7 +118,8 @@
     </xsl:if>
     <xsl:if test="@Name='potatoes'">
       Bake <Vegetable Process="washed" Quantity="1200" Type="baking potatoes" Unit="g" />
-      medium for 40 minutes.
+      at
+      <Temperature Level="high" /> for 40 minutes.
     </xsl:if>
     <xsl:if test="@Name='tagliatelli'">
       <xsl:variable name="Meals" select="../../@Meals" />
