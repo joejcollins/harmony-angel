@@ -265,6 +265,7 @@
       <xsd:enumeration value="butter" />
       <xsd:enumeration value="cheese" />
       <xsd:enumeration value="cottage cheese" />
+      <xsd:enumeration value="cream cheese" />
       <xsd:enumeration value="eggs" />
       <xsd:enumeration value="milk" />
       <xsd:enumeration value="parmesan" />
@@ -317,6 +318,7 @@
       <xsd:enumeration value="pearl barley" />
       <xsd:enumeration value="pesto" />
       <xsd:enumeration value="pineapple chunks" />
+      <xsd:enumeration value="pine nuts" />
       <xsd:enumeration value="pitta bread" />
       <xsd:enumeration value="pitted olives" />
       <xsd:enumeration value="pizza" />
@@ -370,6 +372,7 @@
       <xsd:enumeration value="green beans" />
       <xsd:enumeration value="green chilli" />
       <xsd:enumeration value="green pepper" />
+      <xsd:enumeration value="kale" />
       <xsd:enumeration value="lemon" />
       <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="mushrooms" />
