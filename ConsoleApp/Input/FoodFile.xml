@@ -1075,19 +1075,16 @@
         then bake <Temperature Level="medium" /> 30 minutes.
       </Stage>
       <Stage>
-        <Staple Name="tagliatelli"/>
+        <Staple Name="rice"/>
       </Stage>
       <Stage>
-        Add meat to the tomatoes, then pour on the pasta.
+        Add meat to the tomatoes, then pour on the rice.
       </Stage>
     </Recipe>
-    <Recipe Title="Tofu and mangetous stew" Meals="2">
+    <Recipe Title="Tofu and mangetous stir fry" Meals="2">
       <Index>
         Stew<Sub>Tofu and mange tous</Sub>
       </Index>
-      <Stage>
-        <Staple Name="rice brown"/>
-      </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Grocery Quantity="300" Unit="g" Type="tofu" Process="cubed"/>
@@ -1096,24 +1093,34 @@
         until brown, then remove.
       </Stage>
       <Stage>
-        Fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/> until soft.
+        Fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/>,        
+        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="chopped"/>,
+        <Vegetable Quantity="1" Type="chilli" />
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        until soft.
       </Stage>
       <Stage>
         Stir in
         <Vegetable Quantity="200" Unit="g" Type="mange tout" Process="halved"/>
-        and
         <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
-        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>,
-        <Vegetable Quantity="400" Unit="g" Type="cabbage" Process="sliced"/>,
-        <Check Quantity="3" Unit="tbsp" Type="sherry" />,
-        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="chopped"/>,
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>
         and
-        <Check Quantity="3" Unit="tbsp" Type="soy sauce" />
-        and cook until done.
+        <Vegetable Quantity="400" Unit="g" Type="cabbage" Process="sliced"/>,
+        and cook until warm.
+      </Stage>
+      <Stage>
+        Stir in <Grocery Quantity="1" Unit="tbsp" Type="corn flour" />
+        then stir in
+        <Check Quantity="5" Unit="tbsp" Type="sherry" />,
+        and
+        <Check Quantity="5" Unit="tbsp" Type="soy sauce" />.
       </Stage>
       <Stage>
         Return the tofu.
+      </Stage>
+      <Stage>
+        <Staple Name="noodles"/>
       </Stage>
     </Recipe>
     <Recipe Title="Vegetable cous cous" Meals="2">
