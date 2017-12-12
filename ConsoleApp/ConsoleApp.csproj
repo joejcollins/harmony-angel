@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsvHelper, Version=6.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.6.0.2\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
+    <Compile Include="IngredientTypes.cs" />
     <Compile Include="Increment.cs" />
     <Compile Include="Ingredient.cs" />
     <Compile Include="IngredientsData.cs" />
@@ -74,6 +77,7 @@
     <None Include="Input\CookML.xsx">
       <DependentUpon>CookML.xsd</DependentUpon>
     </None>
+    <None Include="Input\Ingredients.csv" />
     <None Include="Input\Ingredients.xlsx" />
     <None Include="Input\IngredientsDataSet.xsc">
       <DependentUpon>IngredientsDataSet.xsd</DependentUpon>
@@ -88,6 +92,7 @@
     </None>
     <None Include="Output\Content.tex" />
     <None Include="Output\FoodFile.tex" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

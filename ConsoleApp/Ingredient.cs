@@ -3,28 +3,55 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections;
+using CsvHelper;
+using CsvHelper.Configuration;
 
 namespace ConsoleApp
 {
-    class Ingredient
+    public class Ingredient
     {
 
         public Ingredient()
         {
         }
 
-        public string Calories(double quantity, string type, string unit)
+        public String IngredientName { get; set; }
+        public IngredientTypes IngredientType { get; set; }
+        public Int16 Calories { get; set; }
+        public float Protien { get; set; }
+        public float Carbohydrate { get; set; }
+        public float Fat { get; set; }
+        public float Fibre { get; set; }
+
+        public string PortionCalories(double quantity, string type, string unit)
         {
             //TODO: Get the actual calories per gram and make the calculation.
             return quantity.ToString() + type + unit;
         }
 
-        public Double Fat(double quantity, string type, string unit)
+        public Double PortionFat(double quantity, string type, string unit)
         {
             //TODO: Get the actual amount of fat per gram and make the calculation.
             return 1.5;
         }
-
-
     }
+
+    ///// <summary>
+    ///// Mapping class for use by the CsvReader
+    ///// </summary>
+    //public sealed class IngredientMap : ClassMap<Ingredient>
+    //{
+    //    public IngredientMap()
+    //    {
+    //        Map(m => m.IngredientName);
+    //        Map(m => m.IngredientType);
+    //        Map(m => m.Calories);
+    //        Map(m => m.Protien);
+    //        Map(m => m.Carbohydrate);
+    //        Map(m => m.Fat);
+    //        Map(m => m.Fibre);
+    //    }
+    //}
+
+
 }

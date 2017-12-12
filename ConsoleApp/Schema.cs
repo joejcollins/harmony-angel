@@ -42,7 +42,7 @@ namespace ConsoleApp
 			Debug.WriteLine("Schema namespace: " + m_strNameSpace);
 		    //IDictionaryEnumerator IngredientTypesEnumerator = IngredientTypes;
 
-            foreach (IngredientType ingredientType in Enum.GetValues(typeof(IngredientType)))
+            foreach (IngredientTypes ingredientType in Enum.GetValues(typeof(IngredientTypes)))
 			{
 				Debug.WriteLine("Ingredient type: " + ingredientType);
 				Ingredients(ingredientType.ToString());
@@ -84,13 +84,15 @@ namespace ConsoleApp
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
 			IngredientsData Ingredients = new IngredientsData();
-			foreach (DataRow IngredientRow in Ingredients.Ingredients(strIngredientType).Tables[strIngredientType].Rows)
+
+
+            IngredientTypes ingredientTypeEnum = (IngredientTypes)Enum.Parse(typeof(IngredientTypes), strIngredientType, true);
+
+            foreach (Ingredient ingredient in Ingredients.Ingredients(ingredientTypeEnum))
 			{
-				XmlElement enumeration = 
-					m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
-				XmlNode valueAttribute = 
-					m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", "");//blank name space because attributes are unqualified.
-				valueAttribute.Value = IngredientRow[0].ToString();
+				XmlElement enumeration = m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
+				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", "");//blank name space because attributes are unqualified.
+				valueAttribute.Value = ingredient.IngredientName;
 				enumeration.Attributes.SetNamedItem(valueAttribute);
 				restriction.AppendChild(enumeration);
 			}
