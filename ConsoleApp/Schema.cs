@@ -13,7 +13,7 @@ namespace ConsoleApp
 	public class Schema
 	{
 		private XmlDocument m_CookMLSchema;
-		private string m_strSchemaPath = "..//..//Input//CookML.xsd";
+		private string m_strSchemaPath = @"./ConsoleApp/Input/CookML.xsd";
 		private XmlNamespaceManager m_NSManager;
 		private string m_strNameSpace = "http://www.w3.org/2001/XMLSchema";
 		private string strPrefix = "xsd";

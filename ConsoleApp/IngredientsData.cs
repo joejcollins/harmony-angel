@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.OleDb;
 using System.IO;
 using CsvHelper;
 using System.Linq;
@@ -20,7 +18,7 @@ namespace ConsoleApp
         /// </summary>
         public IngredientsData()
         {
-            using (TextReader textReader = File.OpenText("..\\..\\Input\\Ingredients.csv"))
+            using (TextReader textReader = File.OpenText(@"./ConsoleApp/Input/Ingredients.csv"))
             {
                 var csv = new CsvReader(textReader);
                 m_Ingredients = csv.GetRecords<Ingredient>().ToList();
