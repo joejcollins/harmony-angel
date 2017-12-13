@@ -1,3 +1,0 @@
-# Compiler and root
-compiler: pdflatex
-root_file: ./ConsoleApp/Output/FoodFile.tex
