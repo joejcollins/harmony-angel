@@ -12,9 +12,9 @@ namespace CookML
             schema.UpdateSchema();
             // Transform the CookML 
             ConsoleApp.Transformer transformer = new ConsoleApp.Transformer();
-            string lastFile = transformer.CreateBook(@"./ConsoleApp/Input/FoodFile.xml");
+            string lastFile = transformer.CreateBook(@"./Input/FoodFile.xml");
             // Rename last file to LaTeX
-            File.Copy(lastFile, @"./ConsoleApp/Output/Content.tex", true);
+            File.Copy(lastFile, @"./Output/Content.tex", true);
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadLine();
