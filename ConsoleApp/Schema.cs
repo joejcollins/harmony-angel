@@ -1,19 +1,16 @@
 using System;
-using System.Collections;
-using System.Data;
 using System.Diagnostics;
-using System.IO;
 using System.Xml;
 
 namespace ConsoleApp
 {
-	/// <summary>
-	/// The Schema is mainly used to provide Intellisense in 
-	/// Visual Studio for editing the FoodFile.xml document and 
-	/// should provide the lists of ingredients for the different 
-	/// ingredient types.
-	/// </summary>
-	public class Schema
+    /// <summary>
+    /// The Schema is mainly used to provide Intellisense in 
+    /// Visual Studio for editing the FoodFile.xml document and 
+    /// should provide the lists of ingredients for the different 
+    /// ingredient types.
+    /// </summary>
+    public class Schema
 	{
 		private XmlDocument m_CookMLSchema;
 		private string m_strSchemaPath = @"./Input/CookML.xsd";
@@ -85,11 +82,11 @@ namespace ConsoleApp
 			baseAttribute.Value = "xsd:string";
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
-			IngredientsData Ingredients = new IngredientsData();
+			IngredientsData IngredientsData = new IngredientsData();
 
-            IngredientTypes ingredientTypeEnum = (IngredientTypes)Enum.Parse(typeof(IngredientTypes), strIngredientType, true);
+            IngredientTypes ingredientTypes = (IngredientTypes) Enum.Parse(typeof(IngredientTypes), strIngredientType, true);
 
-            foreach (Ingredient ingredient in Ingredients.Ingredients(ingredientTypeEnum))
+            foreach (Ingredient ingredient in IngredientsData.Ingredients(ingredientTypes))
 			{
 				XmlElement enumeration = m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
 				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", "");//blank name space because attributes are unqualified.

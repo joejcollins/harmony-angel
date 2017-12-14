@@ -24,7 +24,7 @@ namespace ConsoleApp
         private readonly String name;
         private readonly int value;
 
-        public static readonly AlternativeIngredientTypes CHECK = new AlternativeIngredientTypes(1, "CHECK");
+        public static readonly AlternativeIngredientTypes Check = new AlternativeIngredientTypes(1, "Check");
         public static readonly AlternativeIngredientTypes DAIRY = new AlternativeIngredientTypes(2, "DAIRY");
         public static readonly AlternativeIngredientTypes GROCERY = new AlternativeIngredientTypes(3, "GROCERY");
         public static readonly AlternativeIngredientTypes MEAT = new AlternativeIngredientTypes(4, "MEAT");
