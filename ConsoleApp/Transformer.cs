@@ -18,11 +18,10 @@ namespace ConsoleApp
         /// 
         /// </summary>
         string[] xsltFiles = { "001ExpandStaples.xslt", 
-                                 "002AddFoodData.xslt", 
-                                 "003ListsAndStructure.xslt", 
-                                 "004MergeLists.xslt",
-                                 "005LaTeX.xslt"
-                             };
+            "002AddFoodData.xslt",
+            "003ListsAndStructure.xslt",
+            "004MergeLists.xslt",
+            "005LaTeX.xslt"};
 
         /// <summary>
         /// Default constructor for Transformer.

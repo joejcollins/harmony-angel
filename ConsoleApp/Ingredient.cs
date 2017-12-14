@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections;
-using CsvHelper;
-using CsvHelper.Configuration;
 
 namespace ConsoleApp
 {
@@ -16,7 +10,7 @@ namespace ConsoleApp
         }
 
         public String IngredientName { get; set; }
-        public IngredientTypes IngredientType { get; set; }
+        public IngredientType IngredientType { get; set; }
         public Int16 Calories { get; set; }
         public float Protien { get; set; }
         public float Carbohydrate { get; set; }

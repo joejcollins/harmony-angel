@@ -1,20 +1,19 @@
-using System;
+using CsvHelper;
 using System.Collections.Generic;
 using System.IO;
-using CsvHelper;
 using System.Linq;
 
 namespace ConsoleApp
 {
     /// <summary>
-    /// IngredientsDatabase.
+    /// Ingredients Data so it can be added to the schema.
     /// </summary>
     public class IngredientsData
     {
         private List<Ingredient> m_Ingredients = new List<Ingredient>();
 
         /// <summary>
-        /// Default constructor for IngredientsDatabase.
+        /// Get the list of ingredients from the csv file.
         /// </summary>
         public IngredientsData()
         {
@@ -30,10 +29,10 @@ namespace ConsoleApp
         /// </summary>
         /// <param name="strIngredientType"></param>
         /// <returns>List of ingredients</returns>
-        public List<Ingredient> Ingredients(IngredientTypes ingredientType)
+        public List<Ingredient> GetIngredients(IngredientType ingredientType)
         {
-            var ingredientsOfAType = from ingredientx in m_Ingredients where ingredientx.IngredientType == ingredientType
-                                     select ingredientx;
+            var ingredientsOfAType = from ingredient in m_Ingredients where ingredient.IngredientType == ingredientType
+                                     select ingredient;
             return ingredientsOfAType.ToList();
         }
     }
