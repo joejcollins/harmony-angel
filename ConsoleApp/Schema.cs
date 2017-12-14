@@ -44,15 +44,15 @@ namespace ConsoleApp
             foreach (IngredientType ingredientType in Enum.GetValues(typeof(IngredientType)))
 			{
 				Debug.WriteLine("Ingredient type: " + ingredientType);
-				Ingredients(ingredientType);
+				UpdateIngredients(ingredientType);
 			}
 			m_CookMLSchema.Save(m_strSchemaPath);
 		}
 
 		/// <summary>
-		/// Update the ingredient types in the CookML schema.		
+		/// Update the ingredients for a given type in the CookML schema.		
 		/// </summary>
-		private void Ingredients(IngredientType ingredientType)
+		private void UpdateIngredients(IngredientType ingredientType)
 		{
 			XmlNode ingredientTypesNode = 
 				m_CookMLSchema.SelectSingleNode("//xsd:simpleType[@name='" + ingredientType.ToString() + "']", 
@@ -75,21 +75,18 @@ namespace ConsoleApp
 			annotation.AppendChild(documentation);
 			ingredientTypesNode.AppendChild(annotation);
 
-			//Recreate the restriction list
+			//Recreate the restriction list using the ingredients data
 			XmlElement restriction = 
 				m_CookMLSchema.CreateElement(strPrefix, "restriction", m_strNameSpace);
 			XmlNode baseAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "base", "");
 			baseAttribute.Value = "xsd:string";
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
-			IngredientsData IngredientsData = new IngredientsData();
-
-            //IngredientType ingredientTypes = (IngredientType) Enum.Parse(typeof(IngredientType), ingredientType, true);
-
+            IngredientsData IngredientsData = new IngredientsData();
             foreach (Ingredient ingredient in IngredientsData.GetIngredients(ingredientType))
 			{
 				XmlElement enumeration = m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
-				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", "");//blank name space because attributes are unqualified.
+				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", ""); //blank name space because attributes are unqualified.
 				valueAttribute.Value = ingredient.IngredientName;
 				enumeration.Attributes.SetNamedItem(valueAttribute);
 				restriction.AppendChild(enumeration);
