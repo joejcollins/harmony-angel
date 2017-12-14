@@ -29,7 +29,7 @@ namespace ConsoleApp
         /// </summary>
         /// <param name="strIngredientType"></param>
         /// <returns>List of ingredients</returns>
-        public List<Ingredient> Ingredients(IngredientTypes ingredientType)
+        public List<Ingredient> GetIngredients(IngredientType ingredientType)
         {
             var ingredientsOfAType = from ingredient in m_Ingredients where ingredient.IngredientType == ingredientType
                                      select ingredient;

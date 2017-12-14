@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    public enum IngredientTypes
+    public enum IngredientType
     {
         Check = 1,
         Dairy = 2,

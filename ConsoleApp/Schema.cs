@@ -41,10 +41,10 @@ namespace ConsoleApp
 			Debug.WriteLine("Schema namespace: " + m_strNameSpace);
 		    //IDictionaryEnumerator IngredientTypesEnumerator = IngredientTypes;
 
-            foreach (IngredientTypes ingredientType in Enum.GetValues(typeof(IngredientTypes)))
+            foreach (IngredientType ingredientType in Enum.GetValues(typeof(IngredientType)))
 			{
 				Debug.WriteLine("Ingredient type: " + ingredientType);
-				Ingredients(ingredientType.ToString());
+				Ingredients(ingredientType);
 			}
 			m_CookMLSchema.Save(m_strSchemaPath);
 		}
@@ -52,10 +52,10 @@ namespace ConsoleApp
 		/// <summary>
 		/// Update the ingredient types in the CookML schema.		
 		/// </summary>
-		private void Ingredients(string strIngredientType)
+		private void Ingredients(IngredientType ingredientType)
 		{
 			XmlNode ingredientTypesNode = 
-				m_CookMLSchema.SelectSingleNode("//xsd:simpleType[@name='" + strIngredientType + "']", 
+				m_CookMLSchema.SelectSingleNode("//xsd:simpleType[@name='" + ingredientType.ToString() + "']", 
 				m_NSManager);
 
 			//Clear out the node completely
@@ -63,7 +63,7 @@ namespace ConsoleApp
 
 			//Recreate the attribute but with a blank name space because attributes are unqualified.
 			XmlNode name = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "name", "");
-			name.Value = strIngredientType;
+			name.Value = ingredientType.ToString();
 			ingredientTypesNode.Attributes.SetNamedItem(name);
 	
 			//Recreate the documentation node
@@ -71,7 +71,7 @@ namespace ConsoleApp
 				m_CookMLSchema.CreateElement(strPrefix, "annotation", m_strNameSpace);
 			XmlElement documentation = 
 				m_CookMLSchema.CreateElement(strPrefix, "documentation", m_strNameSpace);
-			documentation.InnerText = strIngredientType + " types in the database";
+			documentation.InnerText = ingredientType + " types in the database";
 			annotation.AppendChild(documentation);
 			ingredientTypesNode.AppendChild(annotation);
 
@@ -84,9 +84,9 @@ namespace ConsoleApp
 
 			IngredientsData IngredientsData = new IngredientsData();
 
-            IngredientTypes ingredientTypes = (IngredientTypes) Enum.Parse(typeof(IngredientTypes), strIngredientType, true);
+            //IngredientType ingredientTypes = (IngredientType) Enum.Parse(typeof(IngredientType), ingredientType, true);
 
-            foreach (Ingredient ingredient in IngredientsData.Ingredients(ingredientTypes))
+            foreach (Ingredient ingredient in IngredientsData.GetIngredients(ingredientType))
 			{
 				XmlElement enumeration = m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
 				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", "");//blank name space because attributes are unqualified.
