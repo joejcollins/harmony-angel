@@ -12,7 +12,7 @@ namespace ConsoleApp
 	/// </summary>
 	public class Transformer
 	{
-        string inputDirectory = @"./ConsoleApp/Input/";
+        string inputDirectory = @"./Input/";
 
         /// <summary>
         /// 

@@ -18,7 +18,7 @@ namespace ConsoleApp
         /// </summary>
         public IngredientsData()
         {
-            using (TextReader textReader = File.OpenText(@"./ConsoleApp/Input/Ingredients.csv"))
+            using (TextReader textReader = File.OpenText(@"./Input/Ingredients.csv"))
             {
                 var csv = new CsvReader(textReader);
                 m_Ingredients = csv.GetRecords<Ingredient>().ToList();
