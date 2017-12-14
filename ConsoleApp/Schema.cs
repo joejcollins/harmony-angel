@@ -8,7 +8,10 @@ using System.Xml;
 namespace ConsoleApp
 {
 	/// <summary>
-	/// Summary description for Schema.
+	/// The Schema is mainly used to provide Intellisense in 
+	/// Visual Studio for editing the FoodFile.xml document and 
+	/// should provide the lists of ingredients for the different 
+	/// ingredient types.
 	/// </summary>
 	public class Schema
 	{
@@ -17,7 +20,6 @@ namespace ConsoleApp
 		private XmlNamespaceManager m_NSManager;
 		private string m_strNameSpace = "http://www.w3.org/2001/XMLSchema";
 		private string strPrefix = "xsd";
-		public Hashtable hashIngredientTypes;
 
 		/// <summary>
 		/// Construct the schema object with a name space manager.  The 
@@ -84,7 +86,6 @@ namespace ConsoleApp
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
 			IngredientsData Ingredients = new IngredientsData();
-
 
             IngredientTypes ingredientTypeEnum = (IngredientTypes)Enum.Parse(typeof(IngredientTypes), strIngredientType, true);
 
