@@ -297,6 +297,7 @@
       <xsd:enumeration value="cashew nuts" />
       <xsd:enumeration value="cider" />
       <xsd:enumeration value="cinnamon" />
+      <xsd:enumeration value="corn flour" />
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="creamed coconut" />
       <xsd:enumeration value="dried apricots" />
