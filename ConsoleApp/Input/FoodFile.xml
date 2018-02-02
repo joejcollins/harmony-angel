@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Book xmlns="http://www.joejcollins.co.uk/CookBook/CookML.xsd">
+<Book xmlns="https://github.com/joejcollins/CookML.xsd">
 
   <Menu Title="Test Menu">
     <Recipe Title="Meat stew and dumplings" Meals="2" >
@@ -927,7 +927,7 @@
       </Stage>
     </Recipe>
   </Menu>
-
+    
   <Menu Title="All New">
     <Recipe Title="Tuna Bake" Meals="2">
       <Stage>
@@ -1053,7 +1053,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Chicken and Tomato Pasta" Meals="2">
+    <Recipe Title="Chicken and Tomato Rice" Meals="2">
       <Stage>
         In a <Utensil Name="wok"/> fry
         <Vegetable Quantity="300" Unit="g" Type="onions" Process="sliced"/>
@@ -1087,17 +1087,19 @@
     </Recipe>
     <Recipe Title="Tofu and mangetous stir fry" Meals="2">
       <Index>
-        Stew<Sub>Tofu and mange tous</Sub>
+        Stir Fry<Sub>Tofu and mange tout</Sub>
       </Index>
       <Stage>
-        In a <Utensil Name="wok" /> fry
+        Coat
         <Grocery Quantity="300" Unit="g" Type="tofu" Process="cubed"/>
         in
         <Check Quantity="7" Unit="tbsp" Type="oil"/>
-        until brown, then remove.
+        and        
+        <Check Quantity="5" Unit="tbsp" Type="paprika" />
+        then bake until browned.
       </Stage>
       <Stage>
-        Fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/>,        
+        In a <Utensil Name="wok" /> fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/>,        
         <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="chopped"/>,
         <Vegetable Quantity="1" Type="chillis" />
         and
@@ -1114,17 +1116,17 @@
         and cook until warm.
       </Stage>
       <Stage>
-        Stir in <Grocery Quantity="1" Unit="tbsp" Type="corn flour" />
-        then stir in
-        <Check Quantity="5" Unit="tbsp" Type="sherry" />,
+        <Staple Name="noodles"/>
+      </Stage>
+      <Stage>
+        To the wok, stir in
+        <Grocery Quantity="1" Unit="tbsp" Type="corn flour" />,
+        <Check Quantity="5" Unit="tbsp" Type="sherry" />
         and
         <Check Quantity="5" Unit="tbsp" Type="soy sauce" />.
       </Stage>
       <Stage>
-        Return the tofu.
-      </Stage>
-      <Stage>
-        <Staple Name="noodles"/>
+        Add the cooked tofu to the wok.
       </Stage>
     </Recipe>
     <Recipe Title="Vegetable cous cous" Meals="2">

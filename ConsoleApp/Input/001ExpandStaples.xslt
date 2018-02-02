@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:msxsl="urn:schemas-microsoft-com:xslt"
-                xmlns:cml="http://www.joejcollins.co.uk/CookBook/CookML.xsd"
+                xmlns:cml="https://github.com/joejcollins/CookML.xsd"
                 exclude-result-prefixes="msxsl cml">
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
