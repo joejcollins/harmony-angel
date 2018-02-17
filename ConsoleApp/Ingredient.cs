@@ -15,7 +15,6 @@ namespace ConsoleApp
         public float Protien { get; set; }
         public float Carbohydrate { get; set; }
         public float Fat { get; set; }
-        public float Fibre { get; set; }
 
         public string PortionCalories(double quantity, string type, string unit)
         {
@@ -43,7 +42,6 @@ namespace ConsoleApp
     //        Map(m => m.Protien);
     //        Map(m => m.Carbohydrate);
     //        Map(m => m.Fat);
-    //        Map(m => m.Fibre);
     //    }
     //}
 

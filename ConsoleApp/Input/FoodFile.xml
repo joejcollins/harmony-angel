@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Book xmlns="https://github.com/joejcollins/CookML.xsd">
-
+<Book xmlns="https://joejcollins.github.io/CookML.xsd">
   <Menu Title="Test Menu">
     <Recipe Title="Meat stew and dumplings" Meals="2" >
       <Index>
@@ -1053,27 +1052,30 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Chicken and Tomato Rice" Meals="2">
+    <Recipe Title="Chicken and Tomato Curry" Meals="2">
       <Stage>
         In a <Utensil Name="wok"/> fry
-        <Vegetable Quantity="300" Unit="g" Type="onions" Process="sliced"/>
-        and
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>,
+        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="grated"/>,
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Vegetable Process="chopped" Quantity="400" Type="carrots" Unit="g" />
         in
         <Check Quantity="4" Unit="tbsp" Type="oil" />
         until soft.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Process="chopped" Quantity="400" Type="can tomatoes" Unit="g" />,
+        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
+        <Grocery Process="chopped" Quantity="800" Type="can tomatoes" Unit="g" />,
         <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
         and
-        <Grocery Quantity="500" Type="red wine" Unit="ml" />
+        <Grocery Quantity="400" Type="red wine" Unit="ml" />
         and simmer gently for 30 minutes.
       </Stage>
       <Stage>
         In a <Utensil Name="casserole"/> place
-        <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
+        <Meat Process="sliced" Quantity="400" Type="chicken" Unit="g" />
         and
         <Check Quantity="4" Unit="tbsp" Type="oil" />
         then bake <Temperature Level="medium" /> 30 minutes.
@@ -1105,7 +1107,7 @@
         and
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
         until soft.
-      </Stage>
+      </Stage>  
       <Stage>
         Stir in
         <Vegetable Quantity="200" Unit="g" Type="mange tout" Process="halved"/>
@@ -1169,8 +1171,7 @@
         <Grocery Quantity="120" Unit="g" Type="can sardines" Process="mashed"/>
         and
         <Check Quantity="1" Unit="tsp" Type="soy sauce" />.
-
-    </Stage>
+      </Stage>
     </Recipe>
   </Menu>
 
