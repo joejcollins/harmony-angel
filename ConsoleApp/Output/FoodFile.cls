@@ -54,8 +54,8 @@
 {
   \cleardoublepage
   \addtocounter{section}{1}%
-  \addcontentsline{toc}{section}{Menu \thesection\ }%
-  \markboth{Menu \thesection}{Menu \thesection}%
+  \addcontentsline{toc}{section}{Menu \thesection\ - #1}%
+  \markboth{Menu \thesection}{Menu \thesection\ -  #1}%
   \section*{Menu \thesection\hfill #1}%
   \addtocontents{toc}{\protect\begin{TOCRecipeList}}%
 }
