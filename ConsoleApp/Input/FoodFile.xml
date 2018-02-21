@@ -1,6 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Book xmlns="https://joejcollins.github.io/CookML.xsd">
-  <Menu Title="Test Menu">
+
+  <Menu Title="January">
+  <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
+  Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
+  Parsnips, Pears, Spring Greens, Spring Onions, Squash, Swedes, Turnips. -->
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <Recipe Title="Bacon and mushroom pasta" Meals="1">
+      <Stage>
+        <Staple Name="tagliatelli"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry <Meat Quantity="150" Unit="g" Type="bacon" Process="chopped"/>
+        and
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>
+        in
+        <Check Quantity="1" Unit="tbsp" Type="oil" /> for 5 minutes.
+      </Stage>
+      <Stage>
+        Stir in the pasta (cooked and drained)
+        and <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
+        and warm through.
+      </Stage>
+    </Recipe>
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+    
+  </Menu>
+  
+  <Menu Title="February">
+  <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
+  Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, Parsnips, 
+  Pears, Purple Sprouting Broccoli, Spring Greens, Spring Onions, Squash, 
+  Swedes. -->
+    
+    <Recipe Title="Chicken with cabbage and peanuts" Meals="2">
+      <Stage>
+        <Staple Name="noodles" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" />	fry
+        <Grocery Quantity="70" Type="peanuts" Unit="g" />
+        in
+        <Check Quantity="3" Type="oil" Unit="tbsp" />
+        then remove.
+      </Stage>
+      <Stage>
+        Fry <Vegetable Process="chopped" Quantity="2" Type="red chilli" />
+        and
+        <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
+        in the oil until meat is done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Process="sliced" Quantity="750" Type="cabbage" Unit="g" />
+        and heat through.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Type="black bean sauce" Unit="tbsp" />
+        and fry for 2 minutes.
+      </Stage>
+      <Stage>
+        Sprinkle with the peanuts.
+      </Stage>
+    </Recipe>
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+    
+  </Menu>
+  
+  <Menu Title="March">
+  <!-- Artichoke, Beetroot, Cabbage, Carrots, Chicory, Cucumber, Leeks, 
+  Parsnip, Purple Sprouting Broccoli, Radishes, Rhubarb, Sorrel, 
+  Spring Greens, Spring Onions, Watercress. -->
+    
     <Recipe Title="Meat stew and dumplings" Meals="2" >
       <Index>
         Stew<Sub>Meat and dumplings</Sub>
@@ -40,6 +138,287 @@
         simmer for 15 minutes.
       </Stage>
     </Recipe>
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <Recipe Title="Pasta and pesto" Meals="1">
+      <Stage>
+        <Staple Name="pasta shapes"/>.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="100" Unit="g" Type="pesto" /> and
+        <Grocery Quantity="150" Unit="g" Type="can tuna fish" />.
+      </Stage>
+    </Recipe>
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+    
+  </Menu>
+  
+  <Menu Title="April">
+  <!-- Artichoke, Beetroot, Cabbage, Carrots, Chicory, New Potatoes, Kale, 
+  Morel Mushrooms, Parsnips, Radishes, Rhubarb, Rocket, Sorrel, Spinach, 
+  Spring Greens, Spring Onions, Watercress.  -->
+    
+    <Recipe Title="Kale and Bacon Pasta" Meals="2">
+      <Stage>
+        <Staple Name="pasta shapes"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Meat Quantity="250" Unit="g" Type="bacon" Process="chopped" />
+        in
+        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
+        until done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process ="crushed"/>,
+        <Vegetable Quantity ="1" Type="chillis" Process="chopped"/>
+        and
+        <Grocery Quantity="100" Unit="g" Type="pine nuts"/>,
+        and cook until the pine nuts are just toasted.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="200" Unit="g" Type="kale" Process="chopped"/>
+        and
+        <Water Quantity="200" Unit="ml" Type="water"/>,
+        simmer until the kale has wilted.
+      </Stage>
+      <Stage>
+        Stir in the pasta,
+        <Dairy Quantity="180" Unit="g" Type="cream cheese"/>
+        and
+        <Vegetable Quantity="1" Type="lemon" Process="juiced"/>.
+        Season with
+        <Check Quantity="1" Type="pepper" Unit="pinch"/>.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Vegetable shepherds pie" Meals="2">
+      <Index>
+        Shepherds Pie<Sub>Vegetable</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1000" Unit="g" Type="boiling potatoes" Process="cubed"/>,
+        then mash with
+        <Dairy Quantity="50" Unit="g" Type="butter" />
+        and
+        <Dairy Quantity="4" Unit="tbsp" Type="milk" />.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole" /> mix
+        <Vegetable Quantity="300" Unit="g" Type="carrots" Process="sliced"/>,
+        <Vegetable Quantity="300" Unit="g" Type="parsnips" Process="sliced"/>,
+        <Vegetable Quantity="300" Unit="g" Type="swedes" Process="sliced"/>,
+        <Grocery Quantity="400" Unit="g" Type="can borlotti beans" Process="undrained"/>,
+        <Grocery Quantity="200" Unit="g" Type="mayonaise" />
+        and
+        <Grocery Quantity="160" Unit="g" Type="horseraddish sauce" />.
+        Spread the mashed potatoes on top,
+        sprinkle with
+        <Grocery Quantity="50" Unit="g" Type="sunflower seeds" />
+        and
+        bake <Temperature Level="medium" /> 60 minutes.
+      </Stage>
+    </Recipe>
+
+    <!--vegan-->
+
+    <!--quick-->
+
+    <Recipe Title="Chicken and Tomato Curry" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>,
+        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="grated"/>,
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Vegetable Process="chopped" Quantity="400" Type="carrots" Unit="g" />
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
+        <Grocery Process="chopped" Quantity="800" Type="can tomatoes" Unit="g" />,
+        <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
+        and
+        <Grocery Quantity="400" Type="red wine" Unit="ml" />
+        and simmer gently for 30 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole"/> place
+        <Meat Process="sliced" Quantity="400" Type="chicken" Unit="g" />
+        and
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        then bake <Temperature Level="medium" /> 30 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="rice"/>
+      </Stage>
+      <Stage>
+        Add meat to the tomatoes, then pour on the rice.
+      </Stage>
+    </Recipe>
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+    
+  </Menu>
+
+  <Menu Title="May">
+  <!-- Artichoke, Asparagus, Aubergine, Beetroot, Chicory, Chillies, 
+  Elderflowers, Lettuce, Marrow, New Potatoes, Peas, Peppers, Radishes, 
+  Rhubarb, Rocket, Samphire, Sorrel, Spinach, Spring Greens, 
+  Spring Onions, Strawberries, Watercress.  -->
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+    
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <Recipe Title="Egg and chips" Meals="1">
+      <Stage>
+        Heat up
+        <Grocery Quantity="800" Unit="g" Type="oven ready chips" />.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Dairy Quantity="4" Type="eggs"/>
+        in
+        <Check Quantity="1" Unit="tbsp" Type="oil" />.
+      </Stage>
+    </Recipe>
+
+  </Menu>
+
+  <Menu Title="June">
+  <!-- Asparagus, Aubergine, Beetroot, Blackcurrants, Broad Beans, 
+  Broccoli, Cauliflower, Cherries, Chicory, Chillies, Courgettes, 
+  Cucumber, Elderflowers, Gooseberries, Lettuce, Marrow, New Potatoes, 
+  Peas, Peppers, Radishes, Raspberries, Redcurrants, Rhubarb, Rocket, 
+  Runner Beans, Samphire, Sorrel, Spring Greens, Spring Onions, 
+  Strawberries, Summer Squash, Swiss Chard, Tayberries, Turnips, Watercress.  -->
+    
+    <Recipe Title="Chicken Tagine" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Meat Quantity="400" Unit="g" Type="chicken" Process="chopped"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
+        until done, then remove.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok"/> fry
+        <Vegetable Quantity="300" Unit="g" Type="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
+        until golden.
+      </Stage>
+      <Stage>
+        Stir the chicken,
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />,
+        <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
+        <Check Quantity="1" Unit="tsp" Type="ground ginger" />,
+        <Grocery Quantity="150" Unit="g" Type="dried apricots" Process="quartered"/>,
+        <Vegetable Quantity="1" Type="lemon" Process="juiced"/>,
+        <Check Quantity="2" Unit="tbsp" Type="honey" />,
+        <Check Process="crumbled" Unit="cube" Quantity="1" Type="stock" />
+        and
+        <Water Quantity="359" Type="boiling water" Unit="ml" />
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        Serve with
+        <Grocery Quantity="100" Unit="g" Type="flaked almonds" Process="toasted"/>
+        and
+        <Vegetable Type="fresh coriander" Process="chopped"/>.
+      </Stage>
+    </Recipe>
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+    
+  </Menu>
+
+  <Menu Title="July">
+  <!-- Aubergine, Beetroot, Blackberries, Blackcurrants, Blueberries, 
+  Broad Beans, Broccoli, Carrots, Cauliflower, Cherries, Chicory, 
+  Chillies, Courgettes, Cucumber, Gooseberries, Greengages, Fennel, 
+  French Beans, Garlic, Kohlrabi, Loganberries, New Potatoes, Onions, 
+  Peas, Potatoes, Radishes, Raspberries, Redcurrants, Rhubarb, Rocket, 
+  Runner Beans, Samphire, Sorrel, Spring Greens, Spring Onions, 
+  Strawberries, Summer Squash, Swish Chard, Tomatoes, Turnips, Watercress.  -->
+
+    <Recipe Title="Tuna Bake" Meals="2">
+      <Stage>
+        <Staple Name="rice brown" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="1" Type="chillis" Process="chopped" />
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole"/> mix
+        the rice and onions.
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="can mushroom soup" />,
+        <Grocery Quantity="200" Unit="g" Type="can sweetcorn" Process="drained"/>,
+        <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
+        and
+        <Grocery Quantity="150" Unit="g" Type="can tuna fish" Process="crumbled" />.
+        Sprinkle with
+        <Dairy Process="grated" Quantity="50" Type="cheese" Unit="g" />.
+        and
+        bake <Temperature Level="medium" /> 20 minutes.
+      </Stage>
+    </Recipe>
+
     <Recipe Title="Onion and tomato lasagna"  Meals="2">
       <Index>
         Lasagna<Sub>Onion and tomato</Sub>
@@ -73,37 +452,236 @@
         Bake <Temperature Level="medium" /> 50 minutes.
       </Stage>
     </Recipe>
-    <Recipe Title="Chicken with cabbage and peanuts" Meals="2">
+
+    <Recipe Title="Tofu and Runner Bean Stir Fry" Meals="2">
+      <Index>
+        Stir Fry<Sub>Tofu and mange tout</Sub>
+      </Index>
       <Stage>
-        <Staple Name="noodles" />
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" />	fry
-        <Grocery Quantity="70" Type="peanuts" Unit="g" />
+        Coat
+        <Grocery Quantity="300" Unit="g" Type="tofu" Process="cubed"/>
         in
-        <Check Quantity="3" Type="oil" Unit="tbsp" />
-        then remove.
-      </Stage>
-      <Stage>
-        Fry <Vegetable Process="chopped" Quantity="2" Type="red chilli" />
+        <Check Quantity="7" Unit="tbsp" Type="oil"/>
         and
-        <Meat Process="sliced" Quantity="300" Type="chicken" Unit="g" />
-        in the oil until meat is done.
+        <Check Quantity="5" Unit="tbsp" Type="paprika" />
+        then bake until browned.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/>,
+        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="chopped"/>,
+        <Vegetable Quantity="1" Type="chillis" />
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        until soft.
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Process="sliced" Quantity="750" Type="cabbage" Unit="g" />
-        and heat through.
+        <Vegetable Quantity="400" Unit="g" Type="runner beans" Process="halved"/>
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>
+        and
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>,
+        and cook until warm.
+      </Stage>
+      <Stage>
+        <Staple Name="noodles"/>
+      </Stage>
+      <Stage>
+        To the wok, stir in
+        <Grocery Quantity="1" Unit="tbsp" Type="corn flour" />,
+        <Check Quantity="5" Unit="tbsp" Type="sherry" />
+        and
+        <Check Quantity="5" Unit="tbsp" Type="soy sauce" />.
+      </Stage>
+      <Stage>
+        Add the cooked tofu to the wok.
+      </Stage>
+    </Recipe>
+
+    <!--quick-->
+
+    <Recipe Title="Chicken curry" Meals="2">
+      <Index>
+        Curry<Sub>Chicken</Sub>
+      </Index>
+      <Stage>
+        <Staple Name="rice white"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="3" Unit="tbsp" Type="oil" />
+        until soft.
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Type="black bean sauce" Unit="tbsp" />
+        <Check Quantity="2" Unit="tbsp" Type="curry powder" />,
+        <Meat Quantity="400" Unit="g" Type="chicken" Process="sliced" />
+        and cook until done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="can evaporated milk" />
+        and
+        bake <Temperature Level="medium" /> 25 minutes.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Tomatoes Indian style" Meals="2">
+      <Index>
+        Style<Sub>Indian tomatoes</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="wok" /> heat
+        <Check Quantity="4" Unit="tbsp" Type="oil" />,
+        <Check Quantity="0.5" Unit="tsp" Type="asafoetida" />,
+        <Check Quantity="0.5" Unit="tsp" Type="turmeric" />,
+        and
+        <Check Quantity="2" Unit="tsp" Type="cumin seeds" />
+        until
+        the cumin sizzles.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
+        and
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
+        and
+        fry until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1000" Unit="g" Type="tomatoes" Process="chopped"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Type="runner beans" />
+        simmer for 15 minutes.
+      </Stage>
+      <Stage>
+        Serve with
+        <Dairy Quantity="500" Unit="g" Type="plain yoghurt"/>
+        and
+        <Grocery Quantity="4" Type="naan bread"/>.
+      </Stage>
+    </Recipe>
+
+    <!--quick-->
+  </Menu>
+
+  <Menu Title="August">
+  <!-- Aubergine, Beetroot, Blackberries, Blackcurrants, Broad Beans, 
+  Broccoli, Carrots, Cauliflower, Cherries, Chicory, Chillies, Courgettes, 
+  Cucumber, Damsons, Fennel, French Beans, Garlic, Greengages, Kohlrabi, 
+  Leeks, Lettuce, Loganberries, Mangetout, Marrow, Mushrooms, Parsnips, 
+  Peas, Peppers, Potatoes, Plums, Pumpkin, Radishes, Raspberries, 
+  Redcurrants, Rhubarb, Rocket, Runner Beans, Samphire, Sorrel, 
+  Spring Greens, Spring Onions, Strawberries, Summer Squash, Sweetcorn, 
+  Swiss Chard, Tomatoes, Watercress.  -->
+
+    <Recipe Title="Chicken pilaf" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Meat Quantity="600" Unit="g" Type="chicken" />,
+        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="5" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until chicken done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
+        <Check Quantity="0.5" Unit="tsp" Type="ground cinnamon" />,
+        and
+        <Check Quantity="6" Type="cloves" />
         and fry for 2 minutes.
       </Stage>
       <Stage>
-        Sprinkle with the peanuts.
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="white rice" />,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
+        and
+        <Water Quantity="800" Unit="ml" Type="water" />
+        and bake, covered <Temperature Level="medium" /> 30 minutes.
+      </Stage>
+      <Stage>
+        Spinkle on
+        <Grocery Quantity="100" Unit="g" Type="flaked almonds" />
+        before serving.
       </Stage>
     </Recipe>
+
+    <Recipe Title="Chickpea risotto" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />,
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
+        and
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="oil"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
+        <Check Quantity="300" Unit="ml" Type="sherry" />,
+        <Grocery Quantity="75" Unit="g" Type="raisins" />,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
+        <Grocery Quantity="400" Unit="g" Type="white rice"/>
+        and
+        <Water Quantity="500" Unit="ml" Type="water" />
+        and bring to a boil.
+      </Stage>
+      <Stage>
+        Put in a
+        <Utensil Name="casserole"/>,
+        cover and bake <Temperature Level="low"/> 20 minutes.
+      </Stage>
+      <Stage>
+        Serve with
+        <Dairy Quantity="150" Unit="g" Type="parmesan" Process="grated"/>.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Aubergine and peppers" Meals="2">
+      <Stage>
+        <Staple Name="potatoes" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Type="aubergine" Process="sliced"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
+        <Water Quantity="100" Type="cold water" Unit="ml" />
+        and
+        <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
+        and bring to the boil.
+      </Stage>
+      <Stage>
+        Put in a <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 40 minutes.
+      </Stage>
+    </Recipe>
+    
     <Recipe Title="Beans and fried eggs in pitta" Meals="1">
       <Stage>
         In a <Utensil Name="pan" /> warm
@@ -124,6 +702,28 @@
       </Stage>
     </Recipe>
 
+    <Recipe Title="Sausages in Cider" Meals="2">
+      <Stage>
+        In a <Utensil Name="pan"/> boil
+        <Vegetable Quantity="1200" Unit="g" Type="boiling potatoes" Process="chopped"/>
+        then mash.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole"/> put
+        <Meat Quantity="500" Unit="g" Type="sausages"/>,
+        <Vegetable Quantity="250" Unit="g" Type="onions" Process="quartered"/>
+        and
+        <Vegetable Quantity="2" Type="garlic" Process="crushed"/>
+        bake <Temperature Level="medium"/> 15 minutes.
+      </Stage>
+      <Stage>
+        Add <Vegetable Quantity="1" Type="apple" Process="sliced"/>
+        and
+        <Grocery Quantity="400" Unit="ml" Type="cider"/>
+        bake <Temperature Level="medium"/> 20 minutes.
+      </Stage>
+    </Recipe>
+    
     <Recipe Title="Egg curry" Meals="2">
       <Index>Curry</Index>
       <Stage>
@@ -168,6 +768,126 @@
         and simmer for 10 minutes.
       </Stage>
     </Recipe>
+
+    <Recipe Title="Lentil dhansak" Meals="2">
+      <Index>
+        Curry<Sub>Lentil dhansak</Sub>
+      </Index>
+      <Stage>
+        <Staple Name="rice brown"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Vegetable Quantity="100" Unit="g" Type="carrots" Process="sliced"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
+        <Check Quantity="1" Unit="tsp" Type="cumin seeds" />,
+        <Check Quantity="1" Unit="tsp" Type="mustard seeds" />
+        and
+        <Check Quantity="5" Unit="cm" Type="cinnamon stick" />
+        and fry for 2 minutes.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
+        <Grocery Quantity="2" Unit="tbsp" Type="cashew nuts" />,
+        <Check Quantity="120" Unit="ml" Type="creamed coconut" />,
+        <Grocery Quantity="225" Unit="g" Type="red lentils" />
+        and
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="chopped"/>
+        and simmer for 20 minutes.
+      </Stage>
+      <Stage>
+        Add juice of
+        <Vegetable Quantity="1" Type="lemon" />
+        and warm.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Tortellini and parmesan cheese" Meals="1">
+      <Stage>
+        <Staple Name="tortellini" />
+      </Stage>
+      <Stage>
+        Sprinkle with
+        <Grocery Quantity="20" Unit="g" Type="grated parmesan"/>.
+      </Stage>
+    </Recipe>
+
+  </Menu>
+
+  <Menu Title="September">
+  <!-- Aubergine, Beetroot, Blackberries, Broccoli, Brussels Sprouts, 
+  Butternut Squash, Carrots, Cauliflower, Celery, Courgettes, Chicory, 
+  Chillies, Cucumber, Damsons, Garlic, Kale, Kohlrabi, Leeks, Lettuce, 
+  Mangetout, Marrow, Onions, Parsnips, Pears, Peas, Peppers, Plums, 
+  Potatoes, Pumpkin, Radishes, Raspberries, Rhubarb, Rocket, Runner Beans, 
+  Samphire, Sorrel, Spinach, Spring Greens, Spring Onions, Strawberries, 
+  Summer Squash, Sweetcorn, Swiss Chard, Tomatoes, Turnips, Watercress, 
+  Wild Mushrooms.  -->
+
+    <Recipe Title="Lentils and spicy sausage" Meals="2">
+      <Stage>
+        <Staple Name="rice brown" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Meat Quantity="100" Unit="g" Type="bacon" Process="chopped"/>
+        in
+        <Check Quantity="3" Unit="tbsp" Type="oil" />
+        until bacon done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="250" Unit="g" Type="red lentils" />,
+        <Grocery Quantity="800" Unit="g" Type="can tomatoes" />,
+        <Meat Quantity="250" Unit="g" Type="chorizo sausage" Process="sliced"/>,
+        <Check Quantity="1" Unit="tsp" Type="chilli powder" />
+        and
+        <Water Quantity="400" Type="cold water" Unit="ml" />
+        and simmer for 25 minutes.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Russian Style Potatoes" Meals="2">
+      <Index>
+        Style<Sub>Russian potatoes</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="2000" Unit="g" Type="boiling potatoes" Process="cubed"/>
+        until not quite done
+        then drain.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="600" Unit="g" Type="cottage cheese" />,
+        <Dairy Quantity="300" Unit="ml" Type="sour cream" />,
+        <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>,
+        <Grocery Quantity="50" Unit="g" Type="capers" />,
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>.
+        and bake <Temperature Level="medium" /> for 30 minutes.
+      </Stage>
+      <Stage>
+        Grill <Meat Quantity="4" Type="burgers" /> and serve with the potatoes.
+      </Stage>
+      <Stage>
+        Sprinkle with
+        <Vegetable Quantity="50" Unit="g" Type="spring onions" Process="chopped"/>
+        to serve.
+      </Stage>
+    </Recipe>
+    
     <Recipe Title="Lentil shepherds pie" Meals="2">
       <Index>
         Shepherds Pie<Sub>Lentil</Sub>
@@ -211,200 +931,69 @@
         then bake <Temperature Level="medium"/> for 20 minutes.
       </Stage>
     </Recipe>
-    <Recipe Title="Chickpea risotto" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />,
-        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
-        and
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Type="oil"/>
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="1000" Unit="g" Type="sweet potatoes" Process="sliced" />,
-        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process ="drained"/>,
-        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
-        <Check Quantity="300" Unit="ml" Type="sherry" />,
-        <Grocery Quantity="75" Unit="g" Type="raisins" />,
-        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
-        <Grocery Quantity="400" Unit="g" Type="white rice"/>
-        and
-        <Water Quantity="500" Unit="ml" Type="water" />
-        and bring to a boil.
-      </Stage>
-      <Stage>
-        Put in a
-        <Utensil Name="casserole"/>,
-        cover and bake <Temperature Level="low"/> 20 minutes.
-      </Stage>
-      <Stage>
-        Server with
-        <Dairy Quantity="150" Unit="g" Type="parmesan" Process="grated"/>.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Tortellini and parmesan cheese" Meals="1">
-      <Stage>
-        <Staple Name="tortellini" />
-      </Stage>
-      <Stage>
-        Sprinkle with
-        <Grocery Quantity="20" Unit="g" Type="grated parmesan"/>.
-      </Stage>
-    </Recipe>
-  </Menu>
 
-  <Menu Title="Approved by Mags">
-    <Recipe Title="Aubergine and peppers" Meals="2">
+    <Recipe Title="Fish fingers and baked beans" Meals="1">
+      <Stage>
+        In a <Utensil Name="pan" /> heat up
+        <Grocery Quantity="400" Unit="g" Type="can baked beans" />.
+      </Stage>
+      <Stage>
+        Grill
+        <Grocery Quantity="8" Type="fish fingers" />.
+      </Stage>
+    </Recipe>
+
+    <Recipe Title="Courgettes and bacon" Meals="2">
       <Stage>
         <Staple Name="potatoes" />
+        then slice.
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
+        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>
         and
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
-        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="sliced"/>,
-        <Vegetable Quantity="400" Unit="g" Type="aubergine" Process="sliced"/>
-        and
-        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
-        <Water Quantity="100" Type="cold water" Unit="ml" />
-        and
-        <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
-        and bring to the boil.
-      </Stage>
-      <Stage>
-        Put in a <Utensil Name="casserole" /> and bake <Temperature Level="medium" /> for 40 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Potatoes Russian style" Meals="2">
-      <Index>
-        Style<Sub>Russian potatoes</Sub>
-      </Index>
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="2000" Unit="g" Type="boiling potatoes" Process="cubed"/>
-        until not quite done
-        then drain.
-      </Stage>
-      <Stage>
-        Stir in
-        <Dairy Quantity="600" Unit="g" Type="cottage cheese" />,
-        <Dairy Quantity="300" Unit="ml" Type="sour cream" />,
-        <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>,
-        <Grocery Quantity="50" Unit="g" Type="capers" />,
-        and
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>.
-        and bake <Temperature Level="medium" /> for 30 minutes.
-      </Stage>
-      <Stage>
-        Grill <Meat Quantity="4" Type="burgers" /> and serve with the potatoes.
-      </Stage>
-      <Stage>
-        Sprinkle with 
-        <Vegetable Quantity="50" Unit="g" Type="spring onion" Process="chopped"/>
-        to serve.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Lentils and spicy sausage" Meals="2">
-      <Stage>
-        <Staple Name="rice brown" />
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        and
-        <Meat Quantity="100" Unit="g" Type="bacon" Process="chopped"/>
-        in
-        <Check Quantity="3" Unit="tbsp" Type="oil" />
-        until bacon done.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="250" Unit="g" Type="red lentils" />,
-        <Grocery Quantity="800" Unit="g" Type="can tomatoes" />,
-        <Meat Quantity="250" Unit="g" Type="chorizo sausage" Process="sliced"/>,
-        <Check Quantity="1" Unit="tsp" Type="chilli powder" />
-        and
-        <Water Quantity="400" Type="cold water" Unit="ml" />
-        and simmer for 25 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Pizza and Swedish salad" Meals="1">
-      <Index>
-        Pizza
-      </Index>
-      <Stage>
-        Bake <Grocery Quantity="2" Type="pizza" />
-        <Temperature Level="high" /> 15 minutes.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="bowl"/> mix
-        <Vegetable Quantity="250" Type="cabbage" Unit="g" Process="sliced" />,
-        <Vegetable Quantity="50" Type="carrots" Unit="g" Process="sliced" />
-        and
-        <Vegetable Quantity="50" Type="onions" Unit="g" Process="sliced"/>.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="1" Type="sugar" Unit="tbsp" />,
-        <Check Quantity="2" Type="wine vinegar" Unit="tbsp" />,
-        <Check Quantity="2" Type="oil" Unit="tbsp" />,
-        <Check Quantity="1" Type="basil" Unit="pinch"/>,
-        <Check Quantity="1" Type="oregano" Unit="pinch"/>,
-        <Check Quantity="1" Type="salt" Unit="pinch"/>
-        and
-        <Check Quantity="1" Type="pepper" Unit="pinch"/>.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Mushroom Stew" Meals="2">
-      <Index>
-        Stew<Sub>Mushroom</Sub>
-      </Index>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="375" Unit="g" Type="onions" Process="chopped"/>
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>.
         in
         <Check Quantity="2" Unit="tbsp" Type="oil" />
         until soft.
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="600" Unit="g" Type="mushrooms" />
+        <Meat Quantity="6" Unit="rashers" Type="bacon" Process="chopped"/>,
+        <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>,
+        <Dairy Quantity="2" Type="eggs" Process="beaten"/>,
         and
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        and cook until mushrooms start to wilt.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="150" Unit="g" Type="pearl barley" />,
-        <Check Quantity="4" Unit="tbsp" Type="soy sauce" />,
-        <Check Quantity="5" Unit="tbsp" Type="sherry" />,
-        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
-        and
-        <Water Quantity="450" Type="cold water" Unit="ml" />
-        and simmer for 25 minutes.
-      </Stage>
-      <Stage>
-        <Staple Name="couscous"/>
+        <Dairy Quantity="4" Unit="tbsp" Type="milk" />.
+        Layer in a <Utensil Name="casserole" />
+        with the potatoes
+        and bake <Temperature Level="medium" /> 35 minutes.
       </Stage>
     </Recipe>
+
+    <Recipe Title="Sweet corn pizza" Meals="2">
+      <Index>
+        Pizza<Sub>Sweet corn</Sub>
+      </Index>
+      <Stage>
+        On
+        <Grocery Quantity="2" Type="pizza bases" />
+        spread
+        <Grocery Quantity="300" Unit="g" Type="tomato puree" />,
+        <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
+        <Grocery Quantity="200" Unit="g" Type="can sweetcorn" />,
+        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>,
+        <Grocery Quantity="100" Unit="g" Type="anchovy fillets" />,
+        <Grocery Quantity="200" Unit="g" Type="pineapple chunks" />,
+        <Dairy Quantity="200" Unit="g" Type="cheese" Process="grated"/>
+        and
+        <Check Quantity="2" Unit="tsp" Type="oregano" />.
+      </Stage>
+      <Stage>
+        Bake <Temperature Level="high" /> 20 minutes or until golden.
+      </Stage>
+    </Recipe>
+
     <Recipe Title="Beans Caribbean style" Meals="2">
       <Index>
         Style<Sub>Carribbean beans</Sub>
@@ -443,102 +1032,48 @@
         Stir in the rice and serve.
       </Stage>
     </Recipe>
-    <Recipe Title="Tomatoes Indian style" Meals="2">
-      <Index>
-        Style<Sub>Indian tomatoes</Sub>
-      </Index>
-      <Stage>
-        In a <Utensil Name="wok" /> heat
-        <Check Quantity="4" Unit="tbsp" Type="oil" />,
-        <Check Quantity="0.5" Unit="tsp" Type="asafoetida" />,
-        <Check Quantity="0.5" Unit="tsp" Type="turmeric" />,
-        and
-        <Check Quantity="2" Unit="tsp" Type="cumin seeds" />
-        until
-        the cumin sizzles.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
-        and
-        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
-        and
-        fry until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="1000" Unit="g" Type="tomatoes" Process="chopped"/>
-        and
-        <Vegetable Quantity="400" Unit="g" Type="green beans" />
-        simmer for 15 minutes.
-      </Stage>
-      <Stage>
-        Serve with
-        <Dairy Quantity="500" Unit="g" Type="plain yoghurt"/>
-        and
-        <Grocery Quantity="4" Type="naan bread"/>.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Bacon and mushroom pasta" Meals="1">
+
+    <Recipe Title="Tagliatelli and olive oil" Meals="1">
       <Stage>
         <Staple Name="tagliatelli"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry <Meat Quantity="150" Unit="g" Type="bacon" Process="chopped"/>
-        and
-        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>
-        in
-        <Check Quantity="1" Unit="tbsp" Type="oil" /> for 5 minutes.
-      </Stage>
-      <Stage>
-        Stir in the pasta (cooked and drained)
-        and <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>
-        and warm through.
-      </Stage>
-    </Recipe>
-  </Menu>
-
-  <Menu Title="Previously E">
-    <Recipe Title="Lentil dhansak" Meals="2">
-      <Index>
-        Curry<Sub>Lentil dhansak</Sub>
-      </Index>
-      <Stage>
-        <Staple Name="rice brown"/>
+        save 150 ml of the water.
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>,
+        <Vegetable Quantity="200" Unit="g" Type="courgette" Process="sliced"/>,
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
+        <Check Quantity="1"  Type="bay leaf" Process="crumbled"/>
         and
-        <Vegetable Quantity="100" Unit="g" Type="carrots" Process="sliced"/>
-        until soft.
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="olive oil" />
+        until garlic browns.
       </Stage>
       <Stage>
-        Stir in
-        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
-        <Check Quantity="1" Unit="tsp" Type="cumin seeds" />,
-        <Check Quantity="1" Unit="tsp" Type="mustard seeds" />
+        Stir in the tagliatelli,
+        the water
         and
-        <Check Quantity="5" Unit="cm" Type="cinnamon stick" />
-        and fry for 2 minutes.
+        <Grocery Quantity="200" Unit="g" Type="olives" />
+        and simmer for 3 minutes.
       </Stage>
       <Stage>
-        Stir in
-        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
-        <Grocery Quantity="2" Unit="tbsp" Type="cashew nuts" />,
-        <Check Quantity="120" Unit="ml" Type="creamed coconut" />,
-        <Grocery Quantity="225" Unit="g" Type="red lentils" />
-        and
-        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="chopped"/>
-        and simmer for 20 minutes.
-      </Stage>
-      <Stage>
-        Add juice of
-        <Vegetable Quantity="1" Type="lemon" />
-        and warm.
+        Spinkle with
+        <Grocery Quantity="50" Unit="g" Type="grated parmesan"/>.
       </Stage>
     </Recipe>
+    
+</Menu>
+
+  <Menu Title="October">
+  <!-- Aubergine, Apples, Beetroot, Blackberries, Broccoli, 
+  Brussels Sprouts, Butternut Squash, Carrots, Cauliflower, Celeriac, 
+  Celery, Chestnuts, Chicory, Chillies, Courgette, Cucumber, Elderberries, 
+  Kale, Leeks, Lettuce, Marrow, Onions, Parsnips, Pears, Peas, Potatoes, 
+  Pumpkin, Radishes, Rocket, Runner Beans, Spinach, Spring Greens, 
+  Spring Onions, Summer Squash, Swede, Sweetcorn, Swiss Chard, Tomatoes, 
+  Turnips, Watercress, Wild Mushrooms, Winter Squash.  -->
+
     <Recipe Title="Spaghetti and pasta sauce" Meals="2">
       <Index>
         Spaghetti<Sub>Pasta sauce</Sub>
@@ -560,179 +1095,9 @@
         <Staple Name="spaghetti"/>
       </Stage>
     </Recipe>
-    <Recipe Title="Sausages in Cider" Meals="2">
-      <Stage>
-        In a <Utensil Name="pan"/> boil
-        <Vegetable Quantity="1200" Unit="g" Type="boiling potatoes" Process="chopped"/>
-        then mash.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="casserole"/> put
-        <Meat Quantity="500" Unit="g" Type="sausages"/>,
-        <Vegetable Quantity="250" Unit="g" Type="onions" Process="quartered"/>
-        and
-        <Vegetable Quantity="2" Type="garlic" Process="crushed"/>
-        bake <Temperature Level="medium"/> 15 minutes.
-      </Stage>
-      <Stage>
-        Add <Vegetable Quantity="1" Type="apple" Process="sliced"/>
-        and
-        <Grocery Quantity="400" Unit="ml" Type="cider"/>
-        bake <Temperature Level="medium"/> 20 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Egg and chips" Meals="1">
-      <Stage>
-        Heat up
-        <Grocery Quantity="800" Unit="g" Type="oven ready chips" />.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Dairy Quantity="4" Type="eggs"/>
-        in
-        <Check Quantity="1" Unit="tbsp" Type="oil" />.
-      </Stage>
-    </Recipe>
 
-    <Recipe Title="Chicken pilaf" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Meat Quantity="600" Unit="g" Type="chicken" />,
-        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
-        and
-        <Vegetable Quantity="5" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        until chicken done.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
-        <Check Quantity="0.5" Unit="tsp" Type="ground cinnamon" />,
-        and
-        <Check Quantity="6" Type="cloves" />
-        and fry for 2 minutes.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="400" Unit="g" Type="white rice" />,
-        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
-        and
-        <Water Quantity="800" Unit="ml" Type="water" />
-        and bake, covered <Temperature Level="medium" /> 30 minutes.
-      </Stage>
-      <Stage>
-        Spinkle on
-        <Grocery Quantity="100" Unit="g" Type="flaked almonds" />
-        before serving.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Vegetable shepherds pie" Meals="2">
-      <Index>
-        Shepherds Pie<Sub>Vegetable</Sub>
-      </Index>
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="1000" Unit="g" Type="boiling potatoes" Process="cubed"/>,
-        then mash with
-        <Dairy Quantity="50" Unit="g" Type="butter" />
-        and
-        <Dairy Quantity="4" Unit="tbsp" Type="milk" />.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="casserole" /> mix
-        <Vegetable Quantity="300" Unit="g" Type="carrots" Process="sliced"/>,
-        <Vegetable Quantity="300" Unit="g" Type="parsnips" Process="sliced"/>,
-        <Vegetable Quantity="300" Unit="g" Type="swedes" Process="sliced"/>,
-        <Grocery Quantity="400" Unit="g" Type="can borlotti beans" Process="undrained"/>,
-        <Grocery Quantity="200" Unit="g" Type="mayonaise" />
-        and
-        <Grocery Quantity="160" Unit="g" Type="horseraddish sauce" />.
-        Spread the mashed potatoes on top,
-        sprinkle with
-        <Check Quantity="50" Unit="g" Type="sunflower seeds" />
-        and
-        bake <Temperature Level="medium" /> 60 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Onion pizza" Meals="2">
-      <Index>
-        Pizza<Sub>Onion</Sub>
-      </Index>
-      <Stage>
-        In a <Utensil Name="wok" /> slowly fry
-        <Vegetable Quantity="1000" Unit="g" Type="onions" Process="chopped"/>
-        and
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="3" Unit="tbsp" Type="oil" />
-        until brown.
-      </Stage>
-      <Stage>
-        Spread on <Grocery Quantity="2" Type="pizza bases" />
-        then sprinkle with
-        <Grocery Quantity="200" Unit="g" Type="pitted olives" />,
-        <Grocery Quantity="100" Unit="g" Type="anchovy fillets" />
-        and
-        <Check Quantity="1" Unit="tsp" Type="mixed herbs" />.
-        Bake <Temperature Level="high" /> 20 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Pasta and pesto" Meals="1">
-      <Stage>
-        <Staple Name="pasta shapes"/>.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="100" Unit="g" Type="pesto" /> and
-        <Grocery Quantity="150" Unit="g" Type="can tuna fish" />.
-      </Stage>
-    </Recipe>
-  </Menu>
+    <!--vegetarian-->
 
-  <Menu Title="Winter Solstice">
-    <Recipe Title="Vegetable mousaka" Meals="2">
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="500" Unit="g" Type="potatoes" Process="sliced"/>
-        until soft,
-        then drain.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="1000" Unit="g" Type="aubergine" Process="sliced"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>,
-        <Vegetable Quantity="100" Unit="g" Type="mushrooms" Process="sliced"/>,
-        <Vegetable Quantity="500 " Unit="g" Type="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
-        <Water Quantity="3" Unit="tbsp" Type="water" />
-        and
-        <Check Quantity="1" Unit="tsp" Type="mixed herbs" />,
-        and simmer for 10 minutes.
-      </Stage>
-      <Stage>
-        Put everything in a <Utensil Name="casserole" />
-        and bake <Temperature Level="medium" /> 30 minutes.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="bowl" /> beat together
-        <Dairy Quantity="2" Type="eggs" />,
-        <Dairy Quantity="150" Unit="ml" Type="plain yoghurt" />
-        and
-        <Dairy Quantity="200" Unit="ml" Type="milk"/>.
-        Pour on the <Utensil Name="casserole" />, spinkle with
-        <Dairy Quantity="150" Unit="g" Type="cheese" Process="grated"/>
-        and bake <Temperature Level="medium" /> 20 minutes.
-      </Stage>
-    </Recipe>
     <Recipe Title="Chickpea and spinach curry" Meals="2">
       <Index>
         Curry<Sub>Chickpea and spinach</Sub>
@@ -765,197 +1130,9 @@
         and simmer until spinach wilts.
       </Stage>
     </Recipe>
-    <Recipe Title="Courgettes and bacon" Meals="2">
-      <Stage>
-        <Staple Name="potatoes" />
-        then slice.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Type="courgette" Process="sliced"/>,
-        <Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>.
-        in
-        <Check Quantity="2" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Meat Quantity="6" Unit="rashers" Type="bacon" Process="chopped"/>,
-        <Dairy Quantity="100" Unit="g" Type="cheese" Process="grated"/>,
-        <Dairy Quantity="2" Type="eggs" Process="beaten"/>,
-        and
-        <Dairy Quantity="4" Unit="tbsp" Type="milk" />.
-        Layer in a <Utensil Name="casserole" />
-        with the potatoes
-        and bake <Temperature Level="medium" /> 35 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Tagliatelli and olive oil" Meals="1">
-      <Stage>
-        <Staple Name="tagliatelli"/>
-        save 150 ml of the water.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>,
-        <Vegetable Quantity="200" Unit="g" Type="courgette" Process="sliced"/>,
-        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
-        <Check Quantity="1"  Type="bay leaf" Process="crumbled"/>
-        and
-        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Type="olive oil" />
-        until garlic browns.
-      </Stage>
-      <Stage>
-        Stir in the tagliatelli,
-        the water
-        and
-        <Grocery Quantity="200" Unit="g" Type="olives" />
-        and simmer for 3 minutes.
-      </Stage>
-      <Stage>
-        Spinkle with
-        <Grocery Quantity="50" Unit="g" Type="grated parmesan"/>.
-      </Stage>
-    </Recipe>
 
-    <Recipe Title="Chicken curry" Meals="2">
-      <Index>
-        Curry<Sub>Chicken</Sub>
-      </Index>
-      <Stage>
-        <Staple Name="rice white"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="3" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="2" Unit="tbsp" Type="curry powder" />,
-        <Meat Quantity="400" Unit="g" Type="chicken" Process="sliced" />
-        and cook until done.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="400" Unit="g" Type="can evaporated milk" />
-        and
-        bake <Temperature Level="medium" /> 25 minutes.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Lentil and vegetable curry" Meals="2">
-      <Index>
-        Curry<Sub>Lentil and vegetable</Sub>
-      </Index>
-      <Stage>
-        In a <Utensil Name="pan" /> in
-        <Water Quantity="450" Unit="ml" Type="water"/>
-        cook
-        <Grocery Quantity="225" Unit="g" Type="red lentils" />
-        until soft.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Check Quantity="1" Unit="tsp" Type="cumin seeds" />,
-        <Check Quantity="1" Unit="tsp" Type="mustard seeds" />,
-        and
-        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>,
-        <Vegetable Quantity="100" Unit="g" Type="carrots" Process="sliced"/>,
-        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="chopped"/>
-        and
-        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
-        and simmer for 5 minutes.
-      </Stage>
-      <Stage>
-        Stir in
-        the lentils,
-        <Check Quantity="100" Unit="g" Type="creamed coconut" />,
-        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
-        <Grocery Quantity="2" Unit="tbsp" Type="cashew nuts" />
-        and juice of
-        <Vegetable Quantity="1" Type="lemon" />.
-      </Stage>
-      <Stage>
-        <Staple Name="couscous"/>
-      </Stage>
-    </Recipe>
-    <Recipe Title="Sweet corn pizza" Meals="2">
-      <Index>
-        Pizza<Sub>Sweet corn</Sub>
-      </Index>
-      <Stage>
-        On
-        <Grocery Quantity="2" Type="pizza bases" />
-        spread
-        <Grocery Quantity="300" Unit="g" Type="tomato puree" />,
-        <Vegetable Quantity="400" Unit="g" Type="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="200" Unit="g" Type="can sweetcorn" />,
-        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>,
-        <Grocery Quantity="100" Unit="g" Type="anchovy fillets" />,
-        <Grocery Quantity="200" Unit="g" Type="pineapple chunks" />,
-        <Dairy Quantity="200" Unit="g" Type="cheese" Process="grated"/>
-        and
-        <Check Quantity="2" Unit="tsp" Type="oregano" />.
-      </Stage>
-      <Stage>
-        Bake <Temperature Level="high" /> 20 minutes or until golden.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Fish fingers and baked beans" Meals="1">
-      <Stage>
-        In a <Utensil Name="pan" /> heat up
-        <Grocery Quantity="400" Unit="g" Type="can baked beans" />.
-      </Stage>
-      <Stage>
-        Grill
-        <Grocery Quantity="8" Type="fish fingers" />.
-      </Stage>
-    </Recipe>
-  </Menu>
-    
-  <Menu Title="All New">
-    <Recipe Title="Tuna Bake" Meals="2">
-      <Stage>
-        <Staple Name="rice brown" />
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Type="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="1" Type="chillis" Process="chopped" />
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="casserole"/> mix
-        the rice and onions.
-        Stir in
-        <Grocery Quantity="400" Unit="g" Type="can mushroom soup" />,
-        <Grocery Quantity="200" Unit="g" Type="can sweetcorn" Process="drained"/>,
-        <Grocery Quantity="200" Unit="g" Type="frozen peas"/>
-        and
-        <Grocery Quantity="150" Unit="g" Type="can tuna fish" Process="crumbled" />.
-        Sprinkle with
-        <Dairy Process="grated" Quantity="50" Type="cheese" Unit="g" />.
-        and
-        bake <Temperature Level="medium" /> 20 minutes.
-      </Stage>
-    </Recipe>
+    <!--quick-->
+
     <Recipe Title="Sausage and Beans" Meals="2">
       <Stage>
         <Staple Name="potatoes" />
@@ -987,10 +1164,11 @@
         Pour beans over the sausages and bake <Temperature Level="medium" /> 30 minutes.
       </Stage>
     </Recipe>
+
     <Recipe Title="Red Pepper Pasta" Meals="2">
       <!-- http://allrecipes.co.uk/recipe/2004/farfalle-with-red-pepper-sauce.aspx?o_is=Hub_TopRecipe_5 -->
       <Stage>
-        In a <Utensil Name="pan" /> 
+        In a <Utensil Name="pan" />
         <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped" />,
         <Vegetable Quantity="1" Type="chillis" Process="chopped" />
         and
@@ -1004,7 +1182,7 @@
         <Grocery Quantity="400" Unit="g" Type="can tomatoes" />,
         <Grocery Quantity="140" Unit="g" Type="tomato puree" />,
         <Check Quantity="2"  Unit="tbsp" Type="wine vinegar" />,
-        <Check Quantity="2" Type="honey" Unit="tbsp" />,        
+        <Check Quantity="2" Type="honey" Unit="tbsp" />,
         <Check Quantity="2" Unit="cube" Type="stock" Process="crumbled" />,
         <Check Quantity="2" Unit="tsp" Type="oregano" />
         and
@@ -1020,123 +1198,13 @@
         <Staple Name="pasta shapes" />
       </Stage>
     </Recipe>
-    <Recipe Title="Hangover Noodles" Meals="1">
-      <!-- http://www.jamieoliver.com/recipes/vegetables-recipes/hungover-noodles/#vOYV0KputHT3r8De.97 -->
-      <Stage>
-        In a <Utensil Name="pan" />
-        put
-        <Grocery Quantity="200" Unit="g" Type="noodles"/>,
-        <Vegetable Quantity="400" Unit="g" Type="broccoli" Process="flourettes"/>
-        <Vegetable Quantity="400" Unit="g" Type="chinese cabbage" Process="sliced"/>
-        <Vegetable Quantity="200" Unit="g" Type="mange tout" Process="halved"/>
-        pour on <Water Quantity="800" Unit="ml" Type="boiling water"/>,
-        cover and simmer for 5 minutes, then drain.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="bowl"/> mix
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>,
-        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="grated"/>,
-        <Check Quantity="2" Unit="tbsp" Type="soy sauce" />,
-        <Check Quantity="3" Unit="tbsp" Type="sesame oil" /> and
-        <Check Quantity="3" Unit="tbsp" Type="wine vinegar" />.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="frying"/> fry
-        <Dairy Quantity="2" Type="eggs" />
-        in
-        <Check Quantity="1" Unit="tbsp" Type="sesame oil" />.
-      </Stage>
-      <Stage>
-        Toss the noodles in the soy sauce dressing.
-        Serve with fried eggs on top.
-      </Stage>
-    </Recipe>
 
-    <Recipe Title="Chicken and Tomato Curry" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok"/> fry
-        <Vegetable Quantity="400" Unit="g" Type="onions" Process="sliced"/>,
-        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="grated"/>,
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-        and
-        <Vegetable Process="chopped" Quantity="400" Type="carrots" Unit="g" />
-        in
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
-        <Grocery Process="chopped" Quantity="800" Type="can tomatoes" Unit="g" />,
-        <Grocery Quantity="140" Type="tomato puree" Unit="g"/>
-        and
-        <Grocery Quantity="400" Type="red wine" Unit="ml" />
-        and simmer gently for 30 minutes.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="casserole"/> place
-        <Meat Process="sliced" Quantity="400" Type="chicken" Unit="g" />
-        and
-        <Check Quantity="4" Unit="tbsp" Type="oil" />
-        then bake <Temperature Level="medium" /> 30 minutes.
-      </Stage>
-      <Stage>
-        <Staple Name="rice"/>
-      </Stage>
-      <Stage>
-        Add meat to the tomatoes, then pour on the rice.
-      </Stage>
-    </Recipe>
-    <Recipe Title="Tofu and mangetous stir fry" Meals="2">
-      <Index>
-        Stir Fry<Sub>Tofu and mange tout</Sub>
-      </Index>
-      <Stage>
-        Coat
-        <Grocery Quantity="300" Unit="g" Type="tofu" Process="cubed"/>
-        in
-        <Check Quantity="7" Unit="tbsp" Type="oil"/>
-        and        
-        <Check Quantity="5" Unit="tbsp" Type="paprika" />
-        then bake until browned.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry <Vegetable Quantity="200" Unit="g" Type="onions" Process="sliced"/>,        
-        <Vegetable Quantity="3" Unit="cm" Type="ginger" Process="chopped"/>,
-        <Vegetable Quantity="1" Type="chillis" />
-        and
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-        until soft.
-      </Stage>  
-      <Stage>
-        Stir in
-        <Vegetable Quantity="200" Unit="g" Type="mange tout" Process="halved"/>
-        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="sliced"/>,
-        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced"/>
-        and
-        <Vegetable Quantity="400" Unit="g" Type="cabbage" Process="sliced"/>,
-        and cook until warm.
-      </Stage>
-      <Stage>
-        <Staple Name="noodles"/>
-      </Stage>
-      <Stage>
-        To the wok, stir in
-        <Grocery Quantity="1" Unit="tbsp" Type="corn flour" />,
-        <Check Quantity="5" Unit="tbsp" Type="sherry" />
-        and
-        <Check Quantity="5" Unit="tbsp" Type="soy sauce" />.
-      </Stage>
-      <Stage>
-        Add the cooked tofu to the wok.
-      </Stage>
-    </Recipe>
     <Recipe Title="Vegetable cous cous" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
         <Vegetable Quantity="225" Unit="g" Type="courgette" Process="sliced"/>,
-        <Vegetable Quantity="225" Unit="g" Type="green beans" Process="chopped"/>,
+        <Vegetable Quantity="225" Unit="g" Type="runner beans" Process="chopped"/>,
         <Vegetable Quantity="225" Unit="g" Type="carrots" Process="chopped"/>,
         <Vegetable Quantity="500" Unit="g" Type="cauliflower" />
         and
@@ -1162,178 +1230,9 @@
         and leave to stand for 10 minutes.
       </Stage>
     </Recipe>
-    <Recipe Title="Noodles and sardines" Meals="1">
-      <Stage>
-        <Staple Name="noodles"/>
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="120" Unit="g" Type="can sardines" Process="mashed"/>
-        and
-        <Check Quantity="1" Unit="tsp" Type="soy sauce" />.
-      </Stage>
-    </Recipe>
-  </Menu>
 
-  <Menu Title="May Bank Holiday">
-    <Recipe Title="Kale and Bacon Pasta" Meals="2">
-      <Stage>
-        <Staple Name="pasta shapes"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok"/> fry
-        <Meat Quantity="250" Unit="g" Type="bacon" Process="chopped" />
-        in
-        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
-        until done.
-      </Stage>
-      <Stage>
-        Stir in 
-        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process ="crushed"/>,
-        <Vegetable Quantity ="1" Type="chillis" Process="chopped"/>
-        and
-        <Grocery Quantity="100" Unit="g" Type="pine nuts"/>,
-        and cook until the pine nuts are just toasted.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="200" Unit="g" Type="kale" Process="chopped"/>
-        and
-        <Water Quantity="200" Unit="ml" Type="water"/>,
-        simmer until the kale has wilted.
-      </Stage>
-      <Stage>
-        Stir in the pasta,
-        <Dairy Quantity="180" Unit="g" Type="cream cheese"/>
-        and
-        <Vegetable Quantity="1" Type="lemon" Process="juiced"/>.
-        Season with 
-        <Check Quantity="1" Type="pepper" Unit="pinch"/>.
-      </Stage>
-    </Recipe>
+    <!--quick-->
     
-    <Recipe Title="Chicken Tagine" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok"/> fry
-        <Meat Quantity="400" Unit="g" Type="chicken" Process="chopped"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
-        until done, then remove.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok"/> fry
-        <Vegetable Quantity="300" Unit="g" Type="onions" Process="chopped"/>
-        and
-        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Type="olive oil" />
-        until golden.
-      </Stage>
-      <Stage>
-        Stir the chicken,
-        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />,
-        <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
-        <Check Quantity="1" Unit="tsp" Type="ground ginger" />,
-        <Grocery Quantity="150" Unit="g" Type="dried apricots" Process="quartered"/>,
-        <Vegetable Quantity="1" Type="lemon" Process="juiced"/>,
-        <Check Quantity="2" Unit="tbsp" Type="honey" />,
-        <Check Process="crumbled" Unit="cube" Quantity="1" Type="stock" />
-        and
-        <Water Quantity="359" Type="boiling water" Unit="ml" />
-      </Stage>
-      <Stage>
-        <Staple Name="couscous"/>
-      </Stage>
-      <Stage>
-        Serve with
-        <Grocery Quantity="100" Unit="g" Type="flaked almonds" Process="toasted"/>
-        and
-        <Vegetable Type="fresh coriander" Process="chopped"/>.
-      </Stage>
-    </Recipe>
-
-  </Menu>
-  <Menu Title="January">
-  <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
-  Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
-  Parsnips, Pears, Spring Greens, Spring Onions, Squash, Swedes, Turnips. -->
-  </Menu>
-  
-  <Menu Title="February">
-  <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
-  Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, Parsnips, 
-  Pears, Purple Sprouting Broccoli, Spring Greens, Spring Onions, Squash, 
-  Swedes. -->
-  </Menu>
-  
-  <Menu Title="March">
-  <!-- Artichoke, Beetroot, Cabbage, Carrots, Chicory, Cucumber, Leeks, 
-  Parsnip, Purple Sprouting Broccoli, Radishes, Rhubarb, Sorrel, 
-  Spring Greens, Spring Onions, Watercress. -->
-  </Menu>
-  
-  <Menu Title="April">
-  <!-- Artichoke, Beetroot, Cabbage, Carrots, Chicory, New Potatoes, Kale, 
-  Morel Mushrooms, Parsnips, Radishes, Rhubarb, Rocket, Sorrel, Spinach, 
-  Spring Greens, Spring Onions, Watercress.  -->
-  </Menu>
-
-  <Menu Title="May">
-  <!-- Artichoke, Asparagus, Aubergine, Beetroot, Chicory, Chillies, 
-  Elderflowers, Lettuce, Marrow, New Potatoes, Peas, Peppers, Radishes, 
-  Rhubarb, Rocket, Samphire, Sorrel, Spinach, Spring Greens, 
-  Spring Onions, Strawberries, Watercress.  -->
-  </Menu>
-
-  <Menu Title="June">
-  <!-- Asparagus, Aubergine, Beetroot, Blackcurrants, Broad Beans, 
-  Broccoli, Cauliflower, Cherries, Chicory, Chillies, Courgettes, 
-  Cucumber, Elderflowers, Gooseberries, Lettuce, Marrow, New Potatoes, 
-  Peas, Peppers, Radishes, Raspberries, Redcurrants, Rhubarb, Rocket, 
-  Runner Beans, Samphire, Sorrel, Spring Greens, Spring Onions, 
-  Strawberries, Summer Squash, Swiss Chard, Tayberries, Turnips, Watercress.  -->
-  </Menu>
-
-  <Menu Title="July">
-  <!-- Aubergine, Beetroot, Blackberries, Blackcurrants, Blueberries, 
-  Broad Beans, Broccoli, Carrots, Cauliflower, Cherries, Chicory, 
-  Chillies, Courgettes, Cucumber, Gooseberries, Greengages, Fennel, 
-  French Beans, Garlic, Kohlrabi, Loganberries, New Potatoes, Onions, 
-  Peas, Potatoes, Radishes, Raspberries, Redcurrants, Rhubarb, Rocket, 
-  Runner Beans, Samphire, Sorrel, Spring Greens, Spring Onions, 
-  Strawberries, Summer Squash, Swish Chard, Tomatoes, Turnips, Watercress.  -->
-  </Menu>
-
-  <Menu Title="August">
-  <!-- Aubergine, Beetroot, Blackberries, Blackcurrants, Broad Beans, 
-  Broccoli, Carrots, Cauliflower, Cherries, Chicory, Chillies, Courgettes, 
-  Cucumber, Damsons, Fennel, French Beans, Garlic, Greengages, Kohlrabi, 
-  Leeks, Lettuce, Loganberries, Mangetout, Marrow, Mushrooms, Parsnips, 
-  Peas, Peppers, Potatoes, Plums, Pumpkin, Radishes, Raspberries, 
-  Redcurrants, Rhubarb, Rocket, Runner Beans, Samphire, Sorrel, 
-  Spring Greens, Spring Onions, Strawberries, Summer Squash, Sweetcorn, 
-  Swiss Chard, Tomatoes, Watercress.  -->
-</Menu>
-
-  <Menu Title="September">
-  <!-- Aubergine, Beetroot, Blackberries, Broccoli, Brussels Sprouts, 
-  Butternut Squash, Carrots, Cauliflower, Celery, Courgettes, Chicory, 
-  Chillies, Cucumber, Damsons, Garlic, Kale, Kohlrabi, Leeks, Lettuce, 
-  Mangetout, Marrow, Onions, Parsnips, Pears, Peas, Peppers, Plums, 
-  Potatoes, Pumpkin, Radishes, Raspberries, Rhubarb, Rocket, Runner Beans, 
-  Samphire, Sorrel, Spinach, Spring Greens, Spring Onions, Strawberries, 
-  Summer Squash, Sweetcorn, Swiss Chard, Tomatoes, Turnips, Watercress, 
-  Wild Mushrooms.  -->
-</Menu>
-
-  <Menu Title="October">
-  <!-- Aubergine, Apples, Beetroot, Blackberries, Broccoli, 
-  Brussels Sprouts, Butternut Squash, Carrots, Cauliflower, Celeriac, 
-  Celery, Chestnuts, Chicory, Chillies, Courgette, Cucumber, Elderberries, 
-  Kale, Leeks, Lettuce, Marrow, Onions, Parsnips, Pears, Peas, Potatoes, 
-  Pumpkin, Radishes, Rocket, Runner Beans, Spinach, Spring Greens, 
-  Spring Onions, Summer Squash, Swede, Sweetcorn, Swiss Chard, Tomatoes, 
-  Turnips, Watercress, Wild Mushrooms, Winter Squash.  -->
 </Menu>
 
   <Menu Title="November">
@@ -1342,13 +1241,57 @@
   Elderberries, Jerusalem Artichokes, Kale, Leeks, Onions, Parsnips, Pears, 
   Potatoes, Pumpkin, Swede, Swiss Chard, Turnips, Watercress, Wild Mushrooms, 
   Winter Squash.  -->
+    
     <Recipe Title="German Sausages, Mash and Sauerkraut" Meals="2">
-      
+      <Stage>
+        <Meat Type="sausages" Quantity="400" Unit="g"/>
+      </Stage>
+    </Recipe>
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <Recipe Title="Pizza and Swedish salad" Meals="1">
+      <Index>
+        Pizza
+      </Index>
+      <Stage>
+        Bake <Grocery Quantity="2" Type="pizza" />
+        <Temperature Level="high" /> 15 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="bowl"/> mix
+        <Vegetable Quantity="250" Type="cabbage" Unit="g" Process="sliced" />,
+        <Vegetable Quantity="50" Type="carrots" Unit="g" Process="sliced" />
+        and
+        <Vegetable Quantity="50" Type="onions" Unit="g" Process="sliced"/>.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Type="sugar" Unit="tbsp" />,
+        <Check Quantity="2" Type="wine vinegar" Unit="tbsp" />,
+        <Check Quantity="2" Type="oil" Unit="tbsp" />,
+        <Check Quantity="1" Type="basil" Unit="pinch"/>,
+        <Check Quantity="1" Type="oregano" Unit="pinch"/>,
+        <Check Quantity="1" Type="salt" Unit="pinch"/>
+        and
+        <Check Quantity="1" Type="pepper" Unit="pinch"/>.
+      </Stage>
     </Recipe>
     
     <Recipe Title="Norwegian Mutton and Cabbage" Meals="2">
-
+      <Stage>
+        <Meat Type="lamb" Quantity="400" Unit="g"/>
+      </Stage>
     </Recipe>
+
+    <!--vegetarian-->
+
+    <!--vegan-->
+
+    <!--quick-->
+
   </Menu>
 
   <Menu Title="December">
@@ -1356,13 +1299,58 @@
   Chestnuts, Chicory, Cranberries, Jerusalem Artichokes, Kale, Leeks, 
   Mushrooms, Onions, Parsnips, Pears, Potatoes, Pumpkin, Red Cabbage, 
   Swede, Swiss Chard, Turnips, Watercress, Winter Squash. -->
-    <Recipe Title="Curried Carrots" Meals="2">
-      
-    </Recipe>
-  </Menu>
-  
-  <Menu Title="WW2 Rations"></Menu>
 
-      
-      <Menu Title="Backpacking"></Menu>
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <Recipe Title="Mushroom Stew" Meals="2">
+      <Index>
+        Stew<Sub>Mushroom</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="375" Unit="g" Type="onions" Process="chopped"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="600" Unit="g" Type="mushrooms" />
+        and
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
+        and cook until mushrooms start to wilt.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="150" Unit="g" Type="pearl barley" />,
+        <Check Quantity="4" Unit="tbsp" Type="soy sauce" />,
+        <Check Quantity="5" Unit="tbsp" Type="sherry" />,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
+        and
+        <Water Quantity="450" Type="cold water" Unit="ml" />
+        and simmer for 25 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
+    
+    <!--quick-->
+
+    <!--meat-->
+
+    <!--vegetarian-->
+
+    <Recipe Title="Curried Carrots" Meals="2">
+      <Stage>
+        <Vegetable Type="carrots" Quantity="400" Unit="g" Process="chopped"/>
+      </Stage>
+    </Recipe>
+
+    <!--quick-->
+    
+  </Menu>
+
 </Book>
