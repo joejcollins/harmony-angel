@@ -12,7 +12,7 @@
 
     <!--vegan-->
 
-    <Recipe Title="Bacon and mushroom pasta" Meals="1">
+    <Recipe Title="Bacon and Mushroom Pasta" Meals="1">
       <Stage>
         <Staple Name="tagliatelli"/>
       </Stage>
@@ -46,7 +46,7 @@
   Pears, Purple Sprouting Broccoli, Spring Greens, Spring Onions, Squash, 
   Swedes. -->
     
-    <Recipe Title="Chicken with cabbage and peanuts" Meals="2">
+    <Recipe Title="Chicken with Cabbage and Peanuts" Meals="2">
       <Stage>
         <Staple Name="noodles" />
       </Stage>
