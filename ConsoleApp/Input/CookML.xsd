@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- Schema for Cookbook Markup Language -->
-<!-- Developed by Joe Collins, joe@bagbatch.co.uk -->
+<!-- Developed by Joe J Collins -->
 <xsd:schema targetNamespace="https://joejcollins.github.io/CookML.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://joejcollins.github.io/CookML.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0a" id="CookML">
   <xsd:annotation>
     <xsd:documentation xml:lang="en">
