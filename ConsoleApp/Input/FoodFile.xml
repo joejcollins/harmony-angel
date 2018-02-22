@@ -80,11 +80,65 @@
 
     <!--vegetarian-->
 
-    <!--vegan-->
+    <Recipe Title="Tofu and tahini" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>,
+        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>
+        and
+        <Vegetable Quantity="200" Unit="g" Type="celery" Process="chopped"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Type="oil"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
+        <Check Quantity="1" Unit="tbsp" Type="soy sauce" Process=""/>,
+        <Grocery Quantity="4" Unit="tbsp" Type="tahini" />,
+        <Check Quantity="1" Unit="tsp" Type="ground nutmeg" Process=""/>,
+        <Check Quantity="2" Unit="tsp" Type="miso" Process=""/>,
+        <Vegetable Quantity="400" Unit="g" Type="apple" Process="chopped"/>,
+        <Grocery Quantity="100" Unit="g" Type="can pineapple" Process="chopped"/>
+        and
+        <Water Quantity="250" Unit="ml" Type="water" />
+        and simmer for 10 minutes.
+      </Stage>
+      <Stage>
+        Put in a <Utensil Name="casserole" />
+        and spinkle on top
+        <Grocery Quantity="300" Unit="g" Type="tofu" Process="cubed"/>
+        and bake <Temperature Level="medium"/> for 40 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="potatoes"/>	
+      </Stage>
+    </Recipe>
 
     <!--quick-->
 
-    <!--meat-->
+    <Recipe Title="Spaghetti and pasta sauce" Meals="2">
+      <Index>
+        Spaghetti<Sub>Pasta sauce</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="400" Unit="g" Type="onions" />,
+        <Meat Quantity="400" Unit="g" Type="minced meat" />,
+        <Vegetable Quantity="3" Unit="cloves" Type="garlic" Process="crushed"/>
+        and
+        <Vegetable Quantity="100" Unit="g" Type="mushrooms" Process="sliced"/>.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="450" Unit="g" Type="pasta sauce" />,
+        and warm through.
+      </Stage>
+      <Stage>
+        <Staple Name="spaghetti"/>
+      </Stage>
+    </Recipe>
 
     <!--vegetarian-->
 
@@ -455,7 +509,7 @@
 
     <Recipe Title="Tofu and Runner Bean Stir Fry" Meals="2">
       <Index>
-        Stir Fry<Sub>Tofu and mange tout</Sub>
+        Stir Fry<Sub>Tofu and runner bean</Sub>
       </Index>
       <Stage>
         Coat
@@ -774,7 +828,10 @@
         Curry<Sub>Lentil dhansak</Sub>
       </Index>
       <Stage>
-        <Staple Name="rice brown"/>
+        In a <Utensil Name="pan"/> simmer
+        <Grocery Quantity="225" Unit="g" Type="red lentils" />  
+        with <Water Quantity="500"/>
+        until soft.      
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -797,16 +854,17 @@
         Stir in
         <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="2" Unit="tbsp" Type="cashew nuts" />,
-        <Check Quantity="120" Unit="ml" Type="creamed coconut" />,
-        <Grocery Quantity="225" Unit="g" Type="red lentils" />
+        <Check Quantity="200" Unit="ml" Type="creamed coconut" />
         and
         <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="chopped"/>
         and simmer for 20 minutes.
       </Stage>
       <Stage>
-        Add juice of
-        <Vegetable Quantity="1" Type="lemon" />
-        and warm.
+        <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        Serve with
+        <Vegetable Quantity="1" Type="lemon" Process="juiced" />.
       </Stage>
     </Recipe>
 
@@ -858,7 +916,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Russian Style Potatoes" Meals="2">
+    <Recipe Title="Russian Potatoes" Meals="2">
       <Index>
         Style<Sub>Russian potatoes</Sub>
       </Index>
@@ -1074,30 +1132,48 @@
   Spring Onions, Summer Squash, Swede, Sweetcorn, Swiss Chard, Tomatoes, 
   Turnips, Watercress, Wild Mushrooms, Winter Squash.  -->
 
-    <Recipe Title="Spaghetti and pasta sauce" Meals="2">
+    <!-- Meat -->
+
+    <Recipe Title="Spinach and Olive lasagna" Meals="2">
       <Index>
-        Spaghetti<Sub>Pasta sauce</Sub>
+        Lasagna<Sub>Spinach and olive</Sub>
       </Index>
       <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Type="onions" />,
-        <Meat Quantity="400" Unit="g" Type="minced meat" />,
-        <Vegetable Quantity="3" Unit="cloves" Type="garlic" Process="crushed"/>
+        In a <Utensil Name="wok" /> in
+        <Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
+        fry
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
         and
-        <Vegetable Quantity="100" Unit="g" Type="mushrooms" Process="sliced"/>.
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>
+        until soft.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="450" Unit="g" Type="pasta sauce" />,
-        and warm through.
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="ml" Type="passata" />,
+        <Vegetable Quantity="400" Unit="g" Type="broccoli"  />,
+        <Grocery Quantity="200" Unit="g" Type="olives"  />
+        and
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process=""/>
+        and cook until mushrooms are done.
       </Stage>
       <Stage>
-        <Staple Name="spaghetti"/>
+        In a <Utensil Name="bowl" /> mix
+        <Grocery Quantity="1" Unit="tbsp" Type="grated parmesan" />,
+        <Dairy Quantity="250" Unit="g" Type="cheese" Process="grated"/>,
+        <Dairy Quantity="250" Unit="g" Type="cottage cheese" />,
+        <Dairy Quantity="2" Unit="" Type="eggs" Process="beaten"/>
+        and
+        <Vegetable Quantity="250" Unit="g" Type="spinach" Process="hacked"/>.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole" /> layer
+        <Grocery Quantity="200" Unit="g" Type="lasagna" Process=""/>
+        with the tomatoes and cheese 3 times.
+        Bake <Temperature Level="medium"/> 50 minutes.
       </Stage>
     </Recipe>
-
-    <!--vegetarian-->
-
+    
     <Recipe Title="Chickpea and spinach curry" Meals="2">
       <Index>
         Curry<Sub>Chickpea and spinach</Sub>
@@ -1166,7 +1242,6 @@
     </Recipe>
 
     <Recipe Title="Red Pepper Pasta" Meals="2">
-      <!-- http://allrecipes.co.uk/recipe/2004/farfalle-with-red-pepper-sauce.aspx?o_is=Hub_TopRecipe_5 -->
       <Stage>
         In a <Utensil Name="pan" />
         <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped" />,
@@ -1203,9 +1278,9 @@
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Process="chopped" Quantity="2" Type="red chilli" />,
         <Vegetable Quantity="225" Unit="g" Type="courgette" Process="sliced"/>,
         <Vegetable Quantity="225" Unit="g" Type="runner beans" Process="chopped"/>,
-        <Vegetable Quantity="225" Unit="g" Type="carrots" Process="chopped"/>,
         <Vegetable Quantity="500" Unit="g" Type="cauliflower" />
         and
         <Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>
@@ -1218,9 +1293,10 @@
         <Check Quantity="1" Unit="tsp" Type="ground turmeric" Process=""/>,
         <Check Quantity="1" Unit="tsp" Type="ground cinnamon" Process=""/>,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
-        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>.
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>,
+        <Grocery Process="chopped" Quantity="800" Type="can tomatoes" Unit="g" />
         and
-        <Water Quantity="400" Unit="ml" Type="water" />,
+        <Water Quantity="300" Unit="ml" Type="water" />
         and bring to the boil.
       </Stage>
       <Stage>
@@ -1228,6 +1304,12 @@
         <Grocery Quantity="400" Unit="g" Type="cous cous"/>
         in the middle, cover,
         and leave to stand for 10 minutes.
+      </Stage>
+      <Stage>
+        Serve with
+        <Grocery Quantity="100" Unit="g" Type="flaked almonds" Process="toasted"/>
+        and
+        <Dairy Quantity="500" Unit="g" Type="plain yoghurt"/>.
       </Stage>
     </Recipe>
 
@@ -1300,7 +1382,35 @@
   Mushrooms, Onions, Parsnips, Pears, Potatoes, Pumpkin, Red Cabbage, 
   Swede, Swiss Chard, Turnips, Watercress, Winter Squash. -->
 
-    <!--meat-->
+
+    <Recipe Title="Lamb hotpot" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Meat Quantity="400" Unit="g" Type="lamb" Process="sliced"/>
+        in it's own fat until done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="400" Unit="g" Type="carrots" Process="chopped"/>
+        and
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
+        and fry until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Type="bay leaf" />,
+        <Check Quantity="1" Unit="tsp" Type="thyme" />,
+        <Check Quantity="1" Unit="tbsp" Type="flour" />,
+        <Water Quantity="600" Unit="ml" Type="water" />
+        and
+        <Check Quantity="2" Unit="tbsp" Type="worcester sauce" />.
+        Put in a <Utensil Name="casserole" /> and
+        layer <Vegetable Quantity="1500" Unit="g" Type="potatoes" Process="sliced"/> on top.
+        Bake covered <Temperature Level="medium"/>
+        for 30 minutes,
+        then uncovered 30 minutes.
+      </Stage>
+    </Recipe>
 
     <!--vegetarian-->
 

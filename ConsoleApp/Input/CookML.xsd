@@ -235,6 +235,7 @@
       <xsd:enumeration value="ground coriander" />
       <xsd:enumeration value="ground cumin" />
       <xsd:enumeration value="ground ginger" />
+      <xsd:enumeration value="ground nutmeg" />
       <xsd:enumeration value="ground turmeric" />
       <xsd:enumeration value="honey" />
       <xsd:enumeration value="marjoram" />
@@ -253,8 +254,10 @@
       <xsd:enumeration value="soy sauce" />
       <xsd:enumeration value="stock" />
       <xsd:enumeration value="sugar" />
+      <xsd:enumeration value="thyme" />
       <xsd:enumeration value="turmeric" />
       <xsd:enumeration value="wine vinegar" />
+      <xsd:enumeration value="worcester sauce" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Dairy">
@@ -289,6 +292,7 @@
       <xsd:enumeration value="can flageolet beans" />
       <xsd:enumeration value="can kidney beans" />
       <xsd:enumeration value="can mushroom soup" />
+      <xsd:enumeration value="can pineapple" />
       <xsd:enumeration value="can sardines" />
       <xsd:enumeration value="can sweetcorn" />
       <xsd:enumeration value="can tomatoes" />
@@ -313,6 +317,7 @@
       <xsd:enumeration value="noodles" />
       <xsd:enumeration value="olives" />
       <xsd:enumeration value="oven ready chips" />
+      <xsd:enumeration value="passata" />
       <xsd:enumeration value="pasta sauce" />
       <xsd:enumeration value="pasta shapes" />
       <xsd:enumeration value="peanuts" />
@@ -331,6 +336,7 @@
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="suet" />
       <xsd:enumeration value="sunflower seeds" />
+      <xsd:enumeration value="tahini" />
       <xsd:enumeration value="tofu" />
       <xsd:enumeration value="tomato puree" />
       <xsd:enumeration value="white rice" />

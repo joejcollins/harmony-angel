@@ -12,7 +12,7 @@ namespace ConsoleApp
         public String IngredientName { get; set; }
         public IngredientType IngredientType { get; set; }
         public Int16 Calories { get; set; }
-        public float Protien { get; set; }
+        public float Protein { get; set; }
         public float Carbohydrate { get; set; }
         public float Fat { get; set; }
 

@@ -330,29 +330,6 @@ as much as they can be heaped.
 		and bake \med 30 minutes.
 }%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Lamb hotpot" Meals="2">%
-{%
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Meat Quantity="400" Unit="g" Type="lamb" Process="sliced"/>
-		in it's own fat until done.
-	<Stage>	Stir in
-		<Vegetable Quantity="400" Unit="g" Type="carrots" Process="chopped"/>
-		and
-		<Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
-		and fry until soft.
-	<Stage>	Stir in
-		<Check Quantity="1" Unit="" Type="bay leaf" Process=""/>,
-		<Check Quantity="1" Unit="tsp" Type="thyme" Process=""/>,
-		<Check Quantity="1" Unit="tbsp" Type="flour" Process=""/>,
-		<Water Quantity="600" Unit="ml" Type="water" Process=""/>
-		and
-		<Check Quantity="2" Unit="tbsp" Type="worcester sauce" Process=""/>.
-		Put in a <Utensil Name="casserole" /> and
-		layer <Vegetable Quantity="1500" Unit="g" Type="potatoes" Process="sliced"/> on top.
-		Bake covered \med 30 minutes,
-		then uncovered 30 minutes.
-}%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <Recipe Title="Cheese and tagliatelli" Meals="1">%
@@ -369,67 +346,9 @@ as much as they can be heaped.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{menu}{End of Winter}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Spinach lasagna" Meals="2">% from Usenet
-{%
-	\index{Lasagna!Spinach}%
-	<Stage>	In a <Utensil Name="wok" /> in
-		<Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
-		fry
-		<Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
-		and
-		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>
-		until soft.
-	<Stage>	Stir in
-		<Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
-		<Grocery Quantity="400" Unit="ml" Type="passata" Process=""/>,
-		<Vegetable Quantity="400" Unit="g" Type="brocholi" Process="chopped"/>,
-		<Grocery Quantity="200" Unit="g" Type="olives" Process=""/>
-		and
-		<Vegetable Quantity="200" Unit="g" Type="mushrooms" Process=""/>
-		and cook until mushrooms are done.
-	<Stage>	In a <Utensil Name="bowl" /> mix	
-		<Grocery Quantity="1" Unit="tbsp" Type="grated parmesan" Process=""/>,
-		<Dairy Quantity="250" Unit="g" Type="cheddar cheese" Process="grated"/>,
-		<Dairy Quantity="250" Unit="g" Type="cottage cheese" Process=""/>,
-		<Dairy Quantity="2" Unit="" Type="eggs" Process="beaten"/>
-		and
-		<Vegetable Quantity="250" Unit="g" Type="spinach" Process="hacked"/>.
-	<Stage>	In a <Utensil Name="casserole" /> layer
-		<Grocery Quantity="200" Unit="g" Type="lasagna" Process=""/>
-		with the tomatoes and cheese 3 times.
-		Bake \med 50 minutes.
-}%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<Recipe Title="Tofu and tahini" Meals="2">% from Vegan Health Plan
-{%
-	<Stage>	In a <Utensil Name="wok" /> fry
-		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
-		<Vegetable Quantity="2" Unit="cloves" Type="garlic" Process="crushed"/>,
-		<Vegetable Quantity="150" Unit="g" Type="green peppers" Process="chopped"/>
-		and
-		<Vegetable Quantity="200" Unit="g" Type="celery" Process="chopped"/>
-		in
-		<Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
-		until soft.
-	<Stage>	Stir in
-		<Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>,
-		<Check Quantity="1" Unit="tbsp" Type="soy sauce" Process=""/>,
-		<Grocery Quantity="4" Unit="tbsp" Type="tahini" Process=""/>,
-		<Check Quantity="1" Unit="tsp" Type="ground nutmeg" Process=""/>,
-		<Check Quantity="2" Unit="tsp" Type="miso" Process=""/>,
-		<Vegetable Quantity="400" Unit="g" Type="cooking apples" Process="chopped"/>,
-		<Grocery Quantity="100" Unit="g" Type="canned pineapple" Process="chopped"/>
-		and
-		<Water Quantity="500" Unit="ml" Type="water" Process=""/>
-		and simmer for 10 minutes.
-	<Stage>	Put in a <Utensil Name="casserole" />
-		and spinkle on top
-		<Grocery Quantity="300" Unit="g" Type="firm tofu" Process="cubed"/>
-		and bake \med for 40 minutes.
-	<Stage>	\spud.
-}%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <Recipe Title="Chickpeas and tomatoes" Meals="2">
