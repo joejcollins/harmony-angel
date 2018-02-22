@@ -1763,7 +1763,24 @@
     
     <!--quick-->
 
-    <!--meat-->
+    <Recipe Title="Fletchs Chicken Curry" Meals="2">
+      <Index>Curry<Sub>Chicken</Sub></Index>
+      <Stage>
+        In a <Utensil Name="casserole" /> mix
+        <Meat Quantity="500" Unit="g" Type="chicken" Process="chopped"/>,
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="200" Unit="g" Type="apples" Process="chopped"/>,
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
+        <Grocery Quantity="2" Unit="tbsp" Type="branston pickle" />,
+        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
+        and
+        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
+        bake <Temperature Level="medium" /> for 30 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="rice brown"/>
+      </Stage>
+    </Recipe>
     
     <!--vegetarian-->
 
