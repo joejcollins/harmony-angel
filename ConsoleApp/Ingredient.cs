@@ -2,6 +2,9 @@
 
 namespace ConsoleApp
 {
+    /// <summary>
+    /// Used to get data about the ingredient and insert it into the transformation
+    /// </summary>
     public class Ingredient
     {
 

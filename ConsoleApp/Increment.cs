@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿/// <summary>
+/// 
+/// </summary>
 namespace ConsoleApp
 {
+    /// <summary>
+    /// Used to count the number of meals within the menu.
+    /// </summary>
     class Increment
     {
         private int _counter = 0;
