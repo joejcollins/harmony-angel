@@ -11,6 +11,7 @@ bay leaf,Check,0,0,0,0
 black bean sauce,Check,90,0,20,1
 boiling potatoes,Vegetable,77,2,18,0
 boiling water,Water,0,0,0,0
+branston pickle,Grocery,157,0,36,0
 broccoli,Vegetable,34,3,7,0
 burgers,Meat,295,17,24,14
 butter,Dairy,717,1,0,81
@@ -19,22 +20,24 @@ can baked beans,Grocery,155,6,22,5
 can borlotti beans,Grocery,94,7,12,1
 can chick peas,Grocery,0,0,0,0
 can coconut milk,Grocery,0,0,0,0
+can curry,Grocery,90,11,2,4
 can evaporated milk,Grocery,0,0,0,0
 can flageolet beans,Grocery,0,0,0,0
 can kidney beans,Grocery,0,0,0,0
+can mackerel,Grocery,245,20,0,18
 can mushroom soup,Grocery,0,0,0,0
 can pineapple,Grocery,60,1,16,0
 can sardines,Grocery,0,0,0,0
 can sweetcorn,Grocery,0,0,0,0
-can tomatoes,Grocery,16,0.8,3,0.4
+can tomatoes,Grocery,16,1,3,0
 can tuna fish,Grocery,0,0,0,0
 capers,Grocery,0,0,0,0
-carrots,Vegetable,35,0.6,7.9,0.3
+carrots,Vegetable,35,1,8,0
 cashew nuts,Grocery,0,0,0,0
 cauliflower,Vegetable,0,0,0,0
-celery,Vegetable,7,0.5,0.9,0.2
-cheese,Dairy,412,25.5,0.1,34.4
-chicken,Meat,183,29.2,0,7.3
+celery,Vegetable,7,1,1,0
+cheese,Dairy,412,26,0,34
+chicken,Meat,183,29,0,7
 chilli powder,Check,0,0,0,0
 chillis,Vegetable,0,0,0,0
 chinese cabbage,Vegetable,0,0,0,0
@@ -47,15 +50,15 @@ cold water,Water,0,0,0,0
 corn flour,Grocery,395,35,33,20
 cottage cheese,Dairy,0,0,0,0
 courgette,Vegetable,0,0,0,0
-cous cous,Grocery,176,6,35.6,0.3
+cous cous,Grocery,176,6,36,0
 cream cheese,Dairy,0,0,0,0
-creamed coconut,Grocery,669,6,7,68.8
+creamed coconut,Grocery,669,6,7,69
 creamed coconut,Check,0,0,0,0
 cumin seeds,Check,0,0,0,0
 curry powder,Check,0,0,0,0
 dried apricots,Grocery,0,0,0,0
 dried thyme,Check,0,0,0,0
-eggs,Dairy,147,12.5,0,10.8
+eggs,Dairy,147,13,0,11
 fish fingers,Grocery,0,0,0,0
 flaked almonds,Grocery,0,0,0,0
 flour,Check,0,0,0,0
@@ -65,7 +68,7 @@ garam masala,Check,0,0,0,0
 garlic,Vegetable,0,0,0,0
 ginger,Vegetable,0,0,0,0
 grated parmesan,Grocery,0,0,0,0
-green chilli,Vegetable,20,2.9,0.7,0.6
+green chilli,Vegetable,20,3,1,1
 green lentils,Grocery,0,0,0,0
 green pepper,Vegetable,0,0,0,0
 ground cinnamon,Check,0,0,0,0
@@ -75,16 +78,16 @@ ground ginger,Check,0,0,0,0
 ground nutmeg,Check,0,0,0,0
 ground turmeric,Check,0,0,0,0
 honey,Check,0,0,0,0
-horseraddish sauce,Grocery,12,2.8,1.4,11.8
+horseraddish sauce,Grocery,12,3,1,12
 kale,Vegetable,0,0,0,0
 lamb,Meat,305,26,0,22
-lasagna,Grocery,348,13,70,1.8
+lasagna,Grocery,348,13,70,2
 lemon,Vegetable,0,0,0,0
 mange tout,Vegetable,0,0,0,0
 marjoram,Check,0,0,0,0
 mayonaise,Grocery,0,0,0,0
-meat,Meat,410,19.1,0,37.1
-milk,Dairy,46,3.3,5,1.6
+meat,Meat,410,19,0,37
+milk,Dairy,46,3,5,2
 minced meat,Meat,0,0,0,0
 miso,Check,0,0,0,0
 mixed herbs,Check,0,0,0,0
@@ -93,10 +96,10 @@ mustard seed,Check,0,0,0,0
 mustard seeds,Check,0,0,0,0
 naan bread,Grocery,0,0,0,0
 noodles,Grocery,62,2.2,13,0.5
-oil,Check,899,0,99.9,0
+oil,Check,899,0,99,0
 olive oil,Check,0,0,0,0
 olives,Grocery,0,0,0,0
-onions,Vegetable,36,1.2,7.9,0.2
+onions,Vegetable,36,1,8,0
 oregano,Check,0,0,0,0
 oven ready chips,Grocery,0,0,0,0
 paprika,Check,0,0,0,0
@@ -104,38 +107,40 @@ parmesan,Dairy,0,0,0,0
 parsnips,Vegetable,0,0,0,0
 passata,Grocery,24,1,3,0
 pasta sauce,Grocery,0,0,0,0
-pasta shapes,Grocery,132,5.2,24.4,1.5
-peanuts,Grocery,564,25.6,12.5,46.1
+pasta shapes,Grocery,132,5,24,2
+peanuts,Grocery,564,26,13,46
 pearl barley,Grocery,0,0,0,0
 pepper,Check,0,0,0,0
 pesto,Grocery,0,0,0,0
 pine nuts,Grocery,0,0,0,0
 pineapple chunks,Grocery,0,0,0,0
-pitta bread,Grocery,265,9.2,57.9,1.2
+pitta bread,Grocery,265,9,58,1
 pitted olives,Grocery,0,0,0,0
 pizza,Grocery,0,0,0,0
 pizza bases,Grocery,0,0,0,0
 plain yoghurt,Dairy,0,0,0,0
 potatoes,Vegetable,0,0,0,0
 raisins,Grocery,0,0,0,0
-red chilli,Vegetable,26,1.8,4.2,0.3
+red chilli,Vegetable,26,2,4,0
 red lentils,Grocery,0,0,0,0
 red pepper,Vegetable,0,0,0,0
 red wine,Grocery,0,0,0,0
 runner beans,Vegetable,27,2,3,0
 salt,Check,0,0,0,0
 sausages,Meat,0,0,0,0
-self raising flour,Grocery,330,8.9,75.6,1.2
+self raising flour,Grocery,330,9,76,1
 sesame oil,Check,0,0,0,0
 sherry,Check,0,0,0,0
+single cream,Dairy,133,3,4,12
 sour cream,Dairy,0,0,0,0
-soured cream,Dairy,205,2.9,3.8,19.9
+soured cream,Dairy,205,3,4,20
 soy sauce,Check,0,0,0,0
-spaghetti,Grocery,104,3.6,22.2,7
+spaghetti,Grocery,104,4,22,7
 spinach,Vegetable,0,0,0,0
 spring onions,Vegetable,32,2,7,0
+stir in pasta sauce,Grocery,127,2,11,8
 stock,Check,0,0,0,0
-suet,Grocery,826,0,12.1,86.7
+suet,Grocery,826,0,12,87
 sugar,Check,0,0,0,0
 sunflower seeds,Grocery,0,0,0,0
 swedes,Vegetable,0,0,0,0
@@ -143,10 +148,11 @@ sweet potatoes,Vegetable,0,0,0,0
 tahini,Grocery,595,17,21,54
 thyme,Check,0,0,0,0
 tofu,Grocery,0,0,0,0
-tomato puree,Grocery,68,4.5,12.9,0.2
+tomato puree,Grocery,68,4.5,13,0.2
 tomatoes,Vegetable,0,0,0,0
 turmeric,Check,0,0,0,0
 water,Water,0,0,0,0
-white rice,Grocery,138,2.6,30.9,1.3
+white rice,Grocery,138,3,31,1
 wine vinegar,Check,0,0,0,0
 worcester sauce,Check,0,0,0,0
+yoghurt,Dairy,59,10,4,0

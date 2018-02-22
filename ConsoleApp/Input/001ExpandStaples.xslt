@@ -107,7 +107,7 @@
       bring to the boil then simmer for 15 minutes,
       then cover and stand for 10 minutes.
     </xsl:if>
-    <xsl:if test="@Name='turmeric rice'">
+    <xsl:if test="@Name='rice turmeric'">
       <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />

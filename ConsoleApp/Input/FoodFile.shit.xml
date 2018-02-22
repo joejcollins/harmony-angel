@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Book xmlns="https://joejcollins.github.io/CookML.xsd">
-  
+
   <Menu Title="January">
     <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
   Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
@@ -181,7 +181,7 @@
     </Recipe>
 
   </Menu>
- 
+  
   <Menu Title="February">
   <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
   Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, Parsnips, 
@@ -1690,7 +1690,6 @@
 
   </Menu>
 
-  
   <Menu Title="December">
   <!-- Apples, Beetroot, Brussels Sprouts, Carrots, Celeriac, Celery, 
   Chestnuts, Chicory, Cranberries, Jerusalem Artichokes, Kale, Leeks, 
@@ -1763,7 +1762,24 @@
     
     <!--quick-->
 
-    <!--meat-->
+    <Recipe Title="Fletch's Chicken Curry">
+      <Index>Curry<Sub>Chicken</Sub></Index>
+      <Stage>
+        In a <Utensil Name="casserole" /> mix
+        <Meat Quantity="500" Unit="g" Type="chicken" Process="chopped"/>,
+        <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="200" Unit="g" Type="apples" Process="chopped"/>,
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
+        <Grocery Quantity="2" Unit="tbsp" Type="branston pickle" />,
+        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
+        and
+        <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
+        bake <Temperature Level="Medium" /> for 30 minutes.
+      </Stage>
+      <Stage>
+        \rice.
+      </Stage>
+    </Recipe>
     
     <!--vegetarian-->
 
@@ -1776,6 +1792,5 @@
     <!--quick-->
     
   </Menu>
-
 
 </Book>

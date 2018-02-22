@@ -139,6 +139,7 @@
       <xsd:enumeration value="crumbled" />
       <xsd:enumeration value="cubed" />
       <xsd:enumeration value="drained" />
+      <xsd:enumeration value="diced" />
       <xsd:enumeration value="flourettes" />
       <xsd:enumeration value="grated" />
       <xsd:enumeration value="ground" />
@@ -164,7 +165,7 @@
       <xsd:enumeration value="pasta shapes" />
       <xsd:enumeration value="rice brown" />
       <xsd:enumeration value="rice white" />
-      <xsd:enumeration value="turmeric rice" />
+      <xsd:enumeration value="rice turmeric" />
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="potatoes" />
       <xsd:enumeration value="tagliatelli" />
@@ -274,8 +275,10 @@
       <xsd:enumeration value="milk" />
       <xsd:enumeration value="parmesan" />
       <xsd:enumeration value="plain yoghurt" />
+      <xsd:enumeration value="single cream" />
       <xsd:enumeration value="sour cream" />
       <xsd:enumeration value="soured cream" />
+      <xsd:enumeration value="yoghurt" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Grocery">
@@ -285,13 +288,16 @@
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="anchovy fillets" />
       <xsd:enumeration value="baked beans" />
+      <xsd:enumeration value="branston pickle" />
       <xsd:enumeration value="can baked beans" />
       <xsd:enumeration value="can borlotti beans" />
       <xsd:enumeration value="can chick peas" />
       <xsd:enumeration value="can coconut milk" />
+      <xsd:enumeration value="can curry" />
       <xsd:enumeration value="can evaporated milk" />
       <xsd:enumeration value="can flageolet beans" />
       <xsd:enumeration value="can kidney beans" />
+      <xsd:enumeration value="can mackerel" />
       <xsd:enumeration value="can mushroom soup" />
       <xsd:enumeration value="can pineapple" />
       <xsd:enumeration value="can sardines" />
@@ -335,6 +341,7 @@
       <xsd:enumeration value="red wine" />
       <xsd:enumeration value="self raising flour" />
       <xsd:enumeration value="spaghetti" />
+      <xsd:enumeration value="stir in pasta sauce" />
       <xsd:enumeration value="suet" />
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="tahini" />
