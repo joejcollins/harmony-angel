@@ -161,7 +161,7 @@
 		<Meat Quantity="400" Unit="g" Type="chicken" Process="cubed"/>,
 		<Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
 		<Check Quantity="2" Unit="tsp" Type="ground ginger" Process=""/>,
-		<Check Quantity="1" Unit="tsp" Type="ground cinnamon" Process=""/>,
+		<Check Quantity="0.5" Unit="tsp" Type="ground cinnamon" Process=""/>,
 		<Vegetable Quantity="1" Unit="clove" Type="garlic" Process="crushed"/>,
 		<Check Quantity="2" Unit="" Type="stock cubes" Process="crumbled"/>,
 		<Vegetable Quantity="1000" Unit="g" Type="carrots" Process="sliced"/>,
@@ -169,8 +169,9 @@
 		<Vegetable Quantity="3" Unit="tsp" Type="mixed herbs" Process=""/>,
 		<Check Quantity="3" Unit="tp" Type="ground coriander" Process=""/>,
 		<Check Quantity="3" Unit="tbsp" Type="oil" Process=""/>,
-		and
-		<Water Quantity="800" Unit="ml" Type="water" Process=""/>.
+    <Grocery Quantity="2" Unit="tbsp" Type="raisins" Process=""/>,
+    and
+    <Water Quantity="800" Unit="ml" Type="water" Process=""/>.
 		Bring to the boil
 		then simmer, uncovered for 60 minutes.
 	<Stage>	\couscous.

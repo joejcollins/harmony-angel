@@ -22,7 +22,7 @@
     <!-- Couscous -->
     <xsl:if test="@Name='couscous'">
       In a
-      <Utensil Name="pan" /> pour <Water Quantity="800" Unit="ml" Type="boiling water" />
+      <Utensil Name="pan" /> pour <Water Quantity="600" Unit="ml" Type="boiling water" />
       on <Grocery Quantity="400" Unit="g" Type="cous cous" />, cover and
       stand for 10 minutes.
     </xsl:if>
