@@ -164,6 +164,7 @@
       <xsd:enumeration value="pasta shapes" />
       <xsd:enumeration value="rice brown" />
       <xsd:enumeration value="rice white" />
+      <xsd:enumeration value="turmeric rice" />
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="potatoes" />
       <xsd:enumeration value="tagliatelli" />

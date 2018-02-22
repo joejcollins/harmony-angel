@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:msxsl="urn:schemas-microsoft-com:xslt"
-                xmlns:cml="https://github.com/joejcollins/CookML.xsd"
+                xmlns:cml="https://joejcollins.github.io/CookML.xsd"
                 exclude-result-prefixes="msxsl cml">
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
@@ -107,7 +107,47 @@
       bring to the boil then simmer for 15 minutes,
       then cover and stand for 10 minutes.
     </xsl:if>
-    
+    <xsl:if test="@Name='turmeric rice'">
+      <xsl:variable name="Meals" select="../../@Meals" />
+      In a
+      <Utensil Name="pan" />
+      put
+      <xsl:element name="Grocery">
+        <xsl:variable name="Quantity" select="400" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">g</xsl:attribute>
+        <xsl:attribute name="Type">white rice</xsl:attribute>
+      </xsl:element>,
+      <xsl:element name="Check">
+        <xsl:variable name="Quantity" select="1" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">tsp</xsl:attribute>
+        <xsl:attribute name="Type">ground turmeric</xsl:attribute>
+      </xsl:element>,
+      <xsl:element name="Grocery">
+        <xsl:variable name="Quantity" select="50" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">g</xsl:attribute>
+        <xsl:attribute name="Type">raisins</xsl:attribute>
+      </xsl:element>
+      and
+      <xsl:element name="Water">
+        <xsl:variable name="Quantity" select="800" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">ml</xsl:attribute>
+        <xsl:attribute name="Type">cold water</xsl:attribute>
+      </xsl:element>
+      bring to the boil then simmer for 15 minutes,
+      then cover and stand for 10 minutes.
+    </xsl:if>
     <!-- Spaghetti -->
     <xsl:if test="@Name='spaghetti'">
       In a <Utensil Name="pan" /> heat

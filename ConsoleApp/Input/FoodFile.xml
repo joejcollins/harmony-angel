@@ -10,7 +10,40 @@
 
     <!--vegetarian-->
 
-    <!--vegan-->
+    <Recipe Title="Chick pea and tomato curry" Meals="2">
+      <Index>
+        Curry<Sub>Chick pea and tomato</Sub>
+      </Index>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Type="oil"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="2" Unit="" Type="green chilli" Process="chopped"/>,
+        <Check Quantity="1" Unit="tsp" Type="ground turmeric" />,
+        <Check Quantity="1" Unit="tsp" Type="paprika" />,
+        <Check Quantity="1" Unit="tbsp" Type="ground cumin" />,
+        <Check Quantity="1" Unit="tbsp" Type="ground coriander" />,
+        <Check Quantity="1" Unit="tsp" Type="garam masala" />
+        and fry for 1 minute.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>
+        and
+        <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="undrained"/>
+        and simmer for 20 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="turmeric rice"/>
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Bacon and Mushroom Pasta" Meals="1">
       <Stage>
