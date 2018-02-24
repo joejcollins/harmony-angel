@@ -5,7 +5,6 @@
                 exclude-result-prefixes="msxsl cml">
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
-
   <!-- 
     Copy everything that has no other pattern defined 
   -->

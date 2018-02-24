@@ -3,10 +3,9 @@
                 xmlns:ingredient="urn:Ingredient"
                 xmlns:increment="urn:Increment">
   <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
-
-  <!--
-		  Format for the book
-	  -->
+  <!-- 
+    Copy everything that has no other pattern defined 
+  -->
   <xsl:template match="*">
     <xsl:copy>
       <xsl:copy-of select="@*"/>

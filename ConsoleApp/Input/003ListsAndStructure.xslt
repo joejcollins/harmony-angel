@@ -3,10 +3,9 @@
                 xmlns:increment="urn:Increment"><!-- using an external class for incrementing -->
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
-
-  <!--
-		  Format for the book
-	  -->
+  <!-- 
+    Copy everything that has no other pattern defined 
+  -->
   <xsl:template match="Book">
     <Book>
       <xsl:apply-templates select="Menu" />

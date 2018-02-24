@@ -1,14 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:cml="http://www.joejcollins.co.uk/CookBook/CookML.xsd" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts">
   <xsl:strip-space elements="*"/>
-
   <!--
-		  Format for the book
-	  -->
+  Copy everything that has no other pattern defined 
+  -->
   <xsl:template match="*">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:apply-templates />
     </xsl:copy>
   </xsl:template>
+
+  <!--
+  Concatenate shopping lists
+	-->
+  <xsl:template match="Shopping">
+    <xsl:variable name="ItemType" select="Item/@Type" />
+    <xsl:for-each select="Item">
+      <xsl:message><xsl:value-of select="$ItemType" /></xsl:message>
+      <xsl:if test="not(preceding-sibling::Item[@Type=$ItemType])">
+        <xsl:message>--</xsl:message>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+  
+  
 </xsl:stylesheet>
