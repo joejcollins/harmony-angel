@@ -13,7 +13,11 @@
   </xsl:template>
 
   <!--
-		  Winnow the vegetable shopping lists
+		  The vegetable shopping lists are duplicates so winnow out the 
+      vegetables based on the MealCounter.  If the MealCounter is 7 
+      or less then it is the first set of meals.  If the MealCounter
+      is 8 or more then the vegetables are for the second set of 
+      meals.
 	  -->
   <xsl:template match="Shopping">
     <xsl:element name="Shopping">

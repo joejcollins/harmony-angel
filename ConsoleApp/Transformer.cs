@@ -20,8 +20,9 @@ namespace ConsoleApp
         string[] xsltFiles = { "001ExpandStaples.xslt", 
             "002AddFoodData.xslt",
             "003ListsAndStructure.xslt",
-            "004MergeLists.xslt",
-            "005LaTeX.xslt"};
+            "004FilterVegetableLists.xslt",
+            "005ConcatenateShoppingLists.xslt",
+            "006LaTeX.xslt"};
 
         /// <summary>
         /// Default constructor for Transformer.
@@ -47,7 +48,8 @@ namespace ConsoleApp
         }
 
         /// <summary>
-        /// 
+        /// Transform the previously created xml files, whilst adding in the
+        /// extensions so the extension objects can be used within the transformation.
         /// </summary>
         /// <param name="xsltFile"></param>
         /// <param name="workingXmlFile"></param>
