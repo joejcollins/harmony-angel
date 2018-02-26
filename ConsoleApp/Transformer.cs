@@ -1,16 +1,13 @@
 using System;
-using System.IO;
 using System.Xml;
-using System.Xml.XPath;
 using System.Xml.Xsl;
-using System.Diagnostics;
 
 namespace ConsoleApp
 {
-	/// <summary>
-	/// Transformer.
-	/// </summary>
-	public class Transformer
+    /// <summary>
+    /// Transformer.
+    /// </summary>
+    public class Transformer
 	{
         string inputDirectory = @"./Input/";
 

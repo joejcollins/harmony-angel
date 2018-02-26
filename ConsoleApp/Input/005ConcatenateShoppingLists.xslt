@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:cml="http://www.joejcollins.co.uk/CookBook/CookML.xsd" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
   <xsl:strip-space elements="*"/>
   <!--
   Copy everything that has no other pattern defined 
@@ -15,14 +15,27 @@
   Concatenate shopping lists
 	-->
   <xsl:template match="Shopping">
-    <xsl:variable name="ItemType" select="Item/@Type" />
-    <xsl:for-each select="Item">
-      <xsl:message><xsl:value-of select="$ItemType" /></xsl:message>
-      <xsl:if test="not(preceding-sibling::Item[@Type=$ItemType])">
-        <xsl:message>--</xsl:message>
-      </xsl:if>
-    </xsl:for-each>
+    <Shopping Title="{@Title}">
+      <xsl:variable name="SumQuantity" />
+      <xsl:for-each select="Item">
+        <Item Type="{@Type}"  Unit="{@Unit}" MealsLabel="{@MealsLabel}">
+
+        </Item>
+        <xsl:variable name="CurrentType" select="@Type" />
+        
+        <xsl:choose>
+          <xsl:when test="preceding-sibling::Item[@Type=$CurrentType]">
+            <xsl:message>Current matches previous so add</xsl:message>
+            <Quantity><xsl:value-of select="@Type"/></Quantity>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message>Doesn't match previous don't add</xsl:message>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:message><xsl:value-of select="preceding-sibling::Item[1]/@Type" /> : <xsl:value-of select="@Type"/></xsl:message>
+
+      </xsl:for-each>
+    </Shopping>
   </xsl:template>
-  
-  
+
 </xsl:stylesheet>

@@ -4,7 +4,7 @@
                 xmlns:increment="urn:Increment">
   <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
   <!-- 
-    Copy everything that has no other pattern defined 
+  Copy everything that has no other pattern defined 
   -->
   <xsl:template match="*">
     <xsl:copy>
@@ -14,7 +14,8 @@
   </xsl:template>
 
   <!--
-		Expand the utensils, do this second so they can get added to the expanded staples
+	Expand the utensils, this is in the second step so they can get added to 
+  the expanded staples.
 	-->
   <xsl:template match="Utensil">
     <xsl:if test="@Name='bowl'">mixing bowl</xsl:if>
@@ -25,8 +26,10 @@
   </xsl:template>
 
   <!--
-		  Reset the counter
-	  -->
+  Reset the meal counter for each of the menus.  This is so that the 
+  vegetable shopping list can be split between the first and second
+  week.  The counter is provided by an extension function (increment).
+  -->
   <xsl:template match="Menu">
     <xsl:element name="Menu">
       <xsl:attribute name="Title">
@@ -38,9 +41,9 @@
   </xsl:template>
 
   <!-- 
-		  Replace the Meals value with and incrementing value, then apply 
-      any other templates.
-	  -->
+	Replace the Meals value with and incrementing value, then apply 
+  any other templates.
+	-->
   <xsl:template match="Recipe">
     <xsl:copy>
       <xsl:attribute name="Title">
@@ -68,7 +71,8 @@
   </xsl:template>
 
   <!--
-    Add the calorie and fat values to each ingredient
+  Add the calorie and fat values to each ingredient so they can be summed
+  later on.
   -->
   <xsl:template match="Check|Dairy|Grocery|Meat|Vegetable|Water">
     <xsl:element name="{name(.)}">

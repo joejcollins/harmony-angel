@@ -6,7 +6,8 @@
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
   <!-- 
-    Copy everything that has no other pattern defined 
+  Copy everything that has no other pattern defined and apply the caloric
+  staples template.
   -->
   <xsl:template match="*">
     <xsl:copy>
@@ -15,7 +16,9 @@
     </xsl:copy>
   </xsl:template>
   <!--
-		Expand the staples, first because they use the utensils
+	Expanding the staples is the first step because they use the utensils 
+  (which will be replaced with localised text) and because the staple
+  tag will add other ingredients to the shopping lists.    
 	-->
   <xsl:template name="staples" match="cml:Staple">
     <!-- Couscous -->

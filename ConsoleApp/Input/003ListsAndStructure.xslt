@@ -4,7 +4,7 @@
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" omit-xml-declaration="no" indent="yes"/>
   <!-- 
-    Copy everything that has no other pattern defined 
+  Copy everything that has no other pattern defined 
   -->
   <xsl:template match="Book">
     <Book>
@@ -12,8 +12,10 @@
     </Book>
   </xsl:template>
   <!--
-		  Format the Menu
-	  -->
+  Format the Menu and select the ingredients into separate shopping lists.
+  The vegetables are listed twice so they can be filtered at a later stage
+  into lists for the first and second week.
+	-->
   <xsl:template match="Menu">
     <xsl:element name="Menu">
       <xsl:attribute name="Title">
@@ -66,10 +68,8 @@
   </xsl:template>
   
   <!--
-      Shopping List
-      
-      
-    -->
+  Shopping List
+  -->
   <xsl:template name="ShoppingList">
     <xsl:param name="List" />
         <xsl:for-each select="Recipe/Stage/*[name() = $List]">
@@ -98,8 +98,8 @@
   </xsl:template>
 
   <!-- 
-		  Recipe
-	  -->
+  Recipe layout
+	-->
   <xsl:template match="Recipe">
     <xsl:element name="Recipe">
       <xsl:attribute name="Meals">
@@ -132,17 +132,15 @@
   </xsl:template>
   
   <!-- 
-		  Stage - the contents of the stage can be copied without 
-		  any transformations.
-	  -->
+	The contents of the stage can be copied without any transformations.
+	-->
   <xsl:template match="Stage">
     <xsl:copy-of select="." />
   </xsl:template>
 
   <!-- 
-		  Index - the contents of the index tag can be copied without 
-		  any transformations.
-	  -->
+	The contents of the index tag can be copied without any transformations.
+	-->
   <xsl:template match="Index">
     <xsl:copy-of select="." />
   </xsl:template>
