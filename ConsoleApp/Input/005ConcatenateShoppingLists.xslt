@@ -12,10 +12,14 @@
   </xsl:template>
 
   <!--
-  Concatenate shopping lists
+  Concatenate shopping lists, first by giving them all a key
 	-->
+  <xsl:key name="items-by-type" match="Item" use="@Type" />
+  
   <xsl:template match="Shopping">
     <Shopping Title="{@Title}">
+      
+      
       <xsl:variable name="SumQuantity" />
       <xsl:for-each select="Item">
         <Item Type="{@Type}"  Unit="{@Unit}" MealsLabel="{@MealsLabel}">
