@@ -230,11 +230,11 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="800" Unit="g" Type="frozen peas" Process=""/>,
+        <Grocery Quantity="800" Unit="g" Type="frozen peas" />,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>
-        <Grocery Quantity="400" Unit="g" Type="rice" Process=""/>
+        <Grocery Quantity="400" Unit="g" Type="white rice" />
         and
-        <Water Quantity="800" Unit="g" Type="water" Process=""/>
+        <Water Quantity="800" Unit="g" Type="water" />
         and simmer until rice done.
       </Stage>
       <Stage>
@@ -321,7 +321,7 @@
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
-        <Check Quantity="1" Unit="" Type="stock cube" Process="crumbled"/>,
+        <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
         <Vegetable Quantity="3" Unit="cloves" Type="garlic" Process=""/>,
         <Vegetable Quantity="1" Unit="" Type="red chilli" Process="chopped"/>,
         <Vegetable Quantity="1" Unit="" Type="green chilli" Process="chopped"/>,
@@ -331,19 +331,19 @@
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="150" Unit="g" Type="red peppers" Process="chopped"/>,
-        <Vegetable Quantity="150" Unit="g" Type="green peppers" Process="chopped"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned kidney beans" Process="drained"/>,
-        <Grocery Quantity="400" Unit="g" Type="canned cannellini beans" Process="drained"/>
+        <Vegetable Quantity="150" Unit="g" Type="red pepper" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Type="can kidney beans" Process="drained"/>,
+        <Grocery Quantity="400" Unit="g" Type="can cannellini beans" Process="drained"/>
         and simmer 5 minutes.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>,
-        <Grocery Quantity="150" Unit="g" Type="tomato puree" Process=""/>,
-        <Grocery Quantity="500" Unit="g" Type="creamed tomatoes" Process=""/>
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
+        <Grocery Quantity="500" Unit="g" Type="creamed tomatoes" />
         and
-        <Grocery Quantity="1" Unit="glass" Type="sherry" Process=""/>
+        <Check Quantity="150" Unit="ml" Type="sherry" />
         and warm through.
       </Stage>
       <Stage>
@@ -385,9 +385,9 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="1" Unit="clove" Type="garlic" Process="crushed" />
+        <Vegetable Quantity="1" Unit="cloves" Type="garlic" Process="crushed" />
         and
-        <Vegetable Quantity="1" Unit="" Type="red chilli" Process="chopped" />
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped" />
         in
         <Check Quantity="2" Unit="tbsp" Type="oil" />
         until brown.
@@ -395,7 +395,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped" />,
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped" />,
         <Grocery Quantity="100" Unit="g" Type="anchovy fillets" Process="chopped" />,
         <Grocery Quantity="100" Unit="g" Type="olives" Process="chopped" />
         and

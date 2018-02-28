@@ -18,26 +18,20 @@
   
   <xsl:template match="Shopping">
     <Shopping Title="{@Title}">
-      
-      
-      <xsl:variable name="SumQuantity" />
       <xsl:for-each select="Item">
-        <Item Type="{@Type}"  Unit="{@Unit}" MealsLabel="{@MealsLabel}">
-
-        </Item>
-        <xsl:variable name="CurrentType" select="@Type" />
-        
-        <xsl:choose>
-          <xsl:when test="preceding-sibling::Item[@Type=$CurrentType]">
-            <xsl:message>Current matches previous so add</xsl:message>
-            <Quantity><xsl:value-of select="@Type"/></Quantity>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:message>Doesn't match previous don't add</xsl:message>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:message><xsl:value-of select="preceding-sibling::Item[1]/@Type" /> : <xsl:value-of select="@Type"/></xsl:message>
-
+        <xsl:variable name="key" select="@Type" />
+        <xsl:if test="not(preceding-sibling::Item[@Type=$key])">
+          <Item Type="{@Type}"  Unit="{@Unit}">
+            <xsl:for-each select="../Item[@Type=$key]">
+              <Quantity>
+                <xsl:value-of select="@Quantity"/>
+              </Quantity>
+              <MealsLabel>
+                <xsl:value-of select="@MealsLabel"/>
+              </MealsLabel>
+            </xsl:for-each>
+          </Item>
+        </xsl:if>
       </xsl:for-each>
     </Shopping>
   </xsl:template>

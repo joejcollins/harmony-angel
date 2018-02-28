@@ -5,12 +5,12 @@
   <xsl:strip-space elements="*"/>
   <xsl:output omit-xml-declaration="yes" method="text" media-type="text/plain" indent="no"  />
   <!--
-    Global parameter
+  Global parameter
   -->	
 	<xsl:param name="MealCount" select="0" />
 
 	<!--
-		Format for the book, and introduction
+	Format for the book, and introduction
 	-->
 	<xsl:template match="Book">
     % !TeX root = FoodFile.tex
@@ -20,7 +20,7 @@
 	</xsl:template>
 
 	<!--
-		Format for the menu        
+  Format for the menu        
 	-->
 	<xsl:template match="Menu">
 		\begin{menu}{<xsl:value-of select="@Title" />}
@@ -30,7 +30,7 @@
 	</xsl:template>
 
   <!--
-    Recipe List
+  Recipe List
   -->
   <xsl:template match="RecipeList">
     \begin{recipelist}
@@ -50,19 +50,19 @@
   </xsl:template>
   
   <!--
-		Format shopping list.
-    Be aware that LaTeX is sensitive to white space, specifically there must be no
-    new paragraphs between the minipages, for them to end up side by side.
+	Format shopping list.
+  Be aware that LaTeX is sensitive to white space, specifically there must be no
+  new paragraphs between the minipages, for them to end up side by side.
 	-->
   <xsl:template match="ShoppingLists">
     \subsection*{Shopping Lists}
     <xsl:for-each select="./Shopping">%
       \begin{shoppinglist}{<xsl:value-of select="@Title" />}
       <xsl:for-each select="./Item">
-        <xsl:value-of select="@Quantity" /><xsl:text> </xsl:text>
+        <xsl:value-of select="sum(./Quantity)" /><xsl:text> </xsl:text>
         <xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
         <xsl:value-of select="@Type" /><xsl:text> </xsl:text>
-        {\scriptsize[<xsl:value-of select="@MealsLabel" />]}\\
+        {\scriptsize[<xsl:call-template name="join"><xsl:with-param name="valueList" select="./MealsLabel"/></xsl:call-template>]}\\
       </xsl:for-each>%
       \end{shoppinglist}%
       <xsl:if test="(position() mod 2) != 1">\par\vfil </xsl:if>%
@@ -72,10 +72,30 @@
     \othershoppinglist{Extra Other Shopping}%
     \vfil\clearpage
   </xsl:template>
-  
+
+  <!-- 
+  The template 'join' accepts valueList and separator.  This can be done 
+  easily with XPATH 2.0 fn:string-join(sequence, delimiter). However .NET 
+  only supports XSLT 1.0, XPATH 1.0. 
+  -->
+  <xsl:template name="join" >
+    <xsl:param name="valueList" select="''"/>
+    <xsl:param name="separator" select="','"/>
+    <xsl:for-each select="$valueList">
+      <xsl:choose>
+        <xsl:when test="position() = 1">
+          <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="concat(', ', .) "/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+ 
   <!--
-		Format for the recipe using the recipe environment, if it is an odd
-		number in the menu then clear the page before you begin.
+	Format for the recipe using the recipe environment, if it is an odd
+	number in the menu then clear the page before you begin.
 	-->
 	<xsl:template match="Recipe">
     \begin{recipe}{<xsl:value-of select="@Meals" />}{<xsl:value-of select="@Title" />}%

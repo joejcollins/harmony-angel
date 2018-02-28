@@ -291,6 +291,7 @@
       <xsd:enumeration value="branston pickle" />
       <xsd:enumeration value="can baked beans" />
       <xsd:enumeration value="can borlotti beans" />
+      <xsd:enumeration value="can cannellini beans" />
       <xsd:enumeration value="can chick peas" />
       <xsd:enumeration value="can coconut milk" />
       <xsd:enumeration value="can curry" />
@@ -327,6 +328,7 @@
       <xsd:enumeration value="passata" />
       <xsd:enumeration value="pasta sauce" />
       <xsd:enumeration value="pasta shapes" />
+      <xsd:enumeration value="peanut butter" />
       <xsd:enumeration value="peanuts" />
       <xsd:enumeration value="pearl barley" />
       <xsd:enumeration value="pesto" />
