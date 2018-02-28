@@ -30,7 +30,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Unit="tsp" Type="ground cumin" Process=""/>,
+        <Check Quantity="1" Unit="tsp" Type="ground cumin" />,
         <Check Quantity="1" Unit="tsp" Type="ground coriander" />,
         <Vegetable Quantity="2" Type="red chilli" Process="chopped" />
         and
@@ -78,7 +78,7 @@
       </Stage>
       <Stage>
         Sprinkle with
-        <Grocery Quantity="50" Unit="g" Type="grated parmesan" Process=""/>
+        <Grocery Quantity="50" Unit="g" Type="grated parmesan" />
         and
         <Dairy Quantity="200" Unit="g" Type="cheese" Process="grated"/>.
       </Stage>
@@ -225,7 +225,7 @@
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="350" Unit="g" Type="onions" Process="chopped"/>
         in
-        <Dairy Quantity="80" Unit="g" Type="butter" Process=""/>
+        <Dairy Quantity="80" Unit="g" Type="butter" />
         until soft.
       </Stage>
       <Stage>
@@ -239,11 +239,11 @@
       </Stage>
       <Stage>
         Before serving stir in
-        <Grocery Quantity="50" Unit="g" Type="grated parmesan" Process=""/>.
+        <Grocery Quantity="50" Unit="g" Type="grated parmesan" />.
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tofu and tahini" Meals="2">
+    <Recipe Title="Tofu and Tahini" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
@@ -258,11 +258,11 @@
       <Stage>
         Stir in
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
-        <Check Quantity="1" Unit="tbsp" Type="soy sauce" Process=""/>,
+        <Check Quantity="1" Unit="tbsp" Type="soy sauce" />,
         <Grocery Quantity="4" Unit="tbsp" Type="tahini" />,
-        <Check Quantity="1" Unit="tsp" Type="ground nutmeg" Process=""/>,
-        <Check Quantity="2" Unit="tsp" Type="miso" Process=""/>,
-        <Vegetable Quantity="400" Unit="g" Type="apple" Process="chopped"/>,
+        <Check Quantity="1" Unit="tsp" Type="ground nutmeg" />,
+        <Check Quantity="2" Unit="tsp" Type="miso" />,
+        <Vegetable Quantity="400" Unit="g" Type="apples" Process="chopped"/>,
         <Grocery Quantity="100" Unit="g" Type="can pineapple" Process="chopped"/>
         and
         <Water Quantity="250" Unit="ml" Type="water" />
@@ -279,7 +279,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Pasta and stir in sauce" Meals="1">
+    <Recipe Title="Pasta and Stir in Sauce" Meals="1">
       <Stage>
         <Staple Name="pasta shapes" />
       </Stage>
@@ -289,7 +289,7 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Spaghetti and pasta sauce" Meals="2">
+    <Recipe Title="Spaghetti and Pasta Sauce" Meals="2">
       <Index>
         Spaghetti<Sub>Pasta sauce</Sub>
       </Index>
@@ -311,7 +311,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Vegetable chilli stew" Meals="2">
+    <Recipe Title="Vegetable Chilli Stew" Meals="2">
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="1000" Unit="g" Type="potatoes" Process="chopped"/>
@@ -322,11 +322,11 @@
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
-        <Vegetable Quantity="3" Unit="cloves" Type="garlic" Process=""/>,
+        <Vegetable Quantity="3" Unit="cloves" Type="garlic" />,
         <Vegetable Quantity="1" Unit="" Type="red chilli" Process="chopped"/>,
         <Vegetable Quantity="1" Unit="" Type="green chilli" Process="chopped"/>,
         in
-        <Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
         for 5 minutes.
       </Stage>
       <Stage>
@@ -341,7 +341,7 @@
         Stir in
         <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
-        <Grocery Quantity="500" Unit="g" Type="creamed tomatoes" />
+        <Grocery Quantity="500" Unit="g" Type="passata" />
         and
         <Check Quantity="150" Unit="ml" Type="sherry" />
         and warm through.
@@ -352,15 +352,15 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Ethiopian peanut stew" Meals="2">
+    <Recipe Title="Ethiopian Peanut Butter Curry" Meals="2">
       <Stage>
         <Staple Name="rice brown"/>
       </Stage>
       <Stage>
         In a <Utensil Name="wok" />,
         fry,
-        in <Check Quantity="2" Unit="tbsp" Type="oil" Process=""/>
-        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
+        in <Check Quantity="2" Unit="tbsp" Type="oil" />,
+        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
         until soft.
       </Stage>
       <Stage>
@@ -516,7 +516,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Vegetable shepherds pie" Meals="2">
+    <Recipe Title="Vegetable Shepherds Pie" Meals="2">
       <Index>
         Shepherds Pie<Sub>Vegetable</Sub>
       </Index>
@@ -613,7 +613,7 @@
 
     <!--vegan-->
 
-    <Recipe Title="Egg and chips" Meals="1">
+    <Recipe Title="Egg and Chips" Meals="1">
       <Stage>
         Heat up
         <Grocery Quantity="800" Unit="g" Type="oven ready chips" />.
@@ -730,7 +730,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Onion and tomato lasagna"  Meals="2">
+    <Recipe Title="Onion and Tomato Lasagna"  Meals="2">
       <Index>
         Lasagna<Sub>Onion and tomato</Sub>
       </Index>
@@ -810,7 +810,7 @@
 
     <!--quick-->
 
-    <Recipe Title="Chicken curry" Meals="2">
+    <Recipe Title="Chicken Curry" Meals="2">
       <Index>
         Curry<Sub>Chicken</Sub>
       </Index>
@@ -839,7 +839,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tomatoes Indian style" Meals="2">
+    <Recipe Title="Indian Tomatoes" Meals="2">
       <Index>
         Style<Sub>Indian tomatoes</Sub>
       </Index>
@@ -889,7 +889,7 @@
   Spring Greens, Spring Onions, Strawberries, Summer Squash, Sweetcorn, 
   Swiss Chard, Tomatoes, Watercress.  -->
 
-    <Recipe Title="Chicken pilaf" Meals="2">
+    <Recipe Title="Chicken Pilaf" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Meat Quantity="600" Unit="g" Type="chicken" />,
@@ -923,7 +923,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Chickpea risotto" Meals="2">
+    <Recipe Title="Chickpea Risotto" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Process="chopped" Quantity="400" Type="onions" Unit="g" />,
@@ -958,7 +958,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Aubergine and peppers" Meals="2">
+    <Recipe Title="Aubergine and Peppers" Meals="2">
       <Stage>
         <Staple Name="potatoes" />
       </Stage>
@@ -993,7 +993,7 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Beans and fried eggs in pitta" Meals="1">
+    <Recipe Title="Beans and Fried Eggs" Meals="1">
       <Stage>
         In a <Utensil Name="pan" /> warm
         <Grocery Quantity="400" Type="baked beans" Unit="g" />.
@@ -1035,7 +1035,7 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Egg curry" Meals="2">
+    <Recipe Title="Egg Curry" Meals="2">
       <Index>Curry</Index>
       <Stage>
         In <Utensil Name="pan" /> boil
@@ -1080,7 +1080,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Lentil dhansak" Meals="2">
+    <Recipe Title="Lentil Dhansak" Meals="2">
       <Index>
         Curry<Sub>Lentil dhansak</Sub>
       </Index>
@@ -1125,7 +1125,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tortellini and parmesan cheese" Meals="1">
+    <Recipe Title="Tortellini and Cheese" Meals="1">
       <Stage>
         <Staple Name="tortellini" />
       </Stage>
@@ -1147,7 +1147,7 @@
   Summer Squash, Sweetcorn, Swiss Chard, Tomatoes, Turnips, Watercress, 
   Wild Mushrooms.  -->
 
-    <Recipe Title="Lentils and spicy sausage" Meals="2">
+    <Recipe Title="Lentils and Spicy Sausage" Meals="2">
       <Stage>
         <Staple Name="rice brown" />
       </Stage>
@@ -1203,7 +1203,7 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Lentil shepherds pie" Meals="2">
+    <Recipe Title="Lentil Shepherds Pie" Meals="2">
       <Index>
         Shepherds Pie<Sub>Lentil</Sub>
       </Index>
@@ -1247,7 +1247,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Fish fingers and baked beans" Meals="1">
+    <Recipe Title="Fish Fingers and Baked Beans" Meals="1">
       <Stage>
         In a <Utensil Name="pan" /> heat up
         <Grocery Quantity="400" Unit="g" Type="can baked beans" />.
@@ -1258,7 +1258,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Courgettes and bacon" Meals="2">
+    <Recipe Title="Courgettes and Bacon" Meals="2">
       <Stage>
         <Staple Name="potatoes" />
         then slice.
@@ -1286,7 +1286,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Sweet corn pizza" Meals="2">
+    <Recipe Title="Sweet Corn Pizza" Meals="2">
       <Index>
         Pizza<Sub>Sweet corn</Sub>
       </Index>
@@ -1309,7 +1309,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Beans Caribbean style" Meals="2">
+    <Recipe Title="Caribbean Beans" Meals="2">
       <Index>
         Style<Sub>Carribbean beans</Sub>
       </Index>
@@ -1348,7 +1348,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tagliatelli and olive oil" Meals="1">
+    <Recipe Title="Tagliatelli and Olive Oil" Meals="1">
       <Stage>
         <Staple Name="tagliatelli"/>
         save 150 ml of the water.
@@ -1391,13 +1391,13 @@
 
     <!-- Meat -->
 
-    <Recipe Title="Spinach and Olive lasagna" Meals="2">
+    <Recipe Title="Spinach and Olive Lasagna" Meals="2">
       <Index>
         Lasagna<Sub>Spinach and olive</Sub>
       </Index>
       <Stage>
         In a <Utensil Name="wok" /> in
-        <Check Quantity="4" Unit="tbsp" Type="oil" Process=""/>
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
         fry
         <Vegetable Quantity="4" Unit="cloves" Type="garlic" Process="crushed"/>
         and
@@ -1411,7 +1411,7 @@
         <Vegetable Quantity="400" Unit="g" Type="broccoli"  />,
         <Grocery Quantity="200" Unit="g" Type="olives"  />
         and
-        <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process=""/>
+        <Vegetable Quantity="200" Unit="g" Type="mushrooms" />
         and cook until mushrooms are done.
       </Stage>
       <Stage>
@@ -1425,13 +1425,13 @@
       </Stage>
       <Stage>
         In a <Utensil Name="casserole" /> layer
-        <Grocery Quantity="200" Unit="g" Type="lasagna" Process=""/>
+        <Grocery Quantity="200" Unit="g" Type="lasagna" />
         with the tomatoes and cheese 3 times.
         Bake <Temperature Level="medium"/> 50 minutes.
       </Stage>
     </Recipe>
     
-    <Recipe Title="Chickpea and spinach curry" Meals="2">
+    <Recipe Title="Chickpea and Spinach Curry" Meals="2">
       <Index>
         Curry<Sub>Chickpea and spinach</Sub>
       </Index>
@@ -1531,7 +1531,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Vegetable cous cous" Meals="2">
+    <Recipe Title="Vegetable Cous Cous" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
@@ -1547,8 +1547,8 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Unit="tsp" Type="ground turmeric" Process=""/>,
-        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" Process=""/>,
+        <Check Quantity="1" Unit="tsp" Type="ground turmeric" />,
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
         <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>,
         <Grocery Process="chopped" Quantity="800" Type="can tomatoes" Unit="g" />
@@ -1609,10 +1609,10 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="3" Unit="tbsp" Type="wine vinegar" Process=""/>,
-        <Check Quantity="1" Unit="tbsp" Type="sugar" Process=""/>,
+        <Check Quantity="3" Unit="tbsp" Type="wine vinegar" />,
+        <Check Quantity="1" Unit="tbsp" Type="sugar" />,
         <Check Quantity="4" Type="cloves" />,
-        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" Process=""/>,
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon" />,
         <Grocery Quantity="200" Unit="g" Type="olives"/>
         and the celery
         and simmer for 10 minutes.
@@ -1665,9 +1665,9 @@
         <Check Quantity="1" Unit="tbsp" Type="ground turmeric" />,
         <Vegetable Quantity="4" Unit="cm" Type="ginger" Process="chopped"/>
         and
-        <Vegetable Quantity="200" Unit="g" Type="onion" Process="chopped"/>
+        <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
         in
-        <Water Quantity="600" Unit="ml" Type="water" Process=""/>
+        <Water Quantity="600" Unit="ml" Type="water" />
         until soft.
       </Stage>
       <Stage>
@@ -1772,7 +1772,7 @@
         <Vegetable Quantity="200" Unit="g" Type="apples" Process="chopped"/>,
         <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
         <Grocery Quantity="2" Unit="tbsp" Type="branston pickle" />,
-        <Grocery Quantity="400" Unit="g" Type="canned tomatoes" Process="chopped"/>
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>
         and
         <Check Quantity="1" Unit="tbsp" Type="curry powder" />,
         bake <Temperature Level="medium" /> for 30 minutes.

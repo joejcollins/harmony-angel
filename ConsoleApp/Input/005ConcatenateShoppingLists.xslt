@@ -12,7 +12,8 @@
   </xsl:template>
 
   <!--
-  Concatenate shopping lists, first by giving them all a key
+  Add up the shopping list items and concatenate the meal labels,
+  so the shopping lists are slightly shorter.
 	-->
   <xsl:key name="items-by-type" match="Item" use="@Type" />
   

@@ -312,6 +312,7 @@
       <xsd:enumeration value="corn flour" />
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="creamed coconut" />
+      <xsd:enumeration value="dessicated coconut" />
       <xsd:enumeration value="dried apricots" />
       <xsd:enumeration value="fish fingers" />
       <xsd:enumeration value="flaked almonds" />
@@ -372,7 +373,7 @@
       <xsd:documentation>Vegetable types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="apple" />
+      <xsd:enumeration value="apples" />
       <xsd:enumeration value="aubergine" />
       <xsd:enumeration value="baking potatoes" />
       <xsd:enumeration value="boiling potatoes" />

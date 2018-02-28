@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:cml="http://www.joejcollins.co.uk/CookBook/CookML.xsd" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
   <xsl:strip-space elements="*"/>
   <!-- 
   Copy everything that has no other pattern defined 
@@ -18,10 +18,7 @@
   meals.
 	  -->
   <xsl:template match="Shopping">
-    <xsl:element name="Shopping">
-      <xsl:attribute name="Title">
-        <xsl:value-of select="@Title" />
-      </xsl:attribute>
+    <Shopping Title="{@Title}">
       <!-- First Week Vegetables -->
       <xsl:if test="@Title = 'Vegetables'">
         <xsl:for-each select="Item">
@@ -44,29 +41,15 @@
           <xsl:apply-templates select="."  />
         </xsl:for-each>
       </xsl:if>
-    </xsl:element>
+    </Shopping>
   </xsl:template>
 
   <!--
   Output each item
   -->
   <xsl:template match="Item">
-    <xsl:element name="Item">
-      <xsl:attribute name="Type">
-        <xsl:value-of select="@Type" />
-      </xsl:attribute>
-      <xsl:attribute name="Quantity">
-        <xsl:value-of select="@Quantity" />
-      </xsl:attribute>
-      <xsl:attribute name="Unit">
-        <xsl:value-of select="@Unit" />
-      </xsl:attribute>
-      <xsl:attribute name="Process">
-        <xsl:value-of select="@Process" />
-      </xsl:attribute>
-      <xsl:attribute name="MealsLabel">
-        <xsl:value-of select="@MealsLabel" />
-      </xsl:attribute>
-    </xsl:element>
+    <xsl:copy>
+      <xsl:copy-of select="node() | @*"/>
+    </xsl:copy>
   </xsl:template>
 </xsl:stylesheet>
