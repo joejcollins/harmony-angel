@@ -465,12 +465,43 @@
       </Stage>
     </Recipe>
 
-    <!--meat-->
+    <Recipe Title="Norwegian Mutton and Cabbage" Meals="2">
+
+      <Stage>
+        <Meat Type="lamb" Quantity="1000" Unit="g"/>,
+        <Grocery Quantity="1" Unit="tbsp" Type="plain flour"/>,
+        <Vegetable Quantity="1000" Unit="g" Type="cabbage" Process="quartered" />
+        <Check Quantity="1" Unit="tbsp" Type="black pepper corns"/>
+      </Stage>
+      <Stage>
+        <Staple Name="potatoes"/>
+      </Stage>
+    </Recipe>
 
     <!--vegetarian-->
 
-    <!--vegan-->
+    <Recipe Title="Curried Carrots" Meals="2">
+      <Stage>
+        <Staple Name="rice brown" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok"/>
+        (in <Check Quantity="3" Type="oil" Unit="tbsp" />)
+        fry 
+        <Vegetable Type="carrots" Quantity="1000" Unit="g" Process="chopped"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="2" Unit="tbsp" Type="curry powder"/>,
+        <Grocery Quantity="400" Unit="g" Type="can coconut milk" />
+        and
+        <Grocery Type="cashew nuts" Quantity="200" Unit="g" Process="chopped"/>
+        and heat through.
+      </Stage>
+    </Recipe>
 
+    
     <!--quick-->
     
   </Menu>
@@ -1646,12 +1677,8 @@
         <Check Quantity="1" Type="pepper" Unit="pinch"/>.
       </Stage>
     </Recipe>
-    
-    <Recipe Title="Norwegian Mutton and Cabbage" Meals="2">
-      <Stage>
-        <Meat Type="lamb" Quantity="400" Unit="g"/>
-      </Stage>
-    </Recipe>
+  
+    <!--meat-->
 
     <!--vegetarian-->
 
@@ -1824,11 +1851,7 @@
     
     <!--vegetarian-->
 
-    <Recipe Title="Curried Carrots" Meals="2">
-      <Stage>
-        <Vegetable Type="carrots" Quantity="400" Unit="g" Process="chopped"/>
-      </Stage>
-    </Recipe>
+    <!--vegan-->
 
     <!--quick-->
     
