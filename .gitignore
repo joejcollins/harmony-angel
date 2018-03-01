@@ -187,6 +187,8 @@ FakesAssemblies/
 *.aux
 *.toc
 *.tex
+*.fdb_latexmk
+*.fls
 *.maf
 *.mtc
 *.mtc0

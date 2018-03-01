@@ -134,7 +134,6 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="beaten" />
-      <xsd:enumeration value="boiled" />
       <xsd:enumeration value="chopped" />
       <xsd:enumeration value="crushed" />
       <xsd:enumeration value="crumbled" />

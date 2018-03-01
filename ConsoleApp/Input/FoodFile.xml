@@ -420,14 +420,13 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
+        (in <Check Quantity="4" Type="oil" Unit="tbsp" />)
         <Vegetable Process="chopped" Quantity="320" Type="onions" Unit="g" />,
         <Meat Process="sliced" Quantity="400" Type="meat" Unit="g" />,
         <Vegetable Process="chopped" Quantity="400" Type="carrots" Unit="g" />
         and
         <Vegetable Process="chopped" Quantity="400" Type="celery" Unit="g" />
-        in
-        <Check Quantity="3" Type="oil" Unit="tbsp" />
-        until meat done.
+        until the meat is done.
       </Stage>
       <Stage>
         Stir in
@@ -1731,7 +1730,7 @@
         In a <Utensil Name="wok" /> fry
         (in <Check Quantity="4" Unit="tbsp" Type="oil" />)
         <Vegetable Quantity="550" Unit="g" Type="onions" Process="chopped"/>,
-        <Vegetable Quantity="6" Type="garlic" Process="crushed" />
+        <Vegetable Quantity="6" Unit="cloves" Type="garlic" Process="crushed" />
         and
         <Vegetable Quantity="1" Type="chillis" Process="chopped"/>
         until soft.
@@ -1754,7 +1753,7 @@
         <Dairy Quantity="90" Unit="g" Type="butter" />
         until it looks like bread crumbs.
         Stir in
-        <Water Quantity="3" Unit="tbsp"/>
+        <Water Quantity="3" Unit="tbsp" Type="cold water"/>
         and form into dough.
         Roll out and cover the vegetables when they are done.
         bake <Temperature Level="medium"/> for futher 15 minutes.
@@ -1763,7 +1762,7 @@
         In a <Utensil Name="pan"/> mix
         <Grocery Quantity="4" Unit="tsp" Type="gravy granules"/>
         and
-        <Water Quantity="250" Unit="ml" Type="water" Process="boiled"/>
+        <Water Quantity="250" Unit="ml" Type="boiling water"/>
         to serve with the pie.
       </Stage>
     </Recipe>
