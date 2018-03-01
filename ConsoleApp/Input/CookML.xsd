@@ -213,7 +213,7 @@
       <xsd:enumeration value="wok" />
     </xsd:restriction>
   </xsd:simpleType>
-  <!-- Generated from Ingredients.mdb, subject to change -->
+  <!-- Generated from Ingredients.csv, subject to change -->
   <!-- A restriction on the types ingredient allowed. -->
   <xsd:simpleType name="Check">
     <xsd:annotation>
@@ -224,6 +224,7 @@
       <xsd:enumeration value="basil" />
       <xsd:enumeration value="bay leaf" />
       <xsd:enumeration value="black bean sauce" />
+      <xsd:enumeration value="black pepper corns" />
       <xsd:enumeration value="chilli powder" />
       <xsd:enumeration value="cinnamon stick" />
       <xsd:enumeration value="cloves" />
@@ -267,6 +268,7 @@
       <xsd:documentation>Dairy types in the database</xsd:documentation>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="blue cheese" />
       <xsd:enumeration value="butter" />
       <xsd:enumeration value="cheese" />
       <xsd:enumeration value="cottage cheese" />
@@ -394,6 +396,7 @@
       <xsd:enumeration value="green chilli" />
       <xsd:enumeration value="green pepper" />
       <xsd:enumeration value="kale" />
+      <xsd:enumeration value="leeks" />
       <xsd:enumeration value="lemon" />
       <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="mushrooms" />
@@ -404,6 +407,7 @@
       <xsd:enumeration value="red pepper" />
       <xsd:enumeration value="runner beans" />
       <xsd:enumeration value="spinach" />
+      <xsd:enumeration value="spring greens" />
       <xsd:enumeration value="spring onions" />
       <xsd:enumeration value="swedes" />
       <xsd:enumeration value="sweet potatoes" />

@@ -9,6 +9,8 @@ baking potatoes,Vegetable,136,4,32,0
 basil,Check,0,0,0,0
 bay leaf,Check,0,0,0,0
 black bean sauce,Check,90,0,20,1
+black pepper corns,Check,0,0,0,0
+blue cheese,Dairy,353,21,2,29
 boiling potatoes,Vegetable,77,2,18,0
 boiling water,Water,0,0,0,0
 branston pickle,Grocery,157,0,36,0
@@ -85,6 +87,7 @@ horseraddish sauce,Grocery,12,3,1,12
 kale,Vegetable,0,0,0,0
 lamb,Meat,305,26,0,22
 lasagna,Grocery,348,13,70,2
+leeks,Vegetable,60,2,14,0
 lemon,Vegetable,0,0,0,0
 mange tout,Vegetable,0,0,0,0
 marjoram,Check,0,0,0,0
@@ -141,7 +144,8 @@ sour cream,Dairy,0,0,0,0
 soured cream,Dairy,205,3,4,20
 soy sauce,Check,0,0,0,0
 spaghetti,Grocery,104,4,22,7
-spinach,Vegetable,0,0,0,0
+spinach,Vegetable,23,3,4,0
+spring greens,Vegetable,20,2,2,0
 spring onions,Vegetable,32,2,7,0
 stir in pasta sauce,Grocery,127,2,11,8
 stock,Check,0,0,0,0

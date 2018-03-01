@@ -450,9 +450,65 @@
       </Stage>
     </Recipe>
 
-    <!--vegetarian-->
+    <Recipe Title="Leek Pasta Bake" Meals="2">
+      <Stage>
+        <Staple Name="pasta shapes"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok"/>
+        (in <Check Quantity="3" Type="oil" Unit="tbsp" />)
+        fry
+        <Vegetable Quantity="800" Unit="g" Type="leeks" Process="sliced" />.
+      </Stage>
+      <Stage>
+        <Vegetable Quantity="400" Unit="g" Type="spring greens" Process="hacked"/>
+        and
+        <Check Quantity="1" Unit="tsp" Type="ground nutmeg" />.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="pan"/> melt
+        <Dairy Quantity="30" Unit="g" Type="butter"/>
+        then stir in
+        <Check Quantity="2" Unit="tbsp" Type="flour" />
+        until completely absorbed.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="400" Unit="ml" Type="milk" />
+        and
+        <Grocery Quantity="2" Unit="tbsp" Type="whole grain mustard" />
+        until sauce thickens.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole" />
+        layer the pasta, vegetables and sauce with
+        <Dairy Quantity="150" Unit="g" Type="blue cheese" Process="crumbled" />
+        and bake
+        <Temperature Level="medium"/>
+        for 20 minutes.
+      </Stage>
+    </Recipe>
 
-    <!--vegan-->
+    <Recipe Title="Curried Carrots" Meals="2">
+      <Stage>
+        <Staple Name="rice brown" />
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok"/>
+        (in <Check Quantity="3" Type="oil" Unit="tbsp" />)
+        fry
+        <Vegetable Type="carrots" Quantity="1000" Unit="g" Process="chopped"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="2" Unit="tbsp" Type="curry powder"/>,
+        <Grocery Quantity="400" Unit="g" Type="can coconut milk" />
+        and
+        <Grocery Type="cashew nuts" Quantity="200" Unit="g" Process="chopped"/>
+        and heat through.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Pasta and pesto" Meals="1">
       <Stage>
@@ -479,29 +535,9 @@
     </Recipe>
 
     <!--vegetarian-->
-
-    <Recipe Title="Curried Carrots" Meals="2">
-      <Stage>
-        <Staple Name="rice brown" />
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok"/>
-        (in <Check Quantity="3" Type="oil" Unit="tbsp" />)
-        fry 
-        <Vegetable Type="carrots" Quantity="1000" Unit="g" Process="chopped"/>
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="2" Unit="tbsp" Type="curry powder"/>,
-        <Grocery Quantity="400" Unit="g" Type="can coconut milk" />
-        and
-        <Grocery Type="cashew nuts" Quantity="200" Unit="g" Process="chopped"/>
-        and heat through.
-      </Stage>
-    </Recipe>
-
     
+    <!--vegan-->
+
     <!--quick-->
     
   </Menu>
