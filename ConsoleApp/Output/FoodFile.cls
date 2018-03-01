@@ -21,8 +21,6 @@
 \RequirePackage{makeidx} % Needed to create an index
 \RequirePackage{multicol} % For ingredients list
 \RequirePackage{minitoc} % For mini table of contents
-\RequirePackage{draftwatermark}
-
 
 %% 
 % Set the font and adjust a few sizes
@@ -67,21 +65,21 @@
 
 \newenvironment{TOCRecipeList}%
 {%
-        \begin{list}%
-        {%
-                % No Default label
-        }%
-        {%
-                \setlength{\rightmargin}{1.5cm}%
-                \setlength{\leftmargin}{1.5cm}%
-                \setlength{\parsep}{-0.25em}%
-                \smaller%
-                \item%
-        }%
+  \begin{list}%
+  {%
+    % No Default label
+  }%
+  {%
+    \setlength{\rightmargin}{1.5cm}%
+    \setlength{\leftmargin}{1.5cm}%
+    \setlength{\parsep}{-0.25em}%
+    \smaller%
+    \item%
+  }%
 }%
 {%
-        \item%
-        \end{list}%
+  \item%
+  \end{list}%
 }%
 
 %% 
@@ -114,15 +112,15 @@
 %%
 \newcommand{\othershoppinglist}[1]%
 {%
-        \begin{minipage}[t][\height][s]{.48\textwidth}%
-        \subsubsection*{#1}%
-        \smallskip%
-        \hrulefill \par \bigskip % 1
-        \hrulefill \par \bigskip % 2
-        \hrulefill \par \bigskip % 3
-        \hrulefill \par \bigskip % 4
-        \hrulefill % 5
-        \end{minipage}\hfil%
+  \begin{minipage}[t][\height][s]{.48\textwidth}%
+  \subsubsection*{#1}%
+  \smallskip%
+  \hrulefill \par \bigskip % 1
+  \hrulefill \par \bigskip % 2
+  \hrulefill \par \bigskip % 3
+  \hrulefill \par \bigskip % 4
+  \hrulefill % 5
+  \end{minipage}\hfil%
 }%
 
 %% 
