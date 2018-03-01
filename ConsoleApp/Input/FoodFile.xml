@@ -22,10 +22,10 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>,
+        (in <Check Quantity="2" Unit="tbsp" Type="oil" />)
+        <Vegetable Quantity="400" Unit="g" Type="onions" Process="chopped"/>
+        and
         <Vegetable Quantity="150" Unit="g" Type="green pepper" Process="chopped"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Type="oil" />
         until soft.
       </Stage>
       <Stage>
@@ -1726,7 +1726,47 @@
       </Stage>
     </Recipe>
 
-    <!--vegetarian-->
+    <Recipe Title="Woolton Pie" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        (in <Check Quantity="4" Unit="tbsp" Type="oil" />)
+        <Vegetable Quantity="550" Unit="g" Type="onions" Process="chopped"/>,
+        <Vegetable Quantity="6" Type="garlic" Process="crushed" />
+        and
+        <Vegetable Quantity="1" Type="chillis" Process="chopped"/>
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1000" Unit="g" Type="potatoes" Process="chopped"/>,
+        <Vegetable Quantity="350" Unit="g" Type="carrots" Process="chopped"/>,
+        <Vegetable Quantity="500" Unit="g" Type="swedes" Process="chopped" />
+        and
+        <Grocery Quantity="2" Unit="tbsp" Type="whole grain mustard"/>.
+        Then put in a <Utensil Name="casserole"/> and cover,
+        bake <Temperature Level="high"/> for 45 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="bowl"/>
+        rub together
+        <Grocery Quantity="200" Unit="g" Type="plain flour" />
+        and
+        <Dairy Quantity="90" Unit="g" Type="butter" />
+        until it looks like bread crumbs.
+        Stir in
+        <Water Quantity="3" Unit="tbsp"/>
+        and form into dough.
+        Roll out and cover the vegetables when they are done.
+        bake <Temperature Level="medium"/> for futher 15 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="pan"/> mix
+        <Grocery Quantity="4" Unit="tsp" Type="gravy granules"/>
+        and
+        <Water Quantity="250" Unit="ml" Type="water" Process="boiled"/>
+        to serve with the pie.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Mushroom Stew" Meals="2">
       <Index>

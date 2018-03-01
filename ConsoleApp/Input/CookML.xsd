@@ -134,6 +134,7 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="beaten" />
+      <xsd:enumeration value="boiled" />
       <xsd:enumeration value="chopped" />
       <xsd:enumeration value="crushed" />
       <xsd:enumeration value="crumbled" />
@@ -318,6 +319,7 @@
       <xsd:enumeration value="flaked almonds" />
       <xsd:enumeration value="frozen peas" />
       <xsd:enumeration value="grated parmesan" />
+      <xsd:enumeration value="gravy granules" />
       <xsd:enumeration value="green lentils" />
       <xsd:enumeration value="horseraddish sauce" />
       <xsd:enumeration value="lasagna" />
@@ -339,6 +341,7 @@
       <xsd:enumeration value="pitted olives" />
       <xsd:enumeration value="pizza" />
       <xsd:enumeration value="pizza bases" />
+      <xsd:enumeration value="plain flour" />
       <xsd:enumeration value="raisins" />
       <xsd:enumeration value="red lentils" />
       <xsd:enumeration value="red wine" />
@@ -351,6 +354,7 @@
       <xsd:enumeration value="tofu" />
       <xsd:enumeration value="tomato puree" />
       <xsd:enumeration value="white rice" />
+      <xsd:enumeration value="whole grain mustard" />
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="Meat">

@@ -70,6 +70,7 @@ garam masala,Check,0,0,0,0
 garlic,Vegetable,0,0,0,0
 ginger,Vegetable,0,0,0,0
 grated parmesan,Grocery,0,0,0,0
+gravy granules,Grocery,0,0,0,0
 green chilli,Vegetable,20,3,1,1
 green lentils,Grocery,0,0,0,0
 green pepper,Vegetable,0,0,0,0
@@ -121,6 +122,7 @@ pitta bread,Grocery,265,9,58,1
 pitted olives,Grocery,0,0,0,0
 pizza,Grocery,0,0,0,0
 pizza bases,Grocery,0,0,0,0
+plain flour,Grocery,364,12,86,2
 plain yoghurt,Dairy,0,0,0,0
 potatoes,Vegetable,0,0,0,0
 raisins,Grocery,0,0,0,0
@@ -156,6 +158,7 @@ tomatoes,Vegetable,0,0,0,0
 turmeric,Check,0,0,0,0
 water,Water,0,0,0,0
 white rice,Grocery,138,3,31,1
+whole grain mustard,Grocery,150,8,8,8
 wine vinegar,Check,0,0,0,0
 worcester sauce,Check,0,0,0,0
 yoghurt,Dairy,59,10,4,0
