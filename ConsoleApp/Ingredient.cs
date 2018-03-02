@@ -22,14 +22,10 @@ namespace ConsoleApp
         public string PortionCalories(double quantity, string unit, string name)
         {
             IngredientsData IngredientsData = new IngredientsData();
-            double returnValue;
+            double returnValue = 0;
             if (unit == "g")
             {
                 returnValue = IngredientsData.GetCalories(quantity, name);
-            }
-            else
-            {
-                returnValue = 0;
             }
             return returnValue.ToString();
         }
