@@ -234,6 +234,7 @@
       <xsd:enumeration value="dried thyme" />
       <xsd:enumeration value="flour" />
       <xsd:enumeration value="garam masala" />
+      <xsd:enumeration value="ground cardamom" />
       <xsd:enumeration value="ground cinnamon" />
       <xsd:enumeration value="ground coriander" />
       <xsd:enumeration value="ground cumin" />
@@ -291,6 +292,7 @@
       <xsd:enumeration value="anchovy fillets" />
       <xsd:enumeration value="baked beans" />
       <xsd:enumeration value="branston pickle" />
+      <xsd:enumeration value="bread" />
       <xsd:enumeration value="can baked beans" />
       <xsd:enumeration value="can borlotti beans" />
       <xsd:enumeration value="can cannellini beans" />
@@ -421,7 +423,7 @@
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="boiling water" />
       <xsd:enumeration value="cold water" />
-      <xsd:enumeration value="water" />
+      <xsd:enumeration value="tap water" />
     </xsd:restriction>
   </xsd:simpleType>
 </xsd:schema>

@@ -155,7 +155,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="2" Unit="tbsp" Type="flour" />
+        <Grocery Quantity="2" Unit="tbsp" Type="flour" />
         until completely absorbed.
       </Stage>
       <Stage>
@@ -469,7 +469,7 @@
         In a <Utensil Name="pan"/> melt
         <Dairy Quantity="30" Unit="g" Type="butter"/>
         then stir in
-        <Check Quantity="2" Unit="tbsp" Type="flour" />
+        <Grocery Quantity="2" Unit="tbsp" Type="plain flour" />
         until completely absorbed.
       </Stage>
       <Stage>
@@ -521,22 +521,105 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Norwegian Mutton and Cabbage" Meals="2">
-
+    <Recipe Title="Norwegian Lamb and Cabbage (5 hours)" Meals="2">
       <Stage>
-        <Meat Type="lamb" Quantity="1000" Unit="g"/>,
-        <Grocery Quantity="1" Unit="tbsp" Type="plain flour"/>,
+        In a <Utensil Name="casserole"/> place
+        <Meat Type="lamb" Quantity="1000" Unit="g"/>
+        and sprinkle with
+        <Grocery Quantity="1" Unit="tbsp" Type="plain flour"/>.
+        Put 
         <Vegetable Quantity="1000" Unit="g" Type="cabbage" Process="quartered" />
-        <Check Quantity="1" Unit="tbsp" Type="black pepper corns"/>
+        on top
+        and sprinkle with
+        <Check Quantity="1" Unit="tbsp" Type="black pepper corns"/>.
+        Pour in 
+        <Water Quantity="800" Unit="ml" Type="tap water"/>
+        and bring to boil.
+        Then simmer at extremely low heat for 5 hours.        
       </Stage>
       <Stage>
         <Staple Name="potatoes"/>
       </Stage>
     </Recipe>
 
-    <!--vegetarian-->
-    
-    <!--vegan-->
+    <Recipe Title="Green Shakshuka" Meals="2">
+      <Stage>
+        In a <Utensil Name="casserole"/> fry
+        (in <Check Quantity="4" Type="olive oil" Unit="tbsp" />)
+        <Vegetable Quantity="600" Unit="g" Type="leeks" Process="sliced"/>
+        in until soft.
+      </Stage>
+      <Stage>
+        Stir in <Vegetable Quantity="300" Unit="g" Type="spring greens" Process="hacked"/>
+        and fry until wilted.
+      </Stage>
+      <Stage>
+        Stir in <Grocery Quantity="300" Unit="g" Type="frozen peas" />
+        and warm through.
+      </Stage>
+      <Stage>
+        Harrisa
+        <Utensil Name="pan"/>
+        mash
+        <Vegetable Quantity="1" Type="red pepper" Process="chopped"/>,
+        <Vegetable Quantity="100" Unit="g" Type="onions" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Type="can tomatoes" Process="chopped"/>,
+        <Grocery Quantity="150" Unit="g" Type="tomato puree" />,
+        <Vegetable Quantity="1" Type="lemon" Process="juiced"/>,
+        <Check Quantity="0.5" Unit="tsp" Type="ground coriander"/>,
+        <Check Quantity="0.5" Unit="tsp" Type="ground cumin"/>,
+        and 
+        <Check Quantity="0.5" Unit="tsp" Type="chilli powder"/>.
+        Then pour into the casserole
+        and bake covered <Temperature Level="medium"/> for 20 minutes.      
+      </Stage>
+      <Stage>
+        Break <Dairy Quantity="6" Type="eggs"/> into 6 depressions in the mixture
+        and bake until the whites are done. 
+      </Stage>
+      <Stage>
+        Serve with 
+        <Vegetable Quantity="1" Type="lemon" Process="juiced"/> 
+        and
+        <Grocery Quantity="800" Unit="g" Type="bread"/>.
+      </Stage>
+    </Recipe>
+     
+    <Recipe Title="Parsnip and Carrot Couscous" Meals="2">
+      <Stage>
+        In a <Utensil Name="casserole"/> coat
+        <Vegetable Quantity="800" Unit="g" Type="carrots" Process="sliced"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Type="parsnips" Process="sliced"/>
+        with
+        <Check Quantity="4" Unit="tbsp" Type="oil" />
+        and
+        <Check Quantity="2" Unit="tbsp" Type="honey" />.
+        Sprinkle with
+        <Check Quantity="1" Unit="tsp" Type="ground cinnamon"/>,
+        <Check Quantity="1" Unit="tsp" Type="paprika"/>,
+        <Check Quantity="0.5" Unit="tsp" Type="ground ginger"/>,
+        <Check Quantity="0.5" Unit="tsp" Type="turmeric"/>
+        and
+        <Check Quantity="0.5" Unit="tsp" Type="ground cardamom" />.        
+        Then bake uncovered
+        <Temperature Level="medium" />
+        for 40 minutes.        
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        Stir the couscous into the vegetables,
+        together with
+        <Grocery Quantity="200" Unit="g" Type="olives" Process="chopped" />.
+      </Stage>
+      <Stage>
+        Serve with <Vegetable Quantity="1" Type="lemon" Process="juiced"/>
+        and
+        <Dairy Quantity="400" Unit="g" Type="plain yoghurt"/>.
+      </Stage>
+    </Recipe>
 
     <!--quick-->
     
@@ -1126,7 +1209,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="2" Unit="tbsp" Type="flour" />
+        <Grocery Quantity="2" Unit="tbsp" Type="plain flour" />
         and
         <Check Quantity="1" Unit="tbsp" Type="curry powder" />
         until it is all absorbed.
@@ -1154,7 +1237,7 @@
       <Stage>
         In a <Utensil Name="pan"/> simmer
         <Grocery Quantity="225" Unit="g" Type="red lentils" />  
-        with <Water Quantity="500"/>
+        with <Water Quantity="500" Unit="ml" Type="Water" />
         until soft.      
       </Stage>
       <Stage>
@@ -1585,7 +1668,7 @@
         <Check Quantity="2" Unit="cube" Type="stock" Process="crumbled" />,
         <Check Quantity="2" Unit="tsp" Type="oregano" />
         and
-        <Water Quantity="300" Unit="ml" />
+        <Water Quantity="300" Unit="ml" Type="Water" />
         simmer for 20 minutes.
       </Stage>
       <Stage>
@@ -1777,7 +1860,7 @@
         Stir in
         <Check Quantity="1" Type="bay leaf" />,
         <Check Quantity="1" Unit="tsp" Type="thyme" />,
-        <Check Quantity="1" Unit="tbsp" Type="flour" />,
+        <Grocery Quantity="1" Unit="tbsp" Type="flour" />,
         <Water Quantity="600" Unit="ml" Type="water" />
         and
         <Check Quantity="2" Unit="tbsp" Type="worcester sauce" />.
@@ -1819,8 +1902,11 @@
         Stir in
         <Water Quantity="3" Unit="tbsp" Type="cold water"/>
         and form into dough.
-        Roll out and cover the vegetables when they are done.
-        bake <Temperature Level="medium"/> for futher 15 minutes.
+      </Stage>
+      <Stage>
+        Roll out the dough and cover the vegetables when they are done.
+        Brush the dough with <Dairy Quantity="1" Type="eggs" Process="beaten"/>
+        then bake <Temperature Level="medium"/> for futher 15 minutes.
       </Stage>
       <Stage>
         In a <Utensil Name="pan"/> mix
