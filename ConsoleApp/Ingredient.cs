@@ -19,34 +19,25 @@ namespace ConsoleApp
         public float Carbohydrate { get; set; }
         public float Fat { get; set; }
 
-        public string PortionCalories(double quantity, string type, string unit)
+        public string PortionCalories(double quantity, string unit, string name)
         {
-            //TODO: Get the actual calories per gram and make the calculation.
-            return quantity.ToString() + type + unit;
+            IngredientsData IngredientsData = new IngredientsData();
+            double returnValue;
+            if (unit == "g")
+            {
+                returnValue = IngredientsData.GetCalories(quantity, name);
+            }
+            else
+            {
+                returnValue = 0;
+            }
+            return returnValue.ToString();
         }
 
-        public Double PortionFat(double quantity, string type, string unit)
+        public Double PortionFat(double quantity, string unit, string name)
         {
             //TODO: Get the actual amount of fat per gram and make the calculation.
             return 1.5;
         }
     }
-
-    ///// <summary>
-    ///// Mapping class for use by the CsvReader
-    ///// </summary>
-    //public sealed class IngredientMap : ClassMap<Ingredient>
-    //{
-    //    public IngredientMap()
-    //    {
-    //        Map(m => m.IngredientName);
-    //        Map(m => m.IngredientType);
-    //        Map(m => m.Calories);
-    //        Map(m => m.Protien);
-    //        Map(m => m.Carbohydrate);
-    //        Map(m => m.Fat);
-    //    }
-    //}
-
-
 }

@@ -78,10 +78,10 @@
     <xsl:element name="{name(.)}">
       <xsl:for-each select="@*">
         <xsl:attribute name="Calories">
-          <xsl:value-of select="ingredient:PortionCalories(../@Quantity, ../@Type, ../@Unit)"/>
+          <xsl:value-of select="ingredient:PortionCalories(../@Quantity, ../@Unit, ../@Type)"/>
         </xsl:attribute>
         <xsl:attribute name="Fat">
-          <xsl:value-of select="ingredient:PortionFat(../@Quantity, ../@Type, ../@Unit)"/>
+          <xsl:value-of select="ingredient:PortionFat(../@Quantity, ../@Unit, ../@Type)"/>
         </xsl:attribute>
         <xsl:attribute name="{name(.)}">
           <xsl:value-of select="."/>

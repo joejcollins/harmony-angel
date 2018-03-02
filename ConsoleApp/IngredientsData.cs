@@ -2,6 +2,7 @@ using CsvHelper;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System;
 
 namespace ConsoleApp
 {
@@ -24,16 +25,25 @@ namespace ConsoleApp
             }
         }
 
+        internal double GetCalories(double quantity, string name)
+        {
+            var thisIngredient = m_Ingredients.FirstOrDefault(ingredient => ingredient.IngredientName == name);
+            double calories = (quantity / 100) * thisIngredient.Calories;
+            return calories;                
+         }
+
         /// <summary>
         /// Return a list of ingredients to restrict the available types using the schema.
         /// </summary>
         /// <param name="strIngredientType"></param>
         /// <returns>List of ingredients</returns>
-        public List<Ingredient> GetIngredients(IngredientType ingredientType)
+        internal List<Ingredient> GetIngredients(IngredientType ingredientType)
         {
             var ingredientsOfAType = from ingredient in m_Ingredients where ingredient.IngredientType == ingredientType
                                      select ingredient;
             return ingredientsOfAType.ToList();
         }
+
+
     }
 }

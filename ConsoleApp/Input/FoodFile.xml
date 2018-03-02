@@ -43,7 +43,7 @@
         stir in
         <Dairy Quantity="150" Unit="g" Type="yoghurt" />
         and
-        <Water Quantity="55" Unit="ml" Type="water" />.
+        <Water Quantity="55" Unit="ml" Type="tap water" />.
         Pour over the chicken
         and bake,
         covered <Temperature Level="medium" /> for 15 minutes.
@@ -65,7 +65,7 @@
         Stir in
         <Vegetable Quantity="700" Unit="g" Type="mushrooms" Process="chopped"/>,
         <Check Quantity="2" Unit="tbsp" Type="sherry" />,
-        <Water Quantity="200" Unit="ml" Type="water" />
+        <Water Quantity="200" Unit="ml" Type="tap water" />
         and
         <Check Quantity="2" Unit="tsp" Type="ground nutmeg" />,
         cover and simmer for 5 minutes.
@@ -99,7 +99,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="2" Unit="" Type="green chilli" Process="chopped" />,
+        <Vegetable Quantity="2" Type="green chilli" Process="chopped" />,
         <Check Quantity="1" Unit="tsp" Type="ground turmeric" />,
         <Check Quantity="1" Unit="tsp" Type="paprika" />,
         <Check Quantity="1" Unit="tbsp" Type="ground cumin" />,
@@ -155,12 +155,12 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="2" Unit="tbsp" Type="flour" />
+        <Check Quantity="2" Unit="tbsp" Type="flour" />
         until completely absorbed.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="ml" Type="milk" />
+        <Dairy Quantity="400" Unit="ml" Type="milk" />
         and stir
         until sauce thickens.
       </Stage>
@@ -234,7 +234,7 @@
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>
         <Grocery Quantity="400" Unit="g" Type="white rice" />
         and
-        <Water Quantity="800" Unit="g" Type="water" />
+        <Water Quantity="800" Unit="g" Type="tap water" />
         and simmer until rice done.
       </Stage>
       <Stage>
@@ -265,7 +265,7 @@
         <Vegetable Quantity="400" Unit="g" Type="apples" Process="chopped"/>,
         <Grocery Quantity="100" Unit="g" Type="can pineapple" Process="chopped"/>
         and
-        <Water Quantity="250" Unit="ml" Type="water" />
+        <Water Quantity="250" Unit="ml" Type="tap water" />
         and simmer for 10 minutes.
       </Stage>
       <Stage>
@@ -323,8 +323,8 @@
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled"/>,
         <Vegetable Quantity="3" Unit="cloves" Type="garlic" />,
-        <Vegetable Quantity="1" Unit="" Type="red chilli" Process="chopped"/>,
-        <Vegetable Quantity="1" Unit="" Type="green chilli" Process="chopped"/>,
+        <Vegetable Quantity="1" Type="red chilli" Process="chopped"/>,
+        <Vegetable Quantity="1" Type="green chilli" Process="chopped"/>,
         in
         <Check Quantity="4" Unit="tbsp" Type="oil" />
         for 5 minutes.
@@ -374,7 +374,7 @@
         Stir in
         <Grocery Quantity="350" Unit="g" Type="peanut butter" />
         and
-        <Water Quantity="350" Unit="ml" Type="water" />
+        <Water Quantity="350" Unit="ml" Type="tap water" />
         and simmer for 15 minutes uncovered.
       </Stage>
     </Recipe>
@@ -673,7 +673,7 @@
         Stir in
         <Vegetable Quantity="200" Unit="g" Type="kale" Process="chopped"/>
         and
-        <Water Quantity="200" Unit="ml" Type="water"/>,
+        <Water Quantity="200" Unit="ml" Type="tap water"/>,
         simmer until the kale has wilted.
       </Stage>
       <Stage>
@@ -682,7 +682,7 @@
         and
         <Vegetable Quantity="1" Type="lemon" Process="juiced"/>.
         Season with
-        <Check Quantity="1" Type="pepper" Unit="pinch"/>.
+        <Check Quantity="1" Type="pepper" Unit="pinch" />.
       </Stage>
     </Recipe>
 
@@ -748,7 +748,7 @@
         then bake <Temperature Level="medium" /> 30 minutes.
       </Stage>
       <Stage>
-        <Staple Name="rice"/>
+        <Staple Name="rice brown"/>
       </Stage>
       <Stage>
         Add meat to the tomatoes, then pour on the rice.
@@ -1083,7 +1083,7 @@
         <Grocery Quantity="400" Unit="g" Type="white rice" />,
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         and
-        <Water Quantity="800" Unit="ml" Type="water" />
+        <Water Quantity="800" Unit="ml" Type="tap water" />
         and bake, covered <Temperature Level="medium" /> 30 minutes.
       </Stage>
       <Stage>
@@ -1114,7 +1114,7 @@
         <Check Quantity="1" Unit="cube" Type="stock" Process="crumbled" />,
         <Grocery Quantity="400" Unit="g" Type="white rice"/>
         and
-        <Water Quantity="500" Unit="ml" Type="water" />
+        <Water Quantity="500" Unit="ml" Type="tap water" />
         and bring to a boil.
       </Stage>
       <Stage>
@@ -1198,7 +1198,7 @@
         bake <Temperature Level="medium"/> 15 minutes.
       </Stage>
       <Stage>
-        Add <Vegetable Quantity="1" Type="apple" Process="sliced"/>
+        Add <Vegetable Quantity="1" Type="apples" Process="sliced"/>
         and
         <Grocery Quantity="400" Unit="ml" Type="cider"/>
         bake <Temperature Level="medium"/> 20 minutes.
@@ -1239,7 +1239,7 @@
         <Grocery Quantity="150" Unit="g" Type="tomato puree"/>,
         <Grocery Quantity="100" Unit="g" Type="creamed coconut" Process="crumbled"/>
         and
-        <Water Quantity="400" Unit="ml" Type="water" />
+        <Water Quantity="400" Unit="ml" Type="tap water" />
         and warm through.
       </Stage>
       <Stage>
@@ -1257,7 +1257,7 @@
       <Stage>
         In a <Utensil Name="pan"/> simmer
         <Grocery Quantity="225" Unit="g" Type="red lentils" />  
-        with <Water Quantity="500" Unit="ml" Type="Water" />
+        with <Water Quantity="500" Unit="ml" Type="tap water" />
         until soft.      
       </Stage>
       <Stage>
@@ -1589,7 +1589,7 @@
         <Grocery Quantity="1" Unit="tbsp" Type="grated parmesan" />,
         <Dairy Quantity="250" Unit="g" Type="cheese" Process="grated"/>,
         <Dairy Quantity="250" Unit="g" Type="cottage cheese" />,
-        <Dairy Quantity="2" Unit="" Type="eggs" Process="beaten"/>
+        <Dairy Quantity="2" Type="eggs" Process="beaten"/>
         and
         <Vegetable Quantity="250" Unit="g" Type="spinach" Process="hacked"/>.
       </Stage>
@@ -1688,7 +1688,7 @@
         <Check Quantity="2" Unit="cube" Type="stock" Process="crumbled" />,
         <Check Quantity="2" Unit="tsp" Type="oregano" />
         and
-        <Water Quantity="300" Unit="ml" Type="Water" />
+        <Water Quantity="300" Unit="ml" Type="tap water" />
         simmer for 20 minutes.
       </Stage>
       <Stage>
@@ -1723,7 +1723,7 @@
         <Grocery Quantity="400" Unit="g" Type="can chick peas" Process="drained"/>,
         <Grocery Process="chopped" Quantity="800" Type="can tomatoes" Unit="g" />
         and
-        <Water Quantity="300" Unit="ml" Type="water" />
+        <Water Quantity="300" Unit="ml" Type="tap water" />
         and bring to the boil.
       </Stage>
       <Stage>
@@ -1833,7 +1833,7 @@
         and
         <Vegetable Quantity="200" Unit="g" Type="onions" Process="chopped"/>
         in
-        <Water Quantity="600" Unit="ml" Type="water" />
+        <Water Quantity="600" Unit="ml" Type="tap water" />
         until soft.
       </Stage>
       <Stage>
@@ -1848,7 +1848,7 @@
         before serving
         and
         serve with
-        <Vegetable Quantity="1" Unit="" Type="lemon" Process="sliced"/>.
+        <Vegetable Quantity="1" Type="lemon" Process="sliced"/>.
       </Stage>
     </Recipe>
 
@@ -1880,8 +1880,8 @@
         Stir in
         <Check Quantity="1" Type="bay leaf" />,
         <Check Quantity="1" Unit="tsp" Type="thyme" />,
-        <Grocery Quantity="1" Unit="tbsp" Type="flour" />,
-        <Water Quantity="600" Unit="ml" Type="water" />
+        <Check Quantity="1" Unit="tbsp" Type="flour" />,
+        <Water Quantity="600" Unit="ml" Type="tap water" />
         and
         <Check Quantity="2" Unit="tbsp" Type="worcester sauce" />.
         Put in a <Utensil Name="casserole" /> and

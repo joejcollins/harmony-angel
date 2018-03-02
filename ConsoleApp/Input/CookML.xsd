@@ -293,6 +293,7 @@
       <xsd:enumeration value="baked beans" />
       <xsd:enumeration value="branston pickle" />
       <xsd:enumeration value="bread" />
+      <xsd:enumeration value="brown rice" />
       <xsd:enumeration value="can baked beans" />
       <xsd:enumeration value="can borlotti beans" />
       <xsd:enumeration value="can cannellini beans" />
@@ -353,9 +354,11 @@
       <xsd:enumeration value="stir in pasta sauce" />
       <xsd:enumeration value="suet" />
       <xsd:enumeration value="sunflower seeds" />
+      <xsd:enumeration value="tagliatelli" />
       <xsd:enumeration value="tahini" />
       <xsd:enumeration value="tofu" />
       <xsd:enumeration value="tomato puree" />
+      <xsd:enumeration value="tortellini" />
       <xsd:enumeration value="white rice" />
       <xsd:enumeration value="whole grain mustard" />
     </xsd:restriction>
