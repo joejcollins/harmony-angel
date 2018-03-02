@@ -15,8 +15,6 @@
   Add up the shopping list items and concatenate the meal labels,
   so the shopping lists are slightly shorter.
 	-->
-  <xsl:key name="items-by-type" match="Item" use="@Type" />
-  
   <xsl:template match="Shopping">
     <Shopping Title="{@Title}">
       <xsl:for-each select="Item">
@@ -36,5 +34,9 @@
       </xsl:for-each>
     </Shopping>
   </xsl:template>
+  
+  <!--
+  Add up the calories for a recipe.
+  -->
 
 </xsl:stylesheet>

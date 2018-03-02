@@ -124,6 +124,9 @@
             <xsl:attribute name="Process">
               <xsl:value-of select="@Process" />
             </xsl:attribute>
+            <xsl:attribute name="Calories">
+              <xsl:value-of select="@Calories" />
+            </xsl:attribute>
           </xsl:element>
         </xsl:for-each>
       </xsl:element>
