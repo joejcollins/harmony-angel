@@ -34,9 +34,5 @@
       </xsl:for-each>
     </Shopping>
   </xsl:template>
-  
-  <!--
-  Add up the calories for a recipe.
-  -->
-
+    
 </xsl:stylesheet>

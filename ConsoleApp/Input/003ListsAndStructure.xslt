@@ -101,37 +101,21 @@
   Recipe layout
 	-->
   <xsl:template match="Recipe">
-    <xsl:element name="Recipe">
-      <xsl:attribute name="Meals">
-        <xsl:value-of select="@Meals" />
-      </xsl:attribute>
-      <xsl:attribute name="Title">
-        <xsl:value-of select="@Title" />
-      </xsl:attribute>
+    <Recipe Title="{@Title}" Meals="{@Meals}">
       <xsl:apply-templates select="Index" />
       <xsl:element name="Ingredients">
         <xsl:for-each select="Stage/Vegetable|Stage/Grocery|Stage/Dairy|Stage/Meat|Stage/Check">
-          <xsl:element name="Item">
-            <xsl:attribute name="Type">
-              <xsl:value-of select="@Type" />
-            </xsl:attribute>
-            <xsl:attribute name="Quantity">
-              <xsl:value-of select="@Quantity" />
-            </xsl:attribute>
-            <xsl:attribute name="Unit">
-              <xsl:value-of select="@Unit" />
-            </xsl:attribute>
-            <xsl:attribute name="Process">
-              <xsl:value-of select="@Process" />
-            </xsl:attribute>
-            <xsl:attribute name="Calories">
-              <xsl:value-of select="@Calories" />
-            </xsl:attribute>
-          </xsl:element>
+          <Item Quantity="{@Quantity}" Unit="{@Unit}" Type="{@Type}" Calories="{@Calories}">
+            <xsl:if test ="(@Process != '')">
+              <xsl:attribute name="Process">
+                <xsl:value-of select="@Process" />
+              </xsl:attribute>
+            </xsl:if>
+          </Item>
         </xsl:for-each>
       </xsl:element>
       <xsl:apply-templates select="Stage" />
-    </xsl:element>
+    </Recipe>
   </xsl:template>
   
   <!-- 

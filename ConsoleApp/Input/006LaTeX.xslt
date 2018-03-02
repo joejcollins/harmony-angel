@@ -98,7 +98,7 @@
 	number in the menu then clear the page before you begin.
 	-->
 	<xsl:template match="Recipe">
-    \begin{recipe}{<xsl:value-of select="@Meals" />}{<xsl:value-of select="@Title" />}%
+    \begin{recipe}{<xsl:value-of select="@Meals" />}{<xsl:value-of select="@Title" />}% Calories: <xsl:value-of select="format-number(sum(./Ingredients/Item/@Calories),'##0' )" />
     <xsl:apply-templates select="Ingredients" />
     <xsl:apply-templates select="Index" />
     \begin{instructions}
