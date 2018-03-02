@@ -512,7 +512,7 @@
 
     <Recipe Title="Pasta and pesto" Meals="1">
       <Stage>
-        <Staple Name="pasta shapes"/>.
+        <Staple Name="pasta shapes"/>
       </Stage>
       <Stage>
         Stir in
@@ -574,7 +574,7 @@
         and bake covered <Temperature Level="medium"/> for 20 minutes.      
       </Stage>
       <Stage>
-        Break <Dairy Quantity="6" Type="eggs"/> into 6 depressions in the mixture
+        Break <Dairy Quantity="7" Type="eggs"/> into depressions in the mixture
         and bake until the whites are done. 
       </Stage>
       <Stage>
@@ -621,8 +621,28 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
-    
+    <Recipe Title="Spaghetti Carbonara" Meals="1">
+      <Stage>
+        <Staple Name="spaghetti"/>
+      </Stage>
+      <Stage>
+        In a bowl beat
+        <Dairy Quantity="2" Type="eggs"/>,
+        <Dairy Quantity="100" Unit="ml" Type="milk"/>
+        and
+        <Meat Quantity="100" Unit="g" Type="ham" Process="sliced" />
+      </Stage>
+      <Stage>
+        Return the spaghetti to the <Utensil Name="pan"/>,
+        pour on the eggs and milk.
+        Warm until the eggs are cooked.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="50" Unit="g" Type="cheese" Process="grated"/>
+      before serving.
+      </Stage>
+    </Recipe>
   </Menu>
   
   <Menu Title="April">

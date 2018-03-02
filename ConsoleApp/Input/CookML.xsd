@@ -369,6 +369,7 @@
       <xsd:enumeration value="burgers" />
       <xsd:enumeration value="chicken" />
       <xsd:enumeration value="chorizo sausage" />
+      <xsd:enumeration value="ham" />
       <xsd:enumeration value="lamb" />
       <xsd:enumeration value="meat" />
       <xsd:enumeration value="minced meat" />

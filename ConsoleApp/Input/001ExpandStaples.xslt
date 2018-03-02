@@ -152,11 +152,17 @@
     </xsl:if>
     <!-- Spaghetti -->
     <xsl:if test="@Name='spaghetti'">
-      In a <Utensil Name="pan" /> heat
-      <Water Quantity="2000" Unit="ml" Type="cold water" /> then add
-      <Grocery Quantity="450" Unit="g" Type="spaghetti"/>
-      boil for 12
-      minutes then drain.
+      <xsl:variable name="Meals" select="../../@Meals" />
+      In a <Utensil Name="pan" /> boil water then add
+      <xsl:element name="Grocery">
+        <xsl:variable name="Quantity" select="400" />
+        <xsl:attribute name="Quantity">
+          <xsl:value-of select="($Meals div 2) * $Quantity" />
+        </xsl:attribute>
+        <xsl:attribute name="Unit">g</xsl:attribute>
+        <xsl:attribute name="Type">spaghetti</xsl:attribute>
+      </xsl:element>
+      continuse boiling for 12  minutes then drain.
     </xsl:if>
     <xsl:if test="@Name='potatoes'">
       Bake <Vegetable Process="washed" Quantity="1200" Type="baking potatoes" Unit="g" />
