@@ -558,16 +558,14 @@
         and warm through.
       </Stage>
       <Stage>
-        Harrisa
-        <Utensil Name="pan"/>
-        mash
+        In a <Utensil Name="pan"/> mash
         <Vegetable Quantity="1" Name="red pepper" Process="chopped"/>,
         <Vegetable Quantity="100" Unit="g" Name="onions" Process="chopped"/>,
         <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="150" Unit="g" Name="tomato puree" />,
         <Vegetable Quantity="1" Name="lemon" Process="juiced"/>,
         <Check Quantity="0.5" Unit="tsp" Name="ground coriander"/>,
-        <Check Quantity="0.5" Unit="tsp" Name="ground cumin"/>,
+        <Check Quantity="0.5" Unit="tsp" Name="ground cumin"/>
         and 
         <Check Quantity="0.5" Unit="tsp" Name="chilli powder"/>.
         Then pour into the casserole
