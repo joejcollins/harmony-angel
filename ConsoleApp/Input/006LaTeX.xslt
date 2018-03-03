@@ -61,7 +61,7 @@
       <xsl:for-each select="./Item">
         <xsl:value-of select="sum(./Quantity)" /><xsl:text> </xsl:text>
         <xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
-        <xsl:value-of select="@Type" /><xsl:text> </xsl:text>
+        <xsl:value-of select="@Name" /><xsl:text> </xsl:text>
         {\scriptsize[<xsl:call-template name="join"><xsl:with-param name="valueList" select="./MealsLabel"/></xsl:call-template>]}\\
       </xsl:for-each>%
       \end{shoppinglist}%
@@ -125,7 +125,7 @@
 	<xsl:template match="Item">
 		<xsl:value-of select="@Quantity" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
-		<xsl:value-of select="@Type" /><xsl:text> </xsl:text>
+		<xsl:value-of select="@Name" /><xsl:text> </xsl:text>
 		<xsl:if test="@Process != ''">(<xsl:value-of select="@Process" />)</xsl:if> \\
 	</xsl:template>
   
@@ -140,7 +140,7 @@
     </xsl:if>
 		<xsl:value-of select="@Unit" /><xsl:text> </xsl:text>
 		<xsl:value-of select="@Process" /><xsl:text> </xsl:text>
-		<xsl:value-of select="@Type" />
+		<xsl:value-of select="@Name" />
 	</xsl:template>
   <xsl:template match="Temperature">
     <xsl:if test="@Level='low'">(160$^{\circ}$C, Gas 3, 325$^{\circ}$F)</xsl:if>

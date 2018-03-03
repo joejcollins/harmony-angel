@@ -73,10 +73,10 @@
   <xsl:template name="ShoppingList">
     <xsl:param name="List" />
         <xsl:for-each select="Recipe/Stage/*[name() = $List]">
-          <xsl:sort select="@Type" />
+          <xsl:sort select="@Name" />
           <xsl:element name="Item">
-            <xsl:attribute name="Type">
-              <xsl:value-of select="@Type" />
+            <xsl:attribute name="Name">
+              <xsl:value-of select="@Name" />
             </xsl:attribute>
             <xsl:attribute name="Quantity">
               <xsl:value-of select="@Quantity" />
@@ -105,7 +105,7 @@
       <xsl:apply-templates select="Index" />
       <xsl:element name="Ingredients">
         <xsl:for-each select="Stage/Vegetable|Stage/Grocery|Stage/Dairy|Stage/Meat|Stage/Check">
-          <Item Quantity="{@Quantity}" Unit="{@Unit}" Type="{@Type}" Calories="{@Calories}">
+          <Item Quantity="{@Quantity}" Unit="{@Unit}" Name="{@Name}" Calories="{@Calories}">
             <xsl:if test ="(@Process != '')">
               <xsl:attribute name="Process">
                 <xsl:value-of select="@Process" />

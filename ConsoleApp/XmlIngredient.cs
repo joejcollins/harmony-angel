@@ -5,10 +5,10 @@ namespace ConsoleApp
     /// <summary>
     /// Used to get data about the ingredient and insert it into the transformation
     /// </summary>
-    public class Ingredient
+    public class XmlIngredient
     {
 
-        public Ingredient()
+        public XmlIngredient()
         {
         }
 

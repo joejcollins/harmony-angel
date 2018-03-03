@@ -83,7 +83,7 @@ namespace ConsoleApp
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
             IngredientsData IngredientsData = new IngredientsData();
-            foreach (Ingredient ingredient in IngredientsData.GetIngredients(ingredientType))
+            foreach (XmlIngredient ingredient in IngredientsData.GetIngredients(ingredientType))
 			{
 				XmlElement enumeration = m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
 				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", ""); //blank name space because attributes are unqualified.

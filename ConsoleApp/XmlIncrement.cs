@@ -6,11 +6,11 @@ namespace ConsoleApp
     /// <summary>
     /// Used to count the number of meals within the menu.
     /// </summary>
-    class Increment
+    class XmlIncrement
     {
         private int _counter = 0;
 
-        public Increment()
+        public XmlIncrement()
         {
         }
 

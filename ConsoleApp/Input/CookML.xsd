@@ -55,7 +55,7 @@
                               <xsd:complexType>
                                 <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
                                 <xsd:attribute name="Unit" form="unqualified" type="Unit" />
-                                <xsd:attribute name="Type" form="unqualified" type="Check" />
+                                <xsd:attribute name="Name" form="unqualified" type="Check" />
                                 <xsd:attribute name="Process" form="unqualified" type="Process" />
                               </xsd:complexType>
                             </xsd:element>
@@ -63,7 +63,7 @@
                               <xsd:complexType>
                                 <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
                                 <xsd:attribute name="Unit" form="unqualified" type="Unit" />
-                                <xsd:attribute name="Type" form="unqualified" type="Dairy" />
+                                <xsd:attribute name="Name" form="unqualified" type="Dairy" />
                                 <xsd:attribute name="Process" form="unqualified" type="Process" />
                               </xsd:complexType>
                             </xsd:element>
@@ -71,7 +71,7 @@
                               <xsd:complexType>
                                 <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
                                 <xsd:attribute name="Unit" form="unqualified" type="Unit" />
-                                <xsd:attribute name="Type" form="unqualified" type="Grocery" />
+                                <xsd:attribute name="Name" form="unqualified" type="Grocery" />
                                 <xsd:attribute name="Process" form="unqualified" type="Process" />
                               </xsd:complexType>
                             </xsd:element>
@@ -79,7 +79,7 @@
                               <xsd:complexType>
                                 <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
                                 <xsd:attribute name="Unit" form="unqualified" type="Unit" />
-                                <xsd:attribute name="Type" form="unqualified" type="Meat" />
+                                <xsd:attribute name="Name" form="unqualified" type="Meat" />
                                 <xsd:attribute name="Process" form="unqualified" type="Process" />
                               </xsd:complexType>
                             </xsd:element>
@@ -87,7 +87,7 @@
                               <xsd:complexType>
                                 <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
                                 <xsd:attribute name="Unit" form="unqualified" type="Unit" />
-                                <xsd:attribute name="Type" form="unqualified" type="Vegetable" />
+                                <xsd:attribute name="Name" form="unqualified" type="Vegetable" />
                                 <xsd:attribute name="Process" form="unqualified" type="Process" />
                               </xsd:complexType>
                             </xsd:element>
@@ -95,7 +95,7 @@
                               <xsd:complexType>
                                 <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
                                 <xsd:attribute name="Unit" form="unqualified" type="Unit" />
-                                <xsd:attribute name="Type" form="unqualified" type="Water" />
+                                <xsd:attribute name="Name" form="unqualified" type="Water" />
                                 <xsd:attribute name="Process" form="unqualified" type="Process" />
                               </xsd:complexType>
                             </xsd:element>

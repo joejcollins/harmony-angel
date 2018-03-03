@@ -59,9 +59,9 @@ namespace ConsoleApp
 
             // Create an XsltArgumentList, and add the ingredient as an extension object
             XsltArgumentList xsltArguments = new XsltArgumentList();
-            Ingredient ingredient = new Ingredient();
+            XmlIngredient ingredient = new XmlIngredient();
             xsltArguments.AddExtensionObject("urn:Ingredient", ingredient);
-            Increment increment = new Increment();
+            XmlIncrement increment = new XmlIncrement();
             xsltArguments.AddExtensionObject("urn:Increment", increment);
 
             // Set the conformance to auto so it can fuck up a bit sometimes.

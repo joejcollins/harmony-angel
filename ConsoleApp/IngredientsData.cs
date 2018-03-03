@@ -11,7 +11,7 @@ namespace ConsoleApp
     /// </summary>
     public class IngredientsData
     {
-        private List<Ingredient> m_Ingredients = new List<Ingredient>();
+        private List<XmlIngredient> m_Ingredients = new List<XmlIngredient>();
 
         /// <summary>
         /// Get the list of ingredients from the csv file.
@@ -21,7 +21,7 @@ namespace ConsoleApp
             using (TextReader textReader = File.OpenText(@"./Input/Ingredients.csv"))
             {
                 var csv = new CsvReader(textReader);
-                m_Ingredients = csv.GetRecords<Ingredient>().ToList();
+                m_Ingredients = csv.GetRecords<XmlIngredient>().ToList();
             }
         }
 
@@ -37,7 +37,7 @@ namespace ConsoleApp
         /// </summary>
         /// <param name="strIngredientType"></param>
         /// <returns>List of ingredients</returns>
-        internal List<Ingredient> GetIngredients(IngredientType ingredientType)
+        internal List<XmlIngredient> GetIngredients(IngredientType ingredientType)
         {
             var ingredientsOfAType = from ingredient in m_Ingredients where ingredient.IngredientType == ingredientType
                                      select ingredient;

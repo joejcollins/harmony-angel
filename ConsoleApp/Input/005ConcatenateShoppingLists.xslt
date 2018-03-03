@@ -18,10 +18,10 @@
   <xsl:template match="Shopping">
     <Shopping Title="{@Title}">
       <xsl:for-each select="Item">
-        <xsl:variable name="key" select="@Type" />
-        <xsl:if test="not(preceding-sibling::Item[@Type=$key])">
-          <Item Type="{@Type}"  Unit="{@Unit}">
-            <xsl:for-each select="../Item[@Type=$key]">
+        <xsl:variable name="key" select="@Name" />
+        <xsl:if test="not(preceding-sibling::Item[@Name=$key])">
+          <Item Name="{@Name}"  Unit="{@Unit}">
+            <xsl:for-each select="../Item[@Name=$key]">
               <Quantity>
                 <xsl:value-of select="@Quantity"/>
               </Quantity>
