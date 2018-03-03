@@ -82,8 +82,8 @@ namespace ConsoleApp
 			baseAttribute.Value = "xsd:string";
 			restriction.Attributes.SetNamedItem(baseAttribute);
 
-            IngredientsData IngredientsData = new IngredientsData();
-            foreach (XmlIngredient ingredient in IngredientsData.GetIngredients(ingredientType))
+            IngredientsData ingredientsData = IngredientsData.Instance;
+            foreach (XmlIngredient ingredient in ingredientsData.GetIngredients(ingredientType))
 			{
 				XmlElement enumeration = m_CookMLSchema.CreateElement(strPrefix, "enumeration", m_strNameSpace);
 				XmlNode valueAttribute = m_CookMLSchema.CreateNode(XmlNodeType.Attribute, "value", ""); //blank name space because attributes are unqualified.

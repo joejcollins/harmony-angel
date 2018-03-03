@@ -2,21 +2,24 @@ using CsvHelper;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System;
 
 namespace ConsoleApp
 {
     /// <summary>
     /// Ingredients Data so it can be added to the schema.
+    /// 
+    /// It has been made a Singleton so it isn't repeatedly reading the 
+    /// data file each time it is created.
     /// </summary>
     public class IngredientsData
     {
+        private static readonly IngredientsData instance = new IngredientsData();
         private List<XmlIngredient> m_Ingredients = new List<XmlIngredient>();
 
         /// <summary>
         /// Get the list of ingredients from the csv file.
         /// </summary>
-        public IngredientsData()
+        private IngredientsData()
         {
             using (TextReader textReader = File.OpenText(@"./Input/Ingredients.csv"))
             {
@@ -25,6 +28,23 @@ namespace ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Return and instance of the IngredientsData
+        /// </summary>
+        public static IngredientsData Instance
+        {
+            get
+            {
+                return instance;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="quantity"></param>
+        /// <param name="name"></param>
+        /// <returns></returns>
         internal double GetCalories(double quantity, string name)
         {
             var thisIngredient = m_Ingredients.FirstOrDefault(ingredient => ingredient.IngredientName == name);
