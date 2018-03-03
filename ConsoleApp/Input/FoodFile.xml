@@ -124,7 +124,7 @@
         <Staple Name="tagliatelli"/>
       </Stage>
       <Stage>
-        In a <Utensil Name="wok" /> fry <Meat Quantity="150" Unit="g" Type="bacon" Process="chopped" />
+        In a <Utensil Name="wok" /> fry <Meat Quantity="100" Unit="g" Type="bacon" Process="chopped" />
         and
         <Vegetable Quantity="200" Unit="g" Type="mushrooms" Process="sliced" />
         in
@@ -521,7 +521,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Norwegian Lamb and Cabbage (5 hours)" Meals="2">
+    <Recipe Title="Norwegian Lamb and Cabbage" Meals="2">
       <Stage>
         In a <Utensil Name="casserole"/> place
         <Meat Type="lamb" Quantity="1000" Unit="g"/>
@@ -643,6 +643,7 @@
       before serving.
       </Stage>
     </Recipe>
+    
   </Menu>
   
   <Menu Title="April">
@@ -1047,6 +1048,7 @@
     </Recipe>
 
     <!--quick-->
+    
   </Menu>
 
   <Menu Title="August">
