@@ -236,6 +236,7 @@
       <xsd:enumeration value="garam masala" />
       <xsd:enumeration value="ground cardamom" />
       <xsd:enumeration value="ground cinnamon" />
+      <xsd:enumeration value="ground cloves" />
       <xsd:enumeration value="ground coriander" />
       <xsd:enumeration value="ground cumin" />
       <xsd:enumeration value="ground ginger" />

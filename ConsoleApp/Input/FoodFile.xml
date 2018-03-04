@@ -119,23 +119,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Bacon and Mushroom Pasta" Meals="1">
-      <Stage>
-        <Staple Name="tagliatelli"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry <Meat Quantity="100" Unit="g" Name="bacon" Process="chopped" />
-        and
-        <Vegetable Quantity="200" Unit="g" Name="mushrooms" Process="sliced" />
-        in
-        <Check Quantity="1" Unit="tbsp" Name="oil" /> for 5 minutes.
-      </Stage>
-      <Stage>
-        Stir in the pasta (cooked and drained)
-        and <Dairy Quantity="100" Unit="g" Name="cheese" Process="grated" />
-        and warm through.
-      </Stage>
-    </Recipe>
+    <!--quick-->
 
     <Recipe Title="Pasta and bacon in white sauce" Meals="2">
       <Stage>
@@ -166,7 +150,46 @@
       </Stage>
     </Recipe>
 
-    <!--vegetarian-->
+    <Recipe Title="Stir Fried Egg Rice" Meals="2">
+      <Stage>
+        <Staple Name="rice white"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name ="wok"/> fry 
+        (in <Check Quantity="4" Unit="tbsp" Name="oil"/>)
+        <Vegetable Quantity="300" Unit="g" Name="onions" Process="chopped"/>,
+        and
+        <Vegetable Quantity="1" Name="chillis" Process="chopped"/>
+        until soft.      
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Name="leeks" Process="chopped"/>
+        and cook until the onions caramelize.      
+      </Stage>
+      <Stage>
+        Stir in the rice
+        <Grocery Quantity="400" Unit="g" Name="frozen peas" />,
+        <Check Quantity="1" Unit="pinch" Name="pepper"/>,
+        <Check Quantity="1" Unit="pinch" Name="ground cinnamon"/>,
+        <Check Quantity="1" Unit="pinch" Name="ground ginger"/>
+        and
+        <Check Quantity="1" Unit="pinch" Name="ground cloves"/>
+        and warm through.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="4" Name="eggs" Process="beaten"/>
+        and cook until the egg sets.
+      </Stage>
+      <Stage>
+        Sprinkle with
+        <Vegetable Quantity="50" Unit="g" Name="spring onions" Process="chopped"/>
+        to serve.
+      </Stage>
+    </Recipe>
 
     <!--vegan-->
 
@@ -535,7 +558,7 @@
         Pour in 
         <Water Quantity="800" Unit="ml" Name="tap water"/>
         and bring to boil.
-        Then simmer at extremely low heat for 5 hours.        
+        Then simmer on extremely low heat for \textbf{5 hours}.
       </Stage>
       <Stage>
         <Staple Name="potatoes"/>
@@ -758,7 +781,23 @@
 
     <!--vegan-->
 
-    <!--quick-->
+    <Recipe Title="Bacon and Mushroom Pasta" Meals="1">
+      <Stage>
+        <Staple Name="tagliatelli"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry <Meat Quantity="100" Unit="g" Name="bacon" Process="chopped" />
+        and
+        <Vegetable Quantity="200" Unit="g" Name="mushrooms" Process="sliced" />
+        in
+        <Check Quantity="1" Unit="tbsp" Name="oil" /> for 5 minutes.
+      </Stage>
+      <Stage>
+        Stir in the pasta (cooked and drained)
+        and <Dairy Quantity="100" Unit="g" Name="cheese" Process="grated" />
+        and warm through.
+      </Stage>
+    </Recipe>
     
   </Menu>
 
@@ -1856,7 +1895,6 @@
 
   </Menu>
 
-  
   <Menu Title="December">
   <!-- Apples, Beetroot, Brussels Sprouts, Carrots, Celeriac, Celery, 
   Chestnuts, Chicory, Cranberries, Jerusalem Artichokes, Kale, Leeks, 
@@ -1998,6 +2036,5 @@
     <!--quick-->
     
   </Menu>
-
 
 </Book>
