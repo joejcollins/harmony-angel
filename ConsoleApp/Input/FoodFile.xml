@@ -43,7 +43,7 @@
         stir in
         <Dairy Quantity="150" Unit="g" Name="yoghurt" />
         and
-        <Water Quantity="55" Unit="ml" Name="tap water" />.
+        <Water Quantity="55" Unit="ml" Name="cold water" />.
         Pour over the chicken
         and bake,
         covered <Temperature Level="medium" /> for 15 minutes.
@@ -65,7 +65,7 @@
         Stir in
         <Vegetable Quantity="700" Unit="g" Name="mushrooms" Process="chopped"/>,
         <Check Quantity="2" Unit="tbsp" Name="sherry" />,
-        <Water Quantity="200" Unit="ml" Name="tap water" />
+        <Water Quantity="200" Unit="ml" Name="cold water" />
         and
         <Check Quantity="2" Unit="tsp" Name="ground nutmeg" />,
         cover and simmer for 5 minutes.
@@ -78,7 +78,7 @@
       </Stage>
       <Stage>
         Sprinkle with
-        <Grocery Quantity="50" Unit="g" Name="grated parmesan" />
+        <Grocery Quantity="50" Unit="g" Name="parmesan" Process="grated"/>
         and
         <Dairy Quantity="200" Unit="g" Name="cheese" Process="grated"/>.
       </Stage>
@@ -119,8 +119,16 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
-
+    <Recipe Title="Curry and couscous" Meals="1">
+      <Stage>
+        In a <Utensil Name="pan" /> warm
+        <Grocery Quantity="400" Unit="g" Name="can curry"/>.
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
+ 
     <Recipe Title="Pasta and bacon in white sauce" Meals="2">
       <Stage>
         <Staple Name="pasta shapes"/>
@@ -191,15 +199,36 @@
       </Stage>
     </Recipe>
 
-    <!--vegan-->
-
-    <Recipe Title="Curry and couscous" Meals="1">
-      <Stage>
-        In a <Utensil Name="pan" /> warm
-        <Grocery Quantity="400" Unit="g" Name="can curry"/>.
-      </Stage>
+    <Recipe Title="Tofu and peppers" Meals="2">
       <Stage>
         <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="1" Name="red chilli" Process="chopped"/>,
+        <Vegetable Quantity="1" Name="green chilli" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Name="tomatoes" Process="chopped"/>
+        in
+        <Check Quantity="3" Unit="tbsp" Name="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="300" Unit="g" Name="tofu" Process="cubed" />,
+        <Grocery Quantity="1" Unit="tbsp" Name="black bean sauce" />
+        and warm through.
+      </Stage>
+    </Recipe>
+   
+    <Recipe Title="Bread and Mackerel" Meals="1">
+      <Stage>
+        Grill
+        <Meat Quantity="400" Unit="g" Name="smoked mackerel" />
+        and serve with
+        <Grocery Quantity="400" Unit="g" Name="bread" Process="sliced" />
+        and
+        <Dairy Quantity="20" Unit="g" Name="butter" />.
       </Stage>
     </Recipe>
 
@@ -257,12 +286,12 @@
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
         <Grocery Quantity="400" Unit="g" Name="white rice" />
         and
-        <Water Quantity="800" Unit="g" Name="tap water" />
+        <Water Quantity="800" Unit="g" Name="cold water" />
         and simmer until rice done.
       </Stage>
       <Stage>
         Before serving stir in
-        <Grocery Quantity="50" Unit="g" Name="grated parmesan" />.
+        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated"/>.
       </Stage>
     </Recipe>
 
@@ -288,7 +317,7 @@
         <Vegetable Quantity="400" Unit="g" Name="apples" Process="chopped"/>,
         <Grocery Quantity="100" Unit="g" Name="can pineapple" Process="chopped"/>
         and
-        <Water Quantity="250" Unit="ml" Name="tap water" />
+        <Water Quantity="250" Unit="ml" Name="cold water" />
         and simmer for 10 minutes.
       </Stage>
       <Stage>
@@ -346,7 +375,8 @@
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>,
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>,
         <Vegetable Quantity="3" Unit="cloves" Name="garlic" />,
-        <Vegetable Quantity="1" Name="red chilli" Process="chopped"/>,
+        <Vegetable Quantity="1" Name="red chilli" Process="chopped"/>
+        and
         <Vegetable Quantity="1" Name="green chilli" Process="chopped"/>,
         in
         <Check Quantity="4" Unit="tbsp" Name="oil" />
@@ -381,8 +411,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" />,
-        fry,
-        in <Check Quantity="2" Unit="tbsp" Name="oil" />,
+        fry in <Check Quantity="2" Unit="tbsp" Name="oil" />,
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>
         until soft.
       </Stage>
@@ -397,7 +426,7 @@
         Stir in
         <Grocery Quantity="350" Unit="g" Name="peanut butter" />
         and
-        <Water Quantity="350" Unit="ml" Name="tap water" />
+        <Water Quantity="350" Unit="ml" Name="cold water" />
         and simmer for 15 minutes uncovered.
       </Stage>
     </Recipe>
@@ -556,7 +585,7 @@
         and sprinkle with
         <Check Quantity="1" Unit="tbsp" Name="black pepper corns"/>.
         Pour in 
-        <Water Quantity="800" Unit="ml" Name="tap water"/>
+        <Water Quantity="800" Unit="ml" Name="cold water"/>
         and bring to boil.
         Then simmer on extremely low heat for \textbf{5 hours}.
       </Stage>
@@ -638,7 +667,7 @@
       <Stage>
         Serve with <Vegetable Quantity="1" Name="lemon" Process="juiced"/>
         and
-        <Dairy Quantity="400" Unit="g" Name="plain yoghurt"/>.
+        <Dairy Quantity="400" Unit="g" Name="yoghurt"/>.
       </Stage>
     </Recipe>
 
@@ -695,7 +724,7 @@
         Stir in
         <Vegetable Quantity="200" Unit="g" Name="kale" Process="chopped"/>
         and
-        <Water Quantity="200" Unit="ml" Name="tap water"/>,
+        <Water Quantity="200" Unit="ml" Name="cold water"/>,
         simmer until the kale has wilted.
       </Stage>
       <Stage>
@@ -739,7 +768,19 @@
 
     <!--vegan-->
 
-    <!--quick-->
+    <Recipe Title="Cheese and tagliatelli" Meals="1">
+      <Stage>
+        <Staple Name="tagliatelli"/>
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="100" Unit="ml" Name="single cream" />,
+        <Dairy Quantity="25" Unit="g" Name="parmesan" Process="grated" />,
+        <Dairy Quantity="25" Unit="g" Name="gruyere cheese" Process="chopped"/>,
+        <Dairy Quantity="25" Unit="g" Name="blue cheese" Process="chopped"/>
+        and gently warm until the cheese melts.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Chicken and Tomato Curry" Meals="2">
       <Stage>
@@ -1078,7 +1119,7 @@
       </Stage>
       <Stage>
         Serve with
-        <Dairy Quantity="500" Unit="g" Name="plain yoghurt"/>
+        <Dairy Quantity="500" Unit="g" Name="yoghurt"/>
         and
         <Grocery Quantity="4" Name="naan bread"/>.
       </Stage>
@@ -1122,7 +1163,7 @@
         <Grocery Quantity="400" Unit="g" Name="white rice" />,
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled" />,
         and
-        <Water Quantity="800" Unit="ml" Name="tap water" />
+        <Water Quantity="800" Unit="ml" Name="cold water" />
         and bake, covered <Temperature Level="medium" /> 30 minutes.
       </Stage>
       <Stage>
@@ -1153,7 +1194,7 @@
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled" />,
         <Grocery Quantity="400" Unit="g" Name="white rice"/>
         and
-        <Water Quantity="500" Unit="ml" Name="tap water" />
+        <Water Quantity="500" Unit="ml" Name="cold water" />
         and bring to a boil.
       </Stage>
       <Stage>
@@ -1278,7 +1319,7 @@
         <Grocery Quantity="150" Unit="g" Name="tomato puree"/>,
         <Grocery Quantity="100" Unit="g" Name="creamed coconut" Process="crumbled"/>
         and
-        <Water Quantity="400" Unit="ml" Name="tap water" />
+        <Water Quantity="400" Unit="ml" Name="cold water" />
         and warm through.
       </Stage>
       <Stage>
@@ -1296,7 +1337,7 @@
       <Stage>
         In a <Utensil Name="pan"/> simmer
         <Grocery Quantity="225" Unit="g" Name="red lentils" />  
-        with <Water Quantity="500" Unit="ml" Name="tap water" />
+        with <Water Quantity="500" Unit="ml" Name="cold water" />
         until soft.      
       </Stage>
       <Stage>
@@ -1340,7 +1381,7 @@
       </Stage>
       <Stage>
         Sprinkle with
-        <Grocery Quantity="20" Unit="g" Name="grated parmesan"/>.
+        <Dairy Quantity="20" Unit="g" Name="parmesan" Process="grated"/>.
       </Stage>
     </Recipe>
 
@@ -1583,7 +1624,7 @@
       </Stage>
       <Stage>
         Spinkle with
-        <Grocery Quantity="50" Unit="g" Name="grated parmesan"/>.
+        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated"/>.
       </Stage>
     </Recipe>
     
@@ -1625,7 +1666,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="bowl" /> mix
-        <Grocery Quantity="1" Unit="tbsp" Name="grated parmesan" />,
+        <Dairy Quantity="1" Unit="tbsp" Name="parmesan" Process="grated"/>,
         <Dairy Quantity="250" Unit="g" Name="cheese" Process="grated"/>,
         <Dairy Quantity="250" Unit="g" Name="cottage cheese" />,
         <Dairy Quantity="2" Name="eggs" Process="beaten"/>
@@ -1727,7 +1768,7 @@
         <Check Quantity="2" Unit="cube" Name="stock" Process="crumbled" />,
         <Check Quantity="2" Unit="tsp" Name="oregano" />
         and
-        <Water Quantity="300" Unit="ml" Name="tap water" />
+        <Water Quantity="300" Unit="ml" Name="cold water" />
         simmer for 20 minutes.
       </Stage>
       <Stage>
@@ -1762,7 +1803,7 @@
         <Grocery Quantity="400" Unit="g" Name="can chick peas" Process="drained"/>,
         <Grocery Process="chopped" Quantity="800" Name="can tomatoes" Unit="g" />
         and
-        <Water Quantity="300" Unit="ml" Name="tap water" />
+        <Water Quantity="300" Unit="ml" Name="cold water" />
         and bring to the boil.
       </Stage>
       <Stage>
@@ -1775,7 +1816,7 @@
         Serve with
         <Grocery Quantity="100" Unit="g" Name="flaked almonds" Process="toasted"/>
         and
-        <Dairy Quantity="500" Unit="g" Name="plain yoghurt"/>.
+        <Dairy Quantity="500" Unit="g" Name="yoghurt"/>.
       </Stage>
     </Recipe>
 
@@ -1860,19 +1901,20 @@
 
     <!--vegetarian-->
 
-    <Recipe Title="Coconut dal" Meals="2">
+    <Recipe Title="Coconut dahl" Meals="2">
       <Stage>
         <Staple Name="rice brown" />
       </Stage>
       <Stage>
         In a <Utensil Name="pan" /> cook
-        <Grocery Quantity="225" Unit="g" Name="red lentils" />
+        <Grocery Quantity="225" Unit="g" Name="red lentils" />,
+        <Grocery Quantity="50" Unit="g" Name="raisins"/>,
         <Check Quantity="1" Unit="tbsp" Name="ground turmeric" />,
         <Vegetable Quantity="4" Unit="cm" Name="ginger" Process="chopped"/>
         and
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>
         in
-        <Water Quantity="600" Unit="ml" Name="tap water" />
+        <Water Quantity="600" Unit="ml" Name="cold water" />
         until soft.
       </Stage>
       <Stage>
@@ -1883,7 +1925,7 @@
         until it goes brown.
       </Stage>
       <Stage>
-        Sprinkle the coconut on the dal
+        Sprinkle the coconut on the dahl
         before serving
         and
         serve with
@@ -1891,7 +1933,26 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
+    <Recipe Title="Spam and mustard pasta" Meals="1">
+      <Stage>
+        <Staple Name="pasta shapes"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> in
+        <Check Quantity="2" Unit="tbsp" Name="oil" />
+        fry
+        <Grocery Quantity="200" Unit="g" Name="spam" Process="sliced"/>,
+        <Vegetable Quantity="3" Unit="cloves" Name="garlic" Process="crushed"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced"/>.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="100" Unit="g" Name="whole grain mustard" />
+        and the pasta,
+        and warm through.
+      </Stage>
+    </Recipe>
 
   </Menu>
 
@@ -1919,7 +1980,7 @@
         <Check Quantity="1" Name="bay leaf" />,
         <Check Quantity="1" Unit="tsp" Name="thyme" />,
         <Check Quantity="1" Unit="tbsp" Name="flour" />,
-        <Water Quantity="600" Unit="ml" Name="tap water" />
+        <Water Quantity="600" Unit="ml" Name="cold water" />
         and
         <Check Quantity="2" Unit="tbsp" Name="worcester sauce" />.
         Put in a <Utensil Name="casserole" /> and
