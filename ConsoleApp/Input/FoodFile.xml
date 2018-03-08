@@ -195,7 +195,8 @@
       <Stage>
         Sprinkle with
         <Vegetable Quantity="50" Unit="g" Name="spring onions" Process="chopped"/>
-        to serve.
+        and serve with
+        <Check Name="soy sauce"/>
       </Stage>
     </Recipe>
 
