@@ -861,6 +861,11 @@
     </Recipe>
 
     <!--vegetarian : Okonomiyaki (Japanese Cabbage Pancakes) -->
+    <Recipe Title="Okonomiyaki" Meals="2">
+      <Stage>
+        
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Tomato tofu" Meals="2">
       <Stage>
