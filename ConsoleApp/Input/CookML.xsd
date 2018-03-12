@@ -147,6 +147,7 @@
       <xsd:enumeration value="hacked" />
       <xsd:enumeration value="juiced" />
       <xsd:enumeration value="quartered" />
+      <xsd:enumeration value="shredded" />
       <xsd:enumeration value="sliced" />
       <xsd:enumeration value="undrained" />
       <xsd:enumeration value="mashed" />
@@ -242,6 +243,7 @@
       <xsd:enumeration value="ground nutmeg" />
       <xsd:enumeration value="ground turmeric" />
       <xsd:enumeration value="honey" />
+      <xsd:enumeration value="lime pickle" />
       <xsd:enumeration value="marjoram" />
       <xsd:enumeration value="miso" />
       <xsd:enumeration value="mixed herbs" />
@@ -356,7 +358,6 @@
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="spam" />
       <xsd:enumeration value="stir in pasta sauce" />
-      <xsd:enumeration value="suet" />
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="tagliatelli" />
       <xsd:enumeration value="tahini" />

@@ -551,16 +551,32 @@
         In a <Utensil Name="wok"/>
         (in <Check Quantity="3" Name="oil" Unit="tbsp" />)
         fry
-        <Vegetable Name="carrots" Quantity="1000" Unit="g" Process="chopped"/>
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>
+        and
+        <Vegetable Name="carrots" Quantity="1200" Unit="g" Process="chopped"/>
         until soft.
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="2" Unit="tbsp" Name="curry powder"/>,
-        <Grocery Quantity="400" Unit="g" Name="can coconut milk" />
+        <Check Quantity="3" Unit="tbsp" Name="curry powder"/>,
+        <Check Quantity="1" Unit="tbsp" Name="mustard seed"/>
+        and
+        <Check Quantity="1" Unit="tsp" Name="cumin seeds"/>
+        and heat through.
+      </Stage>
+      <Stage>
+        Stir in        
+        <Grocery Quantity="400" Unit="g" Name="can coconut milk" />,
+        <Grocery Quantity="200" Unit="g" Name="frozen peas"/>,
+        <Grocery Quantity="200" Unit="g" Name="raisins"/>
         and
         <Grocery Name="cashew nuts" Quantity="200" Unit="g" Process="chopped"/>
         and heat through.
+      </Stage>
+      <Stage>
+        Serve with <Check Quantity="80" Unit="g" Name="lime pickle" />
+        or
+        <Vegetable Quantity="1" Name="lemon" Process="juiced" />
       </Stage>
     </Recipe>
 
@@ -862,10 +878,44 @@
       </Stage>
     </Recipe>
 
-    <!--vegetarian : Okonomiyaki (Japanese Cabbage Pancakes) -->
-    <Recipe Title="Okonomiyaki" Meals="2">
+    <Recipe Title="Okonomiyaki (untested)" Meals="2">
       <Stage>
-        
+        In a <Utensil Name="wok"/>
+        (in <Check Quantity="3" Name="oil" Unit="tbsp" />)
+        fry
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="3" Unit="cm" Name="ginger" Process="grated"/>
+        until the onions brown.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
+        and 
+        <Water Quantity="100" Unit="ml" Name="boiling water"/>
+        then cool.
+      </Stage>
+      <Stage>
+        In a bowl mix 
+        <Dairy Quantity="2" Name="eggs" Process="beaten"/>,
+        <Check Quantity="100" Unit="g" Name="flour"/>
+        and the cooled stock.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="50" Unit="g" Name="potatoes" Process="grated" />,
+        <Vegetable Quantity="300" Unit="g" Name="cabbage" Process="shredded"/>,
+        and
+        <Dairy Quantity="2" Name="eggs" />.
+        and fry as pancakes.
+        Half way through make a dip in the pancakes and break in 
+      </Stage>
+      <Stage>
+        Serve with 
+        <Vegetable Quantity="50" Unit="g" Name="spring onions" Process="chopped"/>,
+        <Grocery Name="mayonaise"/>
+        and
+        <Check Name="lime pickle"/>.
       </Stage>
     </Recipe>
 
