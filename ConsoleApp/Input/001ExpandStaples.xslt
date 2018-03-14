@@ -156,7 +156,7 @@
         </xsl:attribute>
       </Water> and continue boiling for 12 minutes then drain.
     </xsl:if>
-    <xsl:if test="@Name='potatoes'">
+    <xsl:if test="@Name='baked potatoes'">
       Bake 
       <Vegetable Process="washed" Name="baking potatoes" Unit="g">
         <xsl:attribute name="Quantity" >
@@ -166,6 +166,19 @@
       at
       <Temperature Level="high" /> for 40 minutes.
     </xsl:if>
+    <xsl:if test="@Name='mashed potatoes'">
+      In a <Utensil Name="pan" /> place
+      <Vegetable Process="washed" Name="potatoes" Unit="g">
+        <xsl:attribute name="Quantity" >
+          <xsl:value-of select="($Meals div 2) * 1200"/>
+        </xsl:attribute>
+      </Vegetable>
+      bring to the boil and simmer for 20 minutes.
+      Then mash with 
+      <Dairy Quantity="25" Unit="g" Name="butter" /> 
+      and
+      <Dairy Quantity="75" Unit="g" Name="milk" /> .
+  </xsl:if>
     <xsl:if test="@Name='new potatoes'">
       In a <Utensil Name="pan" /> place
       <Vegetable Process="washed" Name="new potatoes" Unit="g">

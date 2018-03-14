@@ -168,7 +168,9 @@
       <xsd:enumeration value="rice white" />
       <xsd:enumeration value="rice turmeric" />
       <xsd:enumeration value="spaghetti" />
-      <xsd:enumeration value="potatoes" />
+      <xsd:enumeration value="baked potatoes" />
+      <xsd:enumeration value="mashed potatoes" />
+      <xsd:enumeration value="new potatoes" />
       <xsd:enumeration value="tagliatelli" />
       <xsd:enumeration value="tortellini" />
     </xsd:restriction>

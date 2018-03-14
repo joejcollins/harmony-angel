@@ -328,7 +328,7 @@
         and bake <Temperature Level="medium"/> for 40 minutes.
       </Stage>
       <Stage>
-        <Staple Name="potatoes"/>	
+        <Staple Name="baked potatoes"/>	
       </Stage>
     </Recipe>
 
@@ -470,7 +470,7 @@
       </Index>
       <Index>Dumplings</Index>
       <Stage>
-        <Staple Name="potatoes" />
+        <Staple Name="baked potatoes" />
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -608,7 +608,7 @@
         Then simmer on extremely low heat for \textbf{5 hours}.
       </Stage>
       <Stage>
-        <Staple Name="potatoes"/>
+        <Staple Name="baked potatoes"/>
       </Stage>
     </Recipe>
 
@@ -878,7 +878,36 @@
       </Stage>
     </Recipe>
 
-    <!-- Vegetarian -->
+    <!-- Vegetarian https://www.bbcgoodfood.com/recipes/parsnip-mushroom-barley-wreath -->
+    <Recipe Title="Parsnip, Mushroom and Barley" Meals="2">
+      <Stage>
+        In a <Utensil Name="pan"/>
+        place
+        <Grocery Quantity="200" Unit="g" Name="pearl barley" />,
+        <Vegetable Quantity="400" Unit="g" Name="parsnips" Process="cubed" />,
+        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled" />
+        and
+        <Water Quantity="400" Unit="ml" Name="boiling water" />
+        and simmer until soft.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        (in <Dairy Quantity="25" Unit="g" Name="butter" />)
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="3" Unit="cloves" Name="garlic" Process="crushed"/>
+        until golden.
+      </Stage>
+      <Stage>
+        <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced" />
+        <Check Quantity="1" Unit="tsp" Name="mixed herbs"/>
+      
+      </Stage>
+      <Stage>
+        <Staple Name="baked potatoes" />
+      </Stage>
+ 
+    </Recipe>
 
     <Recipe Title="Tomato tofu" Meals="2">
       <Stage>
@@ -944,12 +973,12 @@
   Spring Onions, Strawberries, Watercress.  -->
 
     <!--meat-->
-
-    <!--vegetarian-->
+    
+    <!-- Vegetarian -->
 
     <Recipe Title="Bean and Nut Roast" Meals="2">
       <Stage>
-        <Staple Name="potatoes"/>
+        <Staple Name="baked potatoes"/>
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -1002,7 +1031,34 @@
       </Stage>
     </Recipe>
     
-    <!--meat-->
+    <Recipe Title="Mackerell and Potato Hash" Meals="2">
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1000" Unit="g" Name="new potatoes" Process="quartered" />
+        until done,
+        then drain.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> heat
+        <Check Quantity="3" Unit="tbsp" Name="oil" />
+        and
+        <Check Quantity="1" Unit="tbsp" Name="mustard seeds" />
+        until they start to pop.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="300" Unit="g" Name="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="300" Unit="g" Name="mushrooms" Process="sliced"/>,
+        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
+        and
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        and fry until done.
+      </Stage>
+      <Stage>
+        Stir in the potatoes
+        and warm through.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Banana Curry" Meals="2">
       <Stage>
@@ -1199,7 +1255,48 @@
 
     <!--meat-->
 
-    <!--vegetarian-->
+    <Recipe Title="Vegetable mousaka" Meals="2">
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="500" Unit="g" Name="new potatoes" Process="sliced"/>
+        until soft,
+        then drain.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="1000" Unit="g" Name="aubergine" Process="sliced"/>
+        in
+        <Check Quantity="4" Unit="tbsp" Name="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="sliced"/>,
+        <Vegetable Quantity="500 " Unit="g" Name="tomatoes" Process="chopped"/>,
+        <Grocery Quantity="150" Unit="g" Name="tomato puree" />,
+        <Water Quantity="3" Unit="tbsp" Name="boiling water" />
+        and
+        <Check Quantity="1" Unit="tsp" Name="mixed herbs" />,
+        and simmer for 10 minutes.
+      </Stage>
+      <Stage>
+        Put everything in a <Utensil Name="casserole" />
+        and bake <Temperature Level="medium" /> 30 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="bowl" /> beat together
+        <Dairy Quantity="2" Name="eggs" />,
+        <Dairy Quantity="150" Unit="ml" Name="yoghurt" />
+        and
+        <Dairy Quantity="200" Unit="ml" Name="milk"/>.
+        Pour on the <Utensil Name="casserole" />, spinkle with
+        <Dairy Quantity="150" Unit="g" Name="cheese" Process="grated"/>
+        and bake <Temperature Level="medium" /> 20 minutes.
+      </Stage>
+    </Recipe>
 
     <!--vegan-->
 
@@ -1476,7 +1573,7 @@
 
     <Recipe Title="Aubergine and Peppers" Meals="2">
       <Stage>
-        <Staple Name="potatoes" />
+        <Staple Name="baked potatoes" />
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -1776,7 +1873,7 @@
 
     <Recipe Title="Courgettes and Bacon" Meals="2">
       <Stage>
-        <Staple Name="potatoes" />
+        <Staple Name="baked potatoes" />
         then slice.
       </Stage>
       <Stage>
@@ -1984,7 +2081,7 @@
 
     <Recipe Title="Sausage and Beans" Meals="2">
       <Stage>
-        <Staple Name="potatoes" />
+        <Staple Name="baked potatoes" />
       </Stage>
       <Stage>
         In a <Utensil Name="casserole"/> put

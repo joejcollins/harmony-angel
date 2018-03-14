@@ -25,49 +25,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Vegetable mousaka" Meals="2">
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="500" Unit="g" Name="potatoes" Process="sliced"/>
-        until soft,
-        then drain.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="1000" Unit="g" Name="aubergine" Process="sliced"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
-        <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="sliced"/>,
-        <Vegetable Quantity="500 " Unit="g" Name="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="150" Unit="g" Name="tomato puree" />,
-        <Water Quantity="3" Unit="tbsp" Name="water" />
-        and
-        <Check Quantity="1" Unit="tsp" Name="mixed herbs" />,
-        and simmer for 10 minutes.
-      </Stage>
-      <Stage>
-        Put everything in a <Utensil Name="casserole" />
-        and bake <Temperature Level="medium" /> 30 minutes.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="bowl" /> beat together
-        <Dairy Quantity="2" Name="eggs" />,
-        <Dairy Quantity="150" Unit="ml" Name="plain yoghurt" />
-        and
-        <Dairy Quantity="200" Unit="ml" Name="milk"/>.
-        Pour on the <Utensil Name="casserole" />, spinkle with
-        <Dairy Quantity="150" Unit="g" Name="cheese" Process="grated"/>
-        and bake <Temperature Level="medium" /> 20 minutes.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Okonomiyaki (untested)" Meals="2">
       <Stage>
         In a <Utensil Name="wok"/>
