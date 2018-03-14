@@ -279,6 +279,7 @@
       <xsd:enumeration value="creme fraiche" />
       <xsd:enumeration value="eggs" />
       <xsd:enumeration value="gruyere cheese" />
+      <xsd:enumeration value="halloumi cheese" />
       <xsd:enumeration value="milk" />
       <xsd:enumeration value="parmesan" />
       <xsd:enumeration value="single cream" />
@@ -406,6 +407,7 @@
       <xsd:enumeration value="fresh coriander" />
       <xsd:enumeration value="garlic" />
       <xsd:enumeration value="ginger" />
+      <xsd:enumeration value="green bananas" />
       <xsd:enumeration value="green chilli" />
       <xsd:enumeration value="green pepper" />
       <xsd:enumeration value="kale" />

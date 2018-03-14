@@ -1309,36 +1309,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Banana Curry" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Name="green chilli" Process="chopped" />,
-        <Vegetable Quantity="8" Unit="cm" Name="ginger" Process="chopped"/>
-        in
-        <Check Quantity="6" Unit="tbsp" Name="oil" />
-        until onions soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="1" Unit="tbsp" Name="curry powder" />
-        and
-        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
-        until mustard starts to pop.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="1000" Unit="g" Name="green bananas" Process="chopped"/>
-        and fry quickly until hot.
-      </Stage>
-      <Stage>
-        Stir in <Dairy Quantity="500" Unit="g" Name="yoghurt"/> and warm through.
-      </Stage>
-      <Stage>
-        <Staple Name="rice brown"/>
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Spaghetti and rocket" Meals="1">
       <Stage>
         <Staple Name="spaghetti"/>
@@ -1518,47 +1488,6 @@
         <Grocery Quantity="4" Unit="tbsp" Name="bread crumbs" />.
       </Stage>
       <Stage>	Bake <Temperature Level="medium"/> for 50 minutes.</Stage>
-    </Recipe>
-
-    <Recipe Title="Cheese Cous Cous" Meals="2">
-      <Stage>
-        In a <Utensil Name="casserole" /> bake
-        <Vegetable Quantity="400" Unit="g" Name="courgettes" Process="sliced"/>,
-        <Vegetable Quantity="350" Unit="g" Name="onions" Process="sliced"/>,
-        <Vegetable Quantity="150" Unit="g" Name="red peppers" Process="sliced"/>,
-        <Vegetable Quantity="150" Unit="g" Name="green peppers" Process="sliced"/>,
-        <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Name="olive oil" />
-        for 30 minutes.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="100" Unit="g" Name="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="50" Unit="g" Name="capers" />,
-        <Dairy Quantity="200" Unit="g" Name="halloumi cheese" Process="chopped"/>,
-        <Grocery Quantity="100" Unit="g" Name="olives" Process="chopped"/>
-        and bake for 10 minutes.
-      </Stage>
-      <Stage>
-        <Staple Name="couscous"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> mix
-        <Check Quantity="2" Unit="tbsp" Name="olive oil" />,
-        juice of
-        <Vegetable Quantity="1" Unit="" Name="lime" />,
-        <Check Quantity="1" Unit="tbsp" Name="ground cumin" />,
-        <Grocery Quantity="75" Unit="g" Name="tomato puree" />,
-        <Check Quantity="2" Unit="tsp" Name="onion seeds" />
-        and warm through.
-      </Stage>
-      <Stage>
-        Put the vegetables on to the cous cous.
-        Then a layer of
-        <Vegetable Quantity="1" Unit="" Name="lettuce" Process="chopped"/>.
-        Then the olive oil mixture.
-      </Stage>
     </Recipe>
 
     <Recipe Title="Spaghetti Hoops" Meals="1">

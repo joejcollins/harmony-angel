@@ -12,7 +12,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="casserole" /> mix
-        <Meat Quantity="600" Unit="g" Name="chickenw" Process="diced" />,
+        <Meat Quantity="600" Unit="g" Name="chicken" Process="diced" />,
         <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed" />,
         <Vegetable Quantity="4" Unit="cm" Name="ginger" Process="chopped" />,
         <Check Quantity="2" Unit="tsp" Name="ground turmeric" /> and
@@ -119,7 +119,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Curry and couscous" Meals="1">
+    <Recipe Title="Curry and Couscous" Meals="1">
       <Stage>
         In a <Utensil Name="pan" /> warm
         <Grocery Quantity="400" Unit="g" Name="can curry"/>.
@@ -129,7 +129,7 @@
       </Stage>
     </Recipe>
  
-    <Recipe Title="Pasta and bacon in white sauce" Meals="2">
+    <Recipe Title="Pasta and Bacon in white sauce" Meals="2">
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -140,7 +140,7 @@
         <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped" />,
         <Vegetable Quantity="200" Unit="g" Name="mushrooms" Process="sliced" />
         and
-        <Meat Quantity="100" Unit="g" Name="bacon" Process="chopped" />
+        <Meat Quantity="300" Unit="g" Name="bacon" Process="chopped" />
         in
         <Check Quantity="2" Unit="tbsp" Name="oil" />
         until onions soft.
@@ -200,7 +200,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tofu and peppers" Meals="2">
+    <Recipe Title="Tofu and Peppers" Meals="2">
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
@@ -1004,7 +1004,35 @@
     
     <!--meat-->
 
-    <!--vegetarian-->
+    <Recipe Title="Banana Curry" Meals="2">
+      <Stage>
+        <Staple Name="rice brown"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
+        <Vegetable Quantity="2" Name="green chilli" Process="chopped" />,
+        <Vegetable Quantity="8" Unit="cm" Name="ginger" Process="chopped"/>
+        in
+        <Check Quantity="6" Unit="tbsp" Name="oil" />
+        until onions soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="tbsp" Name="curry powder" />
+        and
+        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
+        until mustard starts to pop.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="1000" Unit="g" Name="green bananas" Process="chopped"/>
+        and fry quickly until hot.
+      </Stage>
+      <Stage>
+        Stir in <Dairy Quantity="500" Unit="g" Name="yoghurt"/> and warm through.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Beans and Bulgur wheat" Meals="2">
       <Stage>
@@ -1100,7 +1128,46 @@
       </Stage>
     </Recipe>
 
-    <!--vegetarian-->
+    <Recipe Title="Cheese Cous Cous" Meals="2">
+      <Stage>
+        In a <Utensil Name="casserole" /> bake
+        <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
+        <Vegetable Quantity="350" Unit="g" Name="onions" Process="sliced"/>,
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="150" Unit="g" Name="green pepper" Process="sliced"/>,
+        <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Name="olive oil" />
+        for 30 minutes.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="100" Unit="g" Name="tomatoes" Process="chopped"/>,
+        <Grocery Quantity="50" Unit="g" Name="capers" />,
+        <Dairy Quantity="200" Unit="g" Name="halloumi cheese" Process="chopped"/>,
+        <Grocery Quantity="100" Unit="g" Name="olives" Process="chopped"/>
+        and bake for 10 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> mix
+        <Check Quantity="2" Unit="tbsp" Name="olive oil" />,
+        juice of
+        <Vegetable Quantity="1" Unit="" Name="lime" />,
+        <Check Quantity="1" Unit="tbsp" Name="ground cumin" />,
+        <Grocery Quantity="75" Unit="g" Name="tomato puree" />,
+        <Check Quantity="2" Unit="tsp" Name="onion seeds" />
+        and warm through.
+      </Stage>
+      <Stage>
+        Put the vegetables on to the cous cous.
+        Then a layer of
+        <Vegetable Quantity="1" Unit="" Name="lettuce" Process="chopped"/>.
+        Then the olive oil mixture.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Bean and potato stew" Meals="2">
       <Stage>
