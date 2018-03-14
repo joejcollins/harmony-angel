@@ -12,7 +12,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="casserole" /> mix
-        <Meat Quantity="600" Unit="g" Name="chicken" Process="diced" />,
+        <Meat Quantity="600" Unit="g" Name="chickenw" Process="diced" />,
         <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed" />,
         <Vegetable Quantity="4" Unit="cm" Name="ginger" Process="chopped" />,
         <Check Quantity="2" Unit="tsp" Name="ground turmeric" /> and

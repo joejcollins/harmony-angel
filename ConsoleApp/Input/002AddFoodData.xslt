@@ -74,19 +74,21 @@
   Add the calorie and fat values to each ingredient so they can be summed
   later on.
   -->
-  <xsl:template match="Check|Dairy|Grocery|Meat|Vegetable|Water">
+  <xsl:template match="Check|Dairy|Grocery|Meat|Vegetable">
     <xsl:element name="{name(.)}">
+      <!-- copy the other attributes -->
       <xsl:for-each select="@*">
-        <xsl:attribute name="Calories">
-          <xsl:value-of select="ingredient:PortionCalories(../@Quantity, ../@Unit, ../@Name)"/>
-        </xsl:attribute>
-        <xsl:attribute name="Fat">
-          <xsl:value-of select="ingredient:PortionFat(../@Quantity, ../@Unit, ../@Name)"/>
-        </xsl:attribute>
         <xsl:attribute name="{name(.)}">
           <xsl:value-of select="."/>
         </xsl:attribute>
       </xsl:for-each>
+      <!-- add data attributes -->
+      <xsl:attribute name="Calories">
+        <xsl:value-of select="ingredient:PortionCalories(@Quantity, @Unit, @Name)"/>
+      </xsl:attribute>
+      <xsl:attribute name="Fat">
+        <xsl:value-of select="ingredient:PortionFat(@Quantity, @Unit, @Name)"/>
+      </xsl:attribute>
     </xsl:element>
   </xsl:template>
 

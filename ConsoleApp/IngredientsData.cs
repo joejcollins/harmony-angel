@@ -1,4 +1,5 @@
 using CsvHelper;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -40,7 +41,8 @@ namespace ConsoleApp
         }
 
         /// <summary>
-        /// 
+        /// Get the number of calories for the ingredient, if the ingredient isn't listed then 
+        /// assume the calories are zero.
         /// </summary>
         /// <param name="quantity"></param>
         /// <param name="name"></param>
@@ -48,6 +50,11 @@ namespace ConsoleApp
         internal double GetCalories(double quantity, string name)
         {
             var thisIngredient = m_Ingredients.FirstOrDefault(ingredient => ingredient.IngredientName == name);
+            if (thisIngredient == null)
+            {
+                Console.WriteLine(name + " not found in ingredients list.");
+                return 0;
+            }
             double calories = (quantity / 100) * thisIngredient.Calories;
             return calories;                
          }
@@ -63,7 +70,5 @@ namespace ConsoleApp
                                      select ingredient;
             return ingredientsOfAType.ToList();
         }
-
-
     }
 }
