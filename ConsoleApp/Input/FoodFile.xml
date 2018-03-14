@@ -924,7 +924,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tomato tofu" Meals="2">
+    <Recipe Title="Tomato Tofu" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
@@ -1199,7 +1199,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Cheese Cous Cous" Meals="2">
+    <Recipe Title="Halloumi Couscous" Meals="2">
       <Stage>
         In a <Utensil Name="casserole" /> bake
         <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
@@ -1235,12 +1235,12 @@
       <Stage>
         Put the vegetables on to the cous cous.
         Then a layer of
-        <Vegetable Quantity="1" Unit="" Name="lettuce" Process="chopped"/>.
+        <Vegetable Quantity="1" Name="lettuce" Process="chopped"/>.
         Then the olive oil mixture.
       </Stage>
     </Recipe>
 
-    <Recipe Title="Bean and potato stew" Meals="2">
+    <Recipe Title="Bean and Potato Stew" Meals="2">
       <Stage>
         <Staple Name="new potatoes"/>
       </Stage>
@@ -1270,7 +1270,7 @@
 
     <!--meat-->
 
-    <Recipe Title="Vegetable mousaka" Meals="2">
+    <Recipe Title="Vegetable Mousaka" Meals="2">
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="500" Unit="g" Name="new potatoes" Process="sliced"/>
