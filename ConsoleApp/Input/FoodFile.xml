@@ -594,7 +594,7 @@
     <Recipe Title="Norwegian Lamb and Cabbage" Meals="2">
       <Stage>
         In a <Utensil Name="casserole"/> place
-        <Meat Name="lamb" Quantity="1000" Unit="g"/>
+        <Meat Name="lamb" Quantity="800" Unit="g"/>
         and sprinkle with
         <Grocery Quantity="1" Unit="tbsp" Name="plain flour"/>.
         Put 
@@ -685,7 +685,7 @@
       <Stage>
         Serve with <Vegetable Quantity="1" Name="lemon" Process="juiced"/>
         and
-        <Dairy Quantity="400" Unit="g" Name="yoghurt"/>.
+        <Dairy Quantity="500" Unit="g" Name="yoghurt"/>.
       </Stage>
     </Recipe>
 
@@ -819,7 +819,7 @@
         the lentils,
         <Check Quantity="100" Unit="g" Name="creamed coconut" />,
         <Check Quantity="1" Unit="tbsp" Name="curry powder" />,
-        <Grocery Quantity="2" Unit="tbsp" Name="cashew nuts" />
+        <Grocery Quantity="150" Unit="g" Name="cashew nuts" />
         and juice of
         <Vegetable Quantity="1" Name="lemon" />.
       </Stage>
@@ -878,8 +878,11 @@
       </Stage>
     </Recipe>
 
-    <!-- Vegetarian https://www.bbcgoodfood.com/recipes/parsnip-mushroom-barley-wreath -->
-    <Recipe Title="Parsnip, Mushroom and Barley" Meals="2">
+    <Recipe Title="Parsnip and Barley Roast" Meals="2">
+      <!-- Vegetarian https://www.bbcgoodfood.com/recipes/parsnip-mushroom-barley-wreath -->
+      <Stage>
+        Grill <Grocery Quantity="150" Unit="g" Name="hazel nuts" Process="chopped"/> until golden.
+      </Stage>
       <Stage>
         In a <Utensil Name="pan"/>
         place
@@ -899,14 +902,26 @@
         until golden.
       </Stage>
       <Stage>
+        Stir in
         <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced" />
+        and
         <Check Quantity="1" Unit="tsp" Name="mixed herbs"/>
-      
+        and cook until the mushrooms are done.
       </Stage>
       <Stage>
-        <Staple Name="baked potatoes" />
+        Stir in
+        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated"/>
+        and
+        <Dairy Quantity="2" Name="eggs" Process="beaten" />.
+        Put into a
+        <Utensil Name="casserole"/>
+        and back
+        <Temperature Level="medium"/>
+        for 20 minutes.      
       </Stage>
- 
+      <Stage>
+        <Staple Name="mashed potatoes" />
+      </Stage>
     </Recipe>
 
     <Recipe Title="Tomato tofu" Meals="2">
@@ -1211,7 +1226,7 @@
         In a <Utensil Name="wok" /> mix
         <Check Quantity="2" Unit="tbsp" Name="olive oil" />,
         juice of
-        <Vegetable Quantity="1" Unit="" Name="lime" />,
+        <Vegetable Quantity="1" Name="lime" />,
         <Check Quantity="1" Unit="tbsp" Name="ground cumin" />,
         <Grocery Quantity="75" Unit="g" Name="tomato puree" />,
         <Check Quantity="2" Unit="tsp" Name="onion seeds" />
@@ -1723,7 +1738,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
-        <Grocery Quantity="2" Unit="tbsp" Name="cashew nuts" />,
+        <Grocery Quantity="150" Unit="g" Name="cashew nuts" />,
         <Check Quantity="200" Unit="ml" Name="creamed coconut" />
         and
         <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>

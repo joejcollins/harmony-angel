@@ -253,6 +253,7 @@
       <xsd:enumeration value="mustard seeds" />
       <xsd:enumeration value="oil" />
       <xsd:enumeration value="olive oil" />
+      <xsd:enumeration value="onion seeds" />
       <xsd:enumeration value="oregano" />
       <xsd:enumeration value="paprika" />
       <xsd:enumeration value="pepper" />
@@ -334,6 +335,7 @@
       <xsd:enumeration value="parmesan" />
       <xsd:enumeration value="gravy granules" />
       <xsd:enumeration value="green lentils" />
+      <xsd:enumeration value="hazel nuts" />
       <xsd:enumeration value="horseraddish sauce" />
       <xsd:enumeration value="lasagna" />
       <xsd:enumeration value="mayonaise" />
@@ -415,6 +417,8 @@
       <xsd:enumeration value="kale" />
       <xsd:enumeration value="leeks" />
       <xsd:enumeration value="lemon" />
+      <xsd:enumeration value="lettuce" />
+      <xsd:enumeration value="lime" />
       <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="mushrooms" />
       <xsd:enumeration value="new potatoes" />

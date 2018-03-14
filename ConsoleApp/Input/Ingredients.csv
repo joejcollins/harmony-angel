@@ -1,182 +1,1 @@
-IngredientName,IngredientType,Calories,Protein,Carbohydrate,Fat,Density
-anchovy fillets,Grocery,210,29,0,10,
-apples,Vegetable,52,0,14,0,
-asafoetida,Check,0,0,0,0,
-aubergine,Vegetable,25,1,6,0,
-bacon,Meat,548,37,1,42,
-baked beans,Grocery,75,5,14,0,
-baking potatoes,Vegetable,136,4,32,0,
-basil,Check,0,0,0,0,
-bay leaf,Check,0,0,0,0,
-black bean sauce,Grocery,90,0,20,1,
-black pepper corns,Check,0,0,0,0,
-blue cheese,Dairy,353,21,2,29,
-boiling potatoes,Vegetable,77,2,18,0,
-boiling water,Water,0,0,0,0,
-branston pickle,Grocery,157,0,36,0,
-bread,Grocery,218,9,44,2,
-broccoli,Vegetable,34,3,7,0,
-brown rice,Grocery,111,3,23,1,
-bulgur wheat,Grocery,342,12,76,1,
-burgers,Meat,295,17,24,14,
-butter,Dairy,717,1,0,81,
-can butter beans,Grocery,96,8,15,1,
-cabbage,Vegetable,26,1,4,0,
-can baked beans,Grocery,155,6,22,5,
-can borlotti beans,Grocery,94,7,12,1,
-can cannellini beans,Grocery,85,7,13,1,
-can chick peas,Grocery,0,0,0,0,
-can coconut milk,Grocery,0,0,0,0,
-can curry,Grocery,90,11,2,4,
-can evaporated milk,Grocery,0,0,0,0,
-can flageolet beans,Grocery,0,0,0,0,
-can kidney beans,Grocery,0,0,0,0,
-can mackerel,Grocery,245,20,0,18,
-can mushroom soup,Grocery,0,0,0,0,
-can pineapple,Grocery,60,1,16,0,
-can sardines,Grocery,0,0,0,0,
-can sweetcorn,Grocery,0,0,0,0,
-can tomatoes,Grocery,16,1,3,0,
-can tuna fish,Grocery,0,0,0,0,
-capers,Grocery,0,0,0,0,
-carrots,Vegetable,35,1,8,0,
-cashew nuts,Grocery,0,0,0,0,
-cauliflower,Vegetable,0,0,0,0,
-celery,Vegetable,7,1,1,0,
-cheese,Dairy,412,26,0,34,
-chicken,Meat,183,29,0,7,
-chilli powder,Check,0,0,0,0,
-chillis,Vegetable,0,0,0,0,
-chinese cabbage,Vegetable,0,0,0,0,
-chorizo sausage,Meat,0,0,0,0,
-cider,Grocery,0,0,0,0,
-cinnamon,Grocery,0,0,0,0,
-cinnamon stick,Check,0,0,0,0,
-cloves,Check,0,0,0,0,
-cold water,Water,0,0,0,0,
-corn flour,Grocery,395,35,33,20,
-cottage cheese,Dairy,0,0,0,0,
-courgette,Vegetable,0,0,0,0,
-cous cous,Grocery,176,6,36,0,
-cream cheese,Dairy,0,0,0,0,
-creamed coconut,Grocery,669,6,7,69,
-creamed coconut,Check,0,0,0,0,
-creme fraiche,Dairy,175,3,5,16,
-cumin seeds,Check,0,0,0,0,
-curry powder,Check,0,0,0,0,
-dessicated coconut,Grocery,354,3,15,33,
-dried apricots,Grocery,0,0,0,0,
-dried thyme,Check,0,0,0,0,
-eggs,Dairy,147,13,0,11,
-fish fingers,Grocery,0,0,0,0,
-flaked almonds,Grocery,0,0,0,0,
-flour,Check,0,0,0,0,0.59
-fresh coriander,Vegetable,0,0,0,0,
-frozen peas,Grocery,0,0,0,0,
-garam masala,Check,0,0,0,0,
-garlic,Vegetable,0,0,0,0,
-ginger,Vegetable,0,0,0,0,
-parmesan,Grocery,0,0,0,0,
-gravy granules,Grocery,0,0,0,0,
-green bananas,Vegetable,88,1,23,0,
-green chilli,Vegetable,20,3,1,1,
-green lentils,Grocery,0,0,0,0,
-green pepper,Vegetable,20,1,5,0,
-ground cardamom,Check,0,0,0,0,
-ground cinnamon,Check,0,0,0,0,
-ground cloves,Check,0,0,0,0,
-ground coriander,Check,0,0,0,0,
-ground cumin,Check,0,0,0,0,
-ground ginger,Check,0,0,0,0,
-ground nutmeg,Check,0,0,0,0,
-ground turmeric,Check,0,0,0,0,
-gruyere cheese,Dairy,413,30,0,32,
-halloumi cheese,Dairy,316,20,2,25,
-ham,Meat,145,6,2,21,
-honey,Check,0,0,0,0,
-horseraddish sauce,Grocery,12,3,1,12,
-kale,Vegetable,0,0,0,0,
-lamb,Meat,305,26,0,22,
-lasagna,Grocery,348,13,70,2,
-leeks,Vegetable,60,2,14,0,
-lemon,Vegetable,0,0,0,0,
-lime pickle,Check,194,2,3,19,
-mange tout,Vegetable,0,0,0,0,
-marjoram,Check,0,0,0,0,
-mayonaise,Grocery,0,0,0,0,
-meat,Meat,410,19,0,37,
-milk,Dairy,46,3,5,2,
-minced meat,Meat,0,0,0,0,
-miso,Check,0,0,0,0,
-mixed herbs,Check,0,0,0,0,
-mushrooms,Vegetable,0,0,0,0,
-mustard seed,Check,0,0,0,0,
-mustard seeds,Check,0,0,0,0,
-naan bread,Grocery,0,0,0,0,
-new potatoes,Vegetable,75,2,17,0,
-noodles,Grocery,62,2.2,13,0.5,
-oil,Check,899,0,99,0,0.93
-olive oil,Check,0,0,0,0,0.92
-olives,Grocery,0,0,0,0,
-onions,Vegetable,36,1,8,0,
-oregano,Check,0,0,0,0,
-oven ready chips,Grocery,0,0,0,0,
-paprika,Check,0,0,0,0,
-parmesan,Dairy,0,0,0,0,
-parsnips,Vegetable,0,0,0,0,
-passata,Grocery,24,1,3,0,
-pasta sauce,Grocery,0,0,0,0,
-pasta shapes,Grocery,132,5,24,2,
-peanut butter,Grocery,558,25,20,50,
-peanuts,Grocery,564,26,13,46,
-pearl barley,Grocery,0,0,0,0,
-pepper,Check,0,0,0,0,
-pesto,Grocery,0,0,0,0,
-pine nuts,Grocery,0,0,0,0,
-pineapple chunks,Grocery,0,0,0,0,
-pitta bread,Grocery,265,9,58,1,
-pitted olives,Grocery,0,0,0,0,
-pizza,Grocery,0,0,0,0,
-pizza bases,Grocery,0,0,0,0,
-plain flour,Grocery,364,12,86,2,
-potatoes,Vegetable,77,2,17,0,
-raisins,Grocery,299,3,79,0,
-red chilli,Vegetable,26,2,4,0,
-red lentils,Grocery,0,0,0,0,
-red pepper,Vegetable,0,0,0,0,
-red wine,Grocery,0,0,0,0,
-runner beans,Vegetable,27,2,3,0,
-salt,Check,0,0,0,0,
-sausages,Meat,0,0,0,0,
-self raising flour,Grocery,330,9,76,1,
-sesame oil,Check,0,0,0,0,
-sherry,Check,0,0,0,0,
-single cream,Dairy,133,3,4,12,
-smoked mackerel,Meat,310,22,0,25,
-sour cream,Dairy,0,0,0,0,
-soured cream,Dairy,205,3,4,20,
-soy sauce,Check,0,0,0,0,
-spaghetti,Grocery,104,4,22,7,
-spam,Grocery,289,15,3,24,
-spinach,Vegetable,23,3,4,0,
-spring greens,Vegetable,20,2,2,0,
-spring onions,Vegetable,32,2,7,0,
-stir in pasta sauce,Grocery,127,2,11,8,
-stock,Check,0,0,0,0,
-sugar,Check,0,0,0,0,
-sunflower seeds,Grocery,0,0,0,0,
-swedes,Vegetable,0,0,0,0,
-sweet potatoes,Vegetable,0,0,0,0,
-tagliatelli,Grocery,371,11,55,2,
-tahini,Grocery,595,17,21,54,
-thyme,Check,0,0,0,0,
-tofu,Grocery,110,16,2,5,
-tomato puree,Grocery,68,5,13,0,
-tomatoes,Vegetable,0,0,0,0,
-tortellini,Grocery,307,14,47,7,
-turmeric,Check,0,0,0,0,
-white rice,Grocery,151,3,34,0,
-whole grain mustard,Grocery,150,8,8,8,
-wine vinegar,Check,0,0,0,0,
-worcester sauce,Check,0,0,0,0,
-yoghurt,Dairy,59,10,4,0,
+IngredientName,IngredientType,Calories,Protein,Carbohydrate,Fat,Densityanchovy fillets,Grocery,210,29,0,10,0.00apples,Vegetable,52,0,14,0,0.00asafoetida,Check,0,0,0,0,0.00aubergine,Vegetable,25,1,6,0,0.00bacon,Meat,548,37,1,42,0.00baked beans,Grocery,75,5,14,0,0.00baking potatoes,Vegetable,136,4,32,0,0.00basil,Check,0,0,0,0,0.00bay leaf,Check,0,0,0,0,0.00black bean sauce,Grocery,90,0,20,1,0.00black pepper corns,Check,0,0,0,0,0.00blue cheese,Dairy,353,21,2,29,0.00boiling potatoes,Vegetable,77,2,18,0,0.00boiling water,Water,0,0,0,0,0.00branston pickle,Grocery,157,0,36,0,0.00bread,Grocery,218,9,44,2,0.00broccoli,Vegetable,34,3,7,0,0.00brown rice,Grocery,111,3,23,1,0.00bulgur wheat,Grocery,342,12,76,1,0.00burgers,Meat,295,17,24,14,0.00butter,Dairy,717,1,0,81,0.00can butter beans,Grocery,96,8,15,1,0.00cabbage,Vegetable,26,1,4,0,0.00can baked beans,Grocery,155,6,22,5,0.00can borlotti beans,Grocery,94,7,12,1,0.00can cannellini beans,Grocery,85,7,13,1,0.00can chick peas,Grocery,0,0,0,0,0.00can coconut milk,Grocery,0,0,0,0,0.00can curry,Grocery,90,11,2,4,0.00can evaporated milk,Grocery,0,0,0,0,0.00can flageolet beans,Grocery,0,0,0,0,0.00can kidney beans,Grocery,0,0,0,0,0.00can mackerel,Grocery,245,20,0,18,0.00can mushroom soup,Grocery,0,0,0,0,0.00can pineapple,Grocery,60,1,16,0,0.00can sardines,Grocery,0,0,0,0,0.00can sweetcorn,Grocery,0,0,0,0,0.00can tomatoes,Grocery,16,1,3,0,0.00can tuna fish,Grocery,0,0,0,0,0.00capers,Grocery,0,0,0,0,0.00carrots,Vegetable,35,1,8,0,0.00cashew nuts,Grocery,0,0,0,0,0.00cauliflower,Vegetable,0,0,0,0,0.00celery,Vegetable,7,1,1,0,0.00cheese,Dairy,412,26,0,34,0.00chicken,Meat,183,29,0,7,0.00chilli powder,Check,0,0,0,0,0.00chillis,Vegetable,0,0,0,0,0.00chinese cabbage,Vegetable,0,0,0,0,0.00chorizo sausage,Meat,0,0,0,0,0.00cider,Grocery,0,0,0,0,0.00cinnamon,Grocery,0,0,0,0,0.00cinnamon stick,Check,0,0,0,0,0.00cloves,Check,0,0,0,0,0.00cold water,Water,0,0,0,0,0.00corn flour,Grocery,395,35,33,20,0.00cottage cheese,Dairy,0,0,0,0,0.00courgette,Vegetable,0,0,0,0,0.00cous cous,Grocery,176,6,36,0,0.00cream cheese,Dairy,0,0,0,0,0.00creamed coconut,Grocery,669,6,7,69,0.00creamed coconut,Check,0,0,0,0,0.00creme fraiche,Dairy,175,3,5,16,0.00cumin seeds,Check,0,0,0,0,0.00curry powder,Check,0,0,0,0,0.00dessicated coconut,Grocery,354,3,15,33,0.00dried apricots,Grocery,0,0,0,0,0.00dried thyme,Check,0,0,0,0,0.00eggs,Dairy,147,13,0,11,0.00fish fingers,Grocery,0,0,0,0,0.00flaked almonds,Grocery,0,0,0,0,0.00flour,Check,0,0,0,0,0.59fresh coriander,Vegetable,0,0,0,0,0.00frozen peas,Grocery,0,0,0,0,0.00garam masala,Check,0,0,0,0,0.00garlic,Vegetable,0,0,0,0,0.00ginger,Vegetable,0,0,0,0,0.00parmesan,Grocery,0,0,0,0,0.00gravy granules,Grocery,0,0,0,0,0.00green bananas,Vegetable,88,1,23,0,0.00green chilli,Vegetable,20,3,1,1,0.00green lentils,Grocery,0,0,0,0,0.00green pepper,Vegetable,20,1,5,0,0.00ground cardamom,Check,0,0,0,0,0.00ground cinnamon,Check,0,0,0,0,0.00ground cloves,Check,0,0,0,0,0.00ground coriander,Check,0,0,0,0,0.00ground cumin,Check,0,0,0,0,0.00ground ginger,Check,0,0,0,0,0.00ground nutmeg,Check,0,0,0,0,0.00ground turmeric,Check,0,0,0,0,0.00gruyere cheese,Dairy,413,30,0,32,0.00halloumi cheese,Dairy,316,20,2,25,0.00ham,Meat,145,6,2,21,0.00hazel nuts,Grocery,628,15,17,61,0.00honey,Check,0,0,0,0,0.00horseraddish sauce,Grocery,12,3,1,12,0.00kale,Vegetable,0,0,0,0,0.00lamb,Meat,305,26,0,22,0.00lasagna,Grocery,348,13,70,2,0.00leeks,Vegetable,60,2,14,0,0.00lemon,Vegetable,0,0,0,0,0.00lettuce,Vegetable,0,0,0,0,0.00lime,Vegetable,0,0,0,0,0.00lime pickle,Check,194,2,3,19,0.00mange tout,Vegetable,0,0,0,0,0.00marjoram,Check,0,0,0,0,0.00mayonaise,Grocery,0,0,0,0,0.00meat,Meat,410,19,0,37,0.00milk,Dairy,46,3,5,2,1.03minced meat,Meat,217,24,0,13,0.00miso,Check,0,0,0,0,0.00mixed herbs,Check,0,0,0,0,0.00mushrooms,Vegetable,0,0,0,0,0.00mustard seed,Check,0,0,0,0,0.00mustard seeds,Check,0,0,0,0,0.00naan bread,Grocery,0,0,0,0,0.00new potatoes,Vegetable,75,2,17,0,0.00noodles,Grocery,62,2.2,13,0.5,0.00oil,Check,884,0,0,100,0.93olive oil,Check,884,0,0,100,0.92olives,Grocery,150,1,5,13,0.00onions,Vegetable,36,1,8,0,0.00onion seeds,Check,0,0,0,0,0.00oregano,Check,0,0,0,0,0.00oven ready chips,Grocery,202,3,33,6,0.00paprika,Check,0,0,0,0,0.00parmesan,Dairy,0,0,0,0,0.00parsnips,Vegetable,0,0,0,0,0.00passata,Grocery,24,1,3,0,0.00pasta sauce,Grocery,127,2,11,8,0.00pasta shapes,Grocery,132,5,24,2,0.00peanut butter,Grocery,558,25,20,50,0.00peanuts,Grocery,564,26,13,46,0.00pearl barley,Grocery,0,0,0,0,0.00pepper,Check,0,0,0,0,0.00pesto,Grocery,534,18,5,50,0.00pine nuts,Grocery,0,0,0,0,0.00pineapple chunks,Grocery,0,0,0,0,0.00pitta bread,Grocery,265,9,58,1,0.00pitted olives,Grocery,0,0,0,0,0.00pizza,Grocery,0,0,0,0,0.00pizza bases,Grocery,0,0,0,0,0.00plain flour,Grocery,364,12,86,2,0.00potatoes,Vegetable,77,2,17,0,0.00raisins,Grocery,299,3,79,0,0.00red chilli,Vegetable,26,2,4,0,0.00red lentils,Grocery,0,0,0,0,0.00red pepper,Vegetable,0,0,0,0,0.00red wine,Grocery,0,0,0,0,0.00runner beans,Vegetable,27,2,3,0,0.00salt,Check,0,0,0,0,0.00sausages,Meat,0,0,0,0,0.00self raising flour,Grocery,330,9,76,1,0.00sesame oil,Check,0,0,0,0,0.00sherry,Check,0,0,0,0,0.00single cream,Dairy,133,3,4,12,0.00smoked mackerel,Meat,310,22,0,25,0.00sour cream,Dairy,0,0,0,0,0.00soured cream,Dairy,205,3,4,20,0.00soy sauce,Check,0,0,0,0,0.00spaghetti,Grocery,104,4,22,7,0.00spam,Grocery,289,15,3,24,0.00spinach,Vegetable,23,3,4,0,0.00spring greens,Vegetable,20,2,2,0,0.00spring onions,Vegetable,32,2,7,0,0.00stir in pasta sauce,Grocery,127,2,11,8,0.00stock,Check,0,0,0,0,0.00sugar,Check,0,0,0,0,0.00sunflower seeds,Grocery,0,0,0,0,0.00swedes,Vegetable,0,0,0,0,0.00sweet potatoes,Vegetable,0,0,0,0,0.00tagliatelli,Grocery,371,11,55,2,0.00tahini,Grocery,595,17,21,54,0.00thyme,Check,0,0,0,0,0.00tofu,Grocery,110,16,2,5,0.00tomato puree,Grocery,68,5,13,0,0.00tomatoes,Vegetable,0,0,0,0,0.00tortellini,Grocery,307,14,47,7,0.00turmeric,Check,0,0,0,0,0.00white rice,Grocery,151,3,34,0,0.00whole grain mustard,Grocery,150,8,8,8,0.00wine vinegar,Check,0,0,0,0,0.00worcester sauce,Check,0,0,0,0,0.00yoghurt,Dairy,59,10,4,0,0.00

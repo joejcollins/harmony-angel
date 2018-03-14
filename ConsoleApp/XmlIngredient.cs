@@ -18,6 +18,7 @@ namespace ConsoleApp
         public float Protein { get; set; }
         public float Carbohydrate { get; set; }
         public float Fat { get; set; }
+        public float Density { get; set; }
 
         /// <summary>
         /// Get the calories for a specified portion.  It returns a 
@@ -34,10 +35,7 @@ namespace ConsoleApp
         {
             IngredientsData ingredientsData = IngredientsData.Instance;
             double returnValue = 0;
-            if (unit == "g")
-            {
-                returnValue = ingredientsData.GetCalories(quantity, name);
-            }
+            returnValue = ingredientsData.GetCalories(quantity, unit, name);
             return returnValue.ToString();
         }
 

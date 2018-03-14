@@ -47,15 +47,37 @@ namespace ConsoleApp
         /// <param name="quantity"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        internal double GetCalories(double quantity, string name)
+        internal double GetCalories(double quantity, string unit, string name)
         {
+            double calories;
             var thisIngredient = m_Ingredients.FirstOrDefault(ingredient => ingredient.IngredientName == name);
-            if (thisIngredient == null)
+            if (thisIngredient == null) // Not in the list so return zero calories.
             {
                 Console.WriteLine(name + " not found in ingredients list.");
-                return 0;
+                calories = 0;
             }
-            double calories = (quantity / 100) * thisIngredient.Calories;
+            else // It is in the list
+            {
+                if (unit == "tbsp") // convert table spoons to ml
+                {
+                    quantity = quantity * 15;
+                    unit = "ml";
+                }
+                if (unit == "tsp") // convert teaspoons to ml
+                {
+                    quantity = quantity * 5;
+                    unit = "ml";
+                }
+                if (unit == "ml") // It is a volume measure
+                {
+                    calories = (quantity / 100) * thisIngredient.Calories * thisIngredient.Density;
+                    calories = Math.Round(calories, 2);
+                }
+                else // Measured in grams so use the calories per 100 g value
+                {
+                    calories = (quantity / 100) * thisIngredient.Calories;
+                }
+            }
             return calories;                
          }
 
