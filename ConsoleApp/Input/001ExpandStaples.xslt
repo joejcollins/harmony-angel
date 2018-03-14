@@ -22,15 +22,25 @@
 	-->
   <xsl:template name="staples" match="cml:Staple">
     <!-- Couscous -->
+    <xsl:variable name="Meals" select="../../@Meals" />
     <xsl:if test="@Name='couscous'">
       In a
-      <Utensil Name="pan" /> pour <Water Quantity="600" Unit="ml" Name="boiling water" />
-      on <Grocery Quantity="400" Unit="g" Name="cous cous" />, cover and
-      stand for 10 minutes.
+      <Utensil Name="pan" /> pour 
+      <Water Unit="ml" Name="boiling water">
+        <xsl:attribute name="Quantity" >
+          <xsl:value-of select="($Meals div 2) * 600"/>
+        </xsl:attribute>
+      </Water>
+      on 
+      <Grocery Unit="g" Name="cous cous">
+        <xsl:attribute name="Quantity" >
+          <xsl:value-of select="($Meals div 2) * 400"/>
+        </xsl:attribute>
+      </Grocery>, 
+      cover and leave to stand for 10 minutes.
     </xsl:if>
     <!-- Noodles -->
     <xsl:if test="@Name='noodles'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a <Utensil Name="pan" />
       put
       <xsl:element name="Grocery">
@@ -61,7 +71,6 @@
     </xsl:if>
     <!-- Rice -->
     <xsl:if test="@Name='rice white'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />
       put
@@ -85,7 +94,6 @@
       bring to the boil then turn off, cover and stand for 25 minutes.
     </xsl:if>
     <xsl:if test="@Name='rice brown'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />
       put
@@ -110,7 +118,6 @@
       then cover and stand for 10 minutes.
     </xsl:if>
     <xsl:if test="@Name='rice turmeric'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />
       put
@@ -152,7 +159,6 @@
     </xsl:if>
     <!-- Spaghetti -->
     <xsl:if test="@Name='spaghetti'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a <Utensil Name="pan" /> boil water then add
       <xsl:element name="Grocery">
         <xsl:variable name="Quantity" select="400" />
@@ -165,7 +171,6 @@
       continuse boiling for 12  minutes then drain.
     </xsl:if>
     <xsl:if test="@Name='potatoes'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       Bake 
       <Vegetable Process="washed" Name="baking potatoes" Unit="g">
         <xsl:attribute name="Quantity" >
@@ -176,7 +181,6 @@
       <Temperature Level="high" /> for 40 minutes.
     </xsl:if>
     <xsl:if test="@Name='new potatoes'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a <Utensil Name="pan" /> place
       <Vegetable Process="washed" Name="new potatoes" Unit="g">
         <xsl:attribute name="Quantity" >
@@ -186,7 +190,6 @@
       bring to the boil and simmer for 20 minutes.
     </xsl:if>
     <xsl:if test="@Name='tagliatelli'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />
       put
@@ -210,7 +213,6 @@
       boil for 12 minutes then drain.
     </xsl:if>
     <xsl:if test="@Name='tortellini'">
-      <xsl:variable name="Meals" select="../../@Meals" />
       In a
       <Utensil Name="pan" />
       put
