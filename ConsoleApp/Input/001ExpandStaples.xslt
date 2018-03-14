@@ -165,9 +165,25 @@
       continuse boiling for 12  minutes then drain.
     </xsl:if>
     <xsl:if test="@Name='potatoes'">
-      Bake <Vegetable Process="washed" Quantity="1200" Name="baking potatoes" Unit="g" />
+      <xsl:variable name="Meals" select="../../@Meals" />
+      Bake 
+      <Vegetable Process="washed" Name="baking potatoes" Unit="g">
+        <xsl:attribute name="Quantity" >
+          <xsl:value-of select="($Meals div 2) * 1200"/>
+        </xsl:attribute>
+      </Vegetable>
       at
       <Temperature Level="high" /> for 40 minutes.
+    </xsl:if>
+    <xsl:if test="@Name='new potatoes'">
+      <xsl:variable name="Meals" select="../../@Meals" />
+      In a <Utensil Name="pan" /> place
+      <Vegetable Process="washed" Name="new potatoes" Unit="g">
+        <xsl:attribute name="Quantity" >
+          <xsl:value-of select="($Meals div 2) * 1200"/>
+        </xsl:attribute>
+      </Vegetable>
+      bring to the boil and simmer for 20 minutes.
     </xsl:if>
     <xsl:if test="@Name='tagliatelli'">
       <xsl:variable name="Meals" select="../../@Meals" />

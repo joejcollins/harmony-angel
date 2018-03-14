@@ -68,7 +68,46 @@
       </Stage>
     </Recipe>
 
-
+    <Recipe Title="Okonomiyaki (untested)" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok"/>
+        (in <Check Quantity="3" Name="oil" Unit="tbsp" />)
+        fry
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="3" Unit="cm" Name="ginger" Process="grated"/>
+        until the onions brown.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
+        and
+        <Water Quantity="100" Unit="ml" Name="boiling water"/>
+        then cool.
+      </Stage>
+      <Stage>
+        In a bowl mix
+        <Dairy Quantity="2" Name="eggs" Process="beaten"/>,
+        <Check Quantity="100" Unit="g" Name="flour"/>
+        and the cooled stock.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="50" Unit="g" Name="potatoes" Process="grated" />,
+        <Vegetable Quantity="300" Unit="g" Name="cabbage" Process="shredded"/>,
+        and
+        <Dairy Quantity="2" Name="eggs" />.
+        and fry as pancakes.
+        Half way through make a dip in the pancakes and break in
+      </Stage>
+      <Stage>
+        Serve with
+        <Vegetable Quantity="50" Unit="g" Name="spring onions" Process="chopped"/>,
+        <Grocery Name="mayonaise"/>
+        and
+        <Check Name="lime pickle"/>.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Hangover Noodles" Meals="1">
       <Stage>
@@ -300,63 +339,6 @@
         and
         <Water Quantity="750" Unit="ml" Name="water" />.
         Bring to a boil and simmer until rice done.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Beans and bulgar wheat" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Quantity="150" Unit="g" Name="green peppers" Process="chopped"/>,
-        <Vegetable Quantity="400" Unit="g" Name="carrots" Process="sliced"/>,
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
-        <Vegetable Quantity="250" Unit="g" Name="celery" Process="chopped"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="150" Unit="g" Name="bulgar wheat" />,
-        <Grocery Quantity="400" Unit="g" Name="canned tomatoes" Process="chopped"/>,
-        <Grocery Quantity="150" Unit="g" Name="tomato puree" />,
-        <Check Quantity="1" Unit="tsp" Name="chilli powder" />,
-        <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="drained"/>
-        <Vegetable Quantity="400" Unit="g" Name="broccoli" />,
-        <Check Quantity="1" Unit="" Name="stock cube" Process="crumbled"/>
-        and
-        <Water Quantity="400" Unit="ml" Name="water" />
-        and warm through.
-      </Stage>
-      <Stage>
-        Put it all in a <Utensil Name="casserole" />
-        and bake <Temperature Level="medium"/> 30 minutes.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Bean and potato stew" Meals="2">
-      <Stage>
-        <Staple Name="potatoes"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="4" Unit="" Name="cloves garlic" Process="crushed"/>,
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="150" Unit="g" Name="red peppers" Process="sliced"/>
-        in
-        <Check Quantity="5" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>,
-        <Vegetable Quantity="600" Unit="g" Name="mushrooms" Process="sliced"/>,
-        <Vegetable Quantity="1000" Unit="g" Name="courgettes" Process="sliced"/>,
-        <Grocery Quantity="300" Unit="g" Name="canned tomatoes" Process="chopped"/>
-        and
-        <Grocery Quantity="300" Unit="g" Name="canned flageolot beans" />
-        simmer for 20 minutes.
       </Stage>
     </Recipe>
 

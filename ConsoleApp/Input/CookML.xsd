@@ -298,6 +298,7 @@
       <xsd:enumeration value="branston pickle" />
       <xsd:enumeration value="bread" />
       <xsd:enumeration value="brown rice" />
+      <xsd:enumeration value="bulgur wheat" />
       <xsd:enumeration value="can butter beans" />
       <xsd:enumeration value="can baked beans" />
       <xsd:enumeration value="can borlotti beans" />
@@ -412,6 +413,7 @@
       <xsd:enumeration value="lemon" />
       <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="mushrooms" />
+      <xsd:enumeration value="new potatoes" />
       <xsd:enumeration value="onions" />
       <xsd:enumeration value="parsnips" />
       <xsd:enumeration value="potatoes" />
