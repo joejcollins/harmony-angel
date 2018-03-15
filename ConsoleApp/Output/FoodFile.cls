@@ -45,13 +45,14 @@
 }
 
 %% 
-% Menu Environment - menus are ordered Alphabetically
+% Menu Environment - menus are listed alphabetically
 %%
 \renewcommand{\thesection}{\Alph{section}}%
 \newenvironment{menu}[1]%
 {
   \cleardoublepage
   \addtocounter{section}{1}%
+  \addtocontents{toc}{\protect\begin{samepage}}%
   \addcontentsline{toc}{section}{Menu \thesection\ - #1}%
   \markboth{Menu \thesection}{Menu \thesection\ -  #1}%
   \section*{Menu \thesection\hfill #1}%
@@ -59,6 +60,7 @@
 }
 {
   \addtocontents{toc}{\protect\end{TOCRecipeList}}%
+  \addtocontents{toc}{\protect\end{samepage}}%
   \setcounter{recipe}{0} % After the menu is finished set the recipe counter to zero
   \setcounter{day}{0} % After the menu is finished set the day counter to zero
 }

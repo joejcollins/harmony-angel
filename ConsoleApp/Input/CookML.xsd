@@ -399,6 +399,7 @@
       <xsd:enumeration value="chillis" />
       <xsd:enumeration value="chinese cabbage" />
       <xsd:enumeration value="courgette" />
+      <xsd:enumeration value="fennel" />
       <xsd:enumeration value="fresh coriander" />
       <xsd:enumeration value="garlic" />
       <xsd:enumeration value="ginger" />

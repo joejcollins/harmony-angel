@@ -464,7 +464,7 @@
   Parsnip, Purple Sprouting Broccoli, Radishes, Rhubarb, Sorrel, 
   Spring Greens, Spring Onions, Watercress. -->
     
-    <Recipe Title="Meat stew and dumplings" Meals="2" >
+    <Recipe Title="Stew and Dumplings" Meals="2" >
       <Index>
         Stew<Sub>Meat and dumplings</Sub>
       </Index>
@@ -1324,8 +1324,39 @@
         <Dairy Quantity="50" Unit="g" Name="ham" />
       </Stage>
     </Recipe>
-
-    <!--meat-->
+    
+    <Recipe Title="Tofu and Mince Noodles" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Meat Quantity="200" Unit="g" Name="minced meat" />,
+        <Vegetable Quantity="2" Name="red chilli" Process="chopped"/>
+        and
+        <Vegetable Quantity="60" Unit="g" Name="ginger" Process="chopped"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Name="oil" />
+        until the pork is done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="2" Unit="tbsp" Name="plain flour" />,
+        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>,
+        <Check Quantity="1" Unit="tbsp" Name="sherry" />,
+        <Vegetable Quantity="400" Unit="g" Name="runner beans" Process="chopped"/>,
+        <Water Quantity="250" Unit="ml" Name="cold water" />,
+        bring to boil
+        and
+        simmer for 10 minutes.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="450" Unit="g" Name="tofu" Process="cubed"/>,
+        and
+        simmer for 10 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="noodles"/>
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Vegetable Mousaka" Meals="2">
       <Stage>
@@ -1370,9 +1401,75 @@
       </Stage>
     </Recipe>
 
-    <!-- vegan -->
+    <Recipe Title="Tarka Dhal" Meals="2">
+      <Stage>
+        In a <Utensil Name="pan" /> cook
+        <Check Quantity="1" Unit="" Name="bay leaf" />,
+        <Check Quantity="2" Unit="tbsp" Name="curry powder" />,
+        <Check Quantity="1" Unit="tsp" Name="ground turmeric" />
+        and
+        <Grocery Quantity="225" Unit="g" Name="red lentils" />,
+        in
+        <Water Quantity="450" Unit="ml" Name="cold water" />
+        until soft.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> in
+        <Check Quantity="3" Unit="tbsp" Name="oil" />
+        fry
+        <Check Quantity="1" Unit="tsp" Name="cumin seeds" />
+        and
+        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
+        until mustard seeds pop.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>,
+        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Vegetable Quantity="60" Unit="g" Name="ginger" Process="chopped"/>
+        and
+        <Vegetable Quantity="2" Name="green chilli" Process="chopped"/>
+        and
+        fry until onion browns.
+      </Stage>
+      <Stage>
+        Stir in the lentils
+        and
+        <Grocery Quantity="25" Unit="g" Name="creamed coconut" />
+        and warm through.
+      </Stage>
+      <Stage>
+        <Staple Name="rice brown"/>
+      </Stage>
+    </Recipe>
 
-    <!--quick-->
+    <Recipe Title="Sweet corn and bacon" Meals="1">
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Dairy Quantity="2" Name="eggs" />.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Meat Quantity="100" Unit="g" Name="bacon" Process="chopped"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Name="oil"/>
+        until done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="2" Unit="tbsp" Name="plain flour" />
+        until absorbed.
+      </Stage>
+      <Stage>
+        Stir in the liquid from
+        <Grocery Quantity="800" Unit="g" Name="can sweetcorn"/>
+        and
+        <Dairy Quantity="600" Unit="ml" Name="milk" />.
+      </Stage>
+      <Stage>
+        Add the eggs (halved).
+      </Stage>
+    </Recipe>
 
   </Menu>
 
@@ -1493,6 +1590,11 @@
     </Recipe>
 
     <!--quick-->
+    <Recipe Title="Quick Couscous" Meals="1">
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Chicken Curry" Meals="2">
       <Index>
@@ -1560,9 +1662,44 @@
       </Stage>
     </Recipe>
 
-    <!-- vegan -->
+    <Recipe Title="Lentil Hotpot" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>,
+        <Vegetable Quantity="400" Unit="g" Name="celery" Process="chopped"/>,
+        <Vegetable Quantity="300" Unit="g" Name="fennel" Process="chopped"/>
+        <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="chopped"/>
+        and
+        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>
+        in
+        <Check Quantity="2" Unit="tbsp" Name="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="casserole" /> layer
+        <Grocery Quantity="225" Unit="g" Name="red lentils" />,
+        <Check Quantity="3" Unit="tsp" Name="mixed herbs" />
+        and vegetable tomato mix 3 times.
+      </Stage>
+      <Stage>
+        Layer <Vegetable Quantity="500" Unit="g" Name="potatoes" Process="sliced"/> on top.
+      </Stage>
+      <Stage>
+        Pour on
+        <Check Quantity="2" Unit="tsp" Name="miso" />
+        dissolved in
+        <Water Quantity="500" Unit="g" Name="boiling water" />,
+      </Stage>
+      <Stage>	Bake <Temperature Level="medium"/> for 50 minutes.</Stage>
+    </Recipe>
     
     <!--quick-->
+    <Recipe Title="Quick Couscous" Meals="1">
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
     
   </Menu>
 
@@ -2334,9 +2471,79 @@
       </Stage>
     </Recipe>
   
-    <!--meat-->
+    <Recipe Title="Chicken and Carrot Tagine" Meals="2">
+      <Stage>
+        In a <Utensil Name="wok" /> mix
+        <Meat Quantity="400" Unit="g" Name="chicken" Process="cubed"/>,
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
+        <Check Quantity="2" Unit="tsp" Name="ground ginger" />,
+        <Check Quantity="0.5" Unit="tsp" Name="ground cinnamon" />,
+        <Vegetable Quantity="1" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Check Quantity="2" Unit="cube" Name="stock" Process="crumbled"/>,
+        <Vegetable Quantity="1000" Unit="g" Name="carrots" Process="sliced"/>,
+        <Check Quantity="1" Unit="tbsp" Name="honey" />,
+        <Check Quantity="3" Unit="tsp" Name="mixed herbs" />,
+        <Check Quantity="3" Unit="tsp" Name="ground coriander" />,
+        <Check Quantity="3" Unit="tbsp" Name="oil" />,
+        <Grocery Quantity="2" Unit="tbsp" Name="raisins" />,
+        and
+        <Water Quantity="800" Unit="ml" Name="cold water" />.
+        Bring to the boil
+        then simmer, uncovered for 60 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+      <Stage>
+        Stir in 
+        <Vegetable Quantity="1" Name="lemon" Process="juiced" />
+        to the stew
+        before serving.
+      </Stage>
+    </Recipe>
 
-    <!--vegetarian-->
+    <Recipe Title="Green lentil lasagne" Meals="2">
+      <Stage>
+        <Staple Name="baked potatoes"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="pan" /> cook
+        <Grocery Quantity="200" Unit="g" Name="green lentils" />
+        until soft.
+        Save 200 ml of the water.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>,
+        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>
+        and
+        <Vegetable Quantity="200" Unit="g" Name="mushrooms" Process="sliced"/>
+        in
+        <Check Quantity="3" Unit="tbsp" Name="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="500" Unit="ml" Name="milk" />,
+        <Grocery Quantity="2" Unit="tbsp" Name="plain flour" />,
+        <Check Quantity="1" Name="bay leaf" Process="crumbled"/>,
+        <Check Quantity="1" Unit="tsp" Name="ground nutmeg" />
+        and
+        <Check Quantity="2" Unit="tsp" Name="ground coriander" />
+        until sauce thinkens.
+      </Stage>
+      <Stage>
+        Stir in
+        the lentils
+        and
+        the water.
+      </Stage>
+      <Stage>
+        Layer with
+        <Grocery Quantity="450" Unit="g" Name="lasagna" />
+        and bake <Temperature Level="medium"/> for 50 minutes.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Coconut dahl" Meals="2">
       <Stage>

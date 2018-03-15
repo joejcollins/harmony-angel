@@ -243,37 +243,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Chicken and carrot stew" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> mix
-        <Meat Quantity="400" Unit="g" Name="chicken" Process="cubed"/>,
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
-        <Check Quantity="2" Unit="tsp" Name="ground ginger" />,
-        <Check Quantity="0.5" Unit="tsp" Name="ground cinnamon" />,
-        <Vegetable Quantity="1" Unit="clove" Name="garlic" Process="crushed"/>,
-        <Check Quantity="2" Unit="" Name="stock cubes" Process="crumbled"/>,
-        <Vegetable Quantity="1000" Unit="g" Name="carrots" Process="sliced"/>,
-        <Check Quantity="1" Unit="tbsp" Name="honey" />,
-        <Vegetable Quantity="3" Unit="tsp" Name="mixed herbs" />,
-        <Check Quantity="3" Unit="tp" Name="ground coriander" />,
-        <Check Quantity="3" Unit="tbsp" Name="oil" />,
-        <Grocery Quantity="2" Unit="tbsp" Name="raisins" />,
-        and
-        <Water Quantity="800" Unit="ml" Name="water" />.
-        Bring to the boil
-        then simmer, uncovered for 60 minutes.
-      </Stage>
-      <Stage>
-        <Staple Name="couscous"/>
-      </Stage>
-      <Stage>
-        Stir in the juice of
-        <Vegetable Quantity="1" Unit="" Name="lemon" />
-        to the stew
-        before serving.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Curry Ethiopian style" Meals="2">
       <Stage>
         <Staple Name="rice brown"/>
@@ -322,39 +291,6 @@
       <Stage>
         Warm and sprinkle with
         <Grocery Quantity="50" Unit="g" Name="grated parmesan" />.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Tofu and pork" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Meat Quantity="200" Unit="g" Name="minced pork" />,
-        <Vegetable Quantity="2" Unit="" Name="red chillis" Process="chopped"/>
-        and
-        <Vegetable Quantity="4" Unit="cm" Name="ginger" Process="chopped"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Name="oil" />
-        until the pork is done.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="2" Unit="tbsp" Name="flour" />,
-        <Check Quantity="1" Unit="" Name="stock cube" Process="crumbled"/>,
-        <Check Quantity="1" Unit="tbsp" Name="sherry" />,
-        <Vegetable Quantity="400" Unit="g" Name="mange tout" Process="halved"/>,
-        <Water Quantity="250" Unit="ml" Name="water" />,
-        bring to boil
-        and
-        simmer for 10 minutes.
-      </Stage>
-      <Stage>
-        Stir in
-        <Grocery Quantity="450" Unit="g" Name="tofu" Process="cubed"/>,
-        and
-        simmer for 10 minutes.
-      </Stage>
-      <Stage>
-        <Staple Name="noodles"/>
       </Stage>
     </Recipe>
 
@@ -702,49 +638,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Green lentil lasagne" Meals="2">
-      <Stage>
-        <Staple Name="potatoes"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="pan" /> cook
-        <Grocery Quantity="200" Unit="g" Name="green lentils" />
-        until soft.
-        Save 200 ml of the water.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="200" Unit="g" Name="onion" Process="sliced"/>,
-        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>
-        and
-        <Vegetable Quantity="200" Unit="g" Name="mushrooms" Process="sliced"/>
-        in
-        <Check Quantity="3" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Dairy Quantity="500" Unit="ml" Name="milk" />,
-        <Check Quantity="2" Unit="tbsp" Name="flour" />,
-        <Check Quantity="1" Unit="" Name="bay leaf" Process="crumbled"/>,
-        <Check Quantity="1" Unit="tsp" Name="ground nutmeg" />
-        and
-        <Check Quantity="2" Unit="tsp" Name="ground coriander" />
-        until sauce thinkens.
-      </Stage>
-      <Stage>
-        Stir in
-        the lentils
-        and
-        the water.
-      </Stage>
-      <Stage>
-        Layer with
-        <Grocery Quantity="450" Unit="g" Name="lasagne" />
-        and bake \med for 50 minutes.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Smash and cheese" Meals="1">
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -900,34 +793,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Sweet corn and bacon" Meals="1">
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Dairy Quantity="2" Name="eggs" />.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Meat Quantity="100" Unit="g" Name="bacon" Process="chopped"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Name="oil"/>
-        until done.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="2" Unit="tbsp" Name="flour" />
-        until absorbed.
-      </Stage>
-      <Stage>
-        Stir in the liquid from
-        <Grocery Quantity="800" Unit="g" Name="can sweetcorn"/>
-        and
-        <Dairy Quantity="600" Unit="ml" Name="milk" />.
-      </Stage>
-      <Stage>
-        Add the eggs (halved).
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Cashew and pea curry" Meals="2">
       <Stage>
         <Staple Name="rice brown"/>
@@ -1079,50 +944,6 @@
       <Stage>
         Sprinkle with
         <Grocery Quantity="50" Unit="g" Name="grated parmesan" />
-        before serving.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Tarka dhal and chappatis" Meals="2">
-      <Stage>
-        In a <Utensil Name="pan" /> cook
-        <Check Quantity="1" Unit="" Name="bay leaf" />,
-        <Check Quantity="2" Unit="tbsp" Name="curry powder" />,
-        <Check Quantity="1" Unit="tsp" Name="ground turmeric" />
-        and
-        <Grocery Quantity="225" Unit="g" Name="red lentils" />,
-        in
-        <Water Quantity="450" Unit="ml" Name="water" />
-        until soft.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> in
-        <Check Quantity="3" Unit="tbsp" Name="oil" />
-        fry
-        <Check Quantity="1" Unit="tsp" Name="cumin seeds" />
-        and
-        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
-        until mustard seeds pop.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>,
-        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>,
-        <Vegetable Quantity="4" Unit="cm" Name="ginger" Process="chopped"/>
-        and
-        <Vegetable Quantity="2" Unit="" Name="green chillis" Process="chopped"/>
-        and
-        fry until onion browns.
-      </Stage>
-      <Stage>
-        Stir in the lentils
-        and
-        <Check Quantity="25" Unit="g" Name="creamed coconut" />
-        and warm through.
-      </Stage>
-      <Stage>
-        Heat up
-        <Grocery Quantity="8" Unit="" Name="chappattis" />
         before serving.
       </Stage>
     </Recipe>
@@ -1528,40 +1349,6 @@
         <Meat Quantity="400" Unit="g" Name="sausages" Process="chopped"/>
         until sausages done.
       </Stage>
-    </Recipe>
-
-    <Recipe Title="Lentil Hotpot" Meals="2">
-      Vegan Health Plan page 205
-
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Quantity="150" Unit="g" Name="red peppers" Process="chopped"/>,
-        <Vegetable Quantity="400" Unit="g" Name="celery" Process="chopped"/>,
-        <Vegetable Quantity="300" Unit="g" Name="fennel" Process="chopped"/>
-        <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="chopped"/>
-        and
-        <Vegetable Quantity="2" Unit="clove" Name="garlic" Process="crushed"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="casserole" /> layer
-        <Grocery Quantity="225" Unit="g" Name="red lentils" />,
-        <Check Quantity="3" Unit="tsp" Name="mixed herbs" />
-        and vegetable tomato mix 3 times.
-      </Stage>
-      <Stage>
-        Layer <Vegetable Quantity="500" Unit="g" Name="potatoes" Process="sliced"/> on top.
-      </Stage>
-      <Stage>
-        Pour on
-        <Check Quantity="2" Unit="tsp" Name="miso" />
-        dissolved in
-        <Water Quantity="500" Unit="g" Name="water" Process="warm"/>,
-      </Stage>
-      <Stage>	Bake \med for 50 minutes.</Stage>
     </Recipe>
 
     <Recipe Title="Chilli Spaghetti" Meals="1">
