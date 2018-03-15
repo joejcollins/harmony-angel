@@ -275,6 +275,7 @@
       <xsd:enumeration value="cream cheese" />
       <xsd:enumeration value="creme fraiche" />
       <xsd:enumeration value="eggs" />
+      <xsd:enumeration value="feta cheese" />
       <xsd:enumeration value="gruyere cheese" />
       <xsd:enumeration value="halloumi cheese" />
       <xsd:enumeration value="milk" />
@@ -337,6 +338,7 @@
       <xsd:enumeration value="passata" />
       <xsd:enumeration value="pasta sauce" />
       <xsd:enumeration value="pasta shapes" />
+      <xsd:enumeration value="ready made pastry" />
       <xsd:enumeration value="peanut butter" />
       <xsd:enumeration value="peanuts" />
       <xsd:enumeration value="pearl barley" />

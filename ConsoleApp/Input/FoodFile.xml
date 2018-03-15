@@ -2664,7 +2664,7 @@
         Stir in
         <Check Quantity="1" Name="bay leaf" />,
         <Check Quantity="1" Unit="tsp" Name="thyme" />,
-        <Check Quantity="1" Unit="tbsp" Name="plain flour" />,
+        <Grocery Quantity="1" Unit="tbsp" Name="plain flour" />,
         <Water Quantity="600" Unit="ml" Name="cold water" />
         and
         <Check Quantity="2" Unit="tbsp" Name="worcester sauce" />.
@@ -2775,7 +2775,31 @@
       </Stage>
     </Recipe>
     
-    <!--vegetarian-->
+    <Recipe Title="Roasted vegetable pie" Meals="2">
+      <Stage>
+        In a <Utensil Name="casserole" /> mix
+        <Vegetable Quantity="300" Unit="g" Name="onions" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" />,
+        <Vegetable Quantity="150" Unit="g" Name="green pepper" />,
+        and
+        <Vegetable Quantity="200" Unit="g" Name="courgette" Process="chopped"/>,
+        and bake <Temperature Level="medium"/> 25 minutes.
+      </Stage>
+      <Stage>
+        In a bowl mix
+        <Dairy Quantity="3" Name="eggs" Process="beaten"/>,
+        <Dairy Quantity="100" Unit="g" Name="feta cheese" />
+        and
+        <Grocery Quantity="400" Unit="g" Name="can evaporated milk" />.
+        Pour over the vegetables,
+        cover with
+        <Grocery Quantity="250" Unit="g" Name="ready made pastry" />
+        and bake <Temperature Level="medium"/> 40 minutes.
+      </Stage>
+      <Stage>
+        <Staple Name="baked potatoes"/>
+      </Stage>
+    </Recipe>
 
     <!--vegan-->
 

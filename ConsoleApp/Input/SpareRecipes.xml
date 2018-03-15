@@ -296,7 +296,7 @@
 
     <Recipe Title="Vegetable and butter bean pie" Meals="2">
       <Stage>
-        <Staple Name="potatoes"/>
+        <Staple Name="baked potatoes"/>
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -884,7 +884,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="400" Unit="g" Name="courgettes" Process="sliced"/>
+        <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>
         and cook slowly for
         60 minutes.
       </Stage>
@@ -899,7 +899,7 @@
       </Stage>
       <Stage>
         Sprinkle with
-        <Grocery Quantity="50" Unit="g" Name="grated parmesan" />
+        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated" />
         before serving.
       </Stage>
     </Recipe>
@@ -1000,29 +1000,6 @@
       <Stage>
         Sprinkle on
         <Check Quantity="20" Unit="g" Name="grated parmesan" />.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Roasted vegetable pie" Meals="2">
-      <Stage>
-        In a <Utensil Name="casserole" /> mix
-        <Vegetable Quantity="300" Unit="g" Name="onion" Process="chopped"/>,
-        <Vegetable Quantity="150" Unit="g" Name="red peppers" />,
-        <Vegetable Quantity="150" Unit="g" Name="yellow pepper" />,
-        and
-        <Vegetable Quantity="200" Unit="g" Name="courgettes" Process="chopped"/>,
-        and bake \hi\ 25 minutes.
-      </Stage>
-      <Stage>
-        In a bowl mix
-        <Dairy Quantity="3" Unit="" Name="eggs" Process="beaten"/>,
-        <Dairy Quantity="100" Unit="g" Name="feta cheese" />
-        and
-        <Grocery Quantity="400" Unit="g" Name="canned evapourated milk" />.
-        Pour over the vegetables,
-        cover with
-        <Grocery Quantity="1" Unit="pack" Name="ready made pastry" />
-        and bake \med 40 minutes.
       </Stage>
     </Recipe>
 
@@ -1217,7 +1194,7 @@
       </Stage>
       <Stage>
         Add the noodles,
-        <Grocery Quantity="2" Unit="tbsp" Name="soya sauce" />,
+        <Grocery Quantity="2" Unit="tbsp" Name="soy sauce" />,
         <Grocery Quantity="1" Unit="tbsp" Name="dry sherry" />,
         <Grocery Quantity="2" Unit="tbsp" Name="oyster sauce" />
         and
