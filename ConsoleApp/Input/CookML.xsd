@@ -192,9 +192,7 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="cloves" />
-      <xsd:enumeration value="cm" />
       <xsd:enumeration value="cube" />
-      <xsd:enumeration value="rashers" />
       <xsd:enumeration value="g" />
       <xsd:enumeration value="ml" />
       <xsd:enumeration value="pinch" />
@@ -228,13 +226,10 @@
       <xsd:enumeration value="bay leaf" />
       <xsd:enumeration value="black pepper corns" />
       <xsd:enumeration value="chilli powder" />
-      <xsd:enumeration value="cinnamon stick" />
       <xsd:enumeration value="cloves" />
-      <xsd:enumeration value="creamed coconut" />
       <xsd:enumeration value="cumin seeds" />
       <xsd:enumeration value="curry powder" />
       <xsd:enumeration value="dried thyme" />
-      <xsd:enumeration value="flour" />
       <xsd:enumeration value="garam masala" />
       <xsd:enumeration value="ground cardamom" />
       <xsd:enumeration value="ground cinnamon" />
@@ -249,7 +244,6 @@
       <xsd:enumeration value="marjoram" />
       <xsd:enumeration value="miso" />
       <xsd:enumeration value="mixed herbs" />
-      <xsd:enumeration value="mustard seed" />
       <xsd:enumeration value="mustard seeds" />
       <xsd:enumeration value="oil" />
       <xsd:enumeration value="olive oil" />
@@ -286,7 +280,6 @@
       <xsd:enumeration value="milk" />
       <xsd:enumeration value="parmesan" />
       <xsd:enumeration value="single cream" />
-      <xsd:enumeration value="sour cream" />
       <xsd:enumeration value="soured cream" />
       <xsd:enumeration value="yoghurt" />
     </xsd:restriction>
@@ -323,7 +316,6 @@
       <xsd:enumeration value="capers" />
       <xsd:enumeration value="cashew nuts" />
       <xsd:enumeration value="cider" />
-      <xsd:enumeration value="cinnamon" />
       <xsd:enumeration value="corn flour" />
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="creamed coconut" />
@@ -332,7 +324,6 @@
       <xsd:enumeration value="fish fingers" />
       <xsd:enumeration value="flaked almonds" />
       <xsd:enumeration value="frozen peas" />
-      <xsd:enumeration value="parmesan" />
       <xsd:enumeration value="gravy granules" />
       <xsd:enumeration value="green lentils" />
       <xsd:enumeration value="hazel nuts" />
@@ -419,7 +410,6 @@
       <xsd:enumeration value="lemon" />
       <xsd:enumeration value="lettuce" />
       <xsd:enumeration value="lime" />
-      <xsd:enumeration value="mange tout" />
       <xsd:enumeration value="mushrooms" />
       <xsd:enumeration value="new potatoes" />
       <xsd:enumeration value="onions" />

@@ -163,39 +163,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Meat goulash" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>
-        and
-        <Meat Quantity="400" Unit="g" Name="meat" Process="sliced"/>
-        in
-        <Check Quantity="4" Unit="tbsp" Name="oil" />
-        until meat sealed.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="1" Unit="tbsp" Name="flour" />,
-        <Check Quantity="1" Unit="tsp" Name="paprika" />,
-        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>
-        and
-        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>.
-      </Stage>
-      <Stage>
-        Put in <Utensil Name="casserole" /> and bake <Temperature Level ="low"/> 50 minutes.
-      </Stage>
-      <Stage>
-        <Staple Name="potatoes"/>
-      </Stage>
-      <Stage>
-        Stir in
-        <Dairy Quantity="150" Unit="ml" Name="sour cream" />
-        to the goulash
-        before serving.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Garlic beans" Meals="1">
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -273,29 +240,6 @@
         Stir in
         <Vegetable Quantity="800" Unit="g" Name="frozen peas" />
         and warm through.
-      </Stage>
-    </Recipe>
-
-    <Recipe Title="Aubergine risotto" Meals="2">
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="500" Unit="g" Name="aubergine" Process="cubed"/>,
-        <Vegetable Quantity="200" Unit="g" Name="onion" Process="chopped"/>
-        in
-        <Check Quantity="2" Unit="tbsp" Name="oil" />
-        until onions soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="250" Unit="g" Name="parsnips" Process="cubed"/>,
-        <Grocery Quantity="75" Unit="ml" Name="sherry" />,
-        <Vegetable Quantity="150" Unit="g" Name="tomatoes" Process="chopped"/>,
-        <Check Quantity="1" Unit="" Name="stock cube" Process="crumbled"/>,
-        <Grocery Quantity="2" Unit="tbsp" Name="grated parmesan" />,
-        <Grocery Quantity="400" Unit="g" Name="rice" />
-        and
-        <Water Quantity="750" Unit="ml" Name="water" />.
-        Bring to a boil and simmer until rice done.
       </Stage>
     </Recipe>
 

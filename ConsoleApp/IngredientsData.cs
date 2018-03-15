@@ -70,12 +70,12 @@ namespace ConsoleApp
                 }
                 if (unit == "ml") // It is a volume measure
                 {
-                    calories = (quantity / 100) * thisIngredient.Calories * thisIngredient.Density;
+                    calories = (quantity / 100) * thisIngredient.CaloriesIn100g * thisIngredient.SpecificGravity;
                     calories = Math.Round(calories, 2);
                 }
                 else // Measured in grams so use the calories per 100 g value
                 {
-                    calories = (quantity / 100) * thisIngredient.Calories;
+                    calories = (quantity / 100) * thisIngredient.CaloriesIn100g;
                 }
             }
             return calories;                
