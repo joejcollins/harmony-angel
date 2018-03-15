@@ -1,8 +1,7 @@
 Food File
 =========
 
-The [LaTeX Food File](/Original LaTeX Food File.pdf) now rendered using XML and XSLT.
-Provides a standardized means for laying out recipes using XML
+Provides a standardized format for laying out recipes using XML
 and then compiling shopping lists using XSLT.
 For example:
 
