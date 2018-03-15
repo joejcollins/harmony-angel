@@ -196,7 +196,7 @@
         Sprinkle with
         <Vegetable Quantity="50" Unit="g" Name="spring onions" Process="chopped"/>
         and serve with
-        <Check Quantity="4" Unit="tbsp" Name="soy sauce"/>.
+        <Check Name="soy sauce"/>.
       </Stage>
     </Recipe>
 
@@ -1245,7 +1245,7 @@
         Serve with
         <Grocery Quantity="100" Unit="g" Name="flaked almonds" Process="toasted"/>
         and
-        <Vegetable Quantity="100" Unit="g" Name="fresh coriander" Process="chopped"/>.
+        <Vegetable Name="fresh coriander" Process="chopped"/>.
       </Stage>
     </Recipe>
 

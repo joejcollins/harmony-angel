@@ -49,14 +49,14 @@ namespace ConsoleApp
         /// <returns></returns>
         internal double GetCalories(double quantity, string unit, string name)
         {
-            double calories;
+            double calories = 0;
             var thisIngredient = m_Ingredients.FirstOrDefault(ingredient => ingredient.IngredientName == name);
             if (thisIngredient == null) // Not in the list so return zero calories.
             {
                 Console.WriteLine(name + " not found in ingredients list.");
                 calories = 0;
             }
-            else // It is in the list
+            else // It is in the list so there should be a value for calories
             {
                 if (unit == "tbsp") // convert table spoons to ml
                 {
@@ -73,9 +73,13 @@ namespace ConsoleApp
                     calories = (quantity / 100) * thisIngredient.CaloriesIn100g * thisIngredient.SpecificGravity;
                     calories = Math.Round(calories, 2);
                 }
-                else // Measured in grams so use the calories per 100 g value
+                if (unit == "g")  // Measured in grams so use the calories per 100 g value
                 {
                     calories = (quantity / 100) * thisIngredient.CaloriesIn100g;
+                }
+                if (unit == String.Empty && Double.IsNaN(quantity)) // No amount is specified so assume zero.
+                {
+                    calories = 0;
                 }
             }
             return calories;                
