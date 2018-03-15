@@ -478,17 +478,17 @@
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="150" Unit="g" Name="red peppers" Process="chopped"/>,
-        <Vegetable Quantity="400" Unit="g" Name="courgettes" Process="sliced"/>,
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>,
+        <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
         <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
         <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="chopped"/>
         and
-        <Grocery Quantity="200" Unit="g" Name="canned sweetcorn" />
+        <Grocery Quantity="200" Unit="g" Name="can sweetcorn" />
         and warm through.
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Unit="tbsp" Name="flour" />.
+        <Check Quantity="1" Unit="tbsp" Name="plain flour" />.
       </Stage>
       <Stage>
         Remove from heat and stir in

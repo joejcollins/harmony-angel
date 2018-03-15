@@ -2411,7 +2411,48 @@
       </Stage>
     </Recipe>
 
-    <!--vegetarian-->
+    <Recipe Title="Vegetables and Pasta" Meals="2">
+      <Stage>
+        <Staple Name="pasta shapes"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="250" Unit="g" Name="celery" Process="chopped"/>,
+        in
+        <Check Quantity="3" Unit="tbsp" Name="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>,
+        <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
+        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="chopped"/>
+        and
+        <Grocery Quantity="200" Unit="g" Name="can sweetcorn" />
+        and warm through.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="1" Unit="tbsp" Name="plain flour" />.
+      </Stage>
+      <Stage>
+        Remove from heat and stir in
+        <Dairy Quantity="500" Unit="ml" Name="milk" />
+        until a sauce is formed.
+      </Stage>
+      <Stage>
+        Stir in
+        the pasta,
+        <Check Quantity="1" Unit="tbsp" Name="soy sauce" />
+        <Check Quantity="2" Unit="tsp" Name="ground coriander" />
+        and
+        <Check Quantity="2" Unit="tsp" Name="miso" />
+        and warm through.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Sweet and Sour Celery" Meals="2">
       <Stage>
