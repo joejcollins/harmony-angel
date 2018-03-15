@@ -463,50 +463,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Vegetables and pasta" Meals="2">
-      <Stage>
-        <Staple Name="pasta shapes"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>
-        and
-        <Vegetable Quantity="250" Unit="g" Name="celery" Process="chopped"/>,
-        in
-        <Check Quantity="3" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>,
-        <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
-        <Vegetable Quantity="100" Unit="g" Name="mushrooms" Process="chopped"/>
-        and
-        <Grocery Quantity="200" Unit="g" Name="can sweetcorn" />
-        and warm through.
-      </Stage>
-      <Stage>
-        Stir in
-        <Check Quantity="1" Unit="tbsp" Name="plain flour" />.
-      </Stage>
-      <Stage>
-        Remove from heat and stir in
-        <Dairy Quantity="500" Unit="ml" Name="milk" />
-        until a sauce is formed.
-      </Stage>
-      <Stage>
-        Stir in
-        the pasta,
-        <Check Quantity="1" Unit="tsp" Name="dried parsley" />,
-        <Check Quantity="1" Unit="tbsp" Name="soya sauce" />
-        <Check Quantity="2" Unit="tsp" Name="ground coriander" />
-        and
-        <Check Quantity="2" Unit="tsp" Name="miso" />
-        and warm through.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Potato and cheese bake" Meals="2">
       <Stage>
         In a <Utensil Name="pan" /> boil
@@ -756,12 +712,12 @@
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>,
         <Check Quantity="1" Unit="tsp" Name="oregano" />,
         <Vegetable Quantity="200" Unit="g" Name="tomatoes" Process="chopped"/>,
-        <Grocery Quantity="400" Unit="g" Name="canned tomatoes" Process="chopped"/>
+        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>
         <Grocery Quantity="75" Unit="g" Name="tomato puree" />
-        <Vegetable Quantity="150" Unit="g" Name="red peppers" Process="chopped"/>,
-        <Vegetable Quantity="150" Unit="g" Name="green peppers" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>,
+        <Vegetable Quantity="150" Unit="g" Name="green pepper" Process="chopped"/>,
         <Vegetable Quantity="200" Unit="g" Name="carrots" Process="chopped"/>
-        <Vegetable Quantity="250" Unit="g" Name="courgettes" Process="chopped"/>
+        <Vegetable Quantity="250" Unit="g" Name="courgette" Process="chopped"/>
         simmer 40 minutes.
       </Stage>
       <Stage>
@@ -871,9 +827,9 @@
     <Recipe Title="Cheesey beans in pitta" Meals="1">
       <Stage>
         <Grocery Quantity="400" Unit="g" Name="baked beans" />,
-        <Grocery Quantity="4" Unit="" Name="pitta bread" Process="warmed"/>
+        <Grocery Quantity="4" Name="pitta bread" Process="warmed"/>
         and
-        <Dairy Quantity="50" Unit="g" Name="mature cheese" Process="grated"/>.
+        <Dairy Quantity="50" Unit="g" Name="cheese" Process="grated"/>.
       </Stage>
     </Recipe>
 
