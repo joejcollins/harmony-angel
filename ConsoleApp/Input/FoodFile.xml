@@ -481,7 +481,6 @@
     
     <Recipe Title="Stew and Dumplings" Meals="2" >
       <Index>Meat</Index>
-      <Index>Dumplings</Index>
       <Stage>
         <Staple Name="baked potatoes" />
       </Stage>
@@ -673,6 +672,7 @@
     </Recipe>
      
     <Recipe Title="Parsnip and Carrot Couscous" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="casserole"/> coat
         <Vegetable Quantity="800" Unit="g" Name="carrots" Process="sliced"/>
@@ -709,6 +709,8 @@
     </Recipe>
 
     <Recipe Title="Spaghetti Carbonara" Meals="1">
+      <Index>Quick</Index>
+      <Index>Spaghetti</Index>
       <Stage>
         <Staple Name="spaghetti"/>
       </Stage>
@@ -739,6 +741,7 @@
   Spring Greens, Spring Onions, Watercress.  -->
     
     <Recipe Title="Kale and Bacon Pasta" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -775,9 +778,8 @@
     </Recipe>
 
     <Recipe Title="Vegetable Shepherds Pie" Meals="2">
-      <Index>
-        Shepherds Pie<Sub>Vegetable</Sub>
-      </Index>
+      <Index>Vegetarian</Index>
+      <Index>Shepherds Pie</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="1000" Unit="g" Name="boiling potatoes" Process="cubed"/>,
@@ -803,10 +805,9 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Lentil and vegetable curry" Meals="2">
-      <Index>
-        Curry<Sub>Lentil and vegetable</Sub>
-      </Index>
+    <Recipe Title="Lentil and Vegetable Curry" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="pan" /> in
         <Water Quantity="450" Unit="ml" Name="cold water"/>
@@ -848,6 +849,8 @@
     </Recipe>
 
     <Recipe Title="Cheese and Tagliatelli" Meals="1">
+      <Index>Quick</Index>
+      <Index>Vegetarian</Index>
       <Stage>
         <Staple Name="tagliatelli"/>
       </Stage>
@@ -862,6 +865,8 @@
     </Recipe>
 
     <Recipe Title="Chicken and Tomato Curry" Meals="2">
+      <Index>Meat</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="wok"/> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>,
@@ -898,6 +903,7 @@
     </Recipe>
 
     <Recipe Title="Parsnip and Barley Nut Roast" Meals="2">
+      <Index>Vegetarian</Index>
       <!-- Vegetarian https://www.bbcgoodfood.com/recipes/parsnip-mushroom-barley-wreath -->
       <Stage>
         Grill <Grocery Quantity="150" Unit="g" Name="hazel nuts" Process="chopped"/> until golden.
@@ -944,6 +950,7 @@
     </Recipe>
 
     <Recipe Title="Tomato Tofu" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
@@ -975,7 +982,8 @@
     </Recipe>
     
     <Recipe Title="Scrambled Egg and Beans" Meals="1">
-       <Stage>
+      <Index>Quick</Index>
+      <Stage>
         In a <Utensil Name="pan" /> warm
         <Grocery Quantity="400" Name="baked beans" Unit="g" />.
       </Stage>
@@ -1007,6 +1015,7 @@
   Spring Onions, Strawberries, Watercress.  -->
 
     <Recipe Title="Hungarian Goulash" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
@@ -1037,7 +1046,8 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Aubergine risotto" Meals="2">
+    <Recipe Title="Aubergine Risotto" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="500" Unit="g" Name="aubergine" Process="cubed"/>,
@@ -1061,6 +1071,7 @@
     </Recipe>
 
     <Recipe Title="Bean and Nut Roast" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="baked potatoes"/>
       </Stage>
@@ -1098,6 +1109,7 @@
     </Recipe>
     
     <Recipe Title="Bacon and Mushroom Pasta" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="tagliatelli"/>
       </Stage>
@@ -1116,6 +1128,7 @@
     </Recipe>
     
     <Recipe Title="Mackerell and Potato Hash" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="1000" Unit="g" Name="new potatoes" Process="quartered" />
@@ -1145,6 +1158,8 @@
     </Recipe>
 
     <Recipe Title="Banana Curry" Meals="2">
+      <Index>Vegetarian</Index>
+      <Index>Curry</Index>
       <Stage>
         <Staple Name="rice brown"/>
       </Stage>
@@ -1175,6 +1190,7 @@
     </Recipe>
 
     <Recipe Title="Beans and Bulgur Wheat" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>,
@@ -1206,6 +1222,7 @@
     </Recipe>
 
     <Recipe Title="Egg and Chips" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         Heat up
         <Grocery Quantity="800" Unit="g" Name="oven ready chips" />.
@@ -1229,6 +1246,7 @@
   Strawberries, Summer Squash, Swiss Chard, Tayberries, Turnips, Watercress.  -->
     
     <Recipe Title="Chicken Tagine" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="wok"/> fry
         <Meat Quantity="400" Unit="g" Name="chicken" Process="chopped"/>
@@ -1269,6 +1287,7 @@
     </Recipe>
 
     <Recipe Title="Aubergine and Beans" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="new potatoes"/>
       </Stage>
@@ -1295,6 +1314,7 @@
     </Recipe>
 
     <Recipe Title="Halloumi Couscous" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="casserole" /> bake
         <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
@@ -1336,6 +1356,7 @@
     </Recipe>
 
     <Recipe Title="Strammer Max" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         On
         <Grocery Quantity="400" Unit="g" Name="bread" Process="sliced" />
@@ -1351,6 +1372,7 @@
     </Recipe>
     
     <Recipe Title="Tofu and Mince Noodles" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Meat Quantity="200" Unit="g" Name="minced meat" />,
@@ -1384,6 +1406,7 @@
     </Recipe>
 
     <Recipe Title="Vegetable Mousaka" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="500" Unit="g" Name="new potatoes" Process="sliced"/>
@@ -1427,6 +1450,8 @@
     </Recipe>
 
     <Recipe Title="Tarka Dhal" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="pan" /> cook
         <Check Quantity="1" Name="bay leaf" />,
@@ -1468,7 +1493,8 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Sweet corn and bacon" Meals="1">
+    <Recipe Title="Sweet Corn and Bacon" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Dairy Quantity="2" Name="eggs" />.
@@ -1508,6 +1534,7 @@
   Strawberries, Summer Squash, Swish Chard, Tomatoes, Turnips, Watercress.  -->
 
     <Recipe Title="Tuna Bake" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="rice brown" />
       </Stage>
@@ -1537,9 +1564,8 @@
     </Recipe>
 
     <Recipe Title="Onion and Tomato Lasagna"  Meals="2">
-      <Index>
-        Lasagna<Sub>Onion and tomato</Sub>
-      </Index>
+      <Index>Vegetarian</Index>
+      <Index>Lasagna</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Process="chopped" Quantity="700" Name="onions" Unit="g" />
@@ -1571,9 +1597,7 @@
     </Recipe>
 
     <Recipe Title="Tofu and Runner Bean Stir Fry" Meals="2">
-      <Index>
-        Stir Fry<Sub>Tofu and runner bean</Sub>
-      </Index>
+      <Index>Vegan</Index>
       <Stage>
         Coat
         <Grocery Quantity="300" Unit="g" Name="tofu" Process="cubed"/>
@@ -1616,15 +1640,15 @@
 
     <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
     </Recipe>
 
     <Recipe Title="Chicken Curry" Meals="2">
-      <Index>
-        Curry<Sub>Chicken</Sub>
-      </Index>
+      <Index>Meat</Index>
+      <Index>Curry</Index>
       <Stage>
         <Staple Name="rice white"/>
       </Stage>
@@ -1651,9 +1675,7 @@
     </Recipe>
     
     <Recipe Title="Indian Tomatoes" Meals="2">
-      <Index>
-        Style<Sub>Indian tomatoes</Sub>
-      </Index>
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="wok" /> heat
         <Check Quantity="4" Unit="tbsp" Name="oil" />,
@@ -1688,6 +1710,7 @@
     </Recipe>
 
     <Recipe Title="Lentil Hotpot" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped"/>,
@@ -1721,6 +1744,7 @@
     
     <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
@@ -1739,6 +1763,7 @@
   Swiss Chard, Tomatoes, Watercress.  -->
 
     <Recipe Title="Chicken Pilaf" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Meat Quantity="600" Unit="g" Name="chicken" />,
@@ -1772,7 +1797,8 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Chickpea Risotto" Meals="2">
+    <Recipe Title="Chick Pea Risotto" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Process="chopped" Quantity="400" Name="onions" Unit="g" />,
@@ -1808,6 +1834,7 @@
     </Recipe>
 
     <Recipe Title="Aubergine and Peppers" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="baked potatoes" />
       </Stage>
@@ -1843,6 +1870,7 @@
     </Recipe>
     
     <Recipe Title="Beans and Fried Eggs" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         In a <Utensil Name="pan" /> warm
         <Grocery Quantity="400" Name="baked beans" Unit="g" />.
@@ -1863,6 +1891,7 @@
     </Recipe>
 
     <Recipe Title="Sausages in Cider" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="pan"/> boil
         <Vegetable Quantity="1200" Unit="g" Name="boiling potatoes" Process="chopped"/>
@@ -1885,6 +1914,7 @@
     </Recipe>
     
     <Recipe Title="Egg Curry" Meals="2">
+      <Index>Vegetarian</Index>
       <Index>Curry</Index>
       <Stage>
         In <Utensil Name="pan" /> boil
@@ -1930,9 +1960,8 @@
     </Recipe>
 
     <Recipe Title="Lentil Dhansak" Meals="2">
-      <Index>
-        Curry<Sub>Lentil dhansak</Sub>
-      </Index>
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="pan"/> simmer
         <Grocery Quantity="225" Unit="g" Name="red lentils" />  
@@ -1975,6 +2004,7 @@
     </Recipe>
 
     <Recipe Title="Tortellini and Cheese" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="tortellini" />
       </Stage>
@@ -1997,6 +2027,7 @@
   Wild Mushrooms.  -->
 
     <Recipe Title="Lentils and Spicy Sausage" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="rice brown" />
       </Stage>
@@ -2023,9 +2054,7 @@
     </Recipe>
 
     <Recipe Title="Russian Potatoes" Meals="2">
-      <Index>
-        Style<Sub>Russian potatoes</Sub>
-      </Index>
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="2000" Unit="g" Name="boiling potatoes" Process="cubed"/>
@@ -2053,9 +2082,8 @@
     </Recipe>
     
     <Recipe Title="Lentil Shepherds Pie" Meals="2">
-      <Index>
-        Shepherds Pie<Sub>Lentil</Sub>
-      </Index>
+      <Index>Vegan</Index>
+      <Index>Shepherds Pie</Index>
       <Stage>
         In a <Utensil Name="pan"/> boil
         <Vegetable Quantity="1000" Unit="g" Name="boiling potatoes" Process="chopped"/>
@@ -2097,6 +2125,7 @@
     </Recipe>
 
     <Recipe Title="Fish Fingers and Baked Beans" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         In a <Utensil Name="pan" /> heat up
         <Grocery Quantity="400" Unit="g" Name="can baked beans" />.
@@ -2108,6 +2137,7 @@
     </Recipe>
 
     <Recipe Title="Courgettes and Bacon" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="baked potatoes" />
         then slice.
@@ -2136,9 +2166,8 @@
     </Recipe>
 
     <Recipe Title="Sweet Corn Pizza" Meals="2">
-      <Index>
-        Pizza<Sub>Sweet corn</Sub>
-      </Index>
+      <Index>Vegetarian</Index>
+      <Index>Pizza</Index>
       <Stage>
         On
         <Grocery Quantity="2" Name="pizza bases" />
@@ -2159,9 +2188,7 @@
     </Recipe>
 
     <Recipe Title="Caribbean Beans" Meals="2">
-      <Index>
-        Style<Sub>Carribbean beans</Sub>
-      </Index>
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="rice white"/>
       </Stage>
@@ -2198,6 +2225,7 @@
     </Recipe>
 
     <Recipe Title="Tagliatelli and Olive Oil" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="tagliatelli"/>
         save 150 ml of the water.
@@ -2241,9 +2269,8 @@
     <!-- Meat -->
 
     <Recipe Title="Spinach and Olive Lasagna" Meals="2">
-      <Index>
-        Lasagna<Sub>Spinach and olive</Sub>
-      </Index>
+      <Index>Vegetarian</Index>
+      <Index>Lasagna</Index>
       <Stage>
         In a <Utensil Name="wok" /> in
         <Check Quantity="4" Unit="tbsp" Name="oil" />
@@ -2280,10 +2307,9 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Chickpea and Spinach Curry" Meals="2">
-      <Index>
-        Curry<Sub>Chickpea and spinach</Sub>
-      </Index>
+    <Recipe Title="Chick Pea and Spinach Curry" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         <Staple Name="rice brown"/>
       </Stage>
@@ -2316,6 +2342,7 @@
     <!--quick-->
 
     <Recipe Title="Sausage and Beans" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="baked potatoes" />
       </Stage>
@@ -2348,6 +2375,7 @@
     </Recipe>
 
     <Recipe Title="Red Pepper Pasta" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="pan" />
         <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped" />,
@@ -2381,6 +2409,7 @@
     </Recipe>
 
     <Recipe Title="Vegetable Cous Cous" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>,
@@ -2431,12 +2460,14 @@
   Winter Squash.  -->
     
     <Recipe Title="German Sausages, Mash and Sauerkraut" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Meat Name="sausages" Quantity="400" Unit="g"/>
       </Stage>
     </Recipe>
 
     <Recipe Title="Vegetables and Pasta" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -2480,6 +2511,7 @@
     </Recipe>
 
     <Recipe Title="Sweet and Sour Celery" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="rice white"/>
       </Stage>
@@ -2510,9 +2542,8 @@
     </Recipe>
 
     <Recipe Title="Pizza and Swedish salad" Meals="1">
-      <Index>
-        Pizza
-      </Index>
+      <Index>Quick</Index>
+      <Index>Pizza</Index>
       <Stage>
         Bake <Grocery Quantity="2" Name="pizza" />
         <Temperature Level="high" /> 15 minutes.
@@ -2538,6 +2569,7 @@
     </Recipe>
   
     <Recipe Title="Chicken and Carrot Tagine" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="wok" /> mix
         <Meat Quantity="400" Unit="g" Name="chicken" Process="cubed"/>,
@@ -2568,7 +2600,8 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Green lentil lasagne" Meals="2">
+    <Recipe Title="Green Lentil Lasagne" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         <Staple Name="baked potatoes"/>
       </Stage>
@@ -2611,7 +2644,9 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Coconut dahl" Meals="2">
+    <Recipe Title="Coconut Dahl" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         <Staple Name="rice brown" />
       </Stage>
@@ -2643,7 +2678,8 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Spam and mustard pasta" Meals="1">
+    <Recipe Title="Spam and Mustard Pasta" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -2672,7 +2708,8 @@
   Mushrooms, Onions, Parsnips, Pears, Potatoes, Pumpkin, Red Cabbage, 
   Swede, Swiss Chard, Turnips, Watercress, Winter Squash. -->
 
-    <Recipe Title="Lamb hotpot" Meals="2">
+    <Recipe Title="Lamb Hotpot" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Meat Quantity="400" Unit="g" Name="lamb" Process="sliced"/>
@@ -2702,6 +2739,7 @@
     </Recipe>
 
     <Recipe Title="Woolton Pie" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         (in <Check Quantity="4" Unit="tbsp" Name="oil" />)
@@ -2747,9 +2785,7 @@
     </Recipe>
 
     <Recipe Title="Mushroom Stew" Meals="2">
-      <Index>
-        Stew<Sub>Mushroom</Sub>
-      </Index>
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="375" Unit="g" Name="onions" Process="chopped"/>
@@ -2781,13 +2817,15 @@
     
     <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
     </Recipe>
 
     <Recipe Title="Fletchs Chicken Curry" Meals="2">
-      <Index>Curry<Sub>Chicken</Sub></Index>
+      <Index>Meat</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="casserole" /> mix
         <Meat Quantity="500" Unit="g" Name="chicken" Process="chopped"/>,
@@ -2805,7 +2843,8 @@
       </Stage>
     </Recipe>
     
-    <Recipe Title="Roasted vegetable pie" Meals="2">
+    <Recipe Title="Roasted Vegetable Pie" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="casserole" /> mix
         <Vegetable Quantity="300" Unit="g" Name="onions" Process="chopped"/>,
@@ -2833,6 +2872,7 @@
 
     <!--vegan-->
     <Recipe Title="Vegan Dummy" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
@@ -2840,6 +2880,7 @@
     
     <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
