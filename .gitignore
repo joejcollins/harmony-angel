@@ -194,6 +194,7 @@ FakesAssemblies/
 *.mtc0
 *.pdf
 *.synctex.gz
+*.synctex(busy)
 *.idx
 *.idxs
 *.ilg
