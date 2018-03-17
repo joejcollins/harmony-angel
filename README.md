@@ -35,4 +35,4 @@ Then compile the LaTeX document
 	pdflatex FoodFile.tex
 	MakeIndex FoodFile.tex
 	pdflatex FoodFile.tex
-	
+	pdflatex TwoUp.tex

@@ -257,6 +257,7 @@
       <xsd:enumeration value="soy sauce" />
       <xsd:enumeration value="stock" />
       <xsd:enumeration value="sugar" />
+      <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="thyme" />
       <xsd:enumeration value="turmeric" />
       <xsd:enumeration value="wine vinegar" />
@@ -357,7 +358,6 @@
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="spam" />
       <xsd:enumeration value="stir in pasta sauce" />
-      <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="tagliatelli" />
       <xsd:enumeration value="tahini" />
       <xsd:enumeration value="tofu" />

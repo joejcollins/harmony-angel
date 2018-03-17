@@ -67,7 +67,7 @@
   \addtocounter{section}{1}%
   \immediateaddtocontents{toc}{\protect\begin{samepage}}%
   \addcontentsline{toc}{section}{Menu \thesection\ - #1}%
-  \markboth{Menu \thesection}{Menu \thesection\ -  #1}%
+  \markboth{Menu \thesection\ -  #1}{Menu \thesection\ -  #1}%
   \section*{Menu \thesection\hfill #1}%
   \immediateaddtocontents{toc}{\protect\begin{TOCRecipeList}}%
 }%

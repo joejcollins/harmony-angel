@@ -778,7 +778,7 @@
         <Grocery Quantity="160" Unit="g" Name="horseraddish sauce" />.
         Spread the mashed potatoes on top,
         sprinkle with
-        <Grocery Quantity="50" Unit="g" Name="sunflower seeds" />
+        <Check Quantity="50" Unit="g" Name="sunflower seeds" />
         and
         bake <Temperature Level="medium" /> 60 minutes.
       </Stage>
@@ -1173,7 +1173,7 @@
         <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="150" Unit="g" Name="tomato puree" />,
         <Check Quantity="1" Unit="tsp" Name="chilli powder" />,
-        <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="drained"/>
+        <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="drained"/>,
         <Vegetable Quantity="400" Unit="g" Name="broccoli" />,
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
         and
@@ -1249,6 +1249,32 @@
       </Stage>
     </Recipe>
 
+    <Recipe Title="Aubergine and Beans" Meals="2">
+      <Stage>
+        <Staple Name="new potatoes"/>
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>
+        and
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>
+        in
+        <Check Quantity="5" Unit="tbsp" Name="oil" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>,
+        <Vegetable Quantity="600" Unit="g" Name="mushrooms" Process="sliced"/>,
+        <Vegetable Quantity="1000" Unit="g" Name="courgette" Process="sliced"/>,
+        <Grocery Quantity="300" Unit="g" Name="can tomatoes" Process="chopped"/>
+        and
+        <Grocery Quantity="300" Unit="g" Name="can flageolet beans" />
+        simmer for 20 minutes.
+      </Stage>
+    </Recipe>
+
     <Recipe Title="Halloumi Couscous" Meals="2">
       <Stage>
         In a <Utensil Name="casserole" /> bake
@@ -1290,38 +1316,18 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Aubergine and Beans" Meals="2">
-      <Stage>
-        <Staple Name="new potatoes"/>
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>
-        and
-        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>
-        in
-        <Check Quantity="5" Unit="tbsp" Name="oil" />
-        until soft.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>,
-        <Vegetable Quantity="600" Unit="g" Name="mushrooms" Process="sliced"/>,
-        <Vegetable Quantity="1000" Unit="g" Name="courgette" Process="sliced"/>,
-        <Grocery Quantity="300" Unit="g" Name="can tomatoes" Process="chopped"/>
-        and
-        <Grocery Quantity="300" Unit="g" Name="can flageolet beans" />
-        simmer for 20 minutes.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Strammer Max" Meals="1">
       <Stage>
+        On
         <Grocery Quantity="400" Unit="g" Name="bread" Process="sliced" />
-        <Dairy Quantity="50" Unit="g" Name="cheese" />
+        toast
+        <Dairy Quantity="50" Unit="g" Name="cheese" />.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="frying"/> fry
         <Dairy Quantity="2" Name="eggs" />
-        <Meat Quantity="50" Unit="g" Name="ham" />
+        and serve with
+        <Meat Quantity="50" Unit="g" Name="ham" />.
       </Stage>
     </Recipe>
     
@@ -2066,7 +2072,7 @@
         put in a <Utensil Name="casserole"/>,
         cover with the mashed potatoes
         and sprinkle with
-        <Grocery Quantity="50" Unit="g" Name="sunflower seeds"/>.
+        <Check Quantity="50" Unit="g" Name="sunflower seeds"/>.
         then bake <Temperature Level="medium"/> for 20 minutes.
       </Stage>
     </Recipe>
