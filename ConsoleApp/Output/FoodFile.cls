@@ -44,25 +44,39 @@
 }
 
 %% 
+% TeX delays all \write commands until \shipout time.  The result is that 
+% the final \addtocontents are not getting written to the *.aux file.  To 
+% get around it this macro writes out immediately.
+% https://tex.stackexchange.com/questions/13914/toc-numbering-problem/13926#13926
+%%
+\newcommand\immediateaddtocontents[2]{%
+  \begingroup
+  \let\origwrite\write
+  \def\write{\immediate\origwrite}%
+  \addtocontents{#1}{#2}%
+  \endgroup
+}
+
+%% 
 % Menu Environment - menus are listed alphabetically
 %%
 \renewcommand{\thesection}{\Alph{section}}%
 \newenvironment{menu}[1]%
-{
+{%
   \cleardoublepage
   \addtocounter{section}{1}%
-  \addtocontents{toc}{\protect\begin{samepage}}%
+  \immediateaddtocontents{toc}{\protect\begin{samepage}}%
   \addcontentsline{toc}{section}{Menu \thesection\ - #1}%
   \markboth{Menu \thesection}{Menu \thesection\ -  #1}%
   \section*{Menu \thesection\hfill #1}%
-  \addtocontents{toc}{\protect\begin{TOCRecipeList}}%
-}
-{
-  \addtocontents{toc}{\protect\end{TOCRecipeList}}%
-  \addtocontents{toc}{\protect\end{samepage}}%
-  \setcounter{recipe}{0} % After the menu is finished set the recipe counter to zero
-  \setcounter{day}{0} % After the menu is finished set the day counter to zero
-}
+  \immediateaddtocontents{toc}{\protect\begin{TOCRecipeList}}%
+}%
+{%
+  \immediateaddtocontents{toc}{\protect\end{TOCRecipeList}}%
+  \immediateaddtocontents{toc}{\protect\end{samepage}}%
+  \setcounter{recipe}{0}% After the menu is finished set the recipe counter to zero
+  \setcounter{day}{0}% After the menu is finished set the day counter to zero
+}%
 
 \newenvironment{TOCRecipeList}%
 {%
