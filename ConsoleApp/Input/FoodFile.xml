@@ -265,7 +265,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Name="black bean sauce" Unit="tbsp" />
+        <Grocery Quantity="1" Name="black bean sauce" Unit="tbsp" />
         and fry for 2 minutes.
       </Stage>
       <Stage>
@@ -1321,7 +1321,7 @@
         <Grocery Quantity="400" Unit="g" Name="bread" Process="sliced" />
         <Dairy Quantity="50" Unit="g" Name="cheese" />
         <Dairy Quantity="2" Name="eggs" />
-        <Dairy Quantity="50" Unit="g" Name="ham" />
+        <Meat Quantity="50" Unit="g" Name="ham" />
       </Stage>
     </Recipe>
     
@@ -1404,7 +1404,7 @@
     <Recipe Title="Tarka Dhal" Meals="2">
       <Stage>
         In a <Utensil Name="pan" /> cook
-        <Check Quantity="1" Unit="" Name="bay leaf" />,
+        <Check Quantity="1" Name="bay leaf" />,
         <Check Quantity="2" Unit="tbsp" Name="curry powder" />,
         <Check Quantity="1" Unit="tsp" Name="ground turmeric" />
         and
@@ -1590,7 +1590,7 @@
     </Recipe>
 
     <!--quick-->
-    <Recipe Title="Quick Couscous" Meals="1">
+    <Recipe Title="Quick Dummy" Meals="1">
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
@@ -1695,7 +1695,7 @@
     </Recipe>
     
     <!--quick-->
-    <Recipe Title="Quick Couscous" Meals="1">
+    <Recipe Title="Quick Dummy" Meals="1">
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
@@ -2755,6 +2755,11 @@
     </Recipe>
     
     <!--quick-->
+    <Recipe Title="Quick Dummy" Meals="1">
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Fletchs Chicken Curry" Meals="2">
       <Index>Curry<Sub>Chicken</Sub></Index>
@@ -2802,8 +2807,18 @@
     </Recipe>
 
     <!--vegan-->
-
+    <Recipe Title="Vegan Dummy" Meals="2">
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
+    
     <!--quick-->
+    <Recipe Title="Quick Dummy" Meals="1">
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
     
   </Menu>
 
