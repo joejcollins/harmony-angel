@@ -84,7 +84,7 @@
 }%
 
 %% 
-% Mini TOC for Menu
+% List of recipes in the menu
 %%
 \newenvironment{recipelist}%
 {%
@@ -97,12 +97,12 @@
 }%
 
 %% 
-% Shopping List Command
+% Shopping list for ingredient type
 %%
 \newenvironment{shoppinglist}[1]%
 {%
   \begin{minipage}[t]{.5\textwidth}%
-  \subsubsection*{#1}
+  \subsubsection*{#1}%
 }%
 {%
   \end{minipage}%
