@@ -6,7 +6,8 @@
   Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
   Parsnips, Pears, Spring Greens, Spring Onions, Squash, Swedes, Turnips. -->
 
-    <Recipe Title="Spiced chicken" Meals="2">
+    <Recipe Title="Spiced Chicken" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="rice turmeric" />
       </Stage>
@@ -50,7 +51,8 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tagliatelli and mushroom sauce" Meals="2">
+    <Recipe Title="Tagliatelli and Mushroom Sauce" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         <Staple Name ="tagliatelli" />
       </Stage>
@@ -84,10 +86,9 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Chick pea and tomato curry" Meals="2">
-      <Index>
-        Curry<Sub>Chick pea and tomato</Sub>
-      </Index>
+    <Recipe Title="Chick Pea and Tomato Curry" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped" />
@@ -120,6 +121,8 @@
     </Recipe>
 
     <Recipe Title="Curry and Couscous" Meals="1">
+      <Index>Quick</Index>
+      <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="pan" /> warm
         <Grocery Quantity="400" Unit="g" Name="can curry"/>.
@@ -130,6 +133,7 @@
     </Recipe>
  
     <Recipe Title="Pasta and Bacon in White Sauce" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -159,6 +163,7 @@
     </Recipe>
 
     <Recipe Title="Stir Fried Egg Rice" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         <Staple Name="rice white"/>
       </Stage>
@@ -201,6 +206,7 @@
     </Recipe>
 
     <Recipe Title="Tofu and Peppers" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         <Staple Name="couscous"/>
       </Stage>
@@ -223,6 +229,7 @@
     </Recipe>
    
     <Recipe Title="Bread and Mackerel" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         Grill
         <Meat Quantity="400" Unit="g" Name="smoked mackerel" />
@@ -242,6 +249,7 @@
   Swedes. -->
     
     <Recipe Title="Chicken with Cabbage and Peanuts" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         <Staple Name="noodles" />
       </Stage>
@@ -274,6 +282,7 @@
     </Recipe>
 
     <Recipe Title="Pea Risotto" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped"/>
@@ -297,6 +306,7 @@
     </Recipe>
 
     <Recipe Title="Tofu and Tahini" Meals="2">
+      <Index>Vegan</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
@@ -333,6 +343,7 @@
     </Recipe>
 
     <Recipe Title="Pasta and Stir in Sauce" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="pasta shapes" />
       </Stage>
@@ -343,9 +354,8 @@
     </Recipe>
     
     <Recipe Title="Spaghetti and Pasta Sauce" Meals="2">
-      <Index>
-        Spaghetti<Sub>Pasta sauce</Sub>
-      </Index>
+      <Index>Meat</Index>
+      <Index>Spaghetti</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" />,
@@ -365,6 +375,7 @@
     </Recipe>
 
     <Recipe Title="Vegetable Chilli Stew" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
         <Vegetable Quantity="1000" Unit="g" Name="potatoes" Process="chopped"/>
@@ -407,6 +418,8 @@
     </Recipe>
 
     <Recipe Title="Ethiopian Peanut Butter Curry" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         <Staple Name="rice brown"/>
       </Stage>
@@ -433,6 +446,8 @@
     </Recipe>
 
     <Recipe Title="Puttanesca Spaghetti" Meals="1">
+      <Index>Quick</Index>
+      <Index>Spaghetti</Index>
       <Stage>
         <Staple Name="spaghetti" />
       </Stage>
@@ -465,9 +480,7 @@
   Spring Greens, Spring Onions, Watercress. -->
     
     <Recipe Title="Stew and Dumplings" Meals="2" >
-      <Index>
-        Stew<Sub>Meat and dumplings</Sub>
-      </Index>
+      <Index>Meat</Index>
       <Index>Dumplings</Index>
       <Stage>
         <Staple Name="baked potatoes" />
@@ -505,6 +518,7 @@
     </Recipe>
 
     <Recipe Title="Leek Pasta Bake" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -544,6 +558,8 @@
     </Recipe>
 
     <Recipe Title="Curried Carrots" Meals="2">
+      <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
         <Staple Name="rice brown" />
       </Stage>
@@ -580,7 +596,8 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Pasta and pesto" Meals="1">
+    <Recipe Title="Pasta and Pesto" Meals="1">
+      <Index>Quick</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
       </Stage>
@@ -592,6 +609,7 @@
     </Recipe>
 
     <Recipe Title="Norwegian Lamb and Cabbage" Meals="2">
+      <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="casserole"/> place
         <Meat Name="lamb" Quantity="800" Unit="g"/>
@@ -613,6 +631,7 @@
     </Recipe>
 
     <Recipe Title="Green Shakshuka" Meals="2">
+      <Index>Vegetarian</Index>
       <Stage>
         In a <Utensil Name="casserole"/> fry
         (in <Check Quantity="4" Name="olive oil" Unit="tbsp" />)

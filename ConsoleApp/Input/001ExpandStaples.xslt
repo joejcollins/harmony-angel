@@ -16,6 +16,16 @@
     </xsl:copy>
   </xsl:template>
   <!--
+  -->
+  <xsl:template name="Index" match="cml:Index">
+    <Index>
+      <xsl:value-of select="."/>
+      <Sub>
+        <xsl:value-of select="../@Title"/>
+      </Sub>
+    </Index>
+  </xsl:template>
+    <!--
 	Expanding the staples is the first step because they use the utensils 
   (which will be replaced with localised text) and because the staple
   tag will add other ingredients to the shopping lists.    
@@ -223,9 +233,9 @@
     </xsl:if>
   </xsl:template>
   <!--
-		Remove all the namespaces (to make it easier to read).  The namespace is really
-    only there in the first place to get the editor to respond to the xsd.  After this
-    point there will be no editing by hand anyway.
+  Remove all the namespaces (to make it easier to read).  The namespace is really
+  only there in the first place to get the editor to respond to the xsd.  After this
+  point there will be no editing by hand anyway.
 	-->
   <xsl:template match="*">
     <!-- remove element prefix (if any) -->

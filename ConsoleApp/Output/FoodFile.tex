@@ -3,8 +3,9 @@
   pdftitle={The Food File}, 
   pdfauthor={Joe J Collins},
   pdfsubject={The LaTeX Food File now rendered using XML and XSLT}]{hyperref}
+\usepackage{imakeidx}
+\makeindex[columns = 1]
 
-\makeindex
 \begin{document}
 \thispagestyle{empty}
 \begin{center}
@@ -25,5 +26,7 @@ Copyright \copyright\ 1997 - 2018, Joe J Collins.
 \clearpage
 \tableofcontents{Contents}
 \input{Content.tex}
+
 \printindex
+
 \end{document}
