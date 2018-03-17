@@ -29,3 +29,8 @@ For example:
 To create the LaTeX document
 
     dotnet run --project ConsoleApp
+
+Then compile the LaTeX document
+
+	pdflatex FoodFile.tex
+	

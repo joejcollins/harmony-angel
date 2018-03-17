@@ -20,7 +20,6 @@
 \RequirePackage[T1]{fontenc} % Required for superscripts for ordinals, don't know why
 \RequirePackage{makeidx} % Needed to create an index
 \RequirePackage{multicol} % For ingredients list
-\RequirePackage{minitoc} % For mini table of contents
 
 %% 
 % Set the font and adjust a few sizes
