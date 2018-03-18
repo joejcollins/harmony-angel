@@ -15,7 +15,14 @@
       <xsl:apply-templates select="staples" />
     </xsl:copy>
   </xsl:template>
+  <!-- 
+  Check that all the recipes have a number of meals
+  -->
+  <xsl:template match="cml:Recipe[not(@Meals)]">
+    <xsl:message>Meal '<xsl:value-of select="@Title"/>' has no 'Meals' value and has been dropped.</xsl:message>
+  </xsl:template>
   <!--
+  Add the meal Title to the index node.
   -->
   <xsl:template name="Index" match="cml:Index">
     <Index>
@@ -25,14 +32,15 @@
       </Sub>
     </Index>
   </xsl:template>
-    <!--
+  <!--
 	Expanding the staples is the first step because they use the utensils 
   (which will be replaced with localised text) and because the staple
   tag will add other ingredients to the shopping lists.    
 	-->
   <xsl:template name="staples" match="cml:Staple">
-    <!-- Couscous -->
+    <!-- Get the number of meals -->
     <xsl:variable name="Meals" select="../../@Meals" />
+    <!-- Couscous -->
     <xsl:if test="@Name='couscous'">
       In a
       <Utensil Name="pan" /> 
