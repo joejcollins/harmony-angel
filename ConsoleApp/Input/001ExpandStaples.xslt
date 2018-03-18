@@ -16,13 +16,16 @@
     </xsl:copy>
   </xsl:template>
   <!-- 
-  Check that all the recipes have a number of meals
+  Check that all the recipes have a number of meals.  If they don't print
+  a message to the console and drop them from further processing becuause
+  they would just cause an exception.
   -->
   <xsl:template match="cml:Recipe[not(@Meals)]">
     <xsl:message>Meal '<xsl:value-of select="@Title"/>' has no 'Meals' value and has been dropped.</xsl:message>
   </xsl:template>
   <!--
-  Add the meal Title to the index node.
+  Add the meal Title to the index node, so the meals can be categorised in
+  the index.
   -->
   <xsl:template name="Index" match="cml:Index">
     <Index>
