@@ -689,9 +689,9 @@
         <Check Quantity="0.5" Unit="tsp" Name="turmeric"/>
         and
         <Check Quantity="0.5" Unit="tsp" Name="ground cardamom" />.        
-        Then bake uncovered
+        Then bake covered
         <Temperature Level="medium" />
-        for 40 minutes.        
+        for 60 minutes.        
       </Stage>
       <Stage>
         <Staple Name="couscous"/>
