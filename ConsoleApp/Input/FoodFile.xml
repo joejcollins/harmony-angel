@@ -791,8 +791,12 @@
       <Stage>
         In a <Utensil Name="casserole" /> mix
         <Vegetable Quantity="300" Unit="g" Name="carrots" Process="sliced"/>,
-        <Vegetable Quantity="300" Unit="g" Name="parsnips" Process="sliced"/>,
-        <Vegetable Quantity="300" Unit="g" Name="swedes" Process="sliced"/>,
+        <Vegetable Quantity="300" Unit="g" Name="parsnips" Process="sliced"/> and
+        <Vegetable Quantity="300" Unit="g" Name="swedes" Process="sliced"/>.
+        Bake for 20 minutes.
+      </Stage>
+      <Stage>
+        Stir in
         <Grocery Quantity="400" Unit="g" Name="can borlotti beans" Process="undrained"/>,
         <Grocery Quantity="200" Unit="g" Name="mayonaise" />
         and
@@ -801,7 +805,7 @@
         sprinkle with
         <Check Quantity="50" Unit="g" Name="sunflower seeds" />
         and
-        bake <Temperature Level="medium" /> 60 minutes.
+        bake <Temperature Level="medium" /> 20 minutes.
       </Stage>
     </Recipe>
 

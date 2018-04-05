@@ -885,22 +885,23 @@
       <Stage>
         Stir in
         <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>
-        and cook slowly for
-        60 minutes.
+        and cook slowly for 20 minutes.
       </Stage>
       <Stage>
-        <Staple Name="tagliatelli"/>
-      </Stage>
-      <Stage>
-        Mash the courgettes and then
-        stir in
+        Stir in
         <Grocery Quantity="400" Unit="g" Name="frozen peas" />
         and warm through.
       </Stage>
       <Stage>
-        Sprinkle with
-        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated" />
-        before serving.
+        <Staple Name="tagliatelli"/>
+        Add to the onions and courgettes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="bowl" /> beat
+        <Dairy Quantity="2" Name="egg"/> and
+        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated" />.
+        Stir into the tagliatelli and courgettes
+        and warm through.        
       </Stage>
     </Recipe>
 
