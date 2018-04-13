@@ -817,31 +817,37 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Check Quantity="1" Unit="tsp" Name="cumin seeds" />,
-        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />,
+        (in <Check Quantity="4" Unit="tbsp" Name="oil" />)
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
+        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>
         and
-        <Check Quantity="1" Unit="tsp" Name="ground cinnamon" />
-        in
-        <Check Quantity="4" Unit="tbsp" Name="oil" />.
+        <Vegetable Quantity="100" Unit="g" Name="carrots" Process="sliced"/>
+        until soft.
       </Stage>
       <Stage>
-        Stir in
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>,
-        <Vegetable Quantity="100" Unit="g" Name="carrots" Process="sliced"/>,
-        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>
+        Stir in and fry
+        <Check Quantity="1" Unit="tsp" Name="cumin seeds" />
         and
-        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
-        and simmer for 5 minutes.
+        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
+        until the seeds pop.
+        Then stir in
+        <Check Quantity="1" Unit="tsp" Name="ground cinnamon" />,
+        <Check Quantity="2" Unit="tbsp" Name="curry powder" />
+        and
+        <Check Quantity="3" Unit="tbsp" Name="turmeric" />.
       </Stage>
       <Stage>
         Stir in
         the lentils,
-        <Grocery Quantity="100" Unit="g" Name="creamed coconut" />,
-        <Check Quantity="1" Unit="tbsp" Name="curry powder" />,
-        <Grocery Quantity="150" Unit="g" Name="cashew nuts" />
-        and juice of
-        <Vegetable Quantity="1" Name="lemon" />.
+        <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
+        <Grocery Quantity="200" Unit="g" Name="creamed coconut" Process="chopped" />,
+        <Grocery Quantity="200" Unit="g" Name="raisins" />,
+        <Grocery Quantity="150" Unit="g" Name="cashew nuts" Process="chopped" />,
+        <Vegetable Quantity="1" Name="lemon" Process="juiced" />
+        and
+        <Water Quantity="400" Unit="ml" Name="cold water"/>
+        and simmer for 25 minutes.
       </Stage>
       <Stage>
         <Staple Name="couscous"/>
