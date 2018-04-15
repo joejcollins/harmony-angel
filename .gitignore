@@ -211,3 +211,7 @@ Content.tex
 # Sublime project
 *.sublime-workspace
 *.sublime-project
+
+# Jekyll
+Gemfile.lock
+_site/
