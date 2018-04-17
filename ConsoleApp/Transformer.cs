@@ -35,7 +35,6 @@ namespace ConsoleApp
             foreach (String xsltFile in xsltFiles)
             {
                 workingXmlFile = this.ApplyXslt(xsltFile, workingXmlFile);
-                Console.WriteLine("Transformed using " + xsltFile);
             }
             return workingXmlFile;
         }
@@ -84,6 +83,7 @@ namespace ConsoleApp
             {
                 // Transform the file.
                 xslt.Transform(workingXmlFile, xsltArguments, xmlWriter);
+                Console.WriteLine("Transformed using " + xsltFile);
             }
             return nextWorkingFile;
         }
