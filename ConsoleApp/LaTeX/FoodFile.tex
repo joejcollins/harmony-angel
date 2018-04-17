@@ -1,0 +1,32 @@
+\documentclass{./FoodFile}
+\usepackage[pdftex,
+  pdftitle={The Food File}, 
+  pdfauthor={Joe J Collins},
+  pdfsubject={Menus and recipes with compiled shopping lists}]{hyperref}
+\usepackage{imakeidx}
+\makeindex[columns = 1]
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+\hrule
+\vspace{5mm}
+{\Huge\bf THE FOOD FILE}
+\vspace{5mm}
+\hrule
+\vfill
+{\bf Joe J Collins}
+\end{center}
+\clearpage
+\strut % So the \vfill has something to push against
+\vfill
+\begin{quotation}
+Copyright \copyright\ 1997 - 2018, Joe J Collins.
+\end{quotation}
+\clearpage
+\tableofcontents{Contents}
+\input{Content.tex}
+
+\printindex
+
+\end{document}

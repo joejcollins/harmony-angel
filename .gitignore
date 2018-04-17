@@ -186,7 +186,6 @@ FakesAssemblies/
 # LaTeX files, index files and intermediate files
 *.aux
 *.toc
-*.tex
 *.fdb_latexmk
 *.fls
 *.maf
@@ -202,7 +201,6 @@ FakesAssemblies/
 *.out
 *.w
 *.xslt.xml
-Content.tex
 
 # Eclipse files
 .metadata/
