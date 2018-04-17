@@ -13,8 +13,16 @@ namespace CookML
             // Transform the CookML 
             ConsoleApp.Transformer transformer = new ConsoleApp.Transformer();
             string lastFile = transformer.CreateBook(@"./Input/FoodFile.xml");
+
+            // Create the LaTex file
+            string LaTeX = transformer.ApplyXslt(@"./LaTeX/LaTeX.xslt", lastFile);
             // Rename last file to LaTeX
-            File.Copy(lastFile, @"./Output/Content.tex", true);
+            File.Copy(LaTeX, @"./LaTeX/Content.tex", true);
+
+            // Create the Mark Down files
+
+
+
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadLine();
