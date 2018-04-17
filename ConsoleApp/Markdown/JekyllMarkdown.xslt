@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:msxsl="urn:schemas-microsoft-com:xslt"
-                exclude-result-prefixes="msxsl">
+                exclude-result-prefixes="msxsl" 
+                xmlns:file="urn:File">
   <xsl:strip-space elements="*"/>
   <xsl:output omit-xml-declaration="yes" method="text" media-type="text/plain" indent="no"  />
   <!--
@@ -13,14 +14,13 @@
 	Format for the book, and introduction
 	-->
 	<xsl:template match="Book">
-    % !TeX root = FoodFile.tex
-    % Content Begins
+---
+layout: default
+title: Home
+---
     <xsl:for-each select="Menu" >
-    <xsl:result-document method="xml" href="file_{@id}-output.xml" >
-      <xsl:copy-of select="."/>
-    </xsl:result-document>
-  </xsl:for-each>
-    % Content Ends
+      <xsl:value-of select="file:Write(concat('../docs/', @Title, '.md'), 'content')"/>
+    </xsl:for-each>
 	</xsl:template>
 
 </xsl:stylesheet>

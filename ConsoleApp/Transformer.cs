@@ -65,12 +65,16 @@ namespace ConsoleApp
             XslCompiledTransform xslt = new XslCompiledTransform();
             xslt.Load(xsltFile);
 
-            // Create an XsltArgumentList, and add the ingredient as an extension object
+            // Create an XsltArgumentList and add the extension objects.
+            // These are separate for testing and because Xslt 1.0 doesn't
+            // support splitting an Xml file into multiple files.
             XsltArgumentList xsltArguments = new XsltArgumentList();
             XmlIngredient ingredient = new XmlIngredient();
             xsltArguments.AddExtensionObject("urn:Ingredient", ingredient);
             XmlIncrement increment = new XmlIncrement();
             xsltArguments.AddExtensionObject("urn:Increment", increment);
+            XmlFile file = new XmlFile();
+            xsltArguments.AddExtensionObject("urn:File", file);
 
             // Set the conformance to auto so it can fuck up a bit sometimes.
             XmlWriterSettings settings = new XmlWriterSettings();

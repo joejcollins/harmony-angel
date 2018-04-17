@@ -1,5 +1,4 @@
 ﻿﻿using System;
-using System.IO;
 
 namespace CookML
 {
@@ -17,10 +16,8 @@ namespace CookML
             // Create the LaTex file
             transformer.ApplyXslt(@"./LaTeX/LaTeX.xslt", lastFile, @"./LaTeX/Content.tex");
 
-            // Create the Mark Down files
-
-
-
+            // Create the Markdown files
+            transformer.ApplyXslt(@"./Markdown/JekyllMarkdown.xslt", lastFile, @"../docs/index.md");
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadLine();
