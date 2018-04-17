@@ -22,6 +22,7 @@ namespace ConsoleApp
         {
             // Get the list of transforms starting with a zero.
             xsltFiles = Directory.GetFiles(@"./Input/", "0*.xslt", SearchOption.TopDirectoryOnly);
+            Array.Sort(xsltFiles); //because they are not garanteed to be in order
         }
 
         /// <summary>
