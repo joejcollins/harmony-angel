@@ -41,13 +41,25 @@ namespace ConsoleApp
         }
 
         /// <summary>
+        /// Shorter method signature.
+        /// </summary>
+        /// <param name="xsltFile">Path to the Xslt</param>
+        /// <param name="workingXmlFile">Path to the file to be transformed</param>
+        /// <returns>Path to the resulting transformation</returns>
+        public String ApplyXslt(String xsltFile, String workingXmlFile)
+        {
+            return ApplyXslt(xsltFile, workingXmlFile, xsltFile + ".xml");
+        }
+
+        /// <summary>
         /// Transform the previously created xml files, whilst adding in the
         /// extensions so the extension objects can be used within the transformation.
         /// </summary>
-        /// <param name="xsltFile"></param>
-        /// <param name="workingXmlFile"></param>
-        /// <returns></returns>
-        public String ApplyXslt(String xsltFile, String workingXmlFile)
+        /// <param name="xsltFile">Path to the Xslt</param>
+        /// <param name="workingXmlFile">Path to the file to be transformed</param>
+        /// <param name="outputFile">Path to where the resulting transformation should go</param>
+        /// <returns>Path to the resulting transformation</returns>
+        public String ApplyXslt(String xsltFile, String workingXmlFile, String outputFile)
         {
             // Create the XslCompiledTransform and load the stylesheet.
             XslCompiledTransform xslt = new XslCompiledTransform();
@@ -67,7 +79,7 @@ namespace ConsoleApp
             settings.Encoding = new System.Text.UTF8Encoding(false);
 
             // Use the 
-            String nextWorkingFile = xsltFile + ".xml";
+            String nextWorkingFile = outputFile;
             using (XmlWriter xmlWriter = XmlWriter.Create(nextWorkingFile, settings))
             {
                 // Transform the file.

@@ -15,9 +15,7 @@ namespace CookML
             string lastFile = transformer.CreateBook(@"./Input/FoodFile.xml");
 
             // Create the LaTex file
-            string LaTeX = transformer.ApplyXslt(@"./LaTeX/LaTeX.xslt", lastFile);
-            // Rename last file to LaTeX
-            File.Copy(LaTeX, @"./LaTeX/Content.tex", true);
+            string LaTeX = transformer.ApplyXslt(@"./LaTeX/LaTeX.xslt", lastFile, @"./LaTex/Content.tex");
 
             // Create the Mark Down files
 
