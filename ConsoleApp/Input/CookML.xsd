@@ -196,6 +196,7 @@
       <xsd:enumeration value="g" />
       <xsd:enumeration value="ml" />
       <xsd:enumeration value="pinch" />
+      <xsd:enumeration value="slices" />
       <xsd:enumeration value="tbsp" />
       <xsd:enumeration value="tsp" />
     </xsd:restriction>

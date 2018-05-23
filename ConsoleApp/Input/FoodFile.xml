@@ -1093,7 +1093,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="100" Unit="g" Name="peanuts" Process="chopped"/>,
-        <Grocery Quantity="4" Unit="tbsp" Name="bread" Process="crumbled" />,
+        <Grocery Quantity="4" Unit="slices" Name="bread" Process="crumbled" />,
         <Grocery Quantity="75" Unit="g" Name="tomato puree" />,
         <Check Quantity="3" Unit="tsp" Name="miso" />,
         <Grocery Quantity="2" Unit="tbsp" Name="branston pickle" />,
