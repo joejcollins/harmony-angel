@@ -252,6 +252,7 @@
       <xsd:enumeration value="oregano" />
       <xsd:enumeration value="paprika" />
       <xsd:enumeration value="pepper" />
+      <xsd:enumeration value="plain flour" />
       <xsd:enumeration value="salt" />
       <xsd:enumeration value="sesame oil" />
       <xsd:enumeration value="sherry" />
@@ -351,7 +352,6 @@
       <xsd:enumeration value="pitted olives" />
       <xsd:enumeration value="pizza" />
       <xsd:enumeration value="pizza bases" />
-      <xsd:enumeration value="plain flour" />
       <xsd:enumeration value="raisins" />
       <xsd:enumeration value="red lentils" />
       <xsd:enumeration value="red wine" />
