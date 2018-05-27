@@ -1035,8 +1035,8 @@
       <Stage>
         Stir in
         <Check Quantity="1" Unit="tbsp" Name="plain flour" />,
-        <Check Quantity="1" Unit="tsp" Name="paprika" />,
-        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>
+        <Check Quantity="2" Unit="tsp" Name="paprika" />,
+        <Grocery Quantity="800" Unit="g" Name="can tomatoes" Process="chopped"/>
         and
         <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>.
       </Stage>
