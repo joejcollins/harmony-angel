@@ -1047,8 +1047,8 @@
         <Staple Name="couscous"/>
       </Stage>
       <Stage>
-        Serve with
-        <Dairy Quantity="150" Unit="ml" Name="soured cream" />.
+        Stir in
+        <Dairy Quantity="150" Unit="ml" Name="soured cream" /> before serving.
       </Stage>
     </Recipe>
 
