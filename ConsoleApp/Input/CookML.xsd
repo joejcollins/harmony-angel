@@ -228,6 +228,7 @@
       <xsd:enumeration value="black pepper corns" />
       <xsd:enumeration value="chilli powder" />
       <xsd:enumeration value="cloves" />
+      <xsd:enumeration value="corn flour" />
       <xsd:enumeration value="cumin seeds" />
       <xsd:enumeration value="curry powder" />
       <xsd:enumeration value="dried thyme" />
@@ -320,7 +321,6 @@
       <xsd:enumeration value="capers" />
       <xsd:enumeration value="cashew nuts" />
       <xsd:enumeration value="cider" />
-      <xsd:enumeration value="corn flour" />
       <xsd:enumeration value="cous cous" />
       <xsd:enumeration value="creamed coconut" />
       <xsd:enumeration value="dessicated coconut" />

@@ -1093,24 +1093,26 @@
       <Stage>
         Stir in
         <Grocery Quantity="100" Unit="g" Name="peanuts" Process="chopped"/>,
-        <Grocery Quantity="4" Unit="slices" Name="bread" Process="crumbled" />,
-        <Grocery Quantity="75" Unit="g" Name="tomato puree" />,
-        <Check Quantity="3" Unit="tsp" Name="miso" />,
-        <Grocery Quantity="2" Unit="tbsp" Name="branston pickle" />,
-        <Grocery Quantity="2" Unit="tbsp" Name="whole grain mustard" />,
         <Check Quantity="1" Unit="tsp" Name="ground cumin" />,
         <Check Quantity="1" Unit="tsp" Name="ground coriander" />
         and
-        <Check Quantity="1" Unit="tsp" Name="garam masala" />.
+        <Check Quantity="1" Unit="tsp" Name="garam masala" />
+        and fry spices.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Name="can kidney beans" Process="mashed"/>
+        <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="mashed"/>,
+        <Grocery Quantity="200" Unit="g" Name="tomato puree" />,
+        <Check Quantity="3" Unit="tsp" Name="miso" />,
+        <Grocery Quantity="1" Unit="tbsp" Name="branston pickle" />,
+        <Grocery Quantity="1" Unit="tbsp" Name="whole grain mustard" />
+        and
+        <Grocery Quantity="4" Unit="slices" Name="bread" Process="crumbled" />
         and mix well.
       </Stage>
       <Stage>
         Put in a <Utensil Name="casserole" /> and
-        bake <Temperature Level="medium"/> for 45 minutes.
+        bake <Temperature Level="medium"/> for 30 minutes.
       </Stage>
     </Recipe>
 
