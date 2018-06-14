@@ -1171,24 +1171,25 @@
       <Index>Meat</Index>
       <Stage>
         In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="1000" Unit="g" Name="new potatoes" Process="quartered" />
+        <Vegetable Quantity="1200" Unit="g" Name="new potatoes" Process="quartered" />
         until done,
         then drain.
       </Stage>
       <Stage>
-        In a <Utensil Name="wok" /> heat
-        <Check Quantity="3" Unit="tbsp" Name="oil" />
+        In a <Utensil Name="wok" /> in
+        <Check Quantity="6" Unit="tbsp" Name="oil" />
+        fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
         and
         <Check Quantity="1" Unit="tbsp" Name="mustard seeds" />
-        until they start to pop.
+        until the onions brown.
       </Stage>
       <Stage>
         Stir in
         <Vegetable Quantity="300" Unit="g" Name="red pepper" Process="sliced"/>,
-        <Vegetable Quantity="300" Unit="g" Name="mushrooms" Process="sliced"/>,
-        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
+        <Vegetable Quantity="300" Unit="g" Name="mushrooms" Process="sliced"/>
         and
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
         and fry until done.
       </Stage>
       <Stage>
