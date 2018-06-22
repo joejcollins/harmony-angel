@@ -1145,21 +1145,21 @@
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
         <Vegetable Quantity="2" Name="green chilli" Process="chopped" />,
-        <Vegetable Quantity="120" Unit="g" Name="ginger" Process="chopped"/>
+        <Vegetable Quantity="100" Unit="g" Name="ginger" Process="chopped"/>
         in
         <Check Quantity="6" Unit="tbsp" Name="oil" />
         until onions soft.
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Unit="tbsp" Name="curry powder" />
+        <Check Quantity="2" Unit="tbsp" Name="curry powder" />
         and
-        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
+        <Check Quantity="2" Unit="tsp" Name="mustard seeds" />
         until mustard starts to pop.
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="1000" Unit="g" Name="green bananas" Process="chopped"/>
+        <Vegetable Quantity="1500" Unit="g" Name="green bananas" Process="chopped"/>
         and fry quickly until hot.
       </Stage>
       <Stage>
@@ -1230,7 +1230,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Egg and Chips" Meals="1">
+    <Recipe Title="Egg, bacon and Chips" Meals="1">
       <Index>Quick</Index>
       <Stage>
         Heat up
@@ -1238,6 +1238,8 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
+        <Meat Quantity="200" Unit="g" Name="bacon"/>
+        and
         <Dairy Quantity="4" Name="eggs"/>
         in
         <Check Quantity="1" Unit="tbsp" Name="oil" />.
