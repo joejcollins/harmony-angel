@@ -47,13 +47,13 @@
     place
     <Grocery Unit="g" Name="cous cous">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="boiling water">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 600"/>
+        <xsl:value-of select="($Meals div 2) * 500"/>
       </xsl:attribute>
     </Water>,
     and cover, leave to stand for 10 minutes.
@@ -66,13 +66,13 @@
     place
     <Grocery Unit="g" Name="noodles">
       <xsl:attribute name="Quantity">
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="boiling water">
       <xsl:attribute name="Quantity">
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 700"/>
       </xsl:attribute>
     </Water>,
     cover and simmer for 5 minutes, then drain.
@@ -85,13 +85,13 @@
     place
     <Grocery Unit="g" Name="pasta shapes">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="boiling water">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 700"/>
       </xsl:attribute>
     </Water>,
     cover and simmer for 12 minutes, then drain.
@@ -104,13 +104,13 @@
     place
     <Grocery Unit="g" Name="white rice">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="cold water">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 680"/>
       </xsl:attribute>
     </Water>,
     bring to the boil then turn off, cover and stand for 25 minutes.
@@ -123,13 +123,13 @@
     place
     <Grocery Unit="g" Name="brown rice">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="cold water">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 680"/>
       </xsl:attribute>
     </Water>,
     bring to the boil then cover and simmer for 15 minutes,
@@ -143,7 +143,7 @@
     place
     <Grocery Unit="g" Name="white rice">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>,
     <Check Unit="tsp" Name="ground turmeric">
@@ -160,7 +160,7 @@
     pour on
     <Water Unit="ml" Name="cold water">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 680"/>
       </xsl:attribute>
     </Water>,
     bring to the boil then turn off, cover and stand for 25 minutes.
@@ -173,13 +173,13 @@
     place
     <Grocery Unit="g" Name="spaghetti">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="boiling water">
       <xsl:attribute name="Quantity">
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 700"/>
       </xsl:attribute>
     </Water> and continue boiling for 12 minutes then drain.
   </xsl:template>
@@ -229,13 +229,13 @@
     place
     <Grocery Unit="g" Name="tagliatelli">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="boiling water">
       <xsl:attribute name="Quantity">
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 700"/>
       </xsl:attribute>
     </Water> and continue boiling for 12 minutes then drain.
   </xsl:template>
@@ -247,13 +247,13 @@
     place
     <Grocery Unit="g" Name="tortellini">
       <xsl:attribute name="Quantity" >
-        <xsl:value-of select="($Meals div 2) * 400"/>
+        <xsl:value-of select="($Meals div 2) * 340"/>
       </xsl:attribute>
     </Grocery>
     pour on
     <Water Unit="ml" Name="boiling water">
       <xsl:attribute name="Quantity">
-        <xsl:value-of select="($Meals div 2) * 800"/>
+        <xsl:value-of select="($Meals div 2) * 700"/>
       </xsl:attribute>
     </Water>
     boil for 5 minutes then drain.
