@@ -1093,24 +1093,26 @@
       <Stage>
         Stir in
         <Grocery Quantity="100" Unit="g" Name="peanuts" Process="chopped"/>,
-        <Grocery Quantity="4" Unit="slices" Name="bread" Process="crumbled" />,
-        <Grocery Quantity="75" Unit="g" Name="tomato puree" />,
-        <Check Quantity="3" Unit="tsp" Name="miso" />,
-        <Grocery Quantity="2" Unit="tbsp" Name="branston pickle" />,
-        <Grocery Quantity="2" Unit="tbsp" Name="whole grain mustard" />,
         <Check Quantity="1" Unit="tsp" Name="ground cumin" />,
         <Check Quantity="1" Unit="tsp" Name="ground coriander" />
         and
-        <Check Quantity="1" Unit="tsp" Name="garam masala" />.
+        <Check Quantity="1" Unit="tsp" Name="garam masala" />
+        and fry spices.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Name="can kidney beans" Process="mashed"/>
+        <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="mashed"/>,
+        <Grocery Quantity="200" Unit="g" Name="tomato puree" />,
+        <Check Quantity="3" Unit="tsp" Name="miso" />,
+        <Grocery Quantity="2" Unit="tbsp" Name="branston pickle" />,
+        <Grocery Quantity="1" Unit="tbsp" Name="whole grain mustard" />
+        and
+        <Grocery Quantity="4" Unit="slices" Name="bread" Process="crumbled" />
         and mix well.
       </Stage>
       <Stage>
         Put in a <Utensil Name="casserole" /> and
-        bake <Temperature Level="medium"/> for 45 minutes.
+        bake <Temperature Level="medium"/> for 30 minutes.
       </Stage>
     </Recipe>
 
@@ -1133,36 +1135,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Mackerell and Potato Hash" Meals="2">
-      <Index>Meat</Index>
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="1000" Unit="g" Name="new potatoes" Process="quartered" />
-        until done,
-        then drain.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="wok" /> heat
-        <Check Quantity="3" Unit="tbsp" Name="oil" />
-        and
-        <Check Quantity="1" Unit="tbsp" Name="mustard seeds" />
-        until they start to pop.
-      </Stage>
-      <Stage>
-        Stir in
-        <Vegetable Quantity="300" Unit="g" Name="red pepper" Process="sliced"/>,
-        <Vegetable Quantity="300" Unit="g" Name="mushrooms" Process="sliced"/>,
-        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
-        and
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
-        and fry until done.
-      </Stage>
-      <Stage>
-        Stir in the potatoes
-        and warm through.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Banana Curry" Meals="2">
       <Index>Vegetarian</Index>
       <Index>Curry</Index>
@@ -1173,25 +1145,56 @@
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
         <Vegetable Quantity="2" Name="green chilli" Process="chopped" />,
-        <Vegetable Quantity="120" Unit="g" Name="ginger" Process="chopped"/>
+        <Vegetable Quantity="100" Unit="g" Name="ginger" Process="chopped"/>
         in
         <Check Quantity="6" Unit="tbsp" Name="oil" />
         until onions soft.
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Unit="tbsp" Name="curry powder" />
+        <Check Quantity="2" Unit="tbsp" Name="curry powder" />
         and
-        <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
+        <Check Quantity="2" Unit="tsp" Name="mustard seeds" />
         until mustard starts to pop.
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="1000" Unit="g" Name="green bananas" Process="chopped"/>
+        <Vegetable Quantity="1500" Unit="g" Name="green bananas" Process="chopped"/>
         and fry quickly until hot.
       </Stage>
       <Stage>
         Stir in <Dairy Quantity="500" Unit="g" Name="yoghurt"/> and warm through.
+      </Stage>
+    </Recipe>
+      
+    <Recipe Title="Mackerell and Potato Hash" Meals="2">
+      <Index>Meat</Index>
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1200" Unit="g" Name="new potatoes" Process="quartered" />
+        until done,
+        then drain.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> in
+        <Check Quantity="6" Unit="tbsp" Name="oil" />
+        fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        and
+        <Check Quantity="1" Unit="tbsp" Name="mustard seeds" />
+        until the onions brown.
+      </Stage>
+      <Stage>
+        Stir in
+        <Vegetable Quantity="300" Unit="g" Name="red pepper" Process="sliced"/>,
+        <Vegetable Quantity="300" Unit="g" Name="mushrooms" Process="sliced"/>
+        and
+        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
+        and fry until done.
+      </Stage>
+      <Stage>
+        Stir in the potatoes
+        and warm through.
       </Stage>
     </Recipe>
 
@@ -1227,7 +1230,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Egg and Chips" Meals="1">
+    <Recipe Title="Egg, bacon and Chips" Meals="1">
       <Index>Quick</Index>
       <Stage>
         Heat up
@@ -1235,6 +1238,8 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
+        <Meat Quantity="200" Unit="g" Name="bacon"/>
+        and
         <Dairy Quantity="4" Name="eggs"/>
         in
         <Check Quantity="1" Unit="tbsp" Name="oil" />.
