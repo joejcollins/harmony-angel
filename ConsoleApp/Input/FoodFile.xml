@@ -864,7 +864,6 @@
         Stir in
         <Dairy Quantity="100" Unit="ml" Name="single cream" />,
         <Dairy Quantity="25" Unit="g" Name="parmesan" Process="grated" />,
-        <Dairy Quantity="25" Unit="g" Name="gruyere cheese" Process="chopped"/>,
         <Dairy Quantity="25" Unit="g" Name="blue cheese" Process="chopped"/>
         and gently warm until the cheese melts.
       </Stage>
@@ -2315,7 +2314,7 @@
         Stir in
         <Grocery Quantity="4" Unit="tsp" Name="gravy granules"/>
         and
-        <Water Quantity="250" Unit="ml" Name="boiling water"/>
+        <Water Quantity="300" Unit="ml" Name="boiling water"/>
       </Stage>
       <Stage>
         Put in a <Utensil Name="casserole"/>,
