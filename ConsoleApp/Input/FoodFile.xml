@@ -208,7 +208,7 @@
     <Recipe Title="Tofu and Peppers" Meals="2">
       <Index>Vegan</Index>
       <Stage>
-        <Staple Name="couscous"/>
+        <Staple Name="moroccan-couscous"/>
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -1649,11 +1649,10 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
       <Index>Quick</Index>
       <Stage>
-        <Staple Name="couscous"/>
+        <Staple Name="moroccan-couscous"/>
       </Stage>
     </Recipe>
 
@@ -1755,7 +1754,6 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
       <Index>Quick</Index>
       <Stage>
@@ -2283,6 +2281,14 @@
       <Index>Meat</Index>
       <Index>Shepherds Pie</Index>
       <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1000" Unit="g" Name="boiling potatoes" Process="cubed"/>,
+        then mash with
+        <Dairy Quantity="50" Unit="g" Name="butter" />
+        and
+        <Dairy Quantity="4" Unit="tbsp" Name="milk" />.
+      </Stage>
+      <Stage>
         In a <Utensil Name="wok" /> fry
         (in <Check Quantity="2" Unit="tbsp" Name="oil" />)
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
@@ -2302,16 +2308,21 @@
         <Check Quantity="1" Unit="tsp" Name="thyme" />,
         <Check Quantity="1" Unit="tbsp" Name="plain flour" />
         and
-        <Check Quantity="2" Unit="tbsp" Name="worcester sauce" />.
+        <Check Quantity="2" Unit="tbsp" Name="worcester sauce" />
+        cook until the meat is done.
       </Stage>
-    
       <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="1000" Unit="g" Name="boiling potatoes" Process="cubed"/>,
-        then mash with
-        <Dairy Quantity="50" Unit="g" Name="butter" />
+        Stir in
+        <Grocery Quantity="4" Unit="tsp" Name="gravy granules"/>
         and
-        <Dairy Quantity="4" Unit="tbsp" Name="milk" />.
+        <Water Quantity="250" Unit="ml" Name="boiling water"/>
+      </Stage>
+      <Stage>
+        Put in a <Utensil Name="casserole"/>,
+        cover with the mashed potatoes
+        and sprinkle with
+        <Check Quantity="100" Unit="g" Name="cheese" Process="grated"/>.
+        then bake <Temperature Level="medium"/> for 20 minutes.
       </Stage>
     </Recipe>
 
@@ -2386,8 +2397,13 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
-
+    <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
+    
     <Recipe Title="Sausage and Beans" Meals="2">
       <Index>Meat</Index>
       <Stage>
@@ -2495,7 +2511,12 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
+    <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
 
   </Menu>
 
@@ -2862,7 +2883,6 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
       <Index>Quick</Index>
       <Stage>
@@ -2959,7 +2979,6 @@
       </Stage>
     </Recipe>
 
-    <!--quick-->
     <Recipe Title="Quick Dummy" Meals="1">
       <Index>Quick</Index>
       <Stage>
