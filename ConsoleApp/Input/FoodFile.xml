@@ -2879,15 +2879,46 @@
         and bake <Temperature Level="medium"/> 40 minutes.
       </Stage>
       <Stage>
-        <Staple Name="baked potatoes"/>
+        <Staple Name="couscous"/>
       </Stage>
     </Recipe>
 
-    <!--vegan-->
-    <Recipe Title="Vegan Dummy" Meals="2">
+    <Recipe Title="Potato and Pea Curry" Meals="2">
       <Index>Vegan</Index>
+      <Index>Curry</Index>
       <Stage>
-        <Staple Name="couscous"/>
+        In a <Utensil Name="casserole" /> bake 
+        <Vegetable Quantity="1000" Unit="g" Name="potatoes" Process="cubed"/>
+        <Temperature Level="medium"/> 20 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        and
+        <Vegetable Quantity="3" Name="chillis" Process="chopped" />
+        in
+        <Check Quantity="4" Unit="tbsp" Name="oil" />
+        until brown.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="2" Unit="tbsp" Name="curry powder" />
+        until absorbed.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
+        <Grocery Quantity="400" Unit="g" Name="can chick peas" Process="undrained"/>
+        and
+        <Grocery Quantity="400" Unit="g" Name="frozen peas" />
+        and simmer for 10 minutes.
+      </Stage>
+      <Stage>
+        Serve with
+        <Dairy Quantity="500" Unit="g" Name="yoghurt"/>,
+        <Check Quantity="80" Unit="g" Name="lime pickle" />
+        and
+        <Grocery Quantity="4" Name="naan bread"/>.
       </Stage>
     </Recipe>
 
