@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Book xmlns="https://joejcollins.github.io/CookML.xsd">
-
+  
   <Menu Title="January">
     <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
   Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
@@ -2279,7 +2279,41 @@
   Spring Onions, Summer Squash, Swede, Sweetcorn, Swiss Chard, Tomatoes, 
   Turnips, Watercress, Wild Mushrooms, Winter Squash.  -->
 
-    <!-- Meat -->
+    <Recipe Title="Shepherds Pie" Meals="2">
+      <Index>Meat</Index>
+      <Index>Shepherds Pie</Index>
+      <Stage>
+        In a <Utensil Name="wok" /> fry
+        (in <Check Quantity="2" Unit="tbsp" Name="oil" />)
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
+        <Vegetable Process="chopped" Quantity="400" Name="carrots" Unit="g" />,
+        <Vegetable Process="chopped" Quantity="400" Name="celery" Unit="g" />
+        and
+        <Vegetable Quantity="3" Name="chillis" Process="chopped" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in 
+        <Meat Quantity="400" Unit="g" Name="minced meat" />,
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="2" Name="bay leaf" />,
+        <Check Quantity="1" Unit="tsp" Name="thyme" />,
+        <Check Quantity="1" Unit="tbsp" Name="plain flour" />
+        and
+        <Check Quantity="2" Unit="tbsp" Name="worcester sauce" />.
+      </Stage>
+    
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1000" Unit="g" Name="boiling potatoes" Process="cubed"/>,
+        then mash with
+        <Dairy Quantity="50" Unit="g" Name="butter" />
+        and
+        <Dairy Quantity="4" Unit="tbsp" Name="milk" />.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Spinach and Olive Lasagna" Meals="2">
       <Index>Vegetarian</Index>
@@ -2737,7 +2771,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Name="bay leaf" />,
+        <Check Quantity="2" Name="bay leaf" />,
         <Check Quantity="1" Unit="tsp" Name="thyme" />,
         <Check Quantity="1" Unit="tbsp" Name="plain flour" />,
         <Water Quantity="600" Unit="ml" Name="cold water" />
@@ -2879,7 +2913,7 @@
         and bake <Temperature Level="medium"/> 40 minutes.
       </Stage>
       <Stage>
-        <Staple Name="couscous"/>
+        <Staple Name="moroccan-couscous"/>
       </Stage>
     </Recipe>
 
@@ -2908,10 +2942,13 @@
       <Stage>
         Stir in
         <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
-        <Grocery Quantity="400" Unit="g" Name="can chick peas" Process="undrained"/>
-        and
+        <Grocery Quantity="400" Unit="g" Name="can chick peas" Process="undrained"/>,
         <Grocery Quantity="400" Unit="g" Name="frozen peas" />
-        and simmer for 10 minutes.
+        and the potatoes.
+      </Stage>
+      <Stage>
+        Put in the <Utensil Name="casserole" />
+        and bake for 20 minutes.
       </Stage>
       <Stage>
         Serve with

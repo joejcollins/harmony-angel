@@ -55,7 +55,23 @@
       <xsl:attribute name="Quantity" >
         <xsl:value-of select="($Meals div 2) * 500"/>
       </xsl:attribute>
-    </Water>,
+    </Water>
+    and cover, leave to stand for 10 minutes.
+  </xsl:template>
+  <xsl:template match="cml:Staple[@Name='moroccan-couscous']">
+    <xsl:variable name="Meals" select="../../@Meals" />
+    In a
+    <Utensil Name="pan" />
+    mix
+    <Grocery Quantity="{($Meals div 2) * 340}" Unit="g" Name="cous cous" />,
+    <Check Quantity="{($Meals div 2) * 1}" Unit="tsp" Name="ground cumin" />,
+    <Check Quantity="{($Meals div 2) * 1}" Unit="tsp" Name="ground coriander" />,
+    <Check Quantity="{($Meals div 2) * 1}" Unit="tsp" Name="ground cinnamon"/>,
+    <Grocery Quantity="{($Meals div 2) * 100}" Unit="g" Name="raisins"/>
+    and
+    <Vegetable Quantity="1" Name="lemon" Process="juiced" />
+    pour on
+    <Water Quantity="{($Meals div 2) * 500}" Unit="ml" Name="boiling water" />
     and cover, leave to stand for 10 minutes.
   </xsl:template>
   <!-- Noodles -->
