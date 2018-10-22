@@ -2289,7 +2289,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        (in <Check Quantity="2" Unit="tbsp" Name="oil" />)
+        (in <Check Quantity="4" Unit="tbsp" Name="oil" />)
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
         <Vegetable Process="chopped" Quantity="400" Name="carrots" Unit="g" />,
         <Vegetable Process="chopped" Quantity="400" Name="celery" Unit="g" />
