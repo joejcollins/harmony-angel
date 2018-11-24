@@ -226,6 +226,7 @@
       <xsd:enumeration value="basil" />
       <xsd:enumeration value="bay leaf" />
       <xsd:enumeration value="black pepper corns" />
+      <xsd:enumeration value="caraway seeds" />
       <xsd:enumeration value="chilli powder" />
       <xsd:enumeration value="cloves" />
       <xsd:enumeration value="corn flour" />

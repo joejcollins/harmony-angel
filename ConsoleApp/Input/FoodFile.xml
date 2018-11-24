@@ -2526,10 +2526,39 @@
   Potatoes, Pumpkin, Swede, Swiss Chard, Turnips, Watercress, Wild Mushrooms, 
   Winter Squash.  -->
 
-    <Recipe Title="German Sausages, Mash and Sauerkraut" Meals="2">
+    <Recipe Title="Sausages, Mash and Sauerkraut" Meals="2">
       <Index>Meat</Index>
       <Stage>
-        <Meat Name="sausages" Quantity="400" Unit="g"/>
+        In a <Utensil Name="pan" /> dissolve 
+        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>,
+        <Water Quantity="250" Unit="ml" Name="boiling water" />.
+      </Stage>
+      <Stage>
+        Stir in 
+        <Vegetable Quantity="750" Name="cabbage" Unit="g" Process="sliced" />,
+        <Vegetable Quantity="400" Unit="g" Name="apples" Process="chopped"/>,
+        <Check Quantity="2" Unit="tsp" Name="caraway seeds" />
+        and simmer for 45 minutes.
+      </Stage>
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1500" Unit="g" Name="potatoes" Process="chopped"/>
+        until done.
+      </Stage>
+      <Stage>
+        Grill
+        <Meat Quantity="500" Unit="g" Name="sausages" />
+        and serve with the potatoes.
+      </Stage>
+      <Stage>
+        Drain and mash the potatoes with
+        <Dairy Quantity="25" Unit="g" Name="butter" />.
+        Stir
+        <Check Quantity="2" Unit="tsp" Name="wine vinegar" />
+        and
+        <Check Quantity="2" Unit="tsp" Name="sugar" />
+        into the sauerkraut.
+        Serve with the sausages.
       </Stage>
     </Recipe>
 
