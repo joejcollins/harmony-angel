@@ -2535,9 +2535,12 @@
       </Stage>
       <Stage>
         Stir in 
-        <Vegetable Quantity="750" Name="cabbage" Unit="g" Process="sliced" />,
-        <Vegetable Quantity="400" Unit="g" Name="apples" Process="chopped"/>,
-        <Check Quantity="2" Unit="tsp" Name="caraway seeds" />
+        <Vegetable Quantity="650" Name="cabbage" Unit="g" Process="sliced" />,
+        <Vegetable Quantity="300" Unit="g" Name="apples" Process="chopped"/>,
+        <Check Quantity="2" Unit="tsp" Name="caraway seeds" />,
+        <Check Quantity="2" Unit="tsp" Name="wine vinegar" />
+        and
+        <Check Quantity="2" Unit="tsp" Name="sugar" />
         and simmer for 45 minutes.
       </Stage>
       <Stage>
@@ -2553,11 +2556,6 @@
       <Stage>
         Drain and mash the potatoes with
         <Dairy Quantity="25" Unit="g" Name="butter" />.
-        Stir
-        <Check Quantity="2" Unit="tsp" Name="wine vinegar" />
-        and
-        <Check Quantity="2" Unit="tsp" Name="sugar" />
-        into the sauerkraut.
         Serve with the sausages.
       </Stage>
     </Recipe>
@@ -2646,7 +2644,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="bowl"/> mix
-        <Vegetable Quantity="250" Name="cabbage" Unit="g" Process="sliced" />,
+        <Vegetable Quantity="350" Name="cabbage" Unit="g" Process="sliced" />,
         <Vegetable Quantity="50" Name="carrots" Unit="g" Process="sliced" />
         and
         <Vegetable Quantity="50" Name="onions" Unit="g" Process="sliced"/>.
