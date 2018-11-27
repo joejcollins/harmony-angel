@@ -2560,7 +2560,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Vegetables and Pasta" Meals="2">
+    <Recipe Title="Miso Vegetables and Pasta" Meals="2">
       <Index>Vegetarian</Index>
       <Stage>
         <Staple Name="pasta shapes"/>
@@ -2651,9 +2651,9 @@
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Name="sugar" Unit="tbsp" />,
-        <Check Quantity="2" Name="wine vinegar" Unit="tbsp" />,
-        <Check Quantity="2" Name="oil" Unit="tbsp" />,
+        <Check Quantity="1" Name="sugar" Unit="tsp" />,
+        <Check Quantity="2" Name="wine vinegar" Unit="tsp" />,
+        <Check Quantity="2" Name="oil" Unit="tsp" />,
         <Check Quantity="1" Name="basil" Unit="pinch"/>,
         <Check Quantity="1" Name="oregano" Unit="pinch"/>,
         <Check Quantity="1" Name="salt" Unit="pinch"/>
