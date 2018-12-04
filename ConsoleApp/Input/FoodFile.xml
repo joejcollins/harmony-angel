@@ -1217,7 +1217,7 @@
         <Grocery Quantity="150" Unit="g" Name="tomato puree" />,
         <Check Quantity="1" Unit="tsp" Name="chilli powder" />,
         <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="drained"/>,
-        <Vegetable Quantity="400" Unit="g" Name="broccoli" />,
+        <Vegetable Quantity="400" Unit="g" Name="broccoli" Process="flourettes" />,
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
         and
         <Water Quantity="400" Unit="ml" Name="cold water" />
@@ -2320,7 +2320,7 @@
         Put in a <Utensil Name="casserole"/>,
         cover with the mashed potatoes
         and sprinkle with
-        <Check Quantity="100" Unit="g" Name="cheese" Process="grated"/>.
+        <Dairy Quantity="100" Unit="g" Name="cheese" Process="grated"/>.
         then bake <Temperature Level="medium"/> for 20 minutes.
       </Stage>
     </Recipe>
@@ -2341,7 +2341,7 @@
         Stir in
         <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
         <Grocery Quantity="400" Unit="ml" Name="passata" />,
-        <Vegetable Quantity="400" Unit="g" Name="broccoli"  />,
+        <Vegetable Quantity="400" Unit="g" Name="broccoli" Process="flourettes"  />,
         <Grocery Quantity="200" Unit="g" Name="olives"  />
         and
         <Vegetable Quantity="200" Unit="g" Name="mushrooms" />
@@ -2590,13 +2590,13 @@
       </Stage>
       <Stage>
         Remove from heat and stir in
-        <Dairy Quantity="500" Unit="ml" Name="milk" />
+        <Dairy Quantity="400" Unit="ml" Name="milk" />
         until a sauce is formed.
       </Stage>
       <Stage>
         Stir in
         the pasta,
-        <Check Quantity="1" Unit="tbsp" Name="soy sauce" />
+        <Check Quantity="1" Unit="tbsp" Name="soy sauce" />,
         <Check Quantity="2" Unit="tsp" Name="ground coriander" />
         and
         <Check Quantity="2" Unit="tsp" Name="miso" />
@@ -2611,7 +2611,8 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="400" Unit="g" Name="celery" Process="sliced"/>
+        <Vegetable Quantity="400" Unit="g" Name="celery" Process="sliced"/>,
+        <Vegetable Quantity="150" Name="carrots" Unit="g" Process="sliced" />
         and
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>
         in
@@ -2620,7 +2621,10 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>
+        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>,
+        <Vegetable Quantity="400" Unit="g" Name="cauliflower" Process="flourettes" />
+        and
+        <Grocery Quantity="150" Unit="g" Name="tomato puree" />
         and simmer for 10 minutes.
       </Stage>
       <Stage>

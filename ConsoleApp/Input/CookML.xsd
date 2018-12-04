@@ -162,6 +162,7 @@
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="couscous" />
+      <xsd:enumeration value="moroccan-couscous" />
       <xsd:enumeration value="noodles" />
       <xsd:enumeration value="pasta shapes" />
       <xsd:enumeration value="rice brown" />
