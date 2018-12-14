@@ -2749,16 +2749,32 @@
         <Staple Name="rice brown" />
       </Stage>
       <Stage>
-        In a <Utensil Name="pan" /> cook
-        <Grocery Quantity="225" Unit="g" Name="red lentils" />,
-        <Grocery Quantity="50" Unit="g" Name="raisins"/>,
-        <Check Quantity="1" Unit="tbsp" Name="ground turmeric" />,
-        <Vegetable Quantity="60" Unit="g" Name="ginger" Process="chopped"/>
+        In a <Utensil Name="pan" />  fry
+        <Vegetable Quantity="200" Unit="g" Name="onions" Process="sliced"/>,
+        <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Vegetable Quantity="1" Name="chillis" Process="chopped"/>
         and
-        <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>
-        in
-        <Water Quantity="600" Unit="ml" Name="cold water" />
+        <Vegetable Quantity="60" Unit="g" Name="ginger" Process="chopped"/>
+        in 
+        <Check Quantity="3" Unit="tbsp" Name="oil" /> 
         until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled" />,
+        <Check Quantity="1" Unit="tbsp" Name="curry powder" />,
+        <Check Quantity="1" Unit="tsp" Name="ground turmeric" />,
+        <Check Quantity="0.5" Unit="tsp" Name="ground coriander" />,
+        <Grocery Quantity="250" Unit="g" Name="red lentils" />,
+        <Grocery Quantity="50" Unit="g" Name="raisins"/>
+        and
+        <Water Quantity="700" Unit="ml" Name="cold water" />
+        and simmer until the lentils are soft.
+      </Stage>
+      <Stage>
+        Stir in 
+        <Grocery Quantity="200" Unit="g" Name="creamed coconut" Process="chopped" />
+        and warm until the coconut has melted in.
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
