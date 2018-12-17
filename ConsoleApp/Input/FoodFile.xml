@@ -2765,10 +2765,10 @@
         <Check Quantity="1" Unit="tbsp" Name="curry powder" />,
         <Check Quantity="1" Unit="tsp" Name="ground turmeric" />,
         <Check Quantity="0.5" Unit="tsp" Name="ground coriander" />,
-        <Grocery Quantity="250" Unit="g" Name="red lentils" />,
+        <Grocery Quantity="300" Unit="g" Name="red lentils" />,
         <Grocery Quantity="50" Unit="g" Name="raisins"/>
         and
-        <Water Quantity="700" Unit="ml" Name="cold water" />
+        <Water Quantity="1100" Unit="ml" Name="cold water" />
         and simmer until the lentils are soft.
       </Stage>
       <Stage>
