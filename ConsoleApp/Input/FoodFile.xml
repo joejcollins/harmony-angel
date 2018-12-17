@@ -2801,14 +2801,15 @@
         In a <Utensil Name="wok" /> in
         <Check Quantity="2" Unit="tbsp" Name="oil" />
         fry
-        <Grocery Quantity="200" Unit="g" Name="spam" Process="sliced"/>,
-        <Vegetable Quantity="3" Unit="cloves" Name="garlic" Process="crushed"/>
+        <Vegetable Quantity="3" Unit="cloves" Name="garlic" Process="crushed"/>,
+        <Vegetable Quantity="300" Unit="g" Name="onions" Process="chopped"/>,
         and
-        <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced"/>.
+        <Vegetable Quantity="300" Unit="g" Name="leeks" Process="chopped"/>.
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="100" Unit="g" Name="whole grain mustard" />
+        <Grocery Quantity="300" Unit="g" Name="whole grain mustard" />,
+        <Grocery Quantity="200" Unit="g" Name="spam" Process="sliced"/>,
         and the pasta,
         and warm through.
       </Stage>
