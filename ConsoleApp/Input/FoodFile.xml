@@ -1229,7 +1229,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Egg, bacon and Chips" Meals="1">
+    <Recipe Title="Egg, Bacon and Chips" Meals="1">
       <Index>Quick</Index>
       <Stage>
         Heat up
@@ -3026,11 +3026,11 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Quick Dummy" Meals="1">
+    <Recipe Title="Brussels Sprouts, soup" Meals="1">
       <Index>Quick</Index>
-      <Stage>
-        <Staple Name="couscous"/>
-      </Stage>
+      Brussels Sprouts
+      Butter beans
+      New Covent Garden Classic Chicken Soup 600g
     </Recipe>
 
   </Menu>

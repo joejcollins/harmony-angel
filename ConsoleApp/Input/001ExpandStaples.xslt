@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:msxsl="urn:schemas-microsoft-com:xslt"
                 xmlns:cml="https://joejcollins.github.io/CookML.xsd"
-                exclude-result-prefixes="msxsl cml">
+                exclude-result-prefixes="cml">
+<!-- 
+Note the namespaces "cml" - because I have my own schema in the original
+so I have to use it in the xpath expressions to identify elements.
+To be frank I am not entirely sure why.
+-->
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
   <!-- 
