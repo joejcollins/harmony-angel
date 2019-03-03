@@ -1573,9 +1573,9 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Onion and Tomato Lasagna"  Meals="2">
+    <Recipe Title="Onion and Tomato Lasagne"  Meals="2">
       <Index>Vegetarian</Index>
-      <Index>Lasagna</Index>
+      <Index>Lasagne</Index>
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Process="chopped" Quantity="700" Name="onions" Unit="g" />
@@ -1589,7 +1589,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="casserole" /> layer
-        <Grocery Quantity="200" Name="lasagna" Unit="g" />,
+        <Grocery Quantity="200" Name="lasagne" Unit="g" />,
         the tomato mix and
         <Dairy Process="grated" Quantity="150" Name="cheese" Unit="g" />
         3 times.
@@ -1599,7 +1599,7 @@
         <Dairy Quantity="300" Unit="ml" Name="soured cream" />
         with
         <Dairy Quantity="100" Name="milk" Unit="ml" />
-        and pour on top of the lasagna.
+        and pour on top of the Lasagne.
       </Stage>
       <Stage>
         Bake <Temperature Level="medium" /> 50 minutes.
@@ -2325,9 +2325,9 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Spinach and Olive Lasagna" Meals="2">
+    <Recipe Title="Spinach and Olive Lasagne" Meals="2">
       <Index>Vegetarian</Index>
-      <Index>Lasagna</Index>
+      <Index>Lasagne</Index>
       <Stage>
         In a <Utensil Name="wok" /> in
         <Check Quantity="4" Unit="tbsp" Name="oil" />
@@ -2358,7 +2358,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="casserole" /> layer
-        <Grocery Quantity="200" Unit="g" Name="lasagna" />
+        <Grocery Quantity="200" Unit="g" Name="lasagne" />
         with the tomatoes and cheese 3 times.
         Bake <Temperature Level="medium"/> 50 minutes.
       </Stage>
@@ -2737,7 +2737,7 @@
       </Stage>
       <Stage>
         Layer with
-        <Grocery Quantity="450" Unit="g" Name="lasagna" />
+        <Grocery Quantity="450" Unit="g" Name="lasagne" />
         and bake <Temperature Level="medium"/> for 50 minutes.
       </Stage>
     </Recipe>
@@ -3028,9 +3028,11 @@
 
     <Recipe Title="Brussels Sprouts, soup" Meals="1">
       <Index>Quick</Index>
+      <Stage>
       Brussels Sprouts
-      Butter beans
+      <Grocery Quantity="400" Unit="g" Name="can butter beans" />
       New Covent Garden Classic Chicken Soup 600g
+      </Stage>
     </Recipe>
 
   </Menu>
