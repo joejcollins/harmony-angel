@@ -2496,10 +2496,9 @@
         <Check Quantity="1" Unit="tsp" Name="ground turmeric" />,
         <Check Quantity="1" Unit="tsp" Name="ground cinnamon" />,
         <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>,
-        <Grocery Quantity="400" Unit="g" Name="can chick peas" Process="drained"/>,
-        <Grocery Process="chopped" Quantity="800" Name="can tomatoes" Unit="g" />
+        <Grocery Quantity="400" Unit="g" Name="can chick peas" Process="undrained"/>
         and
-        <Water Quantity="300" Unit="ml" Name="cold water" />
+        <Grocery Process="chopped" Quantity="800" Name="can tomatoes" Unit="g" />
         and bring to the boil.
       </Stage>
       <Stage>
