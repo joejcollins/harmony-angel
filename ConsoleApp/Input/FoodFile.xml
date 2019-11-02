@@ -1648,10 +1648,13 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Quick Dummy" Meals="1">
+    <Recipe Title="Camping Couscous" Meals="1">
       <Index>Quick</Index>
       <Stage>
         <Staple Name="moroccan-couscous"/>
+      </Stage>
+      <Stage>
+        Serve with <Grocery Quantity="200" Unit="g" Name="can corned beef" />.
       </Stage>
     </Recipe>
 
@@ -2396,10 +2399,13 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Quick Dummy" Meals="1">
+    <Recipe Title="Camping Noodles" Meals="1">
       <Index>Quick</Index>
       <Stage>
-        <Staple Name="couscous"/>
+        <Staple Name="noodles" />
+      </Stage>
+      <Stage>
+        Serve with <Grocery Quantity="220" Unit="g" Name="can sardines" />.
       </Stage>
     </Recipe>
     
@@ -2475,7 +2481,7 @@
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Process="chopped" Quantity="2" Name="red chilli" />,
+        <Vegetable Process="chopped" Quantity="3" Name="red chilli" />,
         <Vegetable Quantity="225" Unit="g" Name="courgette" Process="sliced"/>,
         <Vegetable Quantity="225" Unit="g" Name="runner beans" Process="chopped"/>,
         <Vegetable Quantity="500" Unit="g" Name="cauliflower" />
@@ -2497,10 +2503,7 @@
         and bring to the boil.
       </Stage>
       <Stage>
-        Make a space in the middle and pour in
-        <Grocery Quantity="400" Unit="g" Name="cous cous"/>
-        in the middle, cover,
-        and leave to stand for 10 minutes.
+        <Staple Name="couscous"/>
       </Stage>
       <Stage>
         Serve with
@@ -2510,13 +2513,15 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Quick Dummy" Meals="1">
+    <Recipe Title="Camping Paella" Meals="1">
       <Index>Quick</Index>
       <Stage>
-        <Staple Name="couscous"/>
+        <Staple Name="rice turmeric"/>.
+      </Stage>
+      <Stage>
+        Serve with <Meat Name="chorizo sausage" Quantity="225" Unit="g" Process="chopped"/>.
       </Stage>
     </Recipe>
-
   </Menu>
 
   <Menu Title="November">
