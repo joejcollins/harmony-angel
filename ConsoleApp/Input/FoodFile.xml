@@ -846,7 +846,7 @@
         <Grocery Quantity="150" Unit="g" Name="cashew nuts" Process="chopped" />,
         <Vegetable Quantity="1" Name="lemon" Process="juiced" />
         and
-        <Water Quantity="400" Unit="ml" Name="cold water"/>
+        <Water Quantity="200" Unit="ml" Name="cold water"/>
         and simmer for 25 minutes.
       </Stage>
       <Stage>
@@ -854,7 +854,7 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Cheese and Tagliatelli" Meals="1">
+    <Recipe Title="Cheese Tagliatelli" Meals="1">
       <Index>Quick</Index>
       <Index>Vegetarian</Index>
       <Stage>
@@ -2934,10 +2934,22 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Quick Dummy" Meals="1">
+    <Recipe Title="Carbonara" Meals="1">
       <Index>Quick</Index>
       <Stage>
-        <Staple Name="couscous"/>
+        <Staple Name="pasta shapes"/>
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="3" Name="eggs" Process="beaten"/>
+        and warm until the eggs are cooked.
+      </Stage>
+      <Stage>
+        Stir in
+        <Dairy Quantity="50" Unit="g" Name="parmesan" Process="grated" />,
+        <Dairy Quantity="50" Unit="g" Name="cheese" Process="grated"/>.
+        <Meat Quantity="100" Unit="g" Name="ham" Process="sliced" />
+        and warm through.
       </Stage>
     </Recipe>
 
