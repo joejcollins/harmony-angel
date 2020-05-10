@@ -245,6 +245,7 @@
       <xsd:enumeration value="ground turmeric" />
       <xsd:enumeration value="honey" />
       <xsd:enumeration value="lime pickle" />
+      <xsd:enumeration value="marmite" />
       <xsd:enumeration value="marjoram" />
       <xsd:enumeration value="miso" />
       <xsd:enumeration value="mixed herbs" />

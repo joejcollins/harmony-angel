@@ -935,7 +935,7 @@
         Stir in
         <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced" />
         and
-        <Check Quantity="1" Unit="tsp" Name="mixed herbs"/>
+        <Check Quantity="3" Unit="tsp" Name="miso" />
         and cook until the mushrooms are done.
       </Stage>
       <Stage>
