@@ -1316,9 +1316,9 @@
         <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>,
         <Vegetable Quantity="600" Unit="g" Name="mushrooms" Process="sliced"/>,
         <Vegetable Quantity="1000" Unit="g" Name="courgette" Process="sliced"/>,
-        <Grocery Quantity="300" Unit="g" Name="can tomatoes" Process="chopped"/>
+        <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>
         and
-        <Grocery Quantity="300" Unit="g" Name="can flageolet beans" />
+        <Grocery Quantity="400" Unit="g" Name="can flageolet beans" />
         simmer for 20 minutes.
       </Stage>
     </Recipe>
