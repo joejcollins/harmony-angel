@@ -1322,15 +1322,15 @@
     <Recipe Title="Halloumi Couscous" Meals="2">
       <Index>Vegetarian</Index>
       <Stage>
-        In a <Utensil Name="casserole" /> bake
+        In an open <Utensil Name="casserole" /> bake
         <Vegetable Quantity="400" Unit="g" Name="courgette" Process="sliced"/>,
         <Vegetable Quantity="350" Unit="g" Name="onions" Process="sliced"/>,
         <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>,
         <Vegetable Quantity="150" Unit="g" Name="green pepper" Process="sliced"/>,
         <Vegetable Quantity="400" Unit="g" Name="aubergine" Process="sliced"/>
         in
-        <Check Quantity="2" Unit="tbsp" Name="olive oil" />
-        for 30 minutes.
+        <Check Quantity="4" Unit="tbsp" Name="olive oil" />
+        for 60 minutes.
       </Stage>
       <Stage>
         Stir in
