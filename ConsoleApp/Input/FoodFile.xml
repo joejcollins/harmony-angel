@@ -810,7 +810,7 @@
       <Index>Curry</Index>
       <Stage>
         In a <Utensil Name="pan" /> in
-        <Water Quantity="450" Unit="ml" Name="cold water"/>
+        <Water Quantity="500" Unit="ml" Name="cold water"/>
         cook
         <Grocery Quantity="225" Unit="g" Name="red lentils" />
         until soft.
@@ -1470,7 +1470,7 @@
         and
         <Grocery Quantity="225" Unit="g" Name="red lentils" />,
         in
-        <Water Quantity="450" Unit="ml" Name="cold water" />
+        <Water Quantity="500" Unit="ml" Name="cold water" />
         until soft.
       </Stage>
       <Stage>
