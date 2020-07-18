@@ -1,0 +1,6 @@
+{
+    "editor.minimap.enabled": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "xml.validation.resolveExternalEntities": true,
+    "xml.trace.server": "verbose"
+}
