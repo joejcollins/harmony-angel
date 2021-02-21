@@ -1216,7 +1216,7 @@
         <Check Quantity="1" Unit="tsp" Name="chilli powder" />,
         <Grocery Quantity="800" Unit="g" Name="can kidney beans" Process="drained"/>,
         <Vegetable Quantity="400" Unit="g" Name="broccoli" />,
-        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
+        <Check Quantity="2" Unit="cube" Name="stock" Process="crumbled"/>
         and
         <Water Quantity="400" Unit="ml" Name="cold water" />
         and warm through.
