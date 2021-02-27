@@ -2075,7 +2075,7 @@
         <Dairy Quantity="150" Unit="g" Name="cheese" Process="grated"/>,
         <Grocery Quantity="50" Unit="g" Name="capers" />,
         and
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>.
+        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>
         and bake <Temperature Level="medium" /> for 30 minutes.
       </Stage>
       <Stage>
