@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Book xmlns="https://joejcollins.github.io/CookML.xsd">
-
-  <Menu Title="January">
-    <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
+<Book xmlns="https://joejcollins.github.io/CookML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://joejcollins.github.io/CookML.xsd CookML.xsd">
+    <Menu Title="January">
+        <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
   Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
   Parsnips, Pears, Spring Greens, Spring Onions, Squash, Swedes, Turnips. -->
 
-    <Recipe Title="Spiced Chicken" Meals="2">
-      <Index>Meat</Index>
+        <Recipe Title="Spiced Chicken" Meals="2">
+            <Index>Meat</Index>
       <Stage>
         <Staple Name="rice turmeric" />
       </Stage>
