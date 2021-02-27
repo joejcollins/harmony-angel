@@ -36,9 +36,9 @@ Then compile the LaTeX document
 
     cd ConsoleApp/Output
 	pdflatex FoodFile.tex
-	MakeIndex FoodFile.tex
+	makeindex FoodFile.tex
 	pdflatex FoodFile.tex
-	pdflatex TwoUp.tex
+	pdflatex 2up.tex
 
 To set up Jekyll
 

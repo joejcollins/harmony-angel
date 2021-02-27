@@ -1,6 +1,10 @@
 image:
   file: .gitpod.Dockerfile
 
+tasks:
+  - command: |
+      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
@@ -14,3 +18,10 @@ tasks:
 vscode:
   extensions:
     - muhammad-sammy.csharp@1.23.9:BMArOoGwWqKRrH6s4E2/AQ==
+
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - streetsidesoftware.code-spell-checker
+    - muhammad-sammy.csharp
+    - efoerster.texlab
