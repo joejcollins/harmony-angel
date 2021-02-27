@@ -28,10 +28,13 @@ For example:
 
 To create the LaTeX document
 
-    dotnet run --project ConsoleApp
+    cd ConsoleApp
+    dotnet build .
+    dotnet run .
 
 Then compile the LaTeX document
 
+    cd ConsoleApp/Output
 	pdflatex FoodFile.tex
 	MakeIndex FoodFile.tex
 	pdflatex FoodFile.tex
