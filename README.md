@@ -39,10 +39,3 @@ Then compile the LaTeX document
 	makeindex FoodFile.tex
 	pdflatex FoodFile.tex
 	pdflatex 2up.tex
-
-To set up Jekyll
-
-    cd docs
-    gem install jekyll bundler
-    bundle install
-    bundle exec jekyll serve --host 0.0.0.0 --port 8080
