@@ -50,10 +50,10 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tagliatelli and Mushroom Sauce" Meals="2">
+    <Recipe Title="Tagliatelle and Mushroom Sauce" Meals="2">
       <Index>Vegetarian</Index>
       <Stage>
-        <Staple Name ="tagliatelli" />
+        <Staple Name ="tagliatelle" />
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
@@ -853,11 +853,11 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Cheese and Tagliatelli" Meals="1">
+    <Recipe Title="Cheese and Tagliatelle" Meals="1">
       <Index>Quick</Index>
       <Index>Vegetarian</Index>
       <Stage>
-        <Staple Name="tagliatelli"/>
+        <Staple Name="tagliatelle"/>
       </Stage>
       <Stage>
         Stir in
@@ -1116,7 +1116,7 @@
     <Recipe Title="Bacon and Mushroom Pasta" Meals="1">
       <Index>Quick</Index>
       <Stage>
-        <Staple Name="tagliatelli"/>
+        <Staple Name="tagliatelle"/>
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry <Meat Quantity="100" Unit="g" Name="bacon" Process="chopped" />
@@ -2231,10 +2231,10 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Tagliatelli and Olive Oil" Meals="1">
+    <Recipe Title="Tagliatelle and Olive Oil" Meals="1">
       <Index>Quick</Index>
       <Stage>
-        <Staple Name="tagliatelli"/>
+        <Staple Name="tagliatelle"/>
         save 150 ml of the water.
       </Stage>
       <Stage>
@@ -2250,7 +2250,7 @@
         until garlic browns.
       </Stage>
       <Stage>
-        Stir in the tagliatelli,
+        Stir in the tagliatelle,
         the water
         and
         <Grocery Quantity="200" Unit="g" Name="olives" />

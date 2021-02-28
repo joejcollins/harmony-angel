@@ -358,7 +358,7 @@
       <xsd:enumeration value="spaghetti" />
       <xsd:enumeration value="spam" />
       <xsd:enumeration value="stir in pasta sauce" />
-      <xsd:enumeration value="tagliatelli" />
+      <xsd:enumeration value="tagliatelle" />
       <xsd:enumeration value="tahini" />
       <xsd:enumeration value="tofu" />
       <xsd:enumeration value="tomato puree" />
