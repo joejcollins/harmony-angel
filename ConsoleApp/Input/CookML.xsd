@@ -171,7 +171,7 @@
       <xsd:enumeration value="baked potatoes" />
       <xsd:enumeration value="mashed potatoes" />
       <xsd:enumeration value="new potatoes" />
-      <xsd:enumeration value="tagliatelli" />
+      <xsd:enumeration value="tagliatelle" />
       <xsd:enumeration value="tortellini" />
     </xsd:restriction>
   </xsd:simpleType>
