@@ -9,7 +9,7 @@ ports:
 tasks:
   - command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
-      source ~/.bashrc
+      source $HOME/.bashrc
 
 vscode:
   extensions:
