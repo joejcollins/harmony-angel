@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Schema for Cookbook Markup Language -->
+<!-- Developed by Joe J Collins -->
+<xsd:schema targetNamespace="https://joejcollins.github.io/CookML.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://joejcollins.github.io/CookML.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0a" id="CookML">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+			As required by the best practice guidelines:
+				1. the default namespace and the target namespase are the same.
+				2. version and id attributes have been used in the schema element.
+				3. version numbers must be included in instance messages.
+			
+			The guidelines also suggest:
+				1. a Russian Doll design is used for messaging schemas.
+		</xsd:documentation>
+  </xsd:annotation>
+  <xsd:element name="Book">
+    <xsd:annotation>
+      <xsd:documentation>A message structure cook books.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Menu" minOccurs="0" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Recipe" minOccurs="1" maxOccurs="unbounded">
+                <xsd:complexType mixed="true">
+                  <xsd:sequence>
+                    <xsd:element name="Index" minOccurs="0" maxOccurs="unbounded">
+                      <xsd:complexType mixed="true">
+                        <xsd:sequence>
+                          <xsd:element name="Sub" type="xsd:string" minOccurs="0" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="Stage" minOccurs="1" maxOccurs="unbounded">
+                      <xsd:complexType mixed="true">
+                        <xsd:sequence minOccurs="0">
+                          <xsd:choice maxOccurs="unbounded">
+                            <xsd:element name="Staple" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Name" form="unqualified" type="Staple" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Temperature" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Level" form="unqualified" type="Temperature" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Utensil" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Name" form="unqualified" type="Utensil" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Check" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
+                                <xsd:attribute name="Unit" form="unqualified" type="Unit" />
+                                <xsd:attribute name="Name" form="unqualified" type="Check" />
+                                <xsd:attribute name="Process" form="unqualified" type="Process" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Dairy" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
+                                <xsd:attribute name="Unit" form="unqualified" type="Unit" />
+                                <xsd:attribute name="Name" form="unqualified" type="Dairy" />
+                                <xsd:attribute name="Process" form="unqualified" type="Process" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Grocery" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
+                                <xsd:attribute name="Unit" form="unqualified" type="Unit" />
+                                <xsd:attribute name="Name" form="unqualified" type="Grocery" />
+                                <xsd:attribute name="Process" form="unqualified" type="Process" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Meat" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
+                                <xsd:attribute name="Unit" form="unqualified" type="Unit" />
+                                <xsd:attribute name="Name" form="unqualified" type="Meat" />
+                                <xsd:attribute name="Process" form="unqualified" type="Process" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Vegetable" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
+                                <xsd:attribute name="Unit" form="unqualified" type="Unit" />
+                                <xsd:attribute name="Name" form="unqualified" type="Vegetable" />
+                                <xsd:attribute name="Process" form="unqualified" type="Process" />
+                              </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Water" minOccurs="0" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:attribute name="Quantity" form="unqualified" type="xsd:float" />
+                                <xsd:attribute name="Unit" form="unqualified" type="Unit" />
+                                <xsd:attribute name="Name" form="unqualified" type="Water" />
+                                <xsd:attribute name="Process" form="unqualified" type="Process" />
+                              </xsd:complexType>
+                            </xsd:element>
+                          </xsd:choice>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute name="Title" form="unqualified" type="xsd:string" />
+                  <xsd:attribute name="Meals" type="Meals" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="Title" form="unqualified" type="xsd:string" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="Title" form="unqualified" type="xsd:string" />
+    </xsd:complexType>
+  </xsd:element>
+  <!-- Global Definitions -->
+  <!-- A restriction on the number of meals a recipe can cover. -->
+  <xsd:simpleType name="Meals">
+    <xsd:annotation>
+      <xsd:documentation>Correct number of meals a recipe can cover</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:enumeration value="1" />
+      <xsd:enumeration value="2" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- A restriction on the types of processing techniques allowed. -->
+  <xsd:simpleType name="Process">
+    <xsd:annotation>
+      <xsd:documentation>Correct processing techniques</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="beaten" />
+      <xsd:enumeration value="chopped" />
+      <xsd:enumeration value="crushed" />
+      <xsd:enumeration value="crumbled" />
+      <xsd:enumeration value="cubed" />
+      <xsd:enumeration value="drained" />
+      <xsd:enumeration value="diced" />
+      <xsd:enumeration value="flourettes" />
+      <xsd:enumeration value="grated" />
+      <xsd:enumeration value="ground" />
+      <xsd:enumeration value="halved" />
+      <xsd:enumeration value="hacked" />
+      <xsd:enumeration value="juiced" />
+      <xsd:enumeration value="quartered" />
+      <xsd:enumeration value="shredded" />
+      <xsd:enumeration value="sliced" />
+      <xsd:enumeration value="undrained" />
+      <xsd:enumeration value="mashed" />
+      <xsd:enumeration value="toasted" />
+      <xsd:enumeration value="washed" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- A restriction on the types of staple allowed. -->
+  <xsd:simpleType name="Staple">
+    <xsd:annotation>
+      <xsd:documentation>Correct staples</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="couscous" />
+      <xsd:enumeration value="noodles" />
+      <xsd:enumeration value="pasta shapes" />
+      <xsd:enumeration value="rice brown" />
+      <xsd:enumeration value="rice white" />
+      <xsd:enumeration value="rice turmeric" />
+      <xsd:enumeration value="spaghetti" />
+      <xsd:enumeration value="baked potatoes" />
+      <xsd:enumeration value="mashed potatoes" />
+      <xsd:enumeration value="new potatoes" />
+      <xsd:enumeration value="tagliatelle" />
+      <xsd:enumeration value="tortellini" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Temperature">
+    <xsd:annotation>
+      <xsd:documentation>Correct temperature levels</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="low" />
+      <xsd:enumeration value="medium" />
+      <xsd:enumeration value="high" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- A restriction on the types of measurement units allowed. -->
+  <xsd:simpleType name="Unit">
+    <xsd:annotation>
+      <xsd:documentation>Correct units of measurement</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="cloves" />
+      <xsd:enumeration value="cube" />
+      <xsd:enumeration value="g" />
+      <xsd:enumeration value="ml" />
+      <xsd:enumeration value="pinch" />
+      <xsd:enumeration value="tbsp" />
+      <xsd:enumeration value="tsp" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- A restriction on the types of utensil allowed. -->
+  <xsd:simpleType name="Utensil">
+    <xsd:annotation>
+      <xsd:documentation>Correct utensils</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="bowl" />
+      <xsd:enumeration value="casserole" />
+      <xsd:enumeration value="cup" />
+      <xsd:enumeration value="pan" />
+      <xsd:enumeration value="frying" />
+      <xsd:enumeration value="wok" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- Generated from Ingredients.csv, subject to change -->
+  <!-- A restriction on the types ingredient allowed. -->
+  <xsd:simpleType name="Check">
+    <xsd:annotation>
+      <xsd:documentation>Check types in the database</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+        <!-- Check ingredients. -->
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Dairy">
+    <xsd:annotation>
+      <xsd:documentation>Dairy types in the database</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+        <!-- Dairy ingredients. -->
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Grocery">
+    <xsd:annotation>
+      <xsd:documentation>Grocery types in the database</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+        <!-- Grocery ingredients. -->
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Meat">
+    <xsd:annotation>
+      <xsd:documentation>Meat types in the database</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+        <!-- Meat ingredients. -->
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Vegetable">
+    <xsd:annotation>
+      <xsd:documentation>Vegetable types in the database</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+        <!-- Vegetable ingredients. -->
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Water">
+    <xsd:annotation>
+      <xsd:documentation>Water types in the database</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="boiling water" />
+      <xsd:enumeration value="cold water" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

@@ -9,7 +9,8 @@ namespace ConsoleApp
     /// </summary>
     public class Transformer
 	{
-        string inputDirectory = @"./Input/";
+        string inputDirectory = @"../data/raw/";
+        string outputDirectory = @"../data/interim/";
 
         /// <summary>
         /// 
@@ -71,7 +72,7 @@ namespace ConsoleApp
             settings.Encoding = new System.Text.UTF8Encoding(false);
 
             // Use the 
-            String nextWorkingFile = inputDirectory + xsltFile + ".xml";
+            String nextWorkingFile = outputDirectory + xsltFile + ".xml";
             using (XmlWriter xmlWriter = XmlWriter.Create(nextWorkingFile, settings))
             {
                 // Transform the file.

@@ -13,7 +13,8 @@ namespace ConsoleApp
     public class Schema
 	{
 		private XmlDocument m_CookMLSchema;
-		private string m_strSchemaPath = @"./Input/CookML.xsd";
+		private string m_strSchemaPathBefore = @"../data/raw/CookMLNoIngredients.xsd";
+		private string m_strSchemaPathAfter = @"../data/processed/CookML.xsd";
 		private XmlNamespaceManager m_NSManager;
 		private string m_strNameSpace = "http://www.w3.org/2001/XMLSchema";
 		private string strPrefix = "xsd";
@@ -27,7 +28,7 @@ namespace ConsoleApp
 		{
 			//Initialize the schema document.
 			m_CookMLSchema = new XmlDocument();
-			m_CookMLSchema.Load(m_strSchemaPath);
+			m_CookMLSchema.Load(m_strSchemaPathBefore);
 			m_NSManager = new XmlNamespaceManager(m_CookMLSchema.NameTable);
 			m_NSManager.AddNamespace(strPrefix, m_strNameSpace);
 		}
@@ -46,7 +47,7 @@ namespace ConsoleApp
 				Debug.WriteLine("Ingredient type: " + ingredientType);
 				UpdateIngredients(ingredientType);
 			}
-			m_CookMLSchema.Save(m_strSchemaPath);
+			m_CookMLSchema.Save(m_strSchemaPathAfter);
 		}
 
 		/// <summary>

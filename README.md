@@ -28,13 +28,13 @@ For example:
 
 To create the LaTeX document
 
-    cd ConsoleApp
+    cd src
     dotnet build .
     dotnet run .
 
 Then compile the LaTeX document
 
-    cd ConsoleApp/Output
+    cd reports
 	pdflatex FoodFile.tex
 	makeindex FoodFile.tex
 	pdflatex FoodFile.tex

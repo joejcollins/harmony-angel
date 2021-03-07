@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Book xmlns="https://joejcollins.github.io/CookML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="https://joejcollins.github.io/CookML.xsd CookML.xsd">
+  xsi:schemaLocation="https://joejcollins.github.io/CookML.xsd ../processed/CookML.xsd">
     <Menu Title="January">
     <!-- Apples, Beetroot, Brussels Sprouts, Cabbage, Carrots, Celeriac, 
       Celery, Chicory, Jerusalem Artichokes, Kale, Leeks, Mushrooms, Onions, 
