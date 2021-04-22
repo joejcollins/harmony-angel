@@ -751,16 +751,16 @@
       <Stage>
         Stir in
         <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process ="crushed"/>,
-        <Vegetable Quantity ="1" Name="chillis" Process="chopped"/>
+        <Vegetable Quantity ="2" Name="chillis" Process="chopped"/>
         and
         <Check Quantity="100" Unit="g" Name="sunflower seeds"/>,
-        and cook until the pine nuts are just toasted.
+        and cook until the sunflower seeds are just toasted.
       </Stage>
       <Stage>
         Stir in
         <Vegetable Quantity="200" Unit="g" Name="kale" Process="chopped"/>
         and
-        <Water Quantity="200" Unit="ml" Name="cold water"/>,
+        <Water Quantity="250" Unit="ml" Name="cold water"/>,
         simmer until the kale has wilted.
       </Stage>
       <Stage>
