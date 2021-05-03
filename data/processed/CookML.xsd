@@ -271,7 +271,7 @@
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="blue cheese" />
       <xsd:enumeration value="butter" />
-      <xsd:enumeration value="cheese" />
+      <xsd:enumeration value="cheddar cheese" />
       <xsd:enumeration value="cottage cheese" />
       <xsd:enumeration value="cream cheese" />
       <xsd:enumeration value="creme fraiche" />
@@ -280,7 +280,7 @@
       <xsd:enumeration value="gruyere cheese" />
       <xsd:enumeration value="halloumi cheese" />
       <xsd:enumeration value="milk" />
-      <xsd:enumeration value="parmesan" />
+      <xsd:enumeration value="parmesan cheese" />
       <xsd:enumeration value="single cream" />
       <xsd:enumeration value="soured cream" />
       <xsd:enumeration value="yoghurt" />
