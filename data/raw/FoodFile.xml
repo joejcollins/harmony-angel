@@ -1589,7 +1589,7 @@
         In a <Utensil Name="casserole" /> layer
         <Grocery Quantity="200" Name="lasagna" Unit="g" />,
         the tomato mix and
-        <Dairy Process="grated" Quantity="150" Name="cheese" Unit="g" />
+        <Dairy Process="grated" Quantity="150" Name="cheddar cheese" Unit="g" />
         3 times.
       </Stage>
       <Stage>
@@ -2188,7 +2188,7 @@
         <Vegetable Quantity="150" Unit="g" Name="green pepper" Process="chopped"/>,
         <Grocery Quantity="100" Unit="g" Name="anchovy fillets" />,
         <Grocery Quantity="200" Unit="g" Name="pineapple chunks" />,
-        <Dairy Quantity="200" Unit="g" Name="cheese" Process="grated"/>
+        <Dairy Quantity="200" Unit="g" Name="cheddar cheese" Process="grated"/>
         and
         <Check Quantity="2" Unit="tsp" Name="oregano" />.
       </Stage>
