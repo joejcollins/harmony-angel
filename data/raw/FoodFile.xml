@@ -682,7 +682,7 @@
         <Check Quantity="1" Unit="tsp" Name="ground cinnamon"/>,
         <Check Quantity="1" Unit="tsp" Name="paprika"/>,
         <Check Quantity="0.5" Unit="tsp" Name="ground ginger"/>,
-        <Check Quantity="0.5" Unit="tsp" Name="turmeric"/>
+        <Check Quantity="0.5" Unit="tsp" Name="ground turmeric"/>
         and
         <Check Quantity="0.5" Unit="tsp" Name="ground cardamom" />.
         Then bake covered
@@ -834,7 +834,7 @@
         <Check Quantity="1" Unit="tsp" Name="ground cinnamon" />,
         <Check Quantity="2" Unit="tbsp" Name="curry powder" />
         and
-        <Check Quantity="3" Unit="tbsp" Name="turmeric" />.
+        <Check Quantity="3" Unit="tbsp" Name="ground turmeric" />.
       </Stage>
       <Stage>
         Stir in
@@ -1142,15 +1142,17 @@
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>,
-        <Vegetable Quantity="2" Name="green chilli" Process="chopped" />,
-        <Vegetable Quantity="120" Unit="g" Name="ginger" Process="chopped"/>
+        <Vegetable Quantity="3" Name="green chilli" Process="chopped" />,
+        <Vegetable Quantity="3" Unit="cloves" Name="garlic" Process="crushed" />,
+        <Vegetable Quantity="200" Unit="g" Name="ginger" Process="chopped"/>
         in
         <Check Quantity="6" Unit="tbsp" Name="oil" />
         until onions soft.
       </Stage>
       <Stage>
         Stir in
-        <Check Quantity="1" Unit="tbsp" Name="curry powder" />
+        <Check Quantity="1" Unit="tbsp" Name="curry powder" />,
+        <Check Quantity="1" Unit="tbsp" Name="ground turmeric" />
         and
         <Check Quantity="1" Unit="tsp" Name="mustard seeds" />
         until mustard starts to pop.
@@ -1686,7 +1688,7 @@
         In a <Utensil Name="wok" /> heat
         <Check Quantity="4" Unit="tbsp" Name="oil" />,
         <Check Quantity="0.5" Unit="tsp" Name="asafoetida" />,
-        <Check Quantity="0.5" Unit="tsp" Name="turmeric" />,
+        <Check Quantity="0.5" Unit="tsp" Name="ground turmeric" />,
         and
         <Check Quantity="2" Unit="tsp" Name="cumin seeds" />
         until
@@ -2073,7 +2075,7 @@
         Stir in
         <Dairy Quantity="600" Unit="g" Name="cottage cheese" />,
         <Dairy Quantity="300" Unit="ml" Name="soured cream" />,
-        <Dairy Quantity="150" Unit="g" Name="cheese" Process="grated"/>,
+        <Dairy Quantity="150" Unit="g" Name="cheddar cheese" Process="grated"/>,
         <Grocery Quantity="50" Unit="g" Name="capers" />,
         and
         <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>
@@ -2163,7 +2165,7 @@
       <Stage>
         Stir in
         <Meat Quantity="240" Unit="g" Name="bacon" Process="chopped"/>,
-        <Dairy Quantity="100" Unit="g" Name="cheese" Process="grated"/>,
+        <Dairy Quantity="100" Unit="g" Name="cheddar cheese" Process="grated"/>,
         <Dairy Quantity="2" Name="eggs" Process="beaten"/>,
         and
         <Dairy Quantity="4" Unit="tbsp" Name="milk" />.
@@ -2301,7 +2303,7 @@
       <Stage>
         In a <Utensil Name="bowl" /> mix
         <Dairy Quantity="1" Unit="tbsp" Name="parmesan cheese" Process="grated"/>,
-        <Dairy Quantity="250" Unit="g" Name="cheese" Process="grated"/>,
+        <Dairy Quantity="250" Unit="g" Name="cheddar cheese" Process="grated"/>,
         <Dairy Quantity="250" Unit="g" Name="cottage cheese" />,
         <Dairy Quantity="2" Name="eggs" Process="beaten"/>
         and

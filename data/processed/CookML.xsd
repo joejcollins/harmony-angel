@@ -259,7 +259,6 @@
       <xsd:enumeration value="sugar" />
       <xsd:enumeration value="sunflower seeds" />
       <xsd:enumeration value="thyme" />
-      <xsd:enumeration value="turmeric" />
       <xsd:enumeration value="wine vinegar" />
       <xsd:enumeration value="worcester sauce" />
     </xsd:restriction>
