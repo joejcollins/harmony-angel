@@ -1176,20 +1176,22 @@
         then drain.
       </Stage>
       <Stage>
-        In a <Utensil Name="wok" /> heat
+        In a <Utensil Name="wok" /> in
         <Check Quantity="3" Unit="tbsp" Name="oil" />
+        fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
         and
         <Check Quantity="1" Unit="tbsp" Name="mustard seeds" />
-        until they start to pop.
+        until the onions are soft.
       </Stage>
       <Stage>
         Stir in
         <Vegetable Quantity="300" Unit="g" Name="red pepper" Process="sliced"/>,
         <Vegetable Quantity="300" Unit="g" Name="mushrooms" Process="sliced"/>,
-        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
+        <Grocery Quantity="100" Unit="g" Name="anchovy fillets" Process="chopped" />,
         and
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
-        and fry until done.
+        <Meat Quantity="400" Unit="g" Name="smoked mackerel" Process="chopped"/>
+        and fry until the mushrooms are done.
       </Stage>
       <Stage>
         Stir in the potatoes
