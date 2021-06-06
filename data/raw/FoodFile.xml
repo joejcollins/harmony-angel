@@ -1318,7 +1318,7 @@
         <Vegetable Quantity="1000" Unit="g" Name="courgette" Process="sliced"/>,
         <Grocery Quantity="300" Unit="g" Name="can tomatoes" Process="chopped"/>
         and
-        <Grocery Quantity="300" Unit="g" Name="can flageolet beans" />
+        <Grocery Quantity="400" Unit="g" Name="can cannellini beans" />
         simmer for 20 minutes.
       </Stage>
     </Recipe>

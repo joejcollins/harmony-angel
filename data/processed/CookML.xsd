@@ -305,7 +305,6 @@
       <xsd:enumeration value="can coconut milk" />
       <xsd:enumeration value="can curry" />
       <xsd:enumeration value="can evaporated milk" />
-      <xsd:enumeration value="can flageolet beans" />
       <xsd:enumeration value="can kidney beans" />
       <xsd:enumeration value="can mackerel" />
       <xsd:enumeration value="can mushroom soup" />
