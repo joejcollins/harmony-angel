@@ -1283,7 +1283,7 @@
         <Check Quantity="2" Unit="tbsp" Name="honey" />,
         <Check Process="crumbled" Unit="cube" Quantity="1" Name="stock" />
         and
-        <Water Quantity="359" Name="boiling water" Unit="ml" />
+        <Water Quantity="350" Name="boiling water" Unit="ml" />
       </Stage>
       <Stage>
         <Staple Name="couscous"/>
