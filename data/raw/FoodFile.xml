@@ -1614,7 +1614,7 @@
         in
         <Check Quantity="7" Unit="tbsp" Name="oil"/>
         and
-        <Check Quantity="5" Unit="tbsp" Name="paprika" />
+        <Check Quantity="2" Unit="tbsp" Name="paprika" />
         then bake until browned.
       </Stage>
       <Stage>
@@ -1627,7 +1627,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="400" Unit="g" Name="runner beans" Process="halved"/>
+        <Vegetable Quantity="400" Unit="g" Name="runner beans" Process="halved"/>,
         <Vegetable Quantity="150" Unit="g" Name="red pepper" Process="sliced"/>
         and
         <Vegetable Quantity="200" Unit="g" Name="mushrooms" Process="sliced"/>,
