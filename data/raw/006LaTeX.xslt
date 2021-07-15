@@ -152,5 +152,3 @@
   </xsl:template>
 
 </xsl:stylesheet>
-
-workbench.action.configureLanguageBasedSettings
