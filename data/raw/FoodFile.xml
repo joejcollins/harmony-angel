@@ -1664,7 +1664,7 @@
       </Stage>
       <Stage>
         In a <Utensil Name="wok" /> fry
-        <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped"/>
+        <Vegetable Quantity="350" Unit="g" Name="onions" Process="chopped"/>,
         <Vegetable Quantity="2" Unit="cloves" Name="garlic" Process="crushed"/>
         in
         <Check Quantity="3" Unit="tbsp" Name="oil" />
