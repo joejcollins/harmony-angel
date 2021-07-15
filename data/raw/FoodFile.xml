@@ -2278,18 +2278,75 @@
   Spring Onions, Summer Squash, Swede, Sweetcorn, Swiss Chard, Tomatoes, 
   Turnips, Watercress, Wild Mushrooms, Winter Squash.  -->
 
-    <!-- Meat -->
+    <Recipe Title="Shepherds Pie" Meals="2">
+      <Index>Meat</Index>
+      <Index>Shepherds Pie</Index>
+      <Stage>
+        In a
+        <Utensil Name="pan" />
+        boil
+        <Vegetable Quantity="1000" Unit="g" Name="boiling potatoes" Process="cubed" />,
+        then mash with
+        <Dairy Quantity="50" Unit="g" Name="butter" />
+        and
+        <Dairy Quantity="4" Unit="tbsp" Name="milk" />.
+      </Stage>
+      <Stage>
+        In a
+        <Utensil Name="wok" />
+        in
+        <Check Quantity="4" Unit="tbsp" Name="oil" />
+        fry
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped" />,
+        <Vegetable Process="chopped" Quantity="400" Name="carrots" Unit="g" />,
+        <Vegetable Process="chopped" Quantity="400" Name="celery" Unit="g" />
+        and
+        <Vegetable Quantity="3" Name="chillis" Process="chopped" />
+        until soft.
+      </Stage>
+      <Stage>
+        Stir in
+        <Meat Quantity="400" Unit="g" Name="minced meat" />,
+      </Stage>
+      <Stage>
+        Stir in
+        <Check Quantity="2" Name="bay leaf" />,
+        <Check Quantity="1" Unit="tsp" Name="thyme" />,
+        <Grocery Quantity="1" Unit="tbsp" Name="plain flour" />
+        and
+        <Check Quantity="2" Unit="tbsp" Name="worcester sauce" />
+        cook until the meat is done.
+      </Stage>
+      <Stage>
+        Stir in
+        <Grocery Quantity="4" Unit="tsp" Name="gravy granules" />
+        and
+        <Water Quantity="250" Unit="ml" Name="boiling water" />
+      </Stage>
+      <Stage>
+        Put in a
+        <Utensil Name="casserole" />,
+        cover with the mashed potatoes
+        and sprinkle with
+        <Dairy Quantity="100" Unit="g" Name="cheddar cheese" Process="grated" />.
+        then bake
+        <Temperature Level="medium" />
+        for 20 minutes.
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Spinach and Olive Lasagna" Meals="2">
       <Index>Vegetarian</Index>
       <Index>Lasagna</Index>
       <Stage>
-        In a <Utensil Name="wok" /> in
+        In a
+        <Utensil Name="wok" />
+        in
         <Check Quantity="4" Unit="tbsp" Name="oil" />
         fry
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>
+        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed" />
         and
-        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped"/>
+        <Vegetable Quantity="400" Unit="g" Name="onions" Process="chopped" />
         until soft.
       </Stage>
       <Stage>
@@ -2352,6 +2409,12 @@
     </Recipe>
 
     <!--quick-->
+    <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
 
     <Recipe Title="Sausage and Beans" Meals="2">
       <Index>Meat</Index>
@@ -2461,6 +2524,12 @@
     </Recipe>
 
     <!--quick-->
+    <Recipe Title="Quick Dummy" Meals="1">
+      <Index>Quick</Index>
+      <Stage>
+        <Staple Name="couscous"/>
+      </Stage>
+    </Recipe>
 
   </Menu>
 
