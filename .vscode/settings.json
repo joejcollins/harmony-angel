@@ -1,5 +1,8 @@
 {
-    "workbench.colorTheme": "dark",
+    "workbench.colorTheme": "One Dark Modern",
+    "workbench.editorAssociations": {
+        "*.md": "default"
+    },
     "cSpell.words": [
         "cous",
         "gitpod",
