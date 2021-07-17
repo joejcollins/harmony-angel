@@ -1,0 +1,7 @@
+preamble
+"\\thispagestyle{empty}\n\\begin{theindex}\n"
+postamble
+"\\end{theindex}\n"
+item_0 "\n\n \\indexspace\n"
+group_skip
+""
