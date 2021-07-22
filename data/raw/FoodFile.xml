@@ -1567,7 +1567,7 @@
         and
         <Grocery Quantity="150" Unit="g" Name="can tuna fish" Process="crumbled" />.
         Sprinkle with
-        <Dairy Process="grated" Quantity="50" Name="cheddar cheese" Unit="g" />.
+        <Dairy Process="grated" Quantity="50" Name="cheddar cheese" Unit="g" />
         and
         bake <Temperature Level="medium" /> 20 minutes.
       </Stage>
