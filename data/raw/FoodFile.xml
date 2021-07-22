@@ -1558,15 +1558,17 @@
         until soft.
       </Stage>
       <Stage>
-        In a <Utensil Name="casserole"/> mix
-        the rice and onions.
         Stir in
-        <Grocery Quantity="400" Unit="g" Name="can mushroom soup" />,
+        <Grocery Quantity="150" Unit="g" Name="can tuna fish" Process="crumbled" />,
         <Grocery Quantity="200" Unit="g" Name="can sweetcorn" Process="drained"/>,
-        <Grocery Quantity="200" Unit="g" Name="frozen peas"/>
+        <Grocery Quantity="200" Unit="g" Name="frozen peas"/>,
+        <Grocery Quantity="400" Unit="g" Name="can mushroom soup" />
         and
-        <Grocery Quantity="150" Unit="g" Name="can tuna fish" Process="crumbled" />.
-        Sprinkle with
+        the cooked rice.
+      </Stage>
+      <Stage>
+        Place in a <Utensil Name="casserole"/>
+        and sprinkle with
         <Dairy Process="grated" Quantity="50" Name="cheddar cheese" Unit="g" />
         and
         bake <Temperature Level="medium" /> 20 minutes.
