@@ -1,7 +1,8 @@
 {
     "workbench.colorTheme": "One Dark Modern",
     "workbench.editorAssociations": {
-        "*.md": "default"
+        "*.md": "default",
+        "*.pdf": "cweijan.officeViewer"
     },
     "cSpell.words": [
         "cous",
