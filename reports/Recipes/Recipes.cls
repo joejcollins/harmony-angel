@@ -58,16 +58,15 @@
 }
 
 %% 
-% Menu Environment - menus are listed alphabetically
+% Menu Environment
 %%
-\renewcommand{\thesection}{\Alph{section}}%
 \newenvironment{menu}[1]%
 {%
   \cleardoublepage
   \addtocounter{section}{1}%
   \immediateaddtocontents{toc}{\protect\begin{samepage}}%
-  \addcontentsline{toc}{section}{Menu \thesection\ - #1}%
-  \markboth{Menu \thesection\ -  #1}{Menu \thesection\ -  #1}%
+  \addcontentsline{toc}{section}{#1}%
+  \markboth{#1}{#1}%
   \section*{#1}%
   \immediateaddtocontents{toc}{\protect\begin{TOCRecipeList}}%
 }%
