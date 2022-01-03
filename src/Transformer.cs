@@ -9,7 +9,7 @@ namespace ConsoleApp
     /// </summary>
     public class Transformer
 	{
-        string inputDirectory = @"../data/raw/";
+        string inputDirectory = @"./assets/";
         string outputDirectory = @"../data/interim/";
 
         /// <summary>

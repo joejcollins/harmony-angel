@@ -36,7 +36,7 @@ To create the LaTeX document
 
 Then compile the LaTeX document
 
-    cd reports
+    cd reports/FoodFile
 	pdflatex FoodFile.tex
 	makeindex FoodFile.tex
 	pdflatex FoodFile.tex
