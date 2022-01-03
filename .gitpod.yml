@@ -16,5 +16,5 @@ vscode:
     - eamodio.gitlens
     - streetsidesoftware.code-spell-checker
     - muhammad-sammy.csharp
-    - efoerster.texlab
-    - cweijan.vscode-office
+    - james-yu.latex-workshop
+    - redhat.vscode-xml

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns="https://joejcollins.github.io/CookML.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://joejcollins.github.io/CookML.xsd ../processed/CookML.xsd">
+  <Menu>
+    <Recipe Title="Joe's Biscuits">
+      <Stage>
+        In a
+        <Utensil Name="bowl" />
+        mix together
+        <Grocery Name="plain flour" Quantity="110" Unit="g" />,
+        <Grocery Name="plain flour" Quantity="110" Unit="g" />,
+        <Grocery Name="oats" Quantity="110" Unit="g" />
+        and
+        <Grocery Name="sugar" Quantity="30" Unit="g" />.
+      </Stage>
+      <Stage>
+        Rub in
+        <Dairy Name="butter" Quantity="30" Unit="g" />.
+      </Stage>
+      <Stage></Stage>
+    </Recipe>
+  </Menu>
+</Book>
