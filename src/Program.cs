@@ -14,7 +14,7 @@ namespace CookML
             ConsoleApp.Transformer transformer = new ConsoleApp.Transformer();
             string lastFile = transformer.CreateBook(@"../data/raw/FoodFile.xml");
             // Rename last file to LaTeX
-            File.Copy(lastFile, @"../data/processed/Content.tex", true);
+            File.Copy(lastFile, @"../data/processed/FoodFileContent.tex", true);
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadLine();

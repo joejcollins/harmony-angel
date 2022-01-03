@@ -2,8 +2,14 @@
 <Book xmlns="https://joejcollins.github.io/CookML.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="https://joejcollins.github.io/CookML.xsd ../processed/CookML.xsd">
+
   <Menu Title="Starters and Sides">
-    <Recipe>
+    <Recipe Title="Fårikål">
+      <Stage>
+
+      </Stage>
+
+    </Recipe>
       
     <Recipe Title="Pizza Salad">
       <Stage></Stage>
@@ -11,16 +17,38 @@
 
   </Menu>
 
+  <Menu Title="Main Meals">
+    <Recipe Title="Sausage and potatoes German style" Meals="2">
+      <Stage>
+        In a <Utensil Name="pan" /> boil
+        <Vegetable Quantity="1500" Unit="g" Name="potatoes" Process="chopped"/>
+        until nearly done.
+      </Stage>
+      <Stage>
+        Put in
+        <Vegetable Quantity="500" Unit="g" Name="apples" />
+        and simmer until apples soft.
+      </Stage>
+      <Stage>
+        Drain and mash with
+        <Dairy Quantity="25" Unit="g" Name="butter" />.
+      </Stage>
+      <Stage>
+        Grill
+        <Meat Quantity="500" Unit="g" Name="sausages" />
+        and serve with the potatoes.
+      </Stage>
+    </Recipe>
+  </Menu>
 
-  <Menu Title="Cakes">
+
+  <Menu Title="Biscuits and Cakes">
     <Recipe Title="Welsh Cakes">
       <Stage>
 
       </Stage>
     </Recipe>
-  </Menu>
 
-  <Menu Title="Biscuits">
     <Recipe Title="Joe's Biscuits">
       <Stage>
         In a
@@ -40,12 +68,15 @@
     </Recipe>
   </Menu>
 
-  <Menu Title="Palegg">
+  <Menu Title="Pålegg">
     <Recipe Title="Humous">
       <Stage>
       </Stage>
+    </Recipe>
+    <Recipe Title="Brown Cheese">
+      <Stage>
+      </Stage>
+    </Recipe>
   </Menu>
   
-
-
 </Book>

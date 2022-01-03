@@ -182,28 +182,6 @@
       </Stage>
     </Recipe>
 
-    <Recipe Title="Sausage and potatoes German style" Meals="2">
-      <Stage>
-        In a <Utensil Name="pan" /> boil
-        <Vegetable Quantity="1500" Unit="g" Name="potatoes" Process="chopped"/>
-        until nearly done.
-      </Stage>
-      <Stage>
-        Put in
-        <Vegetable Quantity="500" Unit="g" Name="eating apples" />
-        and simmer until apples soft.
-      </Stage>
-      <Stage>
-        Drain and mash with
-        <Dairy Quantity="25" Unit="g" Name="butter" />.
-      </Stage>
-      <Stage>
-        Grill
-        <Meat Quantity="500" Unit="g" Name="sausages" />
-        and serve with the potatoes.
-      </Stage>
-    </Recipe>
-
     <Recipe Title="Tomato spaghetti" Meals="2">
       <Stage>
         In a <Utensil Name="wok" /> fry

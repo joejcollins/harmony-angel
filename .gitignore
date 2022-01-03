@@ -202,7 +202,7 @@ FakesAssemblies/
 *.out
 *.w
 *.xslt.xml
-Content.tex
+FoodFileContent.tex
 
 # Eclipse files
 .metadata/

@@ -40,4 +40,4 @@ Then compile the LaTeX document
 	pdflatex FoodFile.tex
 	makeindex FoodFile.tex
 	pdflatex FoodFile.tex
-	pdflatex 2up.tex
+	pdflatex FoodFile2up.tex
