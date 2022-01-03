@@ -2,7 +2,25 @@
 <Book xmlns="https://joejcollins.github.io/CookML.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="https://joejcollins.github.io/CookML.xsd ../processed/CookML.xsd">
-  <Menu>
+  <Menu Title="Starters and Sides">
+    <Recipe>
+      
+    <Recipe Title="Pizza Salad">
+      <Stage></Stage>
+    </Recipe>
+
+  </Menu>
+
+
+  <Menu Title="Cakes">
+    <Recipe Title="Welsh Cakes">
+      <Stage>
+
+      </Stage>
+    </Recipe>
+  </Menu>
+
+  <Menu Title="Biscuits">
     <Recipe Title="Joe's Biscuits">
       <Stage>
         In a
@@ -21,4 +39,13 @@
       <Stage></Stage>
     </Recipe>
   </Menu>
+
+  <Menu Title="Palegg">
+    <Recipe Title="Humous">
+      <Stage>
+      </Stage>
+  </Menu>
+  
+
+
 </Book>

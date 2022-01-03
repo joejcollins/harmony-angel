@@ -1,9 +1,5 @@
 {
-    "workbench.colorTheme": "One Dark Modern",
-    "workbench.editorAssociations": {
-        "*.md": "default",
-        "*.pdf": "cweijan.officeViewer"
-    },
+    "workbench.colorTheme": "Default Dark+",
     "cSpell.words": [
         "cous",
         "gitpod",
