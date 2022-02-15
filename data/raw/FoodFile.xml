@@ -293,7 +293,8 @@
       <Stage>
         Stir in
         <Grocery Quantity="800" Unit="g" Name="frozen peas" />,
-        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>
+        <Grocery Quantity="800" Unit="g" Name="can sweetcorn"/>,
+        <Check Quantity="2" Unit="cube" Name="stock" Process="crumbled"/>
         <Grocery Quantity="400" Unit="g" Name="white rice" />
         and
         <Water Quantity="800" Unit="g" Name="cold water" />
@@ -385,7 +386,7 @@
       <Stage>
         In a <Utensil Name="wok" /> fry
         <Vegetable Quantity="200" Unit="g" Name="onions" Process="chopped"/>,
-        <Check Quantity="1" Unit="cube" Name="stock" Process="crumbled"/>,
+        <Check Quantity="2" Unit="cube" Name="stock" Process="crumbled"/>,
         <Vegetable Quantity="3" Unit="cloves" Name="garlic" />,
         <Vegetable Quantity="1" Name="red chilli" Process="chopped"/>
         and
