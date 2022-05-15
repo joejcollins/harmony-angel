@@ -47,7 +47,8 @@ pdflatex FoodFile2up.tex
 ```
 
 ## .NET fix
-# see https://github.com/gitpod-io/gitpod/issues/8901#issuecomment-1076462463 for workaround reason
+
+See https://github.com/gitpod-io/gitpod/issues/8901#issuecomment-1076462463 for workaround reason.
 
 ```bash
 wget "https://dot.net/v1/dotnet-install.sh"
