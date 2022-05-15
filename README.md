@@ -34,7 +34,7 @@ To create the LaTeX document
 cd src
 dotnet build .
 dotnet run .
-``
+```
 
 Then compile the LaTeX document
 
