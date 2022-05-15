@@ -26,18 +26,33 @@ For example:
   </Stage>
 ```
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/joejcollins/harmony-angel/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/joejcollins/harmony-angel/)
 
 To create the LaTeX document
 
-  cd src
-  dotnet build .
-  dotnet run .
+```bash
+cd src
+dotnet build .
+dotnet run .
+``
 
 Then compile the LaTeX document
 
-  cd reports/FoodFile
-  pdflatex FoodFile.tex
-  makeindex FoodFile.tex
-  pdflatex FoodFile.tex
-  pdflatex FoodFile2up.tex
+```bash
+cd reports/FoodFile
+pdflatex FoodFile.tex
+makeindex FoodFile.tex
+pdflatex FoodFile.tex
+pdflatex FoodFile2up.tex
+```
+
+## .NET fix
+# see https://github.com/gitpod-io/gitpod/issues/8901#issuecomment-1076462463 for workaround reason
+
+```bash
+wget "https://dot.net/v1/dotnet-install.sh"
+chmod +x dotnet-install.sh
+./dotnet-install.sh --install-dir /workspace/dotnet
+rm dotnet-install.sh
+sudo ln -s /workspace/dotnet/dotnet /usr/bin/dotnet
+```
