@@ -1285,6 +1285,7 @@
         <Check Process="crumbled" Unit="cube" Quantity="1" Name="stock" />
         and
         <Water Quantity="350" Name="boiling water" Unit="ml" />
+        and simmer for 10 minutes.
       </Stage>
       <Stage>
         <Staple Name="couscous"/>
