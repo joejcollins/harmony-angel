@@ -221,13 +221,13 @@
     </Vegetable>
     bring to the boil and simmer for 20 minutes.
   </xsl:template>
-  <!-- Tagliatelli -->
-  <xsl:template match="cml:Staple[@Name='tagliatelli']">
+  <!-- Tagliatelle -->
+  <xsl:template match="cml:Staple[@Name='tagliatelle']">
     <xsl:variable name="Meals" select="../../@Meals" />
     In a
     <Utensil Name="pan" />
     place
-    <Grocery Unit="g" Name="tagliatelli">
+    <Grocery Unit="g" Name="tagliatelle">
       <xsl:attribute name="Quantity" >
         <xsl:value-of select="($Meals div 2) * 400"/>
       </xsl:attribute>

@@ -28,23 +28,7 @@ For example:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/joejcollins/harmony-angel/)
 
-To create the LaTeX document
-
-```bash
-cd src
-dotnet build .
-dotnet run .
-```
-
-Then compile the LaTeX document
-
-```bash
-cd reports/FoodFile
-pdflatex FoodFile.tex
-makeindex FoodFile.tex
-pdflatex FoodFile.tex
-pdflatex FoodFile2up.tex
-```
+Run `make` to see options.
 
 ## .NET fix
 
