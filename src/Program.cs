@@ -16,9 +16,6 @@ namespace CookML
             
             // Rename last file to LaTeX
             File.Copy(lastFile, @"../data/processed/FoodFileContent.tex", true);
-
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadLine();
         }
     }
 }

@@ -913,9 +913,6 @@
       <Index>Vegetarian</Index>
       <!-- Vegetarian https://www.bbcgoodfood.com/recipes/parsnip-mushroom-barley-wreath -->
       <Stage>
-        Grill <Grocery Quantity="150" Unit="g" Name="hazel nuts" Process="chopped"/> until golden.
-      </Stage>
-      <Stage>
         In a <Utensil Name="pan"/>
         place
         <Grocery Quantity="200" Unit="g" Name="pearl barley" />,
@@ -935,7 +932,8 @@
       </Stage>
       <Stage>
         Stir in
-        <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced" />
+        <Vegetable Quantity="400" Unit="g" Name="mushrooms" Process="sliced" />,
+        <Check Quantity="3" Unit="tsp" Name="miso" />
         and
         <Check Quantity="1" Unit="tsp" Name="mixed herbs"/>
         and cook until the mushrooms are done.
@@ -945,7 +943,9 @@
         <Dairy Quantity="50" Unit="g" Name="parmesan cheese" Process="grated"/>
         and
         <Dairy Quantity="2" Name="eggs" Process="beaten" />.
-        Put into a
+      </Stage>
+      <Stage>
+        Mix everything together and put in a
         <Utensil Name="casserole"/>
         and back
         <Temperature Level="medium"/>
