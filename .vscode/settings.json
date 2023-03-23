@@ -6,5 +6,6 @@
         "makeindex",
         "pdflatex"
     ],
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "latex-workshop.latex.autoBuild.run":"never"
 }
