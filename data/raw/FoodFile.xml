@@ -794,7 +794,7 @@
       </Stage>
       <Stage>
         Stir in
-        <Grocery Quantity="400" Unit="g" Name="can borlotti beans" Process="undrained"/>,
+        <Grocery Quantity="400" Unit="g" Name="can kidney beans" Process="undrained"/>,
         <Grocery Quantity="200" Unit="g" Name="mayonaise" />
         and
         <Grocery Quantity="160" Unit="g" Name="horseraddish sauce" />.
@@ -2442,7 +2442,7 @@
       <Stage>
         Stir in
         <Grocery Quantity="400" Unit="g" Name="can chick peas" Process ="drained"/>,
-        <Grocery Quantity="400" Unit="g" Name="can borlotti beans"  Process ="drained"/>,
+        <Grocery Quantity="400" Unit="g" Name="can kidney beans"  Process ="drained"/>,
         <Grocery Quantity="140" Name="tomato puree" Unit="g"/>
         and
         <Grocery Quantity="400" Unit="g" Name="can tomatoes" Process="chopped"/>
