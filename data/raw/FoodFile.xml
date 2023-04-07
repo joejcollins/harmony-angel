@@ -878,12 +878,13 @@
         In a <Utensil Name="wok"/> fry
         <Vegetable Quantity="400" Unit="g" Name="onions" Process="sliced"/>,
         <Vegetable Quantity="60" Unit="g" Name="ginger" Process="grated"/>,
-        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>
-        and
+        <Vegetable Quantity="4" Unit="cloves" Name="garlic" Process="crushed"/>,
         <Vegetable Process="chopped" Quantity="400" Name="carrots" Unit="g" />
+        and
+        <Meat Process="sliced" Quantity="400" Name="chicken" Unit="g" />
         in
         <Check Quantity="4" Unit="tbsp" Name="oil" />
-        until soft.
+        until the chicken is done.
       </Stage>
       <Stage>
         Stir in
@@ -892,20 +893,10 @@
         <Grocery Quantity="140" Name="tomato puree" Unit="g"/>
         and
         <Grocery Quantity="400" Name="red wine" Unit="ml" />
-        and simmer gently for 30 minutes.
-      </Stage>
-      <Stage>
-        In a <Utensil Name="casserole"/> place
-        <Meat Process="sliced" Quantity="400" Name="chicken" Unit="g" />
-        and
-        <Check Quantity="4" Unit="tbsp" Name="oil" />
-        then bake <Temperature Level="medium" /> 30 minutes.
+        and simmer gently for 20 minutes.
       </Stage>
       <Stage>
         <Staple Name="rice brown"/>
-      </Stage>
-      <Stage>
-        Add meat to the tomatoes and serve with the rice.
       </Stage>
     </Recipe>
 
@@ -940,14 +931,15 @@
       </Stage>
       <Stage>
         Stir in
-        <Dairy Quantity="50" Unit="g" Name="parmesan cheese" Process="grated"/>
+        <Dairy Quantity="50" Unit="g" Name="parmesan cheese" Process="grated"/>,
+        <Grocery Quantity="100" Unit="g" Name="hazel nuts" Process="chopped" />
         and
         <Dairy Quantity="2" Name="eggs" Process="beaten" />.
       </Stage>
       <Stage>
         Mix everything together and put in a
         <Utensil Name="casserole"/>
-        and back
+        and bake
         <Temperature Level="medium"/>
         for 20 minutes.
       </Stage>
